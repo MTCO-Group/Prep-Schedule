@@ -1,31 +1,54 @@
 {
- "version": 1,
- "source": "Ken, from Big Change and the AES planner",
- "generated_at": "2026-11-02T15:51:28+00:00",
- "matched": 20,
+ "version": 2,
+ "source": "Ken, from Big Change, the AES planner and MCS",
+ "generated_at": "2026-11-02T16:28:21+00:00",
+ "matched": 27,
+ "other_day": 2,
  "kensite_hiab_jobs": 36,
  "jobs": {
   "2026-11-02": [
+   {
+    "idx": 0,
+    "customer": "Artium Construction Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032123",
+    "state": "done",
+    "time": "10:33",
+    "note": "Completed in Big Change",
+    "bigchange_ids": [
+     201793986
+    ],
+    "refs": [
+     "AES/61819"
+    ],
+    "bc_customer": "Cahft builing",
+    "why": [
+     "PO on this contract",
+     "same postcode"
+    ]
+   },
    {
     "idx": 1,
     "customer": "John Reilly Civil Engineering Ltd",
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032190",
+    "state": "done",
+    "time": "09:20",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
-     202811502,
-     202954580,
-     202954864
+     202811502
     ],
     "refs": [
-     "AES/63813",
-     "AES/64015",
-     "AES/64016"
+     "AES/63813"
     ],
     "bc_customer": "John Reilly Civil Engineering Ltd",
-    "state": "done",
-    "time": "15:16",
-    "note": "Completed in Big Change"
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 2,
@@ -33,20 +56,21 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032196",
+    "state": "done",
+    "time": "09:22",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
-     202811502,
-     202954580,
      202954864
     ],
     "refs": [
-     "AES/63813",
-     "AES/64015",
      "AES/64016"
     ],
-    "bc_customer": "John Reilly Civil Engineering Ltd",
-    "state": "done",
-    "time": "15:16",
-    "note": "Completed in Big Change"
+    "bc_customer": "John Riley Civil Engineering Ltd",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 3,
@@ -54,20 +78,21 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032197",
-    "bigchange_ids": [
-     202811502,
-     202954580,
-     202954864
-    ],
-    "refs": [
-     "AES/63813",
-     "AES/64015",
-     "AES/64016"
-    ],
-    "bc_customer": "John Reilly Civil Engineering Ltd",
     "state": "done",
     "time": "15:16",
-    "note": "Completed in Big Change"
+    "note": "Completed in Big Change",
+    "bigchange_ids": [
+     202954580
+    ],
+    "refs": [
+     "AES/64015"
+    ],
+    "bc_customer": "John Riley Civil Engineering Ltd",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 4,
@@ -75,14 +100,19 @@
     "postcode": "SK12 1NQ",
     "type": "Off Hire",
     "contract": "0000031975",
+    "state": "done",
+    "time": "13:15",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      203311311
     ],
     "refs": [],
     "bc_customer": "Premier Building Supplies",
-    "state": "done",
-    "time": "13:15",
-    "note": "Completed in Big Change"
+    "why": [
+     "PO on the account",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 5,
@@ -90,6 +120,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032212",
+    "state": "done",
+    "time": "08:22",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      203391727
     ],
@@ -97,9 +130,11 @@
      "AES/64446"
     ],
     "bc_customer": "GRS Contractors",
-    "state": "done",
-    "time": "08:22",
-    "note": "Completed in Big Change"
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 6,
@@ -107,6 +142,9 @@
     "postcode": "OL4 2DQ",
     "type": "Off Hire",
     "contract": "0000032064",
+    "state": "done",
+    "time": "13:56",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      202926730
     ],
@@ -114,9 +152,11 @@
      "AES/63963"
     ],
     "bc_customer": "MCI",
-    "state": "done",
-    "time": "13:56",
-    "note": "Completed in Big Change"
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "customer alike"
+    ]
    }
   ],
   "2026-11-03": [
@@ -126,6 +166,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032139",
+    "state": "planned",
+    "time": "11:00",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      202017723
     ],
@@ -133,9 +176,11 @@
      "AES/62838"
     ],
     "bc_customer": "MCI Developments Ltd",
-    "state": "planned",
-    "time": "11:00",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "RS",
     "run": 1,
     "seq": 2
@@ -146,6 +191,9 @@
     "postcode": "OL13 9PA",
     "type": "Off Hire",
     "contract": "0000031316",
+    "state": "planned",
+    "time": "10:40",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203072232
     ],
@@ -153,9 +201,11 @@
      "AES/64228"
     ],
     "bc_customer": "GRS Contractors",
-    "state": "planned",
-    "time": "10:40",
-    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "SL",
     "run": 1,
     "seq": 2
@@ -166,6 +216,9 @@
     "postcode": "CH47 6BD",
     "type": "Off Hire",
     "contract": "0000031858",
+    "state": "planned",
+    "time": "08:15",
+    "note": "From the AES planner (AU run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203071227
     ],
@@ -173,9 +226,11 @@
      "AES/64219"
     ],
     "bc_customer": "RICHARD O'BRIEN JOINERY",
-    "state": "planned",
-    "time": "08:15",
-    "note": "From the AES planner (AU run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "AU",
     "run": 1,
     "seq": 1
@@ -188,6 +243,9 @@
     "postcode": "WN6 7DD",
     "type": "Off Hire",
     "contract": "0000031950",
+    "state": "planned",
+    "time": "07:20",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      201859045,
      201861378,
@@ -199,10 +257,90 @@
      "AES/61887"
     ],
     "bc_customer": "GREENMOUNT PROJECTS",
-    "state": "planned",
-    "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "DF",
+    "run": 1,
+    "seq": 1
+   },
+   {
+    "idx": 1,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032179",
+    "state": "planned",
+    "time": "07:50",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times. AES have it as a Site Move",
+    "bigchange_ids": [
+     202556835,
+     202557331
+    ],
+    "refs": [
+     "AES/63460",
+     "AES/63461"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "same postcode",
+     "same customer",
+     "AES have it as a Site Move"
+    ],
+    "driver": "SL",
+    "run": 1,
+    "seq": 1
+   },
+   {
+    "idx": 2,
+    "customer": "A Connolly Limited",
+    "postcode": "PR5 8EA",
+    "type": "Off Hire",
+    "contract": "0000031894",
+    "state": "planned",
+    "time": "07:50",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times. AES have it as a Site Move",
+    "bigchange_ids": [
+     202556835,
+     202557331
+    ],
+    "refs": [
+     "AES/63460",
+     "AES/63461"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "same customer",
+     "AES have it as a Site Move"
+    ],
+    "driver": "SL",
+    "run": 1,
+    "seq": 1
+   },
+   {
+    "idx": 3,
+    "customer": "Just Welfare",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032191",
+    "state": "planned",
+    "time": "10:35",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     202826925,
+     202827038
+    ],
+    "refs": [
+     "AES/63819",
+     "AES/63820"
+    ],
+    "bc_customer": "KKB Remediation",
+    "why": [
+     "same postcode"
+    ],
+    "driver": "CR",
     "run": 1,
     "seq": 1
    },
@@ -212,6 +350,9 @@
     "postcode": "M38 9XE",
     "type": "Off Hire",
     "contract": "0000030221",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
      203248061
     ],
@@ -219,9 +360,31 @@
      "AES/64362"
     ],
     "bc_customer": "J Riley Ltd",
-    "state": "",
+    "why": [
+     "PO on this contract",
+     "same postcode"
+    ]
+   },
+   {
+    "idx": 6,
+    "customer": "CBG Construction Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032075",
+    "state": "otherday",
     "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet"
+    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
+    "day": "2026-11-05",
+    "bigchange_ids": [
+     203583172
+    ],
+    "refs": [
+     "AES/64632"
+    ],
+    "bc_customer": "Regin construction",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-05": [
@@ -231,6 +394,9 @@
     "postcode": "HX6 1HL",
     "type": "Off Hire",
     "contract": "0000030101",
+    "state": "planned",
+    "time": "08:10",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      201967994,
      201968075,
@@ -242,9 +408,11 @@
      "AES/62197"
     ],
     "bc_customer": "Termrim",
-    "state": "planned",
-    "time": "08:10",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "DF",
     "run": 1,
     "seq": 1
@@ -255,6 +423,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032207",
+    "state": "planned",
+    "time": "08:30",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203144218
     ],
@@ -262,9 +433,11 @@
      "AES/64254"
     ],
     "bc_customer": "connolly ltd",
-    "state": "planned",
-    "time": "08:30",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "CR",
     "run": 1,
     "seq": 1
@@ -272,11 +445,43 @@
   ],
   "2026-11-06": [
    {
+    "idx": 0,
+    "customer": "M Civils NW Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032150",
+    "state": "planned",
+    "time": "08:00",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     202254198,
+     202254467,
+     202254618
+    ],
+    "refs": [
+     "AES/63090",
+     "AES/63092",
+     "AES/63093"
+    ],
+    "bc_customer": "M Civils",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 1
+   },
+   {
     "idx": 1,
     "customer": "Termrim Construction Ltd",
     "postcode": "LS29 6AR",
     "type": "Off Hire",
     "contract": "0000031911",
+    "state": "planned",
+    "time": "11:20",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      200640261
     ],
@@ -284,9 +489,10 @@
      "AES/61056"
     ],
     "bc_customer": "Termrim Construction Ltd",
-    "state": "planned",
-    "time": "11:20",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "same postcode",
+     "same customer"
+    ],
     "driver": "RS",
     "run": 1,
     "seq": 2
@@ -297,6 +503,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032205",
+    "state": "planned",
+    "time": "08:15",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203142573
     ],
@@ -304,12 +513,35 @@
      "AES/64253"
     ],
     "bc_customer": "john reilly",
-    "state": "planned",
-    "time": "08:15",
-    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "SL",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 5,
+    "customer": "Regin Construction Services Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032216",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
+    "day": "2026-11-05",
+    "bigchange_ids": [
+     203583172
+    ],
+    "refs": [
+     "AES/64632"
+    ],
+    "bc_customer": "Regin construction",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-09": [
@@ -319,6 +551,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032200",
+    "state": "planned",
+    "time": "08:30",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203082106,
      203082559,
@@ -332,9 +567,11 @@
      "AES/64234"
     ],
     "bc_customer": "A Connolly",
-    "state": "planned",
-    "time": "08:30",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "CR",
     "run": 1,
     "seq": 1
@@ -345,6 +582,9 @@
     "postcode": "WA9 3EX",
     "type": "Off Hire",
     "contract": "0000030424",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
      203581720
     ],
@@ -352,9 +592,10 @@
      "AES/64631"
     ],
     "bc_customer": "Holmpatrick Developments Ltd",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet"
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
    }
   ],
   "2026-11-11": [
@@ -364,6 +605,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032208",
+    "state": "planned",
+    "time": "08:30",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203210654,
      203211090,
@@ -377,9 +621,10 @@
      "AES/64322"
     ],
     "bc_customer": "Pinington Ltd",
-    "state": "planned",
-    "time": "08:30",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "same postcode",
+     "same customer"
+    ],
     "driver": "DF",
     "run": 1,
     "seq": 1
@@ -390,6 +635,9 @@
     "postcode": "LA23 2JD",
     "type": "Off Hire",
     "contract": "0000031882",
+    "state": "planned",
+    "time": "10:10",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203512320,
      203512556
@@ -399,9 +647,10 @@
      "AES/64558"
     ],
     "bc_customer": "Pinington Ltd",
-    "state": "planned",
-    "time": "10:10",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "same postcode",
+     "same customer"
+    ],
     "driver": "CR",
     "run": 1,
     "seq": 2
@@ -414,6 +663,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032209",
+    "state": "planned",
+    "time": "08:30",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203321348,
      203321438
@@ -423,9 +675,11 @@
      "AES/64426"
     ],
     "bc_customer": "A CONNOLLY",
-    "state": "planned",
-    "time": "08:30",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
     "driver": "CR",
     "run": 1,
     "seq": 1
