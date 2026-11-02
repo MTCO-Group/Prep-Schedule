@@ -19657,60 +19657,6 @@
       },
       {
         "type": "On Hire",
-        "customer": "CBG Construction Ltd",
-        "postcode": "",
-        "contract_number": "0000032075",
-        "units": {
-          "24ft AV": 4,
-          "Stairs": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Double Stack/ Erect Staircase; 1x Destack; 1x Site set up; 12x Cushion Chair | Date moved by MCS Auto from 19/10/2026 to 02/11/2026 on 16/10/2026 09:31",
-        "added_by": "MCS Auto",
-        "timestamp": "16/10/2026 09:31",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1,
-            "Canteen": 1,
-            "Meeting Room": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "On Hire",
-        "customer": "Bethell Plant Services Ltd",
-        "postcode": "",
-        "contract_number": "0000032189",
-        "units": {
-          "32ft AV": 3,
-          "3+1": 1,
-          "Tank": 1,
-          "Steps": 2,
-          "IBC": 1,
-          "Stairs": 1
-        },
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10; 1x Double Stack/ Erect Staircase",
-        "added_by": "MCS Auto",
-        "timestamp": "26/10/2026 12:30",
-        "av_configs": {
-          "32ft AV": {
-            "Office": 2,
-            "Canteen": 1
-          }
-        }
-      },
-      {
-        "type": "On Hire",
         "customer": "John Reilly Civil Engineering Ltd",
         "postcode": "",
         "contract_number": "0000032190",
@@ -19833,24 +19779,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Vernon Primary School, Clumber Road, Poynton, Cheshire East, SK12 1NW",
         "added_by": "MCS Auto",
         "timestamp": "12/10/2026 09:31"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "HCC Construction Ltd",
-        "postcode": "SK1 1YA",
-        "contract_number": "0000030377",
-        "units": {
-          "10ft Store": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: St Marys Gate, Stockport, , SK1 1YA | Return date moved by MCS Auto from 02/10/2026 to 31/10/2026 on 20/10/2026 12:20",
-        "added_by": "MCS Auto",
-        "timestamp": "20/10/2026 12:20",
-        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-10-23": [
@@ -20437,6 +20365,32 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Stonebond Properties, Manchester Road West, Little Hulton, , M38 9XE | Also on contract: 1x Rat termination - Keith aware 22/01/25",
         "added_by": "MCS Auto",
         "timestamp": "29/10/2026 12:10"
+      },
+      {
+        "type": "On Hire",
+        "customer": "CBG Construction Ltd",
+        "postcode": "",
+        "contract_number": "0000032075",
+        "units": {
+          "24ft AV": 4,
+          "Stairs": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Double Stack/ Erect Staircase; 1x Destack; 1x Site set up; 12x Cushion Chair | Date moved by MCS Auto from 19/10/2026 to 02/11/2026 on 16/10/2026 09:31 | Date moved by MCS Auto from 02/11/2026 to 04/11/2026 on 02/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1,
+            "Meeting Room": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-10-28": [
@@ -21032,6 +20986,35 @@
         "added_by": "MCS Auto",
         "timestamp": "30/10/2026 09:31",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Bethell Plant Services Ltd",
+        "postcode": "",
+        "contract_number": "0000032189",
+        "units": {
+          "32ft AV": 3,
+          "3+1": 1,
+          "Tank": 1,
+          "Steps": 2,
+          "IBC": 1,
+          "Stairs": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10; 1x Double Stack/ Erect Staircase | Date moved by MCS Auto from 02/11/2026 to 03/11/2026 on 02/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 09:31",
+        "av_configs": {
+          "32ft AV": {
+            "Office": 2,
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-09": [
@@ -21388,6 +21371,26 @@
             "Canteen": 1
           }
         },
+        "date_moved_by": "MCS Auto"
+      }
+    ],
+    "2026-11-20": [
+      {
+        "type": "Off Hire",
+        "customer": "HCC Construction Ltd",
+        "postcode": "SK1 1YA",
+        "contract_number": "0000030377",
+        "units": {
+          "10ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: St Marys Gate, Stockport, , SK1 1YA | Return date moved by MCS Auto from 02/10/2026 to 31/10/2026 on 20/10/2026 12:20 | Return date moved by MCS Auto from 31/10/2026 to 20/11/2026 on 02/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 09:31",
         "date_moved_by": "MCS Auto"
       }
     ]
