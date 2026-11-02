@@ -2010,6 +2010,7 @@ def open_dialog(**kwargs):
         "msv_from_date":  "msv_token",
         "expand_date":    "expand_token",
         "query_date":     "query_token",
+        "io_week":        "io_token",
     }
     for k in kwargs:
         if k in _token_map:
@@ -2294,6 +2295,10 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 [class*="st-key-ybband_"] button{{height:100% !important;}}
 [class*="st-key-ybband_"] > div{{height:100%;}}
 .yb-week{{margin:4px 0 2px !important;}}
+[class*="st-key-ybio_"] button{{min-height:34px !important;padding:0 14px !important;border-radius:8px !important;
+        border:1px solid #0d823b !important;background:#fff !important;color:#0a6a30 !important;}}
+[class*="st-key-ybio_"] button p{{font-size:14px !important;font-weight:700;}}
+[class*="st-key-ybio_"] button:hover{{background:#e9f4ec !important;}}
 [data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybfoot_"]){{margin-top:auto;}}
 [class*="st-key-ybband_"]{{flex:1 1 auto;}}
 @media (max-width: 640px) {{
@@ -4237,6 +4242,91 @@ def materials_view_dialog(mid):
 # ── Trigger dialogs ───────────────────────────────────────────────────────────
 # Each dialog key stores a (value, token) tuple. The token is a unique ID set
 # when a button is clicked. We track the last rendered token — if it matches,
+# ── In & Out This Week ───────────────────────────────────────────────────────
+# Opened from the button beside each week's totals. Deliveries (On Hire) are
+# Units Out, collections (Off Hire) are Units In; site moves are counted but
+# not listed, as they neither leave nor come back to the yard.
+def _io_side(week_days, jtype):
+    by_unit, by_day = {}, []
+    for day in week_days:
+        rows = []
+        for job in jobs.get(fmt_key(day), []):
+            if job.get("type") != jtype:
+                continue
+            units = {u: int(q) for u, q in (job.get("units") or {}).items() if q}
+            for u, q in units.items():
+                by_unit[u] = by_unit.get(u, 0) + q
+            rows.append((job.get("customer") or "No Customer",
+                         ", ".join(f"{q} × {u}" for u, q in units.items()) or "No Units"))
+        if rows:
+            by_day.append((day, rows))
+    return by_unit, by_day
+
+
+def _io_side_html(title, colour, by_unit, by_day):
+    e = _html_esc.escape
+    total = sum(by_unit.values())
+    html = (f"<div class='io-side'><div class='io-head' style='color:{colour};'>"
+            f"<span>{e(title)}</span><b>{total}</b></div>")
+    if not by_unit:
+        return html + "<div class='io-none'>Nothing booked this week.</div></div>"
+    html += "<table class='io-units'>"
+    for u, q in sorted(by_unit.items(), key=lambda x: (-x[1], x[0])):
+        html += f"<tr><td>{e(u)}</td><td>{q}</td></tr>"
+    html += "</table><div class='io-sub'>By Day</div>"
+    for day, rows in by_day:
+        html += f"<div class='io-day'>{day.strftime('%a %-d %b')}</div>"
+        for cust, units in rows:
+            html += (f"<div class='io-job'><span>{e(cust)}</span>"
+                     f"<span>{e(units)}</span></div>")
+    return html + "</div>"
+
+
+IO_CSS = (
+    "<style>"
+    ".io-week{font-size:14px;color:#4f535b;margin:-6px 0 12px;}"
+    ".io-side{border:1px solid #e3e6e2;border-radius:10px;padding:12px 14px;}"
+    ".io-head{display:flex;justify-content:space-between;align-items:baseline;"
+    "font-weight:800;font-size:17px;border-bottom:1px solid #e3e6e2;padding-bottom:8px;}"
+    ".io-head b{font-size:26px;}"
+    ".io-units{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:14px;}"
+    ".io-units td{padding:4px 0;border-bottom:1px solid #f0f2ef;color:#1f2125;}"
+    ".io-units td:last-child{text-align:right;font-weight:700;}"
+    ".io-sub{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;"
+    "color:#4f535b;margin:12px 0 2px;}"
+    ".io-day{font-size:13px;font-weight:700;color:#1f2125;margin-top:8px;}"
+    ".io-job{display:flex;justify-content:space-between;gap:10px;font-size:13px;"
+    "color:#4f535b;padding:2px 0;}"
+    ".io-job span:first-child{color:#1f2125;}"
+    ".io-job span:last-child{text-align:right;}"
+    ".io-none{font-size:14px;color:#4f535b;padding:10px 0 2px;}"
+    "</style>")
+
+
+@st.dialog("In & Out This Week", width="large")
+def in_out_week_dialog(week_iso):
+    ws = datetime.strptime(week_iso, "%Y-%m-%d").date()
+    week_days = [ws + timedelta(days=d) for d in range(7)]
+    out_u, out_d = _io_side(week_days, "On Hire")
+    in_u, in_d = _io_side(week_days, "Off Hire")
+    moves = sum(1 for d in week_days for j in jobs.get(fmt_key(d), [])
+                if j.get("type") == "Site Move")
+    span = f"{ws.strftime('%a %-d %b')} to {(ws + timedelta(days=6)).strftime('%a %-d %b')}"
+    if moves:
+        span += f" · {moves} Site Move{'s' if moves != 1 else ''} not included"
+    st.markdown(f"{IO_CSS}<div class='io-week'>{span}</div>", unsafe_allow_html=True)
+    c_out, c_in = st.columns(2, gap="medium")
+    with c_out:
+        st.markdown(_io_side_html("Units Out", YB_TYPE["On Hire"][0], out_u, out_d),
+                    unsafe_allow_html=True)
+    with c_in:
+        st.markdown(_io_side_html("Units In", YB_TYPE["Off Hire"][0], in_u, in_d),
+                    unsafe_allow_html=True)
+    if st.button("Close", key="io_close", use_container_width=True):
+        close_dialog(io_week=None)
+        st.rerun()
+
+
 # the dialog is already open or was already closed, so we don't reopen it.
 # This prevents auto-refresh re-opening dialogs while keeping them stable mid-form.
 
@@ -4271,6 +4361,9 @@ elif _should_open("query_date", "query_token") and st.session_state.get("query_i
 elif _should_open("expand_date", "expand_token") and st.session_state.get("expand_idx") is not None:
     _mark_rendered("expand_token")
     expand_chip_dialog(st.session_state.expand_date, st.session_state.expand_idx)
+elif _should_open("io_week", "io_token"):
+    _mark_rendered("io_token")
+    in_out_week_dialog(st.session_state.io_week)
 elif _should_open("modal_date", "modal_token"):
     _mark_rendered("modal_token")
     job_modal(st.session_state.modal_date, st.session_state.modal_edit_idx)
@@ -4616,6 +4709,7 @@ YB_TYPE = {
     "Site Move": ("#1d5fae", "M4 9h14l-3-3M20 15H6l3 3"),
 }
 YB_DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+YB_ORDER = {"On Hire": 0, "Site Move": 1, "Off Hire": 2}
 
 
 def _yb_svg(path, colour, size=13, width=2.6):
@@ -4766,7 +4860,12 @@ def _yb_day(day, w_idx):
             f"<div class='yb-day-head'><div class='yb-day-top'>{head}</div>"
             f"<div class='yb-counts'>{counts}</div>{extra}</div>",
             unsafe_allow_html=True)
-        for ji, job in enumerate(day_jobs):
+        # Deliveries on top, site moves next, collections at the bottom. ji is
+        # still the job's real index, which checks and queries are keyed by.
+        order = sorted(range(len(day_jobs)),
+                       key=lambda i: YB_ORDER.get(day_jobs[i].get("type"), 1))
+        for ji in order:
+            job = day_jobs[ji]
             with st.container(key=f"ybjob_{dk}_{ji}"):
                 st.markdown(_yb_job_html(dk, ji, job), unsafe_allow_html=True)
                 if st.button(f"Open {job.get('customer', 'Job')}", key=f"ybopen_{dk}_{ji}",
@@ -4983,14 +5082,23 @@ with sched_col:
         week_jobs = [j for d in range(7) for j in jobs.get(fmt_key(ws + timedelta(days=d)), [])]
         _on_u, _off_u, _on_t, _off_t, internal_dels, external_dels = week_unit_summary(ws)
         n_moves = sum(1 for j in week_jobs if j.get("type") == "Site Move")
-        st.markdown(
-            f"<div class='yb-week'><h3>{_yb_week_label(ws)}</h3><p>"
-            f"<span><b class='g'>{_yb_qty(week_jobs, 'On Hire')}</b> Units Out</span>"
-            f"<span><b class='r'>{_yb_qty(week_jobs, 'Off Hire')}</b> In</span>"
-            f"<span><b class='b'>{n_moves}</b> Site Moves</span>"
-            f"<span>Assets Moving: {internal_dels} Kensite Haulage, "
-            f"{external_dels} External</span></p></div>",
-            unsafe_allow_html=True)
+        with st.container(key=f"ybwhead_{w}"):
+            h_text, h_btn = st.columns([1.6, 1], vertical_alignment="center")
+            with h_text:
+                st.markdown(
+                    f"<div class='yb-week'><h3>{_yb_week_label(ws)}</h3><p>"
+                    f"<span><b class='g'>{_yb_qty(week_jobs, 'On Hire')}</b> Units Out</span>"
+                    f"<span><b class='r'>{_yb_qty(week_jobs, 'Off Hire')}</b> In</span>"
+                    f"<span><b class='b'>{n_moves}</b> Site Moves</span>"
+                    f"<span>Assets Moving: {internal_dels} Kensite Haulage, "
+                    f"{external_dels} External</span></p></div>",
+                    unsafe_allow_html=True)
+            with h_btn:
+                with st.container(key=f"ybio_{w}"):
+                    if st.button("In & Out This Week :", key=f"ybio_btn_{w}",
+                                 help="Units going out and coming in this week"):
+                        open_dialog(io_week=fmt_key(ws))
+                        st.rerun()
         widths = [1, 1, 1, 1, 1, 0.16] + ([0.8, 0.8] if show_wkend else [])
         with st.container(key=f"ybweek_{w}"):
             cols = st.columns(widths, gap="small")
