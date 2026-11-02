@@ -19792,6 +19792,34 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: -Fishmoore Drive, Blackburn, (Near the chemist - No4, -, , BB2 3UY | Also on contract: 1x 16FT Towable Reactive Welfare",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 16:11"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Bethell Plant Services Ltd",
+        "postcode": "",
+        "contract_number": "0000032217",
+        "units": {
+          "24ft AV": 2,
+          "3+1": 1,
+          "Tank": 1,
+          "Steps": 2,
+          "IBC": 1,
+          "Generator": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10; 1x DIST BOARD; 4x 32A PLUG AND PLAY LEADS",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 16:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-10-31": [
