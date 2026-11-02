@@ -2186,6 +2186,57 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-q-top{{font-size:12px;font-weight:700;color:#8f1c13;}}
 .yb-q-cust{{font-size:14px;font-weight:700;color:#1f2125;}}
 .yb-q-text{{font-size:14px;font-weight:600;color:#1f2125;line-height:1.4;margin-top:2px;}}
+.yb-range{{transform:translateY(-8px);}}
+[class*="st-key-ybrail"]{{background:#fff;border:1px solid #dfe3df;border-radius:12px;padding:0 14px 18px;gap:12px;}}
+[class*="st-key-ybtab_"] button{{border:0 !important;border-bottom:1px solid #e3e6e2 !important;border-radius:0 !important;
+        background:transparent !important;color:#4f535b !important;min-height:48px;box-shadow:none !important;}}
+[class*="st-key-ybtab_"] button p{{font-size:14px !important;display:inline-flex;align-items:center;}}
+[class*="st-key-ybtab_"][class*="_on"] button{{color:#1f2125 !important;box-shadow:inset 0 -3px 0 {K_GREEN} !important;}}
+[class*="st-key-ybtab_"][class*="_on"] button p{{font-weight:700 !important;}}
+[class*="st-key-ybtab_"] button:hover{{color:#1f2125 !important;background:#f4f6f4 !important;}}
+[class*="st-key-ybtab_"] button p{{white-space:nowrap;}}
+[class*="st-key-ybtab_"] button{{padding:0 4px !important;}}
+.yb-p-h4{{margin-top:6px;}}
+.yb-p-dl dt,.yb-p-dl dd{{font-size:14px !important;}}
+.yb-p-dl dd .p{{font-weight:400;}}
+.st-key-yb_edit button{{background:{K_GREEN} !important;border-color:{K_GREEN} !important;color:#fff !important;}}
+.st-key-yb_edit button:hover{{background:{K_GREEN_DARK} !important;}}
+[class*="st-key-yb_send_"] button{{background:#b42318 !important;border-color:#b42318 !important;color:#fff !important;}}
+[class*="st-key-ybrail"] button p{{font-size:14px;}}
+[class*="st-key-yb_qopen_"]{{margin-top:-10px;}}
+@media (min-width: 900px) {{
+  [data-testid="stColumn"]:has(> div [class*="st-key-ybrail"]),
+  [data-testid="stColumn"]:has([class*="st-key-ybrail"]) {{position:sticky;top:12px;align-self:flex-start;}}
+  [class*="st-key-ybrail"]{{max-height:calc(100vh - 24px);overflow-y:auto;}}
+}}
+.yb-rail-empty{{font-size:14px;color:#4f535b;padding:10px 2px;}}
+.yb-p-head{{display:flex;flex-direction:column;gap:4px;padding-top:4px;}}
+.yb-p-type{{font-size:13px;font-weight:700;}}
+.yb-p-cust{{font-size:22px;font-weight:800;color:#1f2125;line-height:1.2;text-wrap:balance;}}
+.yb-p-sub{{font-size:14px;color:#4f535b;}}
+.yb-p-q{{background:#fdf0ee;border:1px solid #f1c3bc;border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:10px;}}
+.yb-p-q-top{{display:flex;align-items:center;gap:8px;font-size:14px;color:#8f1c13;}}
+.yb-qmark{{width:22px;height:22px;border-radius:11px;background:#b42318;color:#fff;font-size:13px;font-weight:800;
+        display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;}}
+.yb-p-q-at{{margin-left:auto;font-size:12px;color:#6e2a22;}}
+.yb-p-q-text{{background:#fff;border:1px solid #f1c3bc;border-radius:6px;padding:10px 12px;font-size:16px;font-weight:600;
+        line-height:1.45;color:#1f2125;}}
+.yb-p-ans{{background:#eef4fc;border:1px solid #c6d8f0;border-radius:8px;padding:12px;display:flex;flex-direction:column;
+        gap:6px;font-size:14px;line-height:1.45;color:#1f2a3a;}}
+.yb-p-ans-top{{font-size:13px;font-weight:700;color:#1d4f91;}}
+.yb-p-h4{{font-size:13px;font-weight:700;color:#4f535b;margin-bottom:4px;}}
+.yb-p-units{{width:100%;border-collapse:collapse;font-size:14px;border:0;}}
+.yb-p-units td{{border:0;border-top:1px solid #eceeeb;padding:7px 0;}}
+.yb-p-units td.q{{width:36px;font-weight:700;}} .yb-p-units td.u{{font-weight:600;}} .yb-p-units td.c{{color:#4f535b;text-align:right;}}
+.yb-p-dl{{margin:0;display:grid;grid-template-columns:84px 1fr;gap:8px 12px;font-size:14px;}}
+.yb-p-dl dt{{color:#4f535b;font-weight:400;}}
+.yb-p-dl dd{{margin:0;font-weight:600;color:#1f2125;line-height:1.4;}}
+.yb-p-dl dd .n{{display:block;font-size:13px;font-weight:400;color:#4f535b;}}
+.yb-ql{{border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:3px;color:#1f2125;}}
+.yb-ql.open{{background:#fdf0ee;border:1px solid #f1c3bc;}} .yb-ql.ans{{background:#eef4fc;border:1px solid #c6d8f0;}}
+.yb-ql .t{{font-size:12px;font-weight:700;display:flex;gap:8px;}} .yb-ql.open .t{{color:#b42318;}} .yb-ql.ans .t{{color:#1d4f91;}}
+.yb-ql .t span{{color:#4f535b;font-weight:600;}}
+.yb-ql .c{{font-size:14px;font-weight:700;}} .yb-ql .x{{font-size:14px;color:#3c3f45;line-height:1.4;}}
 
 /* Header */
 .ks-header{{display:flex;align-items:center;gap:12px;padding:10px 0 12px;
@@ -4540,8 +4591,12 @@ def _yb_job_html(dk, ji, job):
     elif any(q.get("status") == "answered" for _, q in qs):
         state += "<span class='yb-qans'>Query Answered</span>"
     border = "#e7a59c" if any(q.get("status") == "open" for _, q in qs) else "#dfe3df"
+    ring = ""
+    if tuple(st.session_state.get("yb_sel") or ()) == (dk, ji):
+        border = K_GREEN
+        ring = f"box-shadow:0 0 0 2px {K_GREEN},0 2px 6px rgba(16,35,26,.12);"
     return (
-        f"<div class='yb-job' style='border-color:{border};'>"
+        f"<div class='yb-job' style='border-color:{border};{ring}'>"
         f"<div class='yb-job-top' style='color:{colour};'>"
         f"{_yb_svg(arrow, colour)}<span>{e(label)}</span>"
         f"<span class='yb-time'>{YB_CLOCK}Unknown</span></div>"
@@ -4595,7 +4650,8 @@ def _yb_day(day, w_idx):
             st.markdown(_yb_job_html(dk, ji, job), unsafe_allow_html=True)
             if st.button(f"Open {job.get('customer', 'Job')}", key=f"ybopen_{dk}_{ji}",
                          use_container_width=True):
-                open_dialog(expand_date=dk, expand_idx=ji)
+                st.session_state["yb_sel"] = (dk, ji)
+                st.session_state["yb_tab"] = "job"
                 st.rerun()
     if not day_jobs:
         st.markdown("<div class='yb-empty'>Nothing Booked Yet</div>",
@@ -4625,7 +4681,175 @@ def _yb_week_label(ws):
     return f"Week {week_num(ws)}, {span}"
 
 
-sched_col, mat_col = st.columns([5, 1.4], gap="medium")
+
+def _yb_panel_job():
+    """The Job tab: everything about the job picked on the board."""
+    e = _html_esc.escape
+    sel = st.session_state.get("yb_sel")
+    if (not sel or sel[0] not in jobs or int(sel[1]) >= len(jobs[sel[0]])):
+        st.markdown("<div class='yb-rail-empty'>Click a job on the board to see it "
+                    "here.</div>", unsafe_allow_html=True)
+        return
+    dk, ji = sel[0], int(sel[1])
+    job = jobs[dk][ji]
+    jtype = job.get("type", "On Hire")
+    colour = YB_TYPE.get(jtype, ("#40424a", ""))[0]
+    day_long = datetime.strptime(dk, "%Y-%m-%d").strftime("%A %-d %b")
+    cn = str(job.get("contract_number") or "").strip()
+    sub = " · ".join(x for x in [
+        f"Contract {cn}" if cn not in ("", "00000") else "",
+        job.get("postcode", "")] if x)
+    st.markdown(
+        f"<div class='yb-p-head'><div class='yb-p-type' style='color:{colour};'>"
+        f"{e(jtype)} · {e(day_long)} · Unknown</div>"
+        f"<div class='yb-p-cust'>{e(job.get('customer') or 'No Customer')}</div>"
+        + (f"<div class='yb-p-sub'>{e(sub)}</div>" if sub else "") + "</div>",
+        unsafe_allow_html=True)
+
+    # queries on this job: open ones can be answered right here
+    for qid, q in _queries_for_job(dk, ji):
+        if q.get("status") == "open":
+            st.markdown(
+                f"<div class='yb-p-q'><div class='yb-p-q-top'><span class='yb-qmark'>?</span>"
+                f"<b>{e(str(q.get('raised_by', '')))} Is Asking</b>"
+                f"<span class='yb-p-q-at'>{e(str(q.get('raised_at', '')))}</span></div>"
+                f"<div class='yb-p-q-text'>{e(str(q.get('question', '')))}</div></div>",
+                unsafe_allow_html=True)
+            ans = st.text_area("Reply", key=f"yb_ans_{qid}", height=80,
+                               placeholder="Answer for the yard")
+            a1, a2 = st.columns([1, 1], vertical_alignment="bottom")
+            with a1:
+                who = st.selectbox("Answered By", QUERY_OFFICE, key=f"yb_answho_{qid}")
+            with a2:
+                if st.button("Send Answer", key=f"yb_send_{qid}", type="primary",
+                             use_container_width=True):
+                    if not ans.strip():
+                        st.error("Type an answer first.")
+                    else:
+                        q["answer"] = ans.strip()
+                        q["answered_by"] = who
+                        q["answered_at"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+                        q["status"] = "answered"
+                        queries[qid] = q
+                        _save_all()
+                        st.rerun()
+        elif q.get("status") == "answered":
+            st.markdown(
+                f"<div class='yb-p-ans'><div class='yb-p-ans-top'>Query Answered</div>"
+                f"<div><b>{e(str(q.get('raised_by', '')))}:</b> {e(str(q.get('question', '')))}</div>"
+                f"<div><b>{e(str(q.get('answered_by', '') or 'Office'))}:</b> "
+                f"{e(str(q.get('answer', '')))}</div></div>", unsafe_allow_html=True)
+            if st.button("Got It, Clear Query", key=f"yb_clear_{qid}",
+                         use_container_width=True):
+                q["status"] = "closed"
+                q["closed_at"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+                queries[qid] = q
+                _save_all()
+                st.rerun()
+
+    # units to prep
+    cfgs = job.get("av_configs") or {}
+    rows = ""
+    for u, qty in (job.get("units") or {}).items():
+        if not qty:
+            continue
+        c = cfgs.get(u) or {}
+        ctext = ", ".join(f"{n} {k}" if n and n > 1 else k for k, n in c.items() if n)
+        rows += (f"<tr><td class='q'>{int(qty)}×</td><td class='u'>{e(u)}</td>"
+                 f"<td class='c'>{e(ctext)}</td></tr>")
+    if rows:
+        st.markdown(f"<div class='yb-p-h4'>Units to Prep</div>"
+                    f"<table class='yb-p-units'>{rows}</table>", unsafe_allow_html=True)
+
+    h = job.get("haulage", "None")
+    haul = ("Kensite HIAB (Internal)" if h == "Internal Haulage"
+            else f"{job.get('haulage_who') or 'Haulier not named'} (External)"
+            if h == "External Haulage" else "None")
+    liv = job.get("livery") or "Standard Livery"
+    if liv != "Standard Livery" and job.get("livery_note"):
+        liv = f"{liv}: {job.get('livery_note')}"
+    who_add = job.get("added_by", "")
+    src = (f"Added from MCS, {job.get('timestamp', '')}" if who_add == "MCS Auto"
+           else f"Added by {who_add}, {job.get('timestamp', '')}" if who_add else "")
+    if job.get("edited_by"):
+        src += f". Edited by {job.get('edited_by')}, {job.get('edited_at', '')}"
+    items = [("Arrival", "Unknown<span class='n'>Ken will estimate an arrival once this "
+              "job is on the AES Planner.</span>"),
+             ("Haulage", e(haul)), ("Livery", e(liv)),
+             ("Notes", "<span class='p'>" + e(job.get("notes") or "None") + "</span>")]
+    if job.get("install_dismantle"):
+        items.append(("Install", "Install / Dismantle"))
+    if src:
+        items.append(("Source", e(src)))
+    st.markdown("<dl class='yb-p-dl'>" + "".join(
+        f"<dt>{k}</dt><dd>{v}</dd>" for k, v in items) + "</dl>",
+        unsafe_allow_html=True)
+
+    cur = _checked_by(dk, ji)
+    opts = ["Not Checked Yet"] + CHECKED_BY_PEOPLE
+    pick = st.selectbox("Checked By", opts,
+                        index=opts.index(cur) if cur in CHECKED_BY_PEOPLE else 0,
+                        key=f"yb_cb_{dk}_{ji}")
+    new_val = "" if pick == "Not Checked Yet" else pick
+    if new_val != cur:
+        ck = _checked_by_key(dk, ji)
+        if new_val:
+            checklist[ck] = new_val
+        else:
+            checklist.pop(ck, None)
+        _save_all()
+        st.rerun()
+
+    b1, b2, b3 = st.columns([1, 1, 1.15], gap="small")
+    with b1:
+        if st.button("Edit Job", key="yb_edit", type="primary", use_container_width=True):
+            open_dialog(modal_date=dk, modal_edit_idx=ji)
+            st.rerun()
+    with b2:
+        if st.button("Move Day", key="yb_move", use_container_width=True):
+            st.session_state["move_from_date"] = dk
+            st.session_state["move_job_idx"] = ji
+            st.session_state["move_token"] = _uuid.uuid4().hex[:8]
+            st.session_state["any_dialog_open"] = True
+            st.rerun()
+    with b3:
+        if st.button("Raise Query", key="yb_raise", use_container_width=True):
+            open_dialog(query_date=dk, query_idx=ji)
+            st.rerun()
+
+
+def _yb_panel_queries():
+    e = _html_esc.escape
+    _from = fmt_key(today - timedelta(days=7))
+    qs = [(qid, q) for qid, q in queries.items()
+          if q.get("status") == "open"
+          or (q.get("status") == "answered" and q.get("date", "") >= _from)]
+    qs.sort(key=lambda x: (x[1].get("status") != "open", x[1].get("date", "")))
+    if not qs:
+        st.markdown("<div class='yb-rail-empty'>No open queries, and nothing answered for this week.</div>",
+                    unsafe_allow_html=True)
+        return
+    for qid, q in qs:
+        jref = q.get("job") or {}
+        try:
+            qday = datetime.strptime(q.get("date", ""), "%Y-%m-%d").strftime("%a %-d %b")
+        except ValueError:
+            qday = q.get("date", "")
+        is_open = q.get("status") == "open"
+        st.markdown(
+            f"<div class='yb-ql {'open' if is_open else 'ans'}'>"
+            f"<div class='t'>{'Open' if is_open else 'Answered'}"
+            f"<span>{e(qday)} · {e(str(q.get('raised_by', '')))}</span></div>"
+            f"<div class='c'>{e(str(jref.get('customer', '')))}</div>"
+            f"<div class='x'>{e(str(q.get('question', '')))}</div></div>",
+            unsafe_allow_html=True)
+        if st.button("Open Job", key=f"yb_qopen_{qid}", use_container_width=True):
+            st.session_state["yb_sel"] = (q.get("date"), int(q.get("job_idx", 0)))
+            st.session_state["yb_tab"] = "job"
+            st.rerun()
+
+
+sched_col, mat_col = st.columns([5, 1.6], gap="medium")
 
 with sched_col:
     show_wkend = st.session_state.get("yb_weekend", False)
@@ -4661,192 +4885,193 @@ with sched_col:
                     _yb_day(ws + timedelta(days=d), w)
 
 with mat_col:
-    _open_q = [(qid, q) for qid, q in queries.items() if q.get("status") == "open"]
-    _open_q.sort(key=lambda x: x[1].get("date", ""))
-    st.markdown(
-        f"<div class='yb-side-head'>Queries"
-        + (f"<span class='yb-qcount'>{len(_open_q)}</span>" if _open_q else "")
-        + "</div>", unsafe_allow_html=True)
-    if not _open_q:
-        st.markdown("<div class='yb-empty'>No Open Queries</div>", unsafe_allow_html=True)
-    for qid, q in _open_q[:8]:
-        jref = q.get("job") or {}
-        try:
-            qday = datetime.strptime(q.get("date", ""), "%Y-%m-%d").strftime("%a %-d %b")
-        except ValueError:
-            qday = q.get("date", "")
-        st.markdown(
-            f"<div class='yb-q'><div class='yb-q-top'>{_html_esc.escape(qday)} · "
-            f"{_html_esc.escape(str(q.get('raised_by', '')))} Is Asking</div>"
-            f"<div class='yb-q-cust'>{_html_esc.escape(str(jref.get('customer', '')))}</div>"
-            f"<div class='yb-q-text'>{_html_esc.escape(str(q.get('question', '')))}</div></div>",
-            unsafe_allow_html=True)
-        if st.button("Answer", key=f"ybq_{qid}", use_container_width=True):
-            open_dialog(query_date=q.get("date"), query_idx=int(q.get("job_idx", 0)))
-            st.rerun()
-    st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
-    _badge_groups = {}
+    _yb_tab = st.session_state.get("yb_tab", "job")
+    _yb_nq = sum(1 for q in queries.values() if q.get("status") == "open")
+    _yb_mg = {}
     for _r in materials.values():
-        _badge_groups.setdefault(_mat_request_key(_r), []).append((0, _r))
-    _pending_count = sum(1 for v in _badge_groups.values()
-                         if _mat_group_state(v) == "pending")
-    _badge = (f' <span style="background:#c0392b;color:white;'
-              f'border-radius:10px;padding:1px 6px;font-size:10px;">'
-              f'{_pending_count}</span>' if _pending_count else "")
-    st.markdown(
-        f"<div style='font-size:11px;font-weight:700;color:{K_GREY};"
-        f"opacity:.7;letter-spacing:.07em;text-transform:uppercase;"
-        f"padding-bottom:3px;text-align:center;'>Materials{_badge}</div>",
-        unsafe_allow_html=True)
-
-    st.markdown("<div class='ks-add-btn'>", unsafe_allow_html=True)
-    if st.button("＋ Add Request", key="matadd_main", use_container_width=True):
-        st.session_state["mat_add"]         = True
-        st.session_state["any_dialog_open"] = True
-        st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    mat_items = [(m, r) for m, r in materials.items()
-                 if not _mat_received_expired(r)]
-    mat_items.sort(key=lambda x: x[1].get("created_at", ""), reverse=True)
-    _cnt_groups = {}
-    for _m, _r in mat_items:
-        _cnt_groups.setdefault(_mat_request_key(_r), []).append((_m, _r))
-    _g_states  = [_mat_group_state(v) for v in _cnt_groups.values()]
-    n_pending  = sum(1 for s in _g_states if s == "pending")
-    n_ordered  = sum(1 for s in _g_states if s == "ordered")
-    n_received = sum(1 for s in _g_states if s == "delivered")
-
-    st.markdown(
-        f"<div style='display:flex;gap:4px;margin:0 2px 5px;flex-wrap:wrap;"
-        f"justify-content:center;'>"
-        f"<span style='background:#fdecea;color:#7b1a1a;border-radius:4px;"
-        f"padding:1px 6px;font-size:9.5px;font-weight:700;'>🔴 {n_pending} Requested</span>"
-        f"<span style='background:#fff9e6;color:#7a5c00;border-radius:4px;"
-        f"padding:1px 6px;font-size:9.5px;font-weight:700;'>🟡 {n_ordered} On Order</span>"
-        f"<span style='background:{K_GREEN_PALE};color:{K_GREEN_DARK};border-radius:4px;"
-        f"padding:1px 6px;font-size:9.5px;font-weight:700;'>🟢 {n_received} Delivered</span>"
-        f"</div>",
-        unsafe_allow_html=True)
-
-    # fixed height: the panel scrolls internally once full, rather
-    # than stretching the page
-    mat_box = st.container(height=620)
-    with mat_box:
-        if not mat_items:
-            st.markdown("<div class='day-empty' style='padding:8px;'>No requests</div>",
-                        unsafe_allow_html=True)
+        _yb_mg.setdefault(_mat_request_key(_r), []).append((0, _r))
+    _yb_nm = sum(1 for v in _yb_mg.values() if _mat_group_state(v) == "pending")
+    _badge_css = ""
+    for _k, _n in (("queries", _yb_nq), ("materials", _yb_nm)):
+        if _n:
+            _badge_css += (f'[class*="st-key-ybtab_{_k}"] button p::after{{content:"{_n}";'
+                           f'display:inline-flex;align-items:center;justify-content:center;'
+                           f'min-width:20px;height:20px;padding:0 6px;margin-left:6px;'
+                           f'box-sizing:border-box;border-radius:10px;background:#b42318;'
+                           f'color:#fff;font-size:12px;font-weight:800;}}')
+    if _badge_css:
+        st.markdown(f"<style>{_badge_css}</style>", unsafe_allow_html=True)
+    with st.container(key="ybrail"):
+        _tc = st.columns([0.8, 1.25, 1.25], gap="small")
+        for _col, (_k, _lab) in zip(_tc, [("job", "Job"), ("queries", "Queries"),
+                                          ("materials", "Materials")]):
+            with _col:
+                with st.container(key=f"ybtab_{_k}{'_on' if _yb_tab == _k else ''}"):
+                    if st.button(_lab, key=f"ybtabbtn_{_k}", use_container_width=True):
+                        st.session_state["yb_tab"] = _k
+                        st.rerun()
+        if _yb_tab == "job":
+            _yb_panel_job()
+        elif _yb_tab == "queries":
+            _yb_panel_queries()
         else:
-            # One REQUEST = one group: requester + date header, with a
-            # tree line branching down to each of its item pills.
-            groups, order = {}, []
-            for mid, req in mat_items:
-                gkey = _mat_request_key(req)
-                if gkey not in groups:
-                    groups[gkey] = []
-                    order.append(gkey)
-                groups[gkey].append((mid, req))
+            _badge_groups = {}
+            for _r in materials.values():
+                _badge_groups.setdefault(_mat_request_key(_r), []).append((0, _r))
+            _pending_count = sum(1 for v in _badge_groups.values()
+                                 if _mat_group_state(v) == "pending")
+            _badge = (f' <span style="background:#c0392b;color:white;'
+                      f'border-radius:10px;padding:1px 6px;font-size:10px;">'
+                      f'{_pending_count}</span>' if _pending_count else "")
 
-            STATUS_COLS = {
-                "pending":   ("#fdecea", "#7b1a1a", "#fbddd8"),
-                "ordered":   ("#fff9e6", "#7a5c00", "#fff0c2"),
-                "delivered": (K_GREEN_PALE, K_GREEN_DARK, "#d4ecdd"),
-            }
-            # One pill PER REQUEST: the button is the pill header, the
-            # block beneath it holds a sub-pill per item and is styled
-            # to read as the lower half of the same pill. Colour comes
-            # from the whole request's state: green ONLY when every
-            # line is ticked Delivered.
-            btn_css = "<style>"
-            for gkey in order:
-                members = groups[gkey]
-                g_status = _mat_group_state(members)
-                c_bg, c_fg, c_hov = STATUS_COLS.get(
-                    g_status, ("#f0f0f0", K_GREY, "#e6e6e6"))
-                bkey = f"matreq_{members[0][0]}"
-                btn_css += (
-                    f".st-key-{bkey} button{{background:{c_bg} !important;"
-                    f"color:{c_fg} !important;border:none !important;"
-                    f"border-radius:8px 8px 0 0 !important;"
-                    f"font-weight:700 !important;text-align:left "
-                    f"!important;justify-content:flex-start !important;"
-                    f"padding:6px 10px !important;}}"
-                    f".st-key-{bkey} button:hover{{background:{c_hov} "
-                    f"!important;color:{c_fg} !important;}}"
-                    f".st-key-{bkey}{{margin-bottom:-14px !important;}}"
-                )
-            btn_css += "</style>"
-            st.markdown(btn_css, unsafe_allow_html=True)
+            st.markdown("<div class='ks-add-btn'>", unsafe_allow_html=True)
+            if st.button("＋ Add Request", key="matadd_main", use_container_width=True):
+                st.session_state["mat_add"]         = True
+                st.session_state["any_dialog_open"] = True
+                st.rerun()
+            st.markdown("</div>", unsafe_allow_html=True)
 
-            for gkey in order:
-                members = groups[gkey]
-                head    = members[0][1]
-                reqby   = head.get("requester", "")
-                created = head.get("created_at", "")
-                g_status = _mat_group_state(members)
-                c_bg, c_fg, _hov = STATUS_COLS.get(
-                    g_status, ("#f0f0f0", K_GREY, "#e6e6e6"))
-                n_items = len(members)
+            mat_items = [(m, r) for m, r in materials.items()
+                         if not _mat_received_expired(r)]
+            mat_items.sort(key=lambda x: x[1].get("created_at", ""), reverse=True)
+            _cnt_groups = {}
+            for _m, _r in mat_items:
+                _cnt_groups.setdefault(_mat_request_key(_r), []).append((_m, _r))
+            _g_states  = [_mat_group_state(v) for v in _cnt_groups.values()]
+            n_pending  = sum(1 for s in _g_states if s == "pending")
+            n_ordered  = sum(1 for s in _g_states if s == "ordered")
+            n_received = sum(1 for s in _g_states if s == "delivered")
 
-                # pill header — clicking anywhere opens the request
-                if st.button(f"{reqby}   ·   {created}   ·   "
-                             f"{n_items} item{'s' if n_items != 1 else ''}",
-                             key=f"matreq_{members[0][0]}",
-                             use_container_width=True):
-                    st.session_state["mat_view_id"]     = members[0][0]
-                    st.session_state["any_dialog_open"] = True
-                    st.rerun()
+            st.markdown(
+                f"<div style='display:flex;gap:4px;margin:0 2px 5px;flex-wrap:wrap;"
+                f"justify-content:center;'>"
+                f"<span style='background:#fdecea;color:#7b1a1a;border-radius:4px;"
+                f"padding:1px 6px;font-size:9.5px;font-weight:700;'>{n_pending} Requested</span>"
+                f"<span style='background:#fff9e6;color:#7a5c00;border-radius:4px;"
+                f"padding:1px 6px;font-size:9.5px;font-weight:700;'>{n_ordered} On Order</span>"
+                f"<span style='background:{K_GREEN_PALE};color:{K_GREEN_DARK};border-radius:4px;"
+                f"padding:1px 6px;font-size:9.5px;font-weight:700;'>{n_received} Delivered</span>"
+                f"</div>",
+                unsafe_allow_html=True)
 
-                # sub-pills, one per item: X while its PO awaits
-                # approval, tick when approved, package when delivered
-                subs = ""
-                for _m, r in members:
-                    note = r.get("notes", "")
-                    state = _mat_line_state(r)
-                    mark = MAT_LINE_MARK.get(state, "")
-                    # po_html is HTML, not plain text, because the PO
-                    # number is a link into Zahara. Everything drawn from
-                    # the record is escaped as it goes in, so the caller
-                    # below must NOT escape it a second time or the
-                    # anchor would render as visible tags.
-                    po_html = ""
-                    if r.get("po_number"):
-                        po_html = (_po_link_html(r)
-                                   + (" · awaiting approval"
-                                      if state == "awaiting" else ""))
-                    elif state == "query":
-                        po_html = _html_esc.escape(
-                            'Ken asks: is this "'
-                            + str((r.get("query") or {})
-                                  .get("candidate_name", ""))[:45]
-                            + '"? Open to answer')
-                    elif state == "delivered" and (r.get("delivered_at")
-                                                   or r.get("pod_received_at")):
-                        po_html = _html_esc.escape(
-                            f'Delivered '
-                            f'{r.get("delivered_at") or r.get("pod_received_at")}')
-                    subs += (
-                        f'<div style="background:rgba(255,255,255,.6);'
-                        f'border-radius:6px;padding:4px 8px;'
-                        f'margin-top:4px;">'
-                        f'<div style="font-size:11.5px;font-weight:700;'
-                        f'color:{c_fg};line-height:1.3;">'
-                        f'{mark + " " if mark else ""}'
-                        f'{_html_esc.escape(str(r.get("item","")))}</div>'
-                        + (f'<div style="font-size:10px;opacity:.75;'
-                           f'color:{c_fg};line-height:1.3;">'
-                           f'{po_html}</div>'
-                           if po_html else "")
-                        + (f'<div style="font-size:10px;opacity:.75;'
-                           f'color:{c_fg};line-height:1.3;">'
-                           f'{_html_esc.escape(str(note))}</div>'
-                           if note else "")
-                        + '</div>')
-                st.markdown(
-                    f'<div style="background:{c_bg};'
-                    f'border-radius:0 0 8px 8px;padding:2px 8px 8px;'
-                    f'margin-bottom:8px;">{subs}</div>',
-                    unsafe_allow_html=True)
+            # fixed height: the panel scrolls internally once full, rather
+            # than stretching the page
+            mat_box = st.container(height=620)
+            with mat_box:
+                if not mat_items:
+                    st.markdown("<div class='day-empty' style='padding:8px;'>No requests</div>",
+                                unsafe_allow_html=True)
+                else:
+                    # One REQUEST = one group: requester + date header, with a
+                    # tree line branching down to each of its item pills.
+                    groups, order = {}, []
+                    for mid, req in mat_items:
+                        gkey = _mat_request_key(req)
+                        if gkey not in groups:
+                            groups[gkey] = []
+                            order.append(gkey)
+                        groups[gkey].append((mid, req))
+
+                    STATUS_COLS = {
+                        "pending":   ("#fdecea", "#7b1a1a", "#fbddd8"),
+                        "ordered":   ("#fff9e6", "#7a5c00", "#fff0c2"),
+                        "delivered": (K_GREEN_PALE, K_GREEN_DARK, "#d4ecdd"),
+                    }
+                    # One pill PER REQUEST: the button is the pill header, the
+                    # block beneath it holds a sub-pill per item and is styled
+                    # to read as the lower half of the same pill. Colour comes
+                    # from the whole request's state: green ONLY when every
+                    # line is ticked Delivered.
+                    btn_css = "<style>"
+                    for gkey in order:
+                        members = groups[gkey]
+                        g_status = _mat_group_state(members)
+                        c_bg, c_fg, c_hov = STATUS_COLS.get(
+                            g_status, ("#f0f0f0", K_GREY, "#e6e6e6"))
+                        bkey = f"matreq_{members[0][0]}"
+                        btn_css += (
+                            f".st-key-{bkey} button{{background:{c_bg} !important;"
+                            f"color:{c_fg} !important;border:none !important;"
+                            f"border-radius:8px 8px 0 0 !important;"
+                            f"font-weight:700 !important;text-align:left "
+                            f"!important;justify-content:flex-start !important;"
+                            f"padding:6px 10px !important;}}"
+                            f".st-key-{bkey} button:hover{{background:{c_hov} "
+                            f"!important;color:{c_fg} !important;}}"
+                            f".st-key-{bkey}{{margin-bottom:-14px !important;}}"
+                        )
+                    btn_css += "</style>"
+                    st.markdown(btn_css, unsafe_allow_html=True)
+
+                    for gkey in order:
+                        members = groups[gkey]
+                        head    = members[0][1]
+                        reqby   = head.get("requester", "")
+                        created = head.get("created_at", "")
+                        g_status = _mat_group_state(members)
+                        c_bg, c_fg, _hov = STATUS_COLS.get(
+                            g_status, ("#f0f0f0", K_GREY, "#e6e6e6"))
+                        n_items = len(members)
+
+                        # pill header — clicking anywhere opens the request
+                        if st.button(f"{reqby}   ·   {created}   ·   "
+                                     f"{n_items} item{'s' if n_items != 1 else ''}",
+                                     key=f"matreq_{members[0][0]}",
+                                     use_container_width=True):
+                            st.session_state["mat_view_id"]     = members[0][0]
+                            st.session_state["any_dialog_open"] = True
+                            st.rerun()
+
+                        # sub-pills, one per item: X while its PO awaits
+                        # approval, tick when approved, package when delivered
+                        subs = ""
+                        for _m, r in members:
+                            note = r.get("notes", "")
+                            state = _mat_line_state(r)
+                            mark = MAT_LINE_MARK.get(state, "")
+                            # po_html is HTML, not plain text, because the PO
+                            # number is a link into Zahara. Everything drawn from
+                            # the record is escaped as it goes in, so the caller
+                            # below must NOT escape it a second time or the
+                            # anchor would render as visible tags.
+                            po_html = ""
+                            if r.get("po_number"):
+                                po_html = (_po_link_html(r)
+                                           + (" · awaiting approval"
+                                              if state == "awaiting" else ""))
+                            elif state == "query":
+                                po_html = _html_esc.escape(
+                                    'Ken asks: is this "'
+                                    + str((r.get("query") or {})
+                                          .get("candidate_name", ""))[:45]
+                                    + '"? Open to answer')
+                            elif state == "delivered" and (r.get("delivered_at")
+                                                           or r.get("pod_received_at")):
+                                po_html = _html_esc.escape(
+                                    f'Delivered '
+                                    f'{r.get("delivered_at") or r.get("pod_received_at")}')
+                            subs += (
+                                f'<div style="background:rgba(255,255,255,.6);'
+                                f'border-radius:6px;padding:4px 8px;'
+                                f'margin-top:4px;">'
+                                f'<div style="font-size:11.5px;font-weight:700;'
+                                f'color:{c_fg};line-height:1.3;">'
+                                f'{mark + " " if mark else ""}'
+                                f'{_html_esc.escape(str(r.get("item","")))}</div>'
+                                + (f'<div style="font-size:10px;opacity:.75;'
+                                   f'color:{c_fg};line-height:1.3;">'
+                                   f'{po_html}</div>'
+                                   if po_html else "")
+                                + (f'<div style="font-size:10px;opacity:.75;'
+                                   f'color:{c_fg};line-height:1.3;">'
+                                   f'{_html_esc.escape(str(note))}</div>'
+                                   if note else "")
+                                + '</div>')
+                        st.markdown(
+                            f'<div style="background:{c_bg};'
+                            f'border-radius:0 0 8px 8px;padding:2px 8px 8px;'
+                            f'margin-bottom:8px;">{subs}</div>',
+                            unsafe_allow_html=True)
 
 
 # ── SNAPSHOT ─────────────────────────────────────────────────────────────────
