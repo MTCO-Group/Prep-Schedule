@@ -19777,6 +19777,21 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: -, -, , BB7 9HJ | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 16:01"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Almond Civils Ltd",
+        "postcode": "BB2 3UY",
+        "contract_number": "0000032077",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: -Fishmoore Drive, Blackburn, (Near the chemist - No4, -, , BB2 3UY | Also on contract: 1x 16FT Towable Reactive Welfare",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 16:11"
       }
     ],
     "2026-10-31": [
