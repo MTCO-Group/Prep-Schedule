@@ -21267,6 +21267,32 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Move to New Site",
         "added_by": "MCS Auto",
         "timestamp": "30/10/2026 09:50"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "OL8 3RU",
+        "contract_number": "0000029733",
+        "units": {
+          "20ft AV": 2,
+          "3+1": 1,
+          "Steps": 2,
+          "IBC": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Compound at Rear, Forth Avenue, Oldham, , OL8 3RU | Also on contract: 1x Kettle; 1x Microwave; 1x Fridge; 1x Filing Cabinet; 2x Upholstered Chair; 2x Canteen Table; 12x Poly Chair; 1x Staircase; 1x 1000G Eflluent Tank",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 11:41",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-11-12": [
