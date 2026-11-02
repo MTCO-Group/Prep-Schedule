@@ -20889,6 +20889,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: BELONG MACCLESFIELD, KENNEDY AVE, MACCLESFIELD, SK10 3DE | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 10:01"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Manchester and Cheshire",
+        "postcode": "SK12 1NW",
+        "contract_number": "0000031271",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Vernon Primary School, Clumber Road, Poynton, Cheshire East, SK12 1NW",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 13:41"
       }
     ],
     "2026-11-03": [
