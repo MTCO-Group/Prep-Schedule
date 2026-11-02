@@ -2159,6 +2159,7 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-cust{{font-size:14px;font-weight:700;}}
 .yb-time-done{{color:#0a6a30 !important;font-weight:700 !important;}}
 .yb-time-live{{color:#1d5fae !important;font-weight:700 !important;}}
+.yb-time-other{{color:#8a4a06 !important;font-weight:700 !important;}}
 .yb-units{{color:#3c3f45;}}
 .yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
 .yb-tag{{font-weight:700;color:#4f535b;}}
@@ -4666,6 +4667,13 @@ def _yb_eta(dk, ji, job):
 
 def _yb_eta_label(job, eta):
     """(html for the time slot, plain words) from Ken's ETA row."""
+    if eta and eta.get("state") == "otherday" and eta.get("day"):
+        try:
+            _d = datetime.strptime(eta["day"], "%Y-%m-%d").strftime("%a %-d %b")
+        except ValueError:
+            _d = eta["day"]
+        return (f"<span class='yb-time yb-time-other'>{YB_CLOCK}AES {_html_esc.escape(_d)}</span>",
+                f"AES have it booked for {_d}")
     if not eta or not eta.get("time"):
         return f"<span class='yb-time'>{YB_CLOCK}Unknown</span>", "Unknown"
     t = _html_esc.escape(eta["time"])
