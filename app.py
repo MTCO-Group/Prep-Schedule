@@ -2122,6 +2122,71 @@ st.markdown(f"""
 html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY};}}
 .main .block-container{{padding-top:0.75rem;padding-bottom:2rem;max-width:100%;}}
 
+
+/* ── Yard Board, 02/11/2026 ── */
+::selection{{background:#cfe8d7;color:#10231a;}}
+.yb-bar{{background:{K_GREEN};color:#fff;display:flex;align-items:center;gap:14px;
+        padding:12px 18px;border-radius:10px;margin:0 0 10px;}}
+.yb-bar-title{{font-size:18px;font-weight:600;color:#fff;}}
+.yb-range{{font-size:15px;font-weight:700;color:#1f2125;white-space:nowrap;}}
+.yb-week{{margin:16px 0 8px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 18px;}}
+.yb-week h3{{margin:0;padding:0;font-size:19px;font-weight:700;color:#1f2125;}}
+.yb-week p{{margin:0;font-size:14px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 14px;}}
+.yb-week b{{font-weight:700;}} .yb-week b.g{{color:#0a6a30;}} .yb-week b.r{{color:#a61b1b;}} .yb-week b.b{{color:#1d5fae;}}
+.yb-day{{background:#f9faf8;border:1px solid #e1e5e1;border-radius:10px;margin-bottom:6px;}}
+.yb-day.is-today{{background:#e9f4ec;border-color:#a9d3b6;}}
+.yb-day.is-weekend{{background:#eef0ed;}}
+.yb-day.is-bh{{background:#fffbea;border-color:#e6c200;}}
+.yb-day.has-query{{border-color:#e7a59c;}}
+.yb-day-head{{padding:9px 11px 8px;display:flex;flex-direction:column;gap:4px;}}
+.yb-day-top{{display:flex;align-items:center;justify-content:space-between;gap:8px;}}
+.yb-day-name{{font-size:15px;font-weight:700;color:#1f2125;}}
+.yb-day-name span{{font-weight:500;color:#4f535b;}}
+.yb-today{{font-size:12px;font-weight:700;color:#0a6a30;}}
+.yb-qcount{{min-width:20px;height:20px;padding:0 6px;box-sizing:border-box;border-radius:10px;
+           background:#b42318;color:#fff;font-size:12px;font-weight:800;display:inline-flex;
+           align-items:center;justify-content:center;margin-left:6px;}}
+.yb-counts{{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;color:#4f535b;}}
+.yb-counts span{{display:inline-flex;align-items:center;gap:3px;}}
+.yb-bh{{font-size:12px;font-weight:700;color:#7a5c00;}}
+.yb-dailys{{font-size:12px;font-weight:700;color:#0a6a30;}}
+.yb-sv{{font-size:12px;font-weight:700;color:{K_PURPLE_DARK};}}
+.yb-job{{background:#fff;border:1px solid #dfe3df;border-radius:8px;padding:8px 9px;
+        display:flex;flex-direction:column;gap:3px;font-size:13px;line-height:1.3;color:#1f2125;
+        box-shadow:0 1px 2px rgba(16,35,26,.06);transition:border-color .15s,background .15s;}}
+.yb-job-top{{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:700;}}
+.yb-time{{margin-left:auto;display:inline-flex;align-items:center;gap:3px;color:#4f535b;font-weight:600;}}
+.yb-cust{{font-size:14px;font-weight:700;}}
+.yb-units{{color:#3c3f45;}}
+.yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
+.yb-tag{{font-weight:700;color:#4f535b;}}
+.yb-state{{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;font-weight:600;}}
+.yb-ok{{color:#0a6a30;display:inline-flex;align-items:center;gap:3px;}}
+.yb-not{{color:#6b5a00;}}
+.yb-qopen{{color:#fff;background:#b42318;border-radius:4px;padding:0 6px;}}
+.yb-qans{{color:#1d4f91;}}
+.yb-empty{{font-size:13px;color:#5d6168;padding:4px 4px 8px;}}
+/* the whole job row is the button: the real button is stretched over it */
+[class*="st-key-ybjob_"]{{position:relative;gap:0 !important;margin-bottom:6px;}}
+[class*="st-key-ybjob_"] > div:has([data-testid="stButton"]){{position:absolute !important;inset:0;margin:0;z-index:2;}}
+[class*="st-key-ybjob_"] [data-testid="stButton"]{{position:absolute;inset:0;margin:0;}}
+[class*="st-key-ybjob_"] [data-testid="stButton"] > div, [class*="st-key-ybjob_"] [data-testid="stButton"] button{{width:100% !important;height:100% !important;}}
+[class*="st-key-ybjob_"] [data-testid="stButton"] button{{opacity:0;cursor:pointer;}}
+[class*="st-key-ybjob_"]:hover .yb-job{{border-color:#9fb8a8;background:#fbfdfb;}}
+[class*="st-key-ybjob_"]:focus-within .yb-job{{outline:2px solid {K_GREEN};outline-offset:2px;}}
+[class*="st-key-ybadd_"] button{{border:1px dashed #b9c2bb !important;background:transparent !important;
+        color:#3c3f45 !important;font-weight:600 !important;}}
+[class*="st-key-ybadd_"] button:hover{{background:#eef2ef !important;}}
+[class*="st-key-ybband_"] button{{min-height:240px;background:#e9ecea !important;border:1px solid #dfe3df !important;
+        border-radius:10px !important;padding:8px 0 !important;color:#3c3f45 !important;}}
+[class*="st-key-ybband_"] button p{{writing-mode:vertical-rl;font-size:12px !important;font-weight:700;letter-spacing:.04em;}}
+[class*="st-key-ybband_"] button:hover{{background:#dde3df !important;color:#1f2125 !important;}}
+.yb-side-head{{font-size:15px;font-weight:700;color:#1f2125;display:flex;align-items:center;margin:4px 0 8px;}}
+.yb-q{{background:#fdf0ee;border:1px solid #f1c3bc;border-radius:8px;padding:9px 10px;margin-bottom:4px;}}
+.yb-q-top{{font-size:12px;font-weight:700;color:#8f1c13;}}
+.yb-q-cust{{font-size:14px;font-weight:700;color:#1f2125;}}
+.yb-q-text{{font-size:14px;font-weight:600;color:#1f2125;line-height:1.4;margin-top:2px;}}
+
 /* Header */
 .ks-header{{display:flex;align-items:center;gap:12px;padding:10px 0 12px;
             border-bottom:2px solid {K_GREEN};margin-bottom:1rem;}}
@@ -4125,45 +4190,70 @@ st.markdown(f"""
 <style>
 /* green outline on the header search box only - targeted by its
    placeholder text so it survives Streamlit DOM differences */
-div[data-baseweb="input"]:has(input[placeholder*="Search Jobs"]) {{
+div[data-baseweb="input"]:has(input[placeholder*="Search Customer"]) {{
   border: 2px solid {K_GREEN} !important;
   border-radius: 8px;
   background: {K_WHITE} !important;
 }}
-div[data-baseweb="input"]:has(input[placeholder*="Search Jobs"])
+div[data-baseweb="input"]:has(input[placeholder*="Search Customer"])
     input {{
   background: {K_WHITE} !important;
 }}
-div[data-baseweb="input"]:has(input[placeholder*="Search Jobs"])
+div[data-baseweb="input"]:has(input[placeholder*="Search Customer"])
     :focus-within {{
   box-shadow: 0 0 0 3px {K_GREEN_PALE};
 }}
-/* drop the box so its bottom sits on the title baseline */
-div[data-testid="stTextInput"]:has(input[placeholder*="Search Jobs"]) {{
-  transform: translateY(14px);
-}}
+
 </style>
 """, unsafe_allow_html=True)
 
-_hdr_left, _hdr_mid, _hdr_pad = st.columns(
-    [1.9, 5.5, 4.6], vertical_alignment="bottom")
-with _hdr_left:
-    st.markdown(f"""
-<div class="ks-header" style="border-bottom:none;margin-bottom:0;
-     padding:0;flex-wrap:nowrap;">
-  {KENSITE_LOGO_HTML}
-  <span class="ks-title" style="white-space:nowrap;">Prep Schedule</span>
+# ── YARD BOARD HEADER, 02/11/2026 ────────────────────────────────────────────
+# The Yard Board redesign (approved on the Claude Design canvas, 02/11/2026).
+# A green Kensite bar carries the real logo; the week controls and the
+# search sit in one row beneath it. The date range is worked out here
+# (it used to be below the nav row) because the header row shows it.
+YB_LOGO_HTML = ('<img alt="Kensite" style="height:30px;width:auto;display:block;" '
+                'src="data:image/png;base64,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">')
+st.markdown(f"""
+<div class="yb-bar">
+  {YB_LOGO_HTML}
+  <span class="yb-bar-title">Prep Schedule</span>
 </div>
 """, unsafe_allow_html=True)
-with _hdr_mid:
-    search_q = st.text_input(
-        "Search", key="job_search", label_visibility="collapsed",
-        placeholder="🔍  Search Jobs")
 
-# full-width green rule under the whole header row (matches the width
-# of the panels below)
-st.markdown(f"<div style='border-bottom:2px solid {K_GREEN};"
-            f"margin:2px 0 1rem;'></div>", unsafe_allow_html=True)
+today      = date.today()
+start_date = get_monday(today) + timedelta(weeks=st.session_state.week_offset)
+n_weeks    = st.session_state.n_weeks
+end_date   = start_date + timedelta(days=n_weeks * 7 - 1)
+
+n1, n2, n3, n4, n5, n6 = st.columns([1.1, 0.8, 1.1, 0.9, 1.9, 4.2],
+                                    vertical_alignment="center")
+with n1:
+    if st.button("Prev Week", use_container_width=True):
+        st.session_state.week_offset -= 1; st.rerun()
+with n2:
+    if st.button("Today", use_container_width=True):
+        st.session_state.week_offset = 0; st.rerun()
+with n3:
+    if st.button("Next Week", use_container_width=True):
+        st.session_state.week_offset += 1; st.rerun()
+with n4:
+    week_opts = [1, 2, 3, 4, 5, 6]
+    nw = st.selectbox("Weeks Shown", week_opts,
+                      index=week_opts.index(st.session_state.n_weeks)
+                            if st.session_state.n_weeks in week_opts else 3,
+                      label_visibility="collapsed",
+                      format_func=lambda x: f"{x} {'Week' if x == 1 else 'Weeks'}")
+    if nw != st.session_state.n_weeks:
+        st.session_state.n_weeks = nw; st.rerun()
+with n5:
+    st.markdown(
+        f"<div class='yb-range'>{start_date.strftime('%-d %b')} to "
+        f"{end_date.strftime('%-d %b %Y')}</div>", unsafe_allow_html=True)
+with n6:
+    search_q = st.text_input(
+        "Find a Job", key="job_search", label_visibility="collapsed",
+        placeholder="Search Customer, Contract or Postcode")
 
 def _job_search_hits(jobs_dict, query):
     hits = []
@@ -4273,35 +4363,6 @@ if search_q.strip():
 # per 30 s instead of four). The panels are in Archive/app before request
 # panels removed 09-10-2026.py if they are ever wanted back.
 
-
-# ── NAV ROW ───────────────────────────────────────────────────────────────────
-n1, n2, n3, n4, n5 = st.columns([1.2, 0.8, 1.2, 0.8, 3])
-with n1:
-    if st.button("◀ Prev Week", use_container_width=True):
-        st.session_state.week_offset -= 1; st.rerun()
-with n2:
-    if st.button("Today", use_container_width=True):
-        st.session_state.week_offset = 0; st.rerun()
-with n3:
-    if st.button("Next Week ▶", use_container_width=True):
-        st.session_state.week_offset += 1; st.rerun()
-with n4:
-    week_opts = [1, 2, 3, 4, 5, 6]
-    nw = st.selectbox("", week_opts,
-                      index=week_opts.index(st.session_state.n_weeks)
-                            if st.session_state.n_weeks in week_opts else 3,
-                      label_visibility="collapsed",
-                      format_func=lambda x: f"{x} {'week' if x == 1 else 'weeks'}")
-    if nw != st.session_state.n_weeks:
-        st.session_state.n_weeks = nw; st.rerun()
-
-# ── DATE RANGE ────────────────────────────────────────────────────────────────
-today      = date.today()
-start_date = get_monday(today) + timedelta(weeks=st.session_state.week_offset)
-n_weeks    = st.session_state.n_weeks
-end_date   = start_date + timedelta(days=n_weeks * 7 - 1)
-st.caption(f"**{start_date.strftime('%d %b')} – {end_date.strftime('%d %b %Y')}**"
-           f"  ·  Week {week_num(start_date)}–{week_num(end_date)}")
 
 # Summary pills removed 14/08/2026 (Nathan: obsolete) - the whole-file
 # counts told nobody anything the week totals do not.
@@ -4419,198 +4480,211 @@ def render_week_bar(on_u, off_u, on_total, off_total, internal_assets, external_
     html += "</div></div>"
     return html
 
-def render_chip(job, chip_id=""):
-    bg, fg, dot = TYPE_STYLE[job["type"]]
-    name     = job.get("customer", "(no name)")
-    postcode = job.get("postcode", "")
-    unit_str = "  ".join(f'{u}×{q}' for u, q in job.get("units", {}).items() if q)
-    type_tag = f'<span class="jchip-idtag">{job["type"]}</span>'
+# ── YARD BOARD, 02/11/2026 ───────────────────────────────────────────────────
+# Each day is a column of job rows: type and arrow, time slot, customer,
+# units, postcode, haulier, MCS tag, Checked By and query state. Clicking a
+# row opens the job (the same dialog search uses). Open queries show as a
+# number in a red circle on the day. A thin band after Friday opens the
+# weekend. Time slots read Unknown until Ken can read ETAs from the AES
+# Planner (the slot is there ready for it).
+YB_TYPE = {
+    "On Hire":   ("#0a6a30", "M7 17L17 7M9 7h8v8"),
+    "Off Hire":  ("#a61b1b", "M17 7L7 17M15 17H7V9"),
+    "Site Move": ("#1d5fae", "M4 9h14l-3-3M20 15H6l3 3"),
+}
+YB_DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+
+def _yb_svg(path, colour, size=13, width=2.6):
+    return (f'<svg width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" '
+            f'stroke="{colour}" stroke-width="{width}" stroke-linecap="round" '
+            f'stroke-linejoin="round" aria-hidden="true"><path d="{path}"/></svg>')
+
+
+YB_CLOCK = ('<svg width="12" height="12" viewBox="0 0 24 24" fill="none" '
+            'stroke="currentColor" stroke-width="2.4" stroke-linecap="round" '
+            'stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" '
+            'r="9"/><path d="M12 7v5l3 2"/></svg>')
+YB_TICK = "M5 12l5 5 9-10"
+
+
+def _yb_qty(job_list, jtype):
+    return sum(int(q or 0) for j in job_list if j.get("type") == jtype
+               for q in (j.get("units") or {}).values())
+
+
+def _yb_job_html(dk, ji, job):
+    e = _html_esc.escape
+    jtype = job.get("type", "On Hire")
+    colour, arrow = YB_TYPE.get(jtype, ("#40424a", "M5 12h14"))
+    label = jtype
     if job.get("site_move_type"):
-        sm_icon = "🔄" if job["site_move_type"] == "Movement on Same Site" else "🚛"
-        type_tag += (f'<span class="jchip-idtag" style="margin-left:3px;">'
-                     f'{sm_icon} {job["site_move_type"]}</span>')
-    id_tag   = ""
+        label += f" · {job['site_move_type']}"
+    units = ", ".join(f"{q} × {u}" for u, q in (job.get("units") or {}).items() if q)
+    h = job.get("haulage", "None")
+    haul = ("Kensite HIAB" if h == "Internal Haulage"
+            else (job.get("haulage_who") or "External") if h == "External Haulage"
+            else "")
+    meta = [x for x in [job.get("postcode", ""), haul] if x]
+    tags = ""
+    if job.get("added_by") == "MCS Auto":
+        tags += "<span class='yb-tag'>MCS</span>"
     if job.get("install_dismantle"):
-        id_tag = (f'<span class="jchip-idtag" style="background:{K_GREEN};'
-                  f'color:white;margin-left:3px;">I/D</span>')
-
-    # Haulage border
-    haulage = job.get("haulage", "None")
-    if haulage == "Internal Haulage":
-        border_style = f"border-left:4px solid {K_GREEN};"
-        haul_tag = f'<span class="jchip-idtag" style="background:{K_GREEN_PALE};color:{K_GREEN_DARK};margin-left:3px;">🚛 Internal</span>'
-    elif haulage == "External Haulage":
-        border_style = "border-left:4px solid #c0392b;"
-        haul_who = job.get("haulage_who", "")
-        haul_label = f"🚚 {haul_who}" if haul_who else "🚚 External"
-        haul_tag = f'<span class="jchip-idtag" style="background:#fdecea;color:#7b1a1a;margin-left:3px;">{haul_label}</span>'
-    else:
-        border_style = ""
-        haul_tag = ""
-
-    # Timestamp line
-    ts_parts = []
-    if job.get("added_by"):
-        ts_parts.append(job["added_by"])
-    if job.get("timestamp"):
-        ts_parts.append(job["timestamp"])
-    ts_html = ""
-    if ts_parts:
-        ts_html = f'<span class="jchip-ts">🕐 {" · ".join(ts_parts)}</span>'
-    if job.get("edited_at"):
-        ts_html += f'<span class="jchip-ts">✏️ {job.get("edited_by","")} · {job["edited_at"]}</span>'
-
+        tags += "<span class='yb-tag'>I/D</span>"
+    who = _checked_by(dk, ji)
+    state = (f"<span class='yb-ok'>{_yb_svg(YB_TICK, '#0a6a30', 12, 3)}{e(who)}</span>"
+             if who else "<span class='yb-not'>Not Checked</span>")
+    qs = _queries_for_job(dk, ji)
+    if any(q.get("status") == "open" for _, q in qs):
+        state += "<span class='yb-qopen'>Query Open</span>"
+    elif any(q.get("status") == "answered" for _, q in qs):
+        state += "<span class='yb-qans'>Query Answered</span>"
+    border = "#e7a59c" if any(q.get("status") == "open" for _, q in qs) else "#dfe3df"
     return (
-        f'<div class="jchip" id="{chip_id}" style="background:{bg};color:{fg};{border_style}">'
-        f'<span class="jchip-name">{name}</span>'
-        + (f'<span class="jchip-sub">{postcode}</span>' if postcode else "")
-        + (f'<span class="jchip-units">{unit_str}</span>' if unit_str else "")
-        + f'<div style="margin-top:2px;">{type_tag}{id_tag}{haul_tag}</div>'
-        + ts_html
-        + "</div>"
-    )
+        f"<div class='yb-job' style='border-color:{border};'>"
+        f"<div class='yb-job-top' style='color:{colour};'>"
+        f"{_yb_svg(arrow, colour)}<span>{e(label)}</span>"
+        f"<span class='yb-time'>{YB_CLOCK}Unknown</span></div>"
+        f"<div class='yb-cust'>{e(job.get('customer') or 'No Customer')}</div>"
+        + (f"<div class='yb-units'>{e(units)}</div>" if units else "")
+        + (f"<div class='yb-meta'>{e(' · '.join(meta))}{tags}</div>" if meta or tags else "")
+        + f"<div class='yb-state'>{state}</div></div>")
 
-# ── CALENDAR ──────────────────────────────────────────────────────────────────
-DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri"]
-MAT_NAMES_DISPLAY = ["Sat", "Sun"]  # kept for reference but column is now Materials
 
-# ── CALENDAR LAYOUT: schedule left, one continuous materials panel right ──
+def _yb_day(day, w_idx):
+    dk = fmt_key(day)
+    day_jobs = jobs.get(dk, [])
+    is_today = day == today
+    is_bh = dk in bank_holidays
+    n_q_open, _n_q_ans = _day_query_counts(dk)
+    cls = "yb-day"
+    if is_today:
+        cls += " is-today"
+    elif is_bh:
+        cls += " is-bh"
+    elif day.weekday() > 4:
+        cls += " is-weekend"
+    if n_q_open:
+        cls += " has-query"
+    head = (f"<div class='yb-day-name'>{day.strftime('%a')} "
+            f"<span>{day.strftime('%-d %b')}</span></div>")
+    if n_q_open:
+        head += (f"<span class='yb-qcount' title='{n_q_open} Open "
+                 f"Quer{'ies' if n_q_open > 1 else 'y'}'>{n_q_open}</span>")
+    elif is_today:
+        head += "<span class='yb-today'>Today</span>"
+    counts = (f"<span>{_yb_svg(YB_TYPE['On Hire'][1], '#0d823b')}"
+              f"{_yb_qty(day_jobs, 'On Hire')} Out</span>"
+              f"<span>{_yb_svg(YB_TYPE['Off Hire'][1], '#a61b1b')}"
+              f"{_yb_qty(day_jobs, 'Off Hire')} In</span>")
+    extra = ""
+    if is_bh:
+        extra += f"<div class='yb-bh'>{_html_esc.escape(bank_holidays.get(dk, ''))}</div>"
+    if day_jobs and day_jobs_fulfilment_complete(dk) and daily_checklist_done(dk):
+        extra += "<div class='yb-dailys'>Dailys Complete</div>"
+    sv_count = len(site_visits.get(dk, []))
+    if sv_count:
+        extra += (f"<div class='yb-sv'>{sv_count} Site Visit"
+                  f"{'s' if sv_count > 1 else ''}</div>")
+    st.markdown(
+        f"<div class='{cls}'><div class='yb-day-head'><div class='yb-day-top'>{head}</div>"
+        f"<div class='yb-counts'>{counts}</div>{extra}</div></div>",
+        unsafe_allow_html=True)
+    for ji, job in enumerate(day_jobs):
+        with st.container(key=f"ybjob_{dk}_{ji}"):
+            st.markdown(_yb_job_html(dk, ji, job), unsafe_allow_html=True)
+            if st.button(f"Open {job.get('customer', 'Job')}", key=f"ybopen_{dk}_{ji}",
+                         use_container_width=True):
+                open_dialog(expand_date=dk, expand_idx=ji)
+                st.rerun()
+    if not day_jobs:
+        st.markdown("<div class='yb-empty'>Nothing Booked Yet</div>",
+                    unsafe_allow_html=True)
+    name = day.strftime("%a")
+    with st.container(key=f"ybadd_{dk}"):
+        if st.button(f"+ Add {name}", key=f"day_{dk}", use_container_width=True):
+            open_dialog(modal_date=dk, modal_edit_idx=None)
+            st.rerun()
+    if day_jobs or sv_count:
+        with st.container(key=f"ybview_{dk}"):
+            if st.button(f"Open {name}", key=f"dayview_{dk}", use_container_width=True,
+                         help="Dailys, MCS check, site visits and every job for the day"):
+                open_dialog(day_view_date=dk)
+                st.rerun()
+
+
+def _yb_week_label(ws):
+    this_mon = get_monday(today)
+    span = f"{ws.strftime('%-d')} to {(ws + timedelta(days=4)).strftime('%-d %b')}"
+    if ws == this_mon:
+        return f"This Week, {span}"
+    if ws == this_mon + timedelta(weeks=1):
+        return f"Next Week, {span}"
+    if ws == this_mon - timedelta(weeks=1):
+        return f"Last Week, {span}"
+    return f"Week {week_num(ws)}, {span}"
+
+
 sched_col, mat_col = st.columns([5, 1.4], gap="medium")
 
 with sched_col:
-    # Day name headers — 5 weekday cols + 1 materials col (spanning Sat+Sun space)
-    hcols = st.columns(5)
-    for i, col in enumerate(hcols[:5]):
-        with col:
-            st.markdown(
-                f"<div style='text-align:center;font-size:11px;font-weight:700;"
-                f"color:{K_GREY};opacity:.45;letter-spacing:.07em;text-transform:uppercase;"
-                f"padding-bottom:3px;'>{DAY_NAMES[i]}</div>",
-                unsafe_allow_html=True)
+    show_wkend = st.session_state.get("yb_weekend", False)
     for w in range(n_weeks):
         ws = start_date + timedelta(weeks=w)
-        on_u, off_u, on_total, off_total, internal_dels, external_dels = week_unit_summary(ws)
-        st.markdown(render_week_bar(on_u, off_u, on_total, off_total, internal_dels, external_dels, live_hire), unsafe_allow_html=True)
-        cols = st.columns(5)
-
-        # Mon–Fri day cards (cols 0–4)
+        week_jobs = [j for d in range(7) for j in jobs.get(fmt_key(ws + timedelta(days=d)), [])]
+        _on_u, _off_u, _on_t, _off_t, internal_dels, external_dels = week_unit_summary(ws)
+        n_moves = sum(1 for j in week_jobs if j.get("type") == "Site Move")
+        st.markdown(
+            f"<div class='yb-week'><h3>{_yb_week_label(ws)}</h3><p>"
+            f"<span><b class='g'>{_yb_qty(week_jobs, 'On Hire')}</b> Units Out</span>"
+            f"<span><b class='r'>{_yb_qty(week_jobs, 'Off Hire')}</b> In</span>"
+            f"<span><b class='b'>{n_moves}</b> Site Moves</span>"
+            f"<span>Assets Moving: {internal_dels} Kensite Haulage, "
+            f"{external_dels} External</span></p></div>",
+            unsafe_allow_html=True)
+        widths = [1, 1, 1, 1, 1, 0.16] + ([0.8, 0.8] if show_wkend else [])
+        cols = st.columns(widths, gap="small")
         for d in range(5):
-            day        = ws + timedelta(days=d)
-            dk         = fmt_key(day)
-            is_today   = day == today
-            is_bh      = dk in bank_holidays
-            bh_name    = bank_holidays.get(dk, "")
-
-            n_q_open, n_q_ans = _day_query_counts(dk)
-
-            card_cls = "is-today" if is_today else ("is-bh" if is_bh else "")
-            if not is_today and not is_bh:
-                if day_jobs_fulfilment_complete(dk) and daily_checklist_done(dk) and jobs.get(dk):
-                    card_cls = "is-complete"
-            # A live yard query outranks every other state — the day glows red
-            if n_q_open:
-                card_cls = "has-query"
-            date_cls = "is-today" if is_today else ""
-
             with cols[d]:
-                day_jobs = jobs.get(dk, [])
-                summary_html = ""
-                if day_jobs:
-                    type_counts, type_checked = {}, {}
-                    for _ji, job in enumerate(day_jobs):
-                        t = job.get("type", "On Hire")
-                        type_counts[t] = type_counts.get(t, 0) + 1
-                        if _checked_by(dk, _ji):
-                            type_checked[t] = type_checked.get(t, 0) + 1
-                    for t, cnt in type_counts.items():
-                        bg, fg, _ = TYPE_STYLE[t]
-                        n_ck  = type_checked.get(t, 0)
-                        label = f"{cnt} × {t}"
-                        # green glow once every job of this type is checked
-                        pill_cls = "day-sum-pill is-checked" if n_ck == cnt else "day-sum-pill"
-                        if n_ck and n_ck < cnt:
-                            label += f"  ✅{n_ck}/{cnt}"
-                        elif n_ck == cnt:
-                            label += "  ✅"
-                        summary_html += (
-                            f'<div class="{pill_cls}" style="background:{bg};color:{fg};">'
-                            f'<div class="day-sum-dot" style="background:{fg};opacity:.5;"></div>'
-                            f'<span class="day-sum-label">{label}</span>'
-                            f'</div>'
-                        )
-                    haul_icons = []
-                    for job in day_jobs:
-                        h = job.get("haulage", "None")
-                        if h == "Internal Haulage" and "🚛" not in haul_icons:
-                            haul_icons.append("🚛")
-                        elif h == "External Haulage" and "🚚" not in haul_icons:
-                            haul_icons.append("🚚")
-                    if haul_icons:
-                        summary_html += (
-                            f'<div style="font-size:10px;padding:2px 5px;opacity:.6;">'
-                            f'{" ".join(haul_icons)}</div>'
-                        )
-                else:
-                    summary_html = "<div class='day-empty'>No jobs</div>"
-
-                jobs_done   = day_jobs_fulfilment_complete(dk)
-                dailys_done = daily_checklist_done(dk)
-                if day_jobs and jobs_done and dailys_done:
-                    summary_html += (
-                        f'<div style="font-size:9px;font-weight:700;color:#7a5c00;'
-                        f'background:#fff3b0;border-radius:3px;padding:1px 5px;margin-top:1px;'
-                        f'display:inline-block;">✨ Daily\'s Complete</div>'
-                    )
-                elif day_jobs and dailys_done:
-                    summary_html += f'<div style="font-size:9px;color:{K_GREEN_DARK};padding:1px 5px;">✅ Dailys done</div>'
-                elif day_jobs and jobs_done:
-                    summary_html += f'<div style="font-size:9px;color:{K_GREEN_DARK};padding:1px 5px;">✅ Jobs complete</div>'
-
-                if n_q_open:
-                    summary_html += (
-                        f"<div class='day-query-flag'>❗ {n_q_open} Query"
-                        f"{'s' if n_q_open > 1 else ''} — needs answer</div>")
-                if n_q_ans:
-                    summary_html += (
-                        f"<div class='day-answer-flag'>💬 {n_q_ans} Answered"
-                        f"</div>")
-
-                sv_count = len(site_visits.get(dk, []))
-                if sv_count:
-                    summary_html += (
-                        f'<div style="font-size:10px;font-weight:700;'
-                        f'color:{K_PURPLE_DARK};padding:2px 5px;margin-top:1px;">'
-                        f'🔍 {sv_count} Site Visit{"s" if sv_count > 1 else ""}</div>'
-                    )
-
-                bh_tag = (f"<div class='bh-label'>🏴󠁧󠁢󠁥󠁮󠁧󠁿 {bh_name}</div>" if is_bh else "")
-                st.markdown(
-                    f"<div class='day-card {card_cls}'>"
-                    f"<div class='day-head'>"
-                    f"<div class='day-name'>{day.strftime('%a')}</div>"
-                    f"<div class='day-date {date_cls}'>{day.strftime('%-d %b')}</div>"
-                    f"{bh_tag}</div>"
-                    f"<div class='day-body'>{summary_html}</div>"
-                    f"</div>",
-                    unsafe_allow_html=True)
-
-        # ── Button row — Mon–Fri only ─────────────────────────────────────────────
-        btn_cols = st.columns(5)
-        for d in range(5):
-            day      = ws + timedelta(days=d)
-            dk       = fmt_key(day)
-            day_jobs = jobs.get(dk, [])
-            with btn_cols[d]:
-                st.markdown("<div class='ks-add-btn'>", unsafe_allow_html=True)
-                if st.button("＋ Add / View", key=f"day_{dk}", use_container_width=True):
-                    if day_jobs:
-                        open_dialog(day_view_date=dk)
-                    else:
-                        open_dialog(modal_date=dk, modal_edit_idx=None)
+                _yb_day(ws + timedelta(days=d), w)
+        with cols[5]:
+            with st.container(key=f"ybband_{w}"):
+                if st.button("Hide Weekend" if show_wkend else "Sat and Sun",
+                             key=f"ybband_btn_{w}", use_container_width=True,
+                             help="Hide Saturday and Sunday" if show_wkend
+                             else "Show Saturday and Sunday"):
+                    st.session_state["yb_weekend"] = not show_wkend
                     st.rerun()
-                st.markdown("</div>", unsafe_allow_html=True)
+        if show_wkend:
+            for d in (5, 6):
+                with cols[d + 1]:
+                    _yb_day(ws + timedelta(days=d), w)
 
 with mat_col:
+    _open_q = [(qid, q) for qid, q in queries.items() if q.get("status") == "open"]
+    _open_q.sort(key=lambda x: x[1].get("date", ""))
+    st.markdown(
+        f"<div class='yb-side-head'>Queries"
+        + (f"<span class='yb-qcount'>{len(_open_q)}</span>" if _open_q else "")
+        + "</div>", unsafe_allow_html=True)
+    if not _open_q:
+        st.markdown("<div class='yb-empty'>No Open Queries</div>", unsafe_allow_html=True)
+    for qid, q in _open_q[:8]:
+        jref = q.get("job") or {}
+        try:
+            qday = datetime.strptime(q.get("date", ""), "%Y-%m-%d").strftime("%a %-d %b")
+        except ValueError:
+            qday = q.get("date", "")
+        st.markdown(
+            f"<div class='yb-q'><div class='yb-q-top'>{_html_esc.escape(qday)} · "
+            f"{_html_esc.escape(str(q.get('raised_by', '')))} Is Asking</div>"
+            f"<div class='yb-q-cust'>{_html_esc.escape(str(jref.get('customer', '')))}</div>"
+            f"<div class='yb-q-text'>{_html_esc.escape(str(q.get('question', '')))}</div></div>",
+            unsafe_allow_html=True)
+        if st.button("Answer", key=f"ybq_{qid}", use_container_width=True):
+            open_dialog(query_date=q.get("date"), query_idx=int(q.get("job_idx", 0)))
+            st.rerun()
+    st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
     _badge_groups = {}
     for _r in materials.values():
         _badge_groups.setdefault(_mat_request_key(_r), []).append((0, _r))
@@ -4622,7 +4696,7 @@ with mat_col:
     st.markdown(
         f"<div style='font-size:11px;font-weight:700;color:{K_GREY};"
         f"opacity:.7;letter-spacing:.07em;text-transform:uppercase;"
-        f"padding-bottom:3px;text-align:center;'>🔧 Materials{_badge}</div>",
+        f"padding-bottom:3px;text-align:center;'>Materials{_badge}</div>",
         unsafe_allow_html=True)
 
     st.markdown("<div class='ks-add-btn'>", unsafe_allow_html=True)
