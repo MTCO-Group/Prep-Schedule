@@ -22141,8 +22141,10 @@
       "raised_by": "Alex",
       "raised_at": "03/09/2026 13:51",
       "question": "Test",
-      "status": "open",
-      "answer": ""
+      "status": "answered",
+      "answer": "test",
+      "answered_by": "Nathan",
+      "answered_at": "02/11/2026 14:38"
     },
     "d3c079e8b4": {
       "id": "d3c079e8b4",
