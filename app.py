@@ -2237,6 +2237,69 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-ql .t{{font-size:12px;font-weight:700;display:flex;gap:8px;}} .yb-ql.open .t{{color:#b42318;}} .yb-ql.ans .t{{color:#1d4f91;}}
 .yb-ql .t span{{color:#4f535b;font-weight:600;}}
 .yb-ql .c{{font-size:14px;font-weight:700;}} .yb-ql .x{{font-size:14px;color:#3c3f45;line-height:1.4;}}
+/* ── Yard Board V3: full bleed bar, page ground, day columns as one pill ── */
+[data-testid="stHeader"]{{display:none !important;}}
+.stApp,[data-testid="stAppViewContainer"],[data-testid="stMain"]{{background:#f3f4f2 !important;}}
+[data-testid="stMain"]{{overflow-x:hidden;}}
+.main .block-container,[data-testid="stMainBlockContainer"]{{padding-top:0 !important;}}
+[data-testid="stMainBlockContainer"]{{padding-left:24px !important;padding-right:24px !important;max-width:100% !important;}}
+[data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybhead"]){{margin:0 -24px 6px;width:calc(100% + 48px);max-width:none;}}
+[class*="st-key-ybhead"]{{background:{K_GREEN};padding:12px 24px;box-sizing:border-box;width:100% !important;max-width:none !important;}}
+[data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(iframe){{position:absolute !important;height:0 !important;overflow:hidden;}}
+[data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(style){{display:none !important;}}
+[class*="st-key-ybhead"] [data-testid="stHorizontalBlock"]{{flex-wrap:wrap;row-gap:10px;}}
+.yb-brand{{display:flex;align-items:center;gap:14px;}}
+.yb-bar-title{{font-size:17px;font-weight:600;color:#fff;white-space:nowrap;}}
+.yb-range{{font-size:15px;font-weight:600;color:#fff !important;white-space:nowrap;text-align:center;transform:none !important;}}
+[class*="st-key-ybhead"] [data-testid="stTextInput"] *,[class*="st-key-ybhead"] [data-testid="stSelectbox"] *{{
+        background-color:transparent !important;border-color:transparent !important;color:#fff !important;}}
+[class*="st-key-ybhead"] [data-testid="stTextInputRootElement"],[class*="st-key-ybhead"] [data-testid="stSelectbox"] > div:last-child{{
+        background:rgba(255,255,255,.14) !important;border-radius:8px !important;}}
+[class*="st-key-ybhead"] input{{color:#fff !important;caret-color:#fff;background:transparent !important;font-size:15px !important;}}
+[class*="st-key-ybhead"] input::placeholder{{color:#fff !important;opacity:1;}}
+[class*="st-key-ybhead"] [data-baseweb="select"] *{{color:#fff !important;}}
+[class*="st-key-ybhead"] [data-baseweb="select"] svg{{fill:#fff !important;}}
+.st-key-yb_today button{{background:transparent !important;border:1px solid rgba(255,255,255,.55) !important;color:#fff !important;font-weight:600 !important;}}
+.st-key-yb_prev button,.st-key-yb_next button{{background:transparent !important;border:0 !important;color:#fff !important;min-height:40px;}}
+.st-key-yb_prev button p,.st-key-yb_next button p{{font-size:0 !important;}}
+.st-key-yb_prev button p::before,.st-key-yb_next button p::before{{content:"";display:inline-block;width:18px;height:18px;
+        background:no-repeat center/18px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 6l-6 6 6 6'/%3E%3C/svg%3E");}}
+.st-key-yb_next button p::before{{transform:scaleX(-1);}}
+.st-key-yb_prev button:hover,.st-key-yb_next button:hover,.st-key-yb_today button:hover{{background:rgba(255,255,255,.16) !important;}}
+[class*="st-key-ybhead"] [data-testid="stPopover"] button{{background:#fff !important;color:#0a6a30 !important;border:0 !important;font-weight:700 !important;}}
+[class*="st-key-ybhead"] [data-testid="stPopover"] button p{{font-weight:700 !important;}}
+[class*="st-key-ybhead"] [data-testid="stPopover"] button svg{{fill:#0a6a30 !important;}}
+[class*="st-key-ybweek_"] [data-testid="stHorizontalBlock"]{{align-items:stretch !important;}}
+[class*="st-key-ybweek_"] [data-testid="stColumn"] > [data-testid="stVerticalBlock"]{{height:100%;}}
+[data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybday_"]),[data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybband_"]){{flex:1 1 auto;display:flex;}}
+[class*="st-key-ybday_"] [data-testid="stMarkdownContainer"],[class*="st-key-ybday_"] [data-testid="stMarkdown"]{{margin-bottom:0 !important;}}
+[class*="st-key-ybday_"]{{background:#f9faf8;border:1px solid #e1e5e1;border-radius:10px;padding:0 8px 8px !important;
+        gap:6px !important;flex:1 1 auto;height:100%;box-sizing:border-box;}}
+[class*="st-key-ybday_"][class*="_today"]{{background:#e9f4ec;border-color:#a9d3b6;}}
+[class*="st-key-ybday_"][class*="_query"],[class*="st-key-ybday_"][class*="_todayq"]{{border-color:#e7a59c;}}
+[class*="st-key-ybday_"][class*="_wkend"]{{background:#eef0ed;}}
+[class*="st-key-ybday_"][class*="_bh"]{{background:#fffbea;border-color:#e6c200;}}
+[class*="st-key-ybday_"] .yb-day-head{{margin:0 -8px;padding:10px 12px 8px;border-bottom:1px solid #e3e6e2;}}
+[class*="st-key-ybjob_"]{{margin-bottom:0 !important;}}
+[class*="st-key-ybfoot_"]{{margin-top:auto;gap:2px !important;}}
+[class*="st-key-ybview_"] button{{border:0 !important;background:transparent !important;min-height:30px !important;
+        padding:0 !important;color:#4f535b !important;}}
+[class*="st-key-ybview_"] button p{{font-size:12px !important;font-weight:600;}}
+[class*="st-key-ybview_"] button:hover p{{color:#1f2125;text-decoration:underline;text-underline-offset:3px;}}
+[class*="st-key-ybband_"]{{height:100%;}}
+[class*="st-key-ybband_"] [data-testid="stButton"],[class*="st-key-ybband_"] [data-testid="stButton"] > div,
+[class*="st-key-ybband_"] button{{height:100% !important;}}
+[class*="st-key-ybband_"] > div{{height:100%;}}
+.yb-week{{margin:4px 0 2px !important;}}
+[data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybfoot_"]){{margin-top:auto;}}
+[class*="st-key-ybband_"]{{flex:1 1 auto;}}
+@media (max-width: 640px) {{
+  [class*="st-key-ybhead"] [data-testid="stHorizontalBlock"]{{flex-direction:row !important;flex-wrap:wrap !important;gap:8px !important;}}
+  [class*="st-key-ybhead"] [data-testid="stColumn"]{{flex:1 1 auto !important;width:auto !important;min-width:0 !important;}}
+  [class*="st-key-ybhead"] [data-testid="stColumn"]:nth-child(1),[class*="st-key-ybhead"] [data-testid="stColumn"]:nth-child(2),
+  [class*="st-key-ybhead"] [data-testid="stColumn"]:nth-child(6){{flex:1 1 100% !important;}}
+  [class*="st-key-ybhead"] [data-testid="stColumn"]:nth-child(3),[class*="st-key-ybhead"] [data-testid="stColumn"]:nth-child(5){{flex:0 0 44px !important;}}
+}}
 
 /* Header */
 .ks-header{{display:flex;align-items:center;gap:12px;padding:10px 0 12px;
@@ -4241,16 +4304,16 @@ st.markdown(f"""
 <style>
 /* green outline on the header search box only - targeted by its
    placeholder text so it survives Streamlit DOM differences */
-div[data-baseweb="input"]:has(input[placeholder*="Search Customer"]) {{
+div[data-baseweb="input"]:has(input[placeholder*="yb-old-search"]) {{
   border: 2px solid {K_GREEN} !important;
   border-radius: 8px;
   background: {K_WHITE} !important;
 }}
-div[data-baseweb="input"]:has(input[placeholder*="Search Customer"])
+div[data-baseweb="input"]:has(input[placeholder*="yb-old-search"])
     input {{
   background: {K_WHITE} !important;
 }}
-div[data-baseweb="input"]:has(input[placeholder*="Search Customer"])
+div[data-baseweb="input"]:has(input[placeholder*="yb-old-search"])
     :focus-within {{
   box-shadow: 0 0 0 3px {K_GREEN_PALE};
 }}
@@ -4260,51 +4323,57 @@ div[data-baseweb="input"]:has(input[placeholder*="Search Customer"])
 
 # ── YARD BOARD HEADER, 02/11/2026 ────────────────────────────────────────────
 # The Yard Board redesign (approved on the Claude Design canvas, 02/11/2026).
-# A green Kensite bar carries the real logo; the week controls and the
-# search sit in one row beneath it. The date range is worked out here
-# (it used to be below the nav row) because the header row shows it.
+# One full width green Kensite bar holds the logo, the search, the week
+# controls, the date range and Add Job, as on the canvas. The date range is
+# worked out here because the bar shows it.
 YB_LOGO_HTML = ('<img alt="Kensite" style="height:30px;width:auto;display:block;" '
                 'src="data:image/png;base64,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">')
-st.markdown(f"""
-<div class="yb-bar">
-  {YB_LOGO_HTML}
-  <span class="yb-bar-title">Prep Schedule</span>
-</div>
-""", unsafe_allow_html=True)
-
 today      = date.today()
 start_date = get_monday(today) + timedelta(weeks=st.session_state.week_offset)
 n_weeks    = st.session_state.n_weeks
 end_date   = start_date + timedelta(days=n_weeks * 7 - 1)
 
-n1, n2, n3, n4, n5, n6 = st.columns([1.1, 0.8, 1.1, 0.9, 1.9, 4.2],
-                                    vertical_alignment="center")
-with n1:
-    if st.button("Prev Week", use_container_width=True):
-        st.session_state.week_offset -= 1; st.rerun()
-with n2:
-    if st.button("Today", use_container_width=True):
-        st.session_state.week_offset = 0; st.rerun()
-with n3:
-    if st.button("Next Week", use_container_width=True):
-        st.session_state.week_offset += 1; st.rerun()
-with n4:
-    week_opts = [1, 2, 3, 4, 5, 6]
-    nw = st.selectbox("Weeks Shown", week_opts,
-                      index=week_opts.index(st.session_state.n_weeks)
-                            if st.session_state.n_weeks in week_opts else 3,
-                      label_visibility="collapsed",
-                      format_func=lambda x: f"{x} {'Week' if x == 1 else 'Weeks'}")
-    if nw != st.session_state.n_weeks:
-        st.session_state.n_weeks = nw; st.rerun()
-with n5:
-    st.markdown(
-        f"<div class='yb-range'>{start_date.strftime('%-d %b')} to "
-        f"{end_date.strftime('%-d %b %Y')}</div>", unsafe_allow_html=True)
-with n6:
-    search_q = st.text_input(
-        "Find a Job", key="job_search", label_visibility="collapsed",
-        placeholder="Search Customer, Contract or Postcode")
+with st.container(key="ybhead"):
+    h1, h2, h3, h4, h5, h6, h7, h8 = st.columns(
+        [2.1, 3.2, 0.42, 0.8, 0.42, 1.55, 0.95, 1.05], gap="small",
+        vertical_alignment="center")
+    with h1:
+        st.markdown(f"<div class='yb-brand'>{YB_LOGO_HTML}"
+                    f"<span class='yb-bar-title'>Prep Schedule</span></div>",
+                    unsafe_allow_html=True)
+    with h2:
+        search_q = st.text_input(
+            "Find a Job", key="job_search", label_visibility="collapsed",
+            placeholder="Customer, Contract or Postcode")
+    with h3:
+        if st.button("Prev", key="yb_prev", help="Previous Week", use_container_width=True):
+            st.session_state.week_offset -= 1; st.rerun()
+    with h4:
+        if st.button("Today", key="yb_today", use_container_width=True):
+            st.session_state.week_offset = 0; st.rerun()
+    with h5:
+        if st.button("Next", key="yb_next", help="Next Week", use_container_width=True):
+            st.session_state.week_offset += 1; st.rerun()
+    with h6:
+        st.markdown(
+            f"<div class='yb-range'>{start_date.strftime('%-d')} to "
+            f"{end_date.strftime('%-d %b %Y')}</div>", unsafe_allow_html=True)
+    with h7:
+        week_opts = [1, 2, 3, 4, 5, 6]
+        nw = st.selectbox("Weeks Shown", week_opts,
+                          index=week_opts.index(st.session_state.n_weeks)
+                                if st.session_state.n_weeks in week_opts else 3,
+                          label_visibility="collapsed", key="yb_weeks",
+                          format_func=lambda x: f"{x} {'Week' if x == 1 else 'Weeks'}")
+        if nw != st.session_state.n_weeks:
+            st.session_state.n_weeks = nw; st.rerun()
+    with h8:
+        with st.popover("Add Job", use_container_width=True):
+            _ad = st.date_input("Day", value=today, format="DD/MM/YYYY", key="yb_add_day")
+            if st.button("Add Job for This Day", key="yb_add_go", type="primary",
+                         use_container_width=True):
+                open_dialog(modal_date=fmt_key(_ad), modal_edit_idx=None)
+                st.rerun()
 
 def _job_search_hits(jobs_dict, query):
     hits = []
@@ -4612,15 +4681,10 @@ def _yb_day(day, w_idx):
     is_today = day == today
     is_bh = dk in bank_holidays
     n_q_open, _n_q_ans = _day_query_counts(dk)
-    cls = "yb-day"
-    if is_today:
-        cls += " is-today"
-    elif is_bh:
-        cls += " is-bh"
-    elif day.weekday() > 4:
-        cls += " is-weekend"
-    if n_q_open:
-        cls += " has-query"
+    state = ("today" if is_today else "query" if n_q_open else "bh" if is_bh
+             else "wkend" if day.weekday() > 4 else "plain")
+    if is_today and n_q_open:
+        state = "todayq"
     head = (f"<div class='yb-day-name'>{day.strftime('%a')} "
             f"<span>{day.strftime('%-d %b')}</span></div>")
     if n_q_open:
@@ -4641,32 +4705,36 @@ def _yb_day(day, w_idx):
     if sv_count:
         extra += (f"<div class='yb-sv'>{sv_count} Site Visit"
                   f"{'s' if sv_count > 1 else ''}</div>")
-    st.markdown(
-        f"<div class='{cls}'><div class='yb-day-head'><div class='yb-day-top'>{head}</div>"
-        f"<div class='yb-counts'>{counts}</div>{extra}</div></div>",
-        unsafe_allow_html=True)
-    for ji, job in enumerate(day_jobs):
-        with st.container(key=f"ybjob_{dk}_{ji}"):
-            st.markdown(_yb_job_html(dk, ji, job), unsafe_allow_html=True)
-            if st.button(f"Open {job.get('customer', 'Job')}", key=f"ybopen_{dk}_{ji}",
-                         use_container_width=True):
-                st.session_state["yb_sel"] = (dk, ji)
-                st.session_state["yb_tab"] = "job"
-                st.rerun()
-    if not day_jobs:
-        st.markdown("<div class='yb-empty'>Nothing Booked Yet</div>",
-                    unsafe_allow_html=True)
     name = day.strftime("%a")
-    with st.container(key=f"ybadd_{dk}"):
-        if st.button(f"+ Add {name}", key=f"day_{dk}", use_container_width=True):
-            open_dialog(modal_date=dk, modal_edit_idx=None)
-            st.rerun()
-    if day_jobs or sv_count:
-        with st.container(key=f"ybview_{dk}"):
-            if st.button(f"Open {name}", key=f"dayview_{dk}", use_container_width=True,
-                         help="Dailys, MCS check, site visits and every job for the day"):
-                open_dialog(day_view_date=dk)
-                st.rerun()
+    # the whole day is one rounded column, as on the canvas
+    with st.container(key=f"ybday_{dk}_{state}"):
+        st.markdown(
+            f"<div class='yb-day-head'><div class='yb-day-top'>{head}</div>"
+            f"<div class='yb-counts'>{counts}</div>{extra}</div>",
+            unsafe_allow_html=True)
+        for ji, job in enumerate(day_jobs):
+            with st.container(key=f"ybjob_{dk}_{ji}"):
+                st.markdown(_yb_job_html(dk, ji, job), unsafe_allow_html=True)
+                if st.button(f"Open {job.get('customer', 'Job')}", key=f"ybopen_{dk}_{ji}",
+                             use_container_width=True):
+                    st.session_state["yb_sel"] = (dk, ji)
+                    st.session_state["yb_tab"] = "job"
+                    st.rerun()
+        if not day_jobs:
+            st.markdown("<div class='yb-empty'>Nothing Booked Yet</div>",
+                        unsafe_allow_html=True)
+        with st.container(key=f"ybfoot_{dk}"):
+            with st.container(key=f"ybadd_{dk}"):
+                if st.button(f"+ Add {name}", key=f"day_{dk}", use_container_width=True):
+                    open_dialog(modal_date=dk, modal_edit_idx=None)
+                    st.rerun()
+            if day_jobs or sv_count:
+                with st.container(key=f"ybview_{dk}"):
+                    if st.button(f"Open {name} Day View", key=f"dayview_{dk}",
+                                 use_container_width=True,
+                                 help="Dailys, MCS check, site visits and every job for the day"):
+                        open_dialog(day_view_date=dk)
+                        st.rerun()
 
 
 def _yb_week_label(ws):
@@ -4867,22 +4935,23 @@ with sched_col:
             f"{external_dels} External</span></p></div>",
             unsafe_allow_html=True)
         widths = [1, 1, 1, 1, 1, 0.16] + ([0.8, 0.8] if show_wkend else [])
-        cols = st.columns(widths, gap="small")
-        for d in range(5):
-            with cols[d]:
-                _yb_day(ws + timedelta(days=d), w)
-        with cols[5]:
-            with st.container(key=f"ybband_{w}"):
-                if st.button("Hide Weekend" if show_wkend else "Sat and Sun",
-                             key=f"ybband_btn_{w}", use_container_width=True,
-                             help="Hide Saturday and Sunday" if show_wkend
-                             else "Show Saturday and Sunday"):
-                    st.session_state["yb_weekend"] = not show_wkend
-                    st.rerun()
-        if show_wkend:
-            for d in (5, 6):
-                with cols[d + 1]:
+        with st.container(key=f"ybweek_{w}"):
+            cols = st.columns(widths, gap="small")
+            for d in range(5):
+                with cols[d]:
                     _yb_day(ws + timedelta(days=d), w)
+            with cols[5]:
+                with st.container(key=f"ybband_{w}"):
+                    if st.button("Hide Weekend" if show_wkend else "Sat and Sun",
+                                 key=f"ybband_btn_{w}", use_container_width=True,
+                                 help="Hide Saturday and Sunday" if show_wkend
+                                 else "Show Saturday and Sunday"):
+                        st.session_state["yb_weekend"] = not show_wkend
+                        st.rerun()
+            if show_wkend:
+                for d in (5, 6):
+                    with cols[d + 1]:
+                        _yb_day(ws + timedelta(days=d), w)
 
 with mat_col:
     _yb_tab = st.session_state.get("yb_tab", "job")
