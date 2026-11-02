@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-02T16:28:21+00:00",
- "matched": 27,
+ "generated_at": "2026-11-02T16:38:43+00:00",
+ "matched": 28,
  "other_day": 2,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -209,6 +209,28 @@
     "driver": "SL",
     "run": 1,
     "seq": 2
+   },
+   {
+    "idx": 2,
+    "customer": "MCI Developments Ltd",
+    "postcode": "OL11 2XG",
+    "type": "Off Hire",
+    "contract": "0000032003",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203588730
+    ],
+    "refs": [
+     "AES/64641"
+    ],
+    "bc_customer": "MCI Developments",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 3,
