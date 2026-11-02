@@ -2172,7 +2172,7 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 [class*="st-key-ybjob_"] [data-testid="stButton"]{{position:absolute;inset:0;margin:0;}}
 [class*="st-key-ybjob_"] [data-testid="stButton"] > div, [class*="st-key-ybjob_"] [data-testid="stButton"] button{{width:100% !important;height:100% !important;}}
 [class*="st-key-ybjob_"] [data-testid="stButton"] button{{opacity:0;cursor:pointer;}}
-[class*="st-key-ybjob_"]:hover .yb-job{{border-color:#9fb8a8;background:#fbfdfb;}}
+[class*="st-key-ybjob_"]:hover .yb-job{{background:#f6f8f6;}}
 [class*="st-key-ybjob_"]:focus-within .yb-job{{outline:2px solid {K_GREEN};outline-offset:2px;}}
 [class*="st-key-ybadd_"] button{{border:1px dashed #b9c2bb !important;background:transparent !important;
         color:#3c3f45 !important;font-weight:600 !important;}}
@@ -4659,11 +4659,11 @@ def _yb_job_html(dk, ji, job):
         state += "<span class='yb-qopen'>Query Open</span>"
     elif any(q.get("status") == "answered" for _, q in qs):
         state += "<span class='yb-qans'>Query Answered</span>"
-    border = "#e7a59c" if any(q.get("status") == "open" for _, q in qs) else "#dfe3df"
+    # the pill's border is the job type's colour: green, red or blue
+    border = colour
     ring = ""
     if tuple(st.session_state.get("yb_sel") or ()) == (dk, ji):
-        border = K_GREEN
-        ring = f"box-shadow:0 0 0 2px {K_GREEN},0 2px 6px rgba(16,35,26,.12);"
+        ring = f"box-shadow:0 0 0 2px {colour},0 2px 6px rgba(16,35,26,.14);"
     return (
         f"<div class='yb-job' style='border-color:{border};{ring}'>"
         f"<div class='yb-job-top' style='color:{colour};'>"
