@@ -20907,6 +20907,23 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "P E Jones Contractors ( Manchester) Ltd",
+        "postcode": "",
+        "contract_number": "0000032213",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 09:31"
       }
     ],
     "2026-11-17": [
@@ -21319,6 +21336,29 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Pinington Ltd",
+        "postcode": "LA23 2JD",
+        "contract_number": "0000031882",
+        "units": {
+          "20ft AV": 1,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Windermere Police station, Lake Road, Bowness-on-Windermere, , LA23 2JD",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 09:31",
+        "av_configs": {
+          "20ft AV": {
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-11-18": [
