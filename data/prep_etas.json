@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-02T16:38:43+00:00",
- "matched": 28,
- "other_day": 2,
+ "generated_at": "2026-11-02T16:39:18+00:00",
+ "matched": 27,
+ "other_day": 1,
  "kensite_hiab_jobs": 36,
  "jobs": {
   "2026-11-02": [
@@ -155,7 +155,7 @@
     "why": [
      "PO on this contract",
      "same postcode",
-     "customer alike"
+     "same customer"
     ]
    }
   ],
@@ -385,27 +385,6 @@
     "why": [
      "PO on this contract",
      "same postcode"
-    ]
-   },
-   {
-    "idx": 6,
-    "customer": "CBG Construction Ltd",
-    "postcode": "",
-    "type": "On Hire",
-    "contract": "0000032075",
-    "state": "otherday",
-    "time": "",
-    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
-    "day": "2026-11-05",
-    "bigchange_ids": [
-     203583172
-    ],
-    "refs": [
-     "AES/64632"
-    ],
-    "bc_customer": "Regin construction",
-    "why": [
-     "same customer"
     ]
    }
   ],
