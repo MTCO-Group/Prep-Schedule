@@ -20336,21 +20336,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "Almond Civils Ltd",
-        "postcode": "PR7 5HT",
-        "contract_number": "0000030246",
-        "units": {},
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Elmbrook Park, Story Homes, Coppull, , PR7 5HT | Also on contract: 1x ReHire Power 10KVA; 1x ReHire Power 32A 1PH Cable 25m; 1x Call out Charge 22/05",
-        "added_by": "MCS Auto",
-        "timestamp": "28/10/2026 09:41"
-      },
-      {
-        "type": "Off Hire",
         "customer": "John Reilly Civil Engineering Ltd",
         "postcode": "M38 9XE",
         "contract_number": "0000030221",
