@@ -19760,6 +19760,23 @@
         "added_by": "MCS Auto",
         "timestamp": "30/10/2026 16:10",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Almond Civils Ltd",
+        "postcode": "BB7 9HJ",
+        "contract_number": "0000032145",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: -, -, , BB7 9HJ | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 16:01"
       }
     ],
     "2026-10-31": [
