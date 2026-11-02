@@ -20838,6 +20838,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 09:31"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Regin Construction Services Ltd",
+        "postcode": "",
+        "contract_number": "0000032216",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 15:51"
       }
     ],
     "2026-11-17": [
