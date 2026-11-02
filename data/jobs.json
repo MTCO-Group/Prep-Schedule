@@ -20912,6 +20912,23 @@
         "notes": "",
         "added_by": "Peter",
         "timestamp": "22/10/2026 10:35"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "William Pye Ltd",
+        "postcode": "SK10 3DE",
+        "contract_number": "0000032047",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: BELONG MACCLESFIELD, KENNEDY AVE, MACCLESFIELD, SK10 3DE | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 10:01"
       }
     ],
     "2026-11-03": [
