@@ -2157,6 +2157,8 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-job-top{{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:700;}}
 .yb-time{{margin-left:auto;display:inline-flex;align-items:center;gap:3px;color:#4f535b;font-weight:600;}}
 .yb-cust{{font-size:14px;font-weight:700;}}
+.yb-time-done{{color:#0a6a30 !important;font-weight:700 !important;}}
+.yb-time-live{{color:#1d5fae !important;font-weight:700 !important;}}
 .yb-units{{color:#3c3f45;}}
 .yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
 .yb-tag{{font-weight:700;color:#4f535b;}}
@@ -4633,6 +4635,50 @@ def _yb_qty(job_list, jtype):
                for q in (j.get("units") or {}).values())
 
 
+@st.cache_data(ttl=60)
+def load_prep_etas():
+    """Ken's ETAs for the Kensite HIAB jobs (Ken 29.3 writes data/prep_etas.json
+    after every Big Change check): one GitHub read a minute at most."""
+    try:
+        d, _sha = gh_get("data/prep_etas.json")
+        return d or {}
+    except Exception:
+        return {}
+
+
+YB_ETAS = load_prep_etas()
+
+
+def _yb_eta(dk, ji, job):
+    """Ken's ETA row for this job, or None. Matched on its place in the day and
+    checked against the customer and type, so a reordered day never shows
+    another job's time."""
+    rows = (YB_ETAS.get("jobs") or {}).get(dk) or []
+    same = lambda r: r.get("customer") == job.get("customer") and r.get("type") == job.get("type")
+    for r in rows:
+        if r.get("idx") == ji and same(r):
+            return r
+    for r in rows:
+        if same(r) and (r.get("postcode") or "") == (job.get("postcode") or ""):
+            return r
+    return None
+
+
+def _yb_eta_label(job, eta):
+    """(html for the time slot, plain words) from Ken's ETA row."""
+    if not eta or not eta.get("time"):
+        return f"<span class='yb-time'>{YB_CLOCK}Unknown</span>", "Unknown"
+    t = _html_esc.escape(eta["time"])
+    stt = eta.get("state")
+    if stt == "done":
+        word = "Collected" if job.get("type") == "Off Hire" else "Done" if job.get("type") == "Site Move" else "Delivered"
+        return (f"<span class='yb-time yb-time-done'>{_yb_svg(YB_TICK, '#0a6a30', 13, 3)}{t}</span>",
+                f"{word} {eta['time']}")
+    if stt == "onsite":
+        return f"<span class='yb-time yb-time-live'>{YB_CLOCK}On Site {t}</span>", f"On Site since {eta['time']}"
+    return f"<span class='yb-time{' yb-time-live' if stt == 'live' else ''}'>{YB_CLOCK}ETA {t}</span>", f"ETA {eta['time']}"
+
+
 def _yb_job_html(dk, ji, job):
     e = _html_esc.escape
     jtype = job.get("type", "On Hire")
@@ -4668,7 +4714,7 @@ def _yb_job_html(dk, ji, job):
         f"<div class='yb-job' style='border-color:{border};{ring}'>"
         f"<div class='yb-job-top' style='color:{colour};'>"
         f"{_yb_svg(arrow, colour)}<span>{e(label)}</span>"
-        f"<span class='yb-time'>{YB_CLOCK}Unknown</span></div>"
+        f"{_yb_eta_label(job, _yb_eta(dk, ji, job))[0]}</div>"
         f"<div class='yb-cust'>{e(job.get('customer') or 'No Customer')}</div>"
         + (f"<div class='yb-units'>{e(units)}</div>" if units else "")
         + (f"<div class='yb-meta'>{e(' · '.join(meta))}{tags}</div>" if meta or tags else "")
@@ -4769,7 +4815,7 @@ def _yb_panel_job():
         job.get("postcode", "")] if x)
     st.markdown(
         f"<div class='yb-p-head'><div class='yb-p-type' style='color:{colour};'>"
-        f"{e(jtype)} · {e(day_long)} · Unknown</div>"
+        f"{e(jtype)} · {e(day_long)} · {e(_yb_eta_label(job, _yb_eta(dk, ji, job))[1])}</div>"
         f"<div class='yb-p-cust'>{e(job.get('customer') or 'No Customer')}</div>"
         + (f"<div class='yb-p-sub'>{e(sub)}</div>" if sub else "") + "</div>",
         unsafe_allow_html=True)
@@ -4841,8 +4887,11 @@ def _yb_panel_job():
            else f"Added by {who_add}, {job.get('timestamp', '')}" if who_add else "")
     if job.get("edited_by"):
         src += f". Edited by {job.get('edited_by')}, {job.get('edited_at', '')}"
-    items = [("Arrival", "Unknown<span class='n'>Ken will estimate an arrival once this "
-              "job is on the AES Planner.</span>"),
+    _eta = _yb_eta(dk, ji, job)
+    _lab = _yb_eta_label(job, _eta)[1]
+    _why = ((_eta or {}).get("note") or ("Ken will estimate an arrival once this job is on a run on the AES Planner."
+            if h == "Internal Haulage" else "Ken only times Kensite HIAB jobs."))
+    items = [("Arrival", e(_lab) + "<span class='n'>" + e(_why) + "</span>"),
              ("Haulage", e(haul)), ("Livery", e(liv)),
              ("Notes", "<span class='p'>" + e(job.get("notes") or "None") + "</span>")]
     if job.get("install_dismantle"):
