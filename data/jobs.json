@@ -21109,6 +21109,26 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Keepmoat Homes, Halegate Road, Widnes, , WA8 8LY | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x 32amp 230v 20mtr Plug; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Chargeable One Off Tank Empty - 06/10 aborted; 1x Chargeable One Off Tank Empty - 07/10",
         "added_by": "MCS Auto",
         "timestamp": "28/10/2026 11:41"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Holmpatrick Developments",
+        "postcode": "WA9 3EX",
+        "contract_number": "0000030424",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1,
+          "Steps": 3,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Sutton, St Helens, , WA9 3EX | Also on contract: 1x 1000G Eflluent Tank; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty -  Every Tueseday starting from; 1x Chargeable Weekly Tank Empty - Every  Thursday starting from",
+        "added_by": "MCS Auto",
+        "timestamp": "02/11/2026 15:41"
       }
     ],
     "2026-11-05": [
