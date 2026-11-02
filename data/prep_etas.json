@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-02T16:49:44+00:00",
- "matched": 27,
+ "generated_at": "2026-11-02T16:51:47+00:00",
+ "matched": 28,
  "other_day": 1,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -525,6 +525,27 @@
     "driver": "SL",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 4,
+    "customer": "P E Jones Contractors ( Manchester) Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032213",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203554111
+    ],
+    "refs": [
+     "AES/64563"
+    ],
+    "bc_customer": "PE JONES  CONTRACTORS",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
    },
    {
     "idx": 5,
