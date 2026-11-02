@@ -20839,31 +20839,6 @@
       },
       {
         "type": "On Hire",
-        "customer": "Brookhouse Contracting Ltd",
-        "postcode": "",
-        "contract_number": "0000031958",
-        "units": {
-          "20ft AV": 1,
-          "20ft Store": 1,
-          "Chemiloo": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Date moved by MCS Auto from 30/10/2026 to 06/11/2026 on 30/10/2026 09:50",
-        "added_by": "MCS Auto",
-        "timestamp": "30/10/2026 09:50",
-        "av_configs": {
-          "20ft AV": {
-            "Canteen": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "On Hire",
         "customer": "P E Jones Contractors ( Manchester) Ltd",
         "postcode": "",
         "contract_number": "0000032213",
