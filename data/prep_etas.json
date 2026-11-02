@@ -1,8 +1,8 @@
 {
  "version": 1,
  "source": "Ken, from Big Change and the AES planner",
- "generated_at": "2026-11-02T15:45:26+00:00",
- "matched": 19,
+ "generated_at": "2026-11-02T15:49:27+00:00",
+ "matched": 20,
  "kensite_hiab_jobs": 35,
  "jobs": {
   "2026-11-02": [
@@ -338,6 +338,23 @@
     "driver": "CR",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 4,
+    "customer": "Holmpatrick Developments",
+    "postcode": "WA9 3EX",
+    "type": "Off Hire",
+    "contract": "0000030424",
+    "bigchange_ids": [
+     203581720
+    ],
+    "refs": [
+     "AES/64631"
+    ],
+    "bc_customer": "Holmpatrick Developments Ltd",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet"
    }
   ],
   "2026-11-11": [
