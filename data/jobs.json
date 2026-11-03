@@ -22293,6 +22293,22 @@
       "answer": "no",
       "answered_by": "Mitch",
       "answered_at": "25/09/2026 14:48"
+    },
+    "7787d4ebaf": {
+      "id": "7787d4ebaf",
+      "date": "2026-11-09",
+      "job_idx": 1,
+      "job": {
+        "customer": "A Connolly Limited",
+        "contract": "0000032200",
+        "job_type": "On Hire",
+        "postcode": ""
+      },
+      "raised_by": "Chris",
+      "raised_at": "03/11/2026 15:03",
+      "question": "Can we not site move the 3 x store with are being off hired on Friday 6th to this job?",
+      "status": "open",
+      "answer": ""
     }
   }
 }
