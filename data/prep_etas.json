@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T13:51:08+00:00",
+ "generated_at": "2026-11-03T14:07:32+00:00",
  "matched": 28,
  "other_day": 1,
  "kensite_hiab_jobs": 35,
@@ -166,9 +166,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032139",
-    "state": "planned",
-    "time": "11:00",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "15:25",
+    "note": "On the way, 76 min from their last drop (LS3 1JZ) in traffic",
     "bigchange_ids": [
      202017723
     ],
@@ -180,10 +180,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 1,
@@ -992,6 +989,12 @@
   ]
  },
  "live_fixed": {
+  "202017723": {
+   "time": "15:25",
+   "note": "On the way, 76 min from their last drop (LS3 1JZ) in traffic",
+   "at": "14:07",
+   "day": "2026-11-03"
+  },
   "203071227": {
    "time": "15:15",
    "note": "On the way, 86 min from the depot in traffic",
