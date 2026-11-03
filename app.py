@@ -2160,6 +2160,15 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-cust{{font-size:14px;font-weight:700;}}
 .yb-time-done{{color:#0a6a30 !important;font-weight:700 !important;}}
 .yb-time-live{{color:#1d5fae !important;font-weight:700 !important;}}
+.yb-time-truck{{font-weight:700 !important;}}
+.yb-truck{{overflow:visible;}}
+.yb-truck .b{{animation:yb-bob .45s ease-in-out infinite alternate;}}
+.yb-truck .w{{stroke-dasharray:2.1 1;transform-box:fill-box;transform-origin:center;animation:yb-spin .5s linear infinite;}}
+.yb-truck .r{{stroke-width:1.2;stroke-dasharray:3 3;opacity:.6;animation:yb-road .35s linear infinite;}}
+@keyframes yb-bob{{from{{transform:translateY(0);}}to{{transform:translateY(-1px);}}}}
+@keyframes yb-spin{{to{{transform:rotate(360deg);}}}}
+@keyframes yb-road{{to{{stroke-dashoffset:6;}}}}
+@media (prefers-reduced-motion: reduce){{.yb-truck *{{animation:none !important;}}}}
 .yb-time-other{{color:#8a4a06 !important;font-weight:700 !important;}}
 .yb-units{{color:#3c3f45;}}
 .yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
@@ -4772,6 +4781,13 @@ def _yb_haulier(dk, ji, job):
     return None
 
 
+YB_TRUCK = ('<svg class="yb-truck" width="20" height="15" viewBox="0 0 26 19" fill="none" stroke="currentColor" '
+            'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<path class="r" d="M0 18h26"/>'
+            '<g class="b"><path d="M2 3h12v9H2z"/><path d="M14 6h5l3.5 3.5V12H14z"/></g>'
+            '<circle class="w" cx="6" cy="14" r="2"/><circle class="w" cx="18.5" cy="14" r="2"/></svg>')
+
+
 def _yb_eta_label(job, eta):
     """(html for the time slot, plain words) from Ken's ETA row."""
     if eta and eta.get("state") == "otherday" and eta.get("day"):
@@ -4791,7 +4807,12 @@ def _yb_eta_label(job, eta):
                 f"{word} {eta['time']}")
     if stt == "onsite":
         return f"<span class='yb-time yb-time-live'>{YB_CLOCK}On Site {t}</span>", f"On Site since {eta['time']}"
-    return f"<span class='yb-time{' yb-time-live' if stt == 'live' else ''}'>{YB_CLOCK}ETA {t}</span>", f"ETA {eta['time']}"
+    if stt == "live":
+        # 03/11/2026: on the driver's run now, so a truck in the job's colour drives in place
+        col = YB_TYPE.get(job.get("type"), ("#1d5fae", ""))[0]
+        return (f"<span class='yb-time yb-time-truck' style='color:{col};' title='Live: AES have this job on now'>"
+                f"{YB_TRUCK}ETA {t}</span>", f"Live, ETA {eta['time']}")
+    return f"<span class='yb-time'>{YB_CLOCK}ETA {t}</span>", f"ETA {eta['time']}"
 
 
 def _yb_job_html(dk, ji, job):
