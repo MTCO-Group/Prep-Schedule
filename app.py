@@ -2322,6 +2322,15 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
         border:1px solid #0d823b !important;background:#fff !important;color:#0a6a30 !important;}}
 [class*="st-key-ybio_"] button p{{font-size:14px !important;font-weight:700;}}
 [class*="st-key-ybio_"] button:hover{{background:#e9f4ec !important;}}
+/* 03/11/2026: the In & Out button sits on the totals line, just after it, level with it */
+[class*="st-key-ybwhead_"] [data-testid="stHorizontalBlock"]{{justify-content:flex-start;align-items:center;gap:16px;flex-wrap:wrap;}}
+[class*="st-key-ybwhead_"] [data-testid="stColumn"]{{flex:0 0 auto !important;width:auto !important;min-width:0 !important;}}
+[class*="st-key-ybwhead_"] .yb-week{{margin:0 !important;align-items:center;}}
+[class*="st-key-ybwhead_"] .yb-week h3,[class*="st-key-ybwhead_"] .yb-week p{{margin:0 !important;}}
+[class*="st-key-ybwhead_"] [data-testid="stMarkdownContainer"],[class*="st-key-ybwhead_"] [data-testid="stElementContainer"]{{margin:0 !important;}}
+[class*="st-key-ybio_"] button{{min-height:28px !important;height:28px !important;padding:0 12px !important;}}
+[class*="st-key-ybio_"] button p{{font-size:13px !important;}}
+[class*="st-key-ybwhead_"]{{margin:14px 0 8px;}}
 [data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybfoot_"]){{margin-top:auto;}}
 [class*="st-key-ybband_"]{{flex:1 1 auto;}}
 @media (max-width: 640px) {{
