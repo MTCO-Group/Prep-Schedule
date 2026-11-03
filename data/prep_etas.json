@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T10:36:20+00:00",
- "matched": 23,
+ "generated_at": "2026-11-03T10:38:30+00:00",
+ "matched": 25,
  "other_day": 1,
  "kensite_hiab_jobs": 31,
  "jobs": {
@@ -708,6 +708,52 @@
     "driver": "CR",
     "run": 1,
     "seq": 1
+   }
+  ],
+  "2026-11-16": [
+   {
+    "idx": 1,
+    "customer": "A Connolly Limited",
+    "postcode": "OL9 8JN",
+    "type": "Off Hire",
+    "contract": "0000031696",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203636782,
+     203637050
+    ],
+    "refs": [
+     "AES/64647",
+     "AES/64648"
+    ],
+    "bc_customer": "A Connolly Limited",
+    "why": [
+     "same customer"
+    ]
+   },
+   {
+    "idx": 2,
+    "customer": "A Connolly Limited",
+    "postcode": "OL9 8NH",
+    "type": "Off Hire",
+    "contract": "0000030988",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203636782,
+     203637050
+    ],
+    "refs": [
+     "AES/64647",
+     "AES/64648"
+    ],
+    "bc_customer": "A Connolly Limited",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-17": [
