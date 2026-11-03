@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T12:31:49+00:00",
+ "generated_at": "2026-11-03T12:42:10+00:00",
  "matched": 28,
  "other_day": 1,
  "kensite_hiab_jobs": 35,
@@ -555,7 +555,7 @@
     "contract": "0000032216",
     "state": "otherday",
     "time": "",
-    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
+    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same postcode, same customer)",
     "day": "2026-11-05",
     "bigchange_ids": [
      203583172
@@ -565,6 +565,7 @@
     ],
     "bc_customer": "Regin construction",
     "why": [
+     "same postcode",
      "same customer"
     ]
    }
