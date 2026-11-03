@@ -20887,6 +20887,21 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 15:51"
+      },
+      {
+        "type": "On Hire",
+        "customer": "MWH Treatment",
+        "postcode": "",
+        "contract_number": "0000032221",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Fitter Labour for Repair",
+        "added_by": "MCS Auto",
+        "timestamp": "03/11/2026 12:40"
       }
     ],
     "2026-11-17": [
