@@ -2170,6 +2170,28 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 @keyframes yb-road{{to{{stroke-dashoffset:6;}}}}
 @media (prefers-reduced-motion: reduce){{.yb-truck *{{animation:none !important;}}}}
 .yb-job.has-pod .yb-cust{{padding-right:58px;}}
+.yb-eta-u{{text-decoration:underline dotted;text-underline-offset:2px;}}
+[class*="st-key-ybjob_"] > div:has([class*="st-key-ybeta_"]){{position:absolute !important;
+        top:4px !important;right:6px !important;left:auto !important;bottom:auto !important;width:96px;height:20px;z-index:4;margin:0;}}
+[class*="st-key-ybeta_"]{{width:100% !important;height:100% !important;}}
+[class*="st-key-ybeta_"] button{{cursor:pointer;}}
+[class*="st-key-ybetabtn_"]{{position:absolute !important;inset:0 !important;width:auto !important;}}
+[class*="st-key-ybjob_"] > div:has([class*="st-key-ybbub_"]){{position:absolute !important;
+        top:30px !important;left:6px !important;right:6px !important;bottom:auto !important;z-index:6;margin:0;}}
+[class*="st-key-ybbub_"]{{gap:0 !important;position:relative !important;}}
+[class*="st-key-ybbubx_"]{{position:absolute !important;top:6px;right:6px;width:22px !important;height:22px !important;z-index:2;}}
+[class*="st-key-ybbub_"] [data-testid="stButton"]{{position:absolute !important;inset:0 !important;}}
+[class*="st-key-ybbub_"] button{{opacity:1 !important;min-height:0 !important;width:22px !important;height:22px !important;
+        padding:0 !important;border:0 !important;background:transparent !important;color:#4f535b !important;}}
+[class*="st-key-ybbub_"] button p{{font-size:13px !important;}}
+.yb-bub{{position:relative;background:#fff;border:1.5px solid var(--bub);border-radius:10px;padding:9px 30px 9px 11px;
+        box-shadow:0 6px 18px rgba(16,35,26,.18);font-size:13px;line-height:1.35;color:#1f2125;
+        display:flex;flex-direction:column;gap:2px;}}
+.yb-bub b{{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--bub);}}
+.yb-bub::before{{content:"";position:absolute;top:-7px;right:44px;width:12px;height:12px;background:#fff;
+        border-left:1.5px solid var(--bub);border-top:1.5px solid var(--bub);transform:rotate(45deg);}}
+.yb-bub.is-wait span{{color:#4f535b;}}
+.yb-bub.is-fail span{{color:#a61b1b;}}
 .yb-pod-st{{font-weight:700;color:#0a6a30;}}
 .yb-pod-st.is-queued{{color:#4f535b;}}
 .yb-pod-st.is-failed{{color:#a61b1b;}}
@@ -4752,6 +4774,9 @@ YB_TINT = {"On Hire": "#e1f1e6", "Off Hire": "#f8e3e3", "Site Move": "#e1ebf8"} 
 # from Big Change. Ken maps the name to an address himself.
 POD_PEOPLE = ["Pete", "Mitch", "Jake", "Klaudia", "Ewa", "Nathan", "Paul", "Chris", "Chloe"]
 POD_FILE = "data/pod requests.json"
+# 03/11/2026: pressing ETA on a live job asks Ken (30.2) to time it again from
+# where the wagon is now; his answer comes back here with the bubble's words.
+ETA_FILE = "data/eta requests.json"
 YB_DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 YB_ORDER = {"On Hire": 0, "Site Move": 1, "Off Hire": 2}
 
@@ -4789,6 +4814,52 @@ YB_ETAS = load_prep_etas()
 
 
 def _yb_eta(dk, ji, job):
+    """Ken's ETA row, with the time from the latest answered ETA press while the job is live."""
+    r = _yb_eta_row(dk, ji, job)
+    if r and r.get("state") == "live":
+        last = _yb_eta_req_latest(dk, ji, job)
+        if last and last.get("status") == "done" and last.get("eta"):
+            return dict(r, time=last["eta"], note=last.get("sentence") or r.get("note", ""))
+    return r
+
+
+def _yb_eta_req_latest(dk, ji, job, fresh=False):
+    """The newest ETA press for this job today, or None. fresh reads GitHub now."""
+    try:
+        doc = gh_get(ETA_FILE)[0] if fresh else load_request_file(ETA_FILE)[0]
+    except Exception:
+        return None
+    mine = [q for q in (doc or {}).get("requests") or []
+            if isinstance(q, dict) and q.get("day") == dk and q.get("idx") == ji
+            and q.get("customer") == job.get("customer")
+            and str(q.get("asked_at") or "")[:10] == datetime.now().strftime("%Y-%m-%d")]
+    return max(mine, key=lambda q: str(q.get("asked_at") or "")) if mine else None
+
+
+def _yb_eta_ask(dk, ji, job, eta):
+    """Queue an ETA refresh for Ken. Returns (request id, '') or ('', why not)."""
+    q = {"id": _uuid.uuid4().hex[:12], "day": dk, "idx": ji, "customer": job.get("customer", ""),
+         "type": job.get("type", ""), "postcode": job.get("postcode", ""),
+         "bigchange_ids": list(eta.get("bigchange_ids") or []), "status": "queued",
+         "asked_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S")}
+    for attempt in range(2):
+        try:
+            doc, sha = gh_get(ETA_FILE)
+            doc = doc if isinstance(doc, dict) else {}
+            doc.setdefault("requests", []).append(q)
+            gh_put(ETA_FILE, doc, sha, msg=f"ETA request: {q['customer']}")
+            load_request_file.clear()
+            return q["id"], ""
+        except requests.HTTPError as ex:
+            if attempt == 0 and getattr(ex.response, "status_code", 0) == 409:
+                continue
+            return "", f"GitHub said {getattr(ex.response, 'status_code', '?')}"
+        except Exception as ex:
+            return "", type(ex).__name__
+    return "", "GitHub was busy"
+
+
+def _yb_eta_row(dk, ji, job):
     """Ken's ETA row for this job, or None. Matched on its place in the day and
     checked against the customer and type, so a reordered day never shows
     another job's time."""
@@ -4891,7 +4962,7 @@ def _yb_eta_label(job, eta):
         # 03/11/2026: on the driver's run now, so a truck in the job's colour drives in place
         col = YB_TYPE.get(job.get("type"), ("#1d5fae", ""))[0]
         return (f"<span class='yb-time yb-time-truck' style='color:{col};' title='Live: AES have this job on now'>"
-                f"{YB_TRUCK}ETA {t}</span>", f"Live, ETA {eta['time']}")
+                f"{YB_TRUCK}<u class='yb-eta-u'>ETA</u> {t}</span>", f"Live, ETA {eta['time']}")
     return f"<span class='yb-time'>{YB_CLOCK}ETA {t}</span>", f"ETA {eta['time']}"
 
 
@@ -5003,6 +5074,29 @@ def _yb_day(day, w_idx):
                     st.session_state["yb_tab"] = "job"
                     st.rerun()
                 _eta = _yb_eta(dk, ji, job)
+                if _eta and _eta.get("state") == "live" and _eta.get("bigchange_ids"):
+                    # press ETA: Ken times it again from where the wagon is now
+                    with st.container(key=f"ybeta_{dk}_{ji}"):
+                        if st.button("ETA", key=f"ybetabtn_{dk}_{ji}",
+                                     help="Ask Ken where the driver is now and when he'll be there"):
+                            _rid, _why = _yb_eta_ask(dk, ji, job, _eta)
+                            st.session_state["yb_bub"] = (dk, ji) if _rid else None
+                            if _why:
+                                st.toast(f"Could not ask Ken: {_why}. Try again in a moment.")
+                            st.rerun()
+                if tuple(st.session_state.get("yb_bub") or ()) == (dk, ji):
+                    _lr = _yb_eta_req_latest(dk, ji, job, fresh=True)
+                    _col = YB_TYPE.get(job.get("type"), ("#1d5fae", ""))[0]
+                    if not _lr or _lr.get("status") in (None, "", "queued"):
+                        _say, _cls = "Checking where the driver is now. This takes up to a minute.", " is-wait"
+                    else:
+                        _say, _cls = (_lr.get("sentence") or "No answer."), (" is-fail" if _lr.get("status") == "failed" else "")
+                    with st.container(key=f"ybbub_{dk}_{ji}"):
+                        st.markdown(f"<div class='yb-bub{_cls}' style='--bub:{_col};'><b>Ken</b>"
+                                    f"<span>{_html_esc.escape(_say)}</span></div>", unsafe_allow_html=True)
+                        if st.button("✕", key=f"ybbubx_{dk}_{ji}", help="Close"):
+                            st.session_state["yb_bub"] = None
+                            st.rerun()
                 if _yb_pod_ok(_eta):
                     _word = _yb_pod_word(job)
                     _last = _yb_pod_latest(dk, ji, job)
