@@ -2185,7 +2185,7 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 [class*="st-key-ybjob_"] [data-testid="stButton"]{{position:absolute;inset:0;margin:0;}}
 [class*="st-key-ybjob_"] [data-testid="stButton"] > div, [class*="st-key-ybjob_"] [data-testid="stButton"] button{{width:100% !important;height:100% !important;}}
 [class*="st-key-ybjob_"] [data-testid="stButton"] button{{opacity:0;cursor:pointer;}}
-[class*="st-key-ybjob_"]:hover .yb-job{{background:#f6f8f6;}}
+[class*="st-key-ybjob_"]:hover .yb-job{{filter:brightness(.97);}}
 [class*="st-key-ybjob_"]:focus-within .yb-job{{outline:2px solid {K_GREEN};outline-offset:2px;}}
 [class*="st-key-ybadd_"] button{{border:1px dashed #b9c2bb !important;background:transparent !important;
         color:#3c3f45 !important;font-weight:600 !important;}}
@@ -4717,6 +4717,9 @@ YB_TYPE = {
     "Off Hire":  ("#a61b1b", "M17 7L7 17M15 17H7V9"),
     "Site Move": ("#1d5fae", "M4 9h14l-3-3M20 15H6l3 3"),
 }
+# 03/11/2026: a light wash of the type's colour inside each job pill, so deliveries,
+# collections and moves tell apart at a glance
+YB_TINT = {"On Hire": "#dcefe2", "Off Hire": "#f7dede", "Site Move": "#dce8f7"}
 YB_DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 YB_ORDER = {"On Hire": 0, "Site Move": 1, "Off Hire": 2}
 
@@ -4848,11 +4851,12 @@ def _yb_job_html(dk, ji, job):
         state += "<span class='yb-qans'>Query Answered</span>"
     # the pill's border is the job type's colour: green, red or blue
     border = colour
+    wash = f"background:linear-gradient(135deg,{YB_TINT.get(job.get('type'), '#ffffff')} 0%,#ffffff 78%);"
     ring = ""
     if tuple(st.session_state.get("yb_sel") or ()) == (dk, ji):
         ring = f"box-shadow:0 0 0 2px {colour},0 2px 6px rgba(16,35,26,.14);"
     return (
-        f"<div class='yb-job' style='border-color:{border};{ring}'>"
+        f"<div class='yb-job' style='border-color:{border};{wash}{ring}'>"
         f"<div class='yb-job-top' style='color:{colour};'>"
         f"{_yb_svg(arrow, colour)}<span>{e(label)}</span>"
         f"{_yb_eta_label(job, _yb_eta(dk, ji, job))[0]}</div>"
