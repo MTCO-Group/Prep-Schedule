@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T10:51:00+00:00",
+ "generated_at": "2026-11-03T11:05:50+00:00",
  "matched": 25,
  "other_day": 1,
  "kensite_hiab_jobs": 31,
@@ -819,6 +819,102 @@
      "same postcode",
      "same customer"
     ]
+   }
+  ]
+ },
+ "hauliers": {
+  "2026-10-30": [
+   {
+    "idx": 6,
+    "customer": "Proservice Building Services",
+    "type": "Off Hire",
+    "postcode": "R J HEATHMAN (CONTRACTORS) LTD, BOOTS CHEMIST LOADING BAY, 7 CHESTER RD, BROUGHTON, CHESTER, , CH4",
+    "contract": "0000031024",
+    "haulier": "AES",
+    "po": "01-003395",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003395 with Ainscough Environmental Services, raised Fri 23 Oct, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-11-02": [
+   {
+    "idx": 7,
+    "customer": "Almond Civils Ltd",
+    "type": "Off Hire",
+    "postcode": "BB7 9HJ",
+    "contract": "0000032145",
+    "haulier": "D.Cain & Son Ltd",
+    "po": "01-003330",
+    "po_status": "Authorised",
+    "supplier_code": "C038",
+    "note": "PO 01-003330 with D.Cain & Son Ltd, raised Mon 19 Oct"
+   },
+   {
+    "idx": 8,
+    "customer": "Almond Civils Ltd",
+    "type": "Off Hire",
+    "postcode": "BB2 3UY",
+    "contract": "0000032077",
+    "haulier": "",
+    "po": "",
+    "po_status": "",
+    "supplier_code": "",
+    "note": "No PO for this job's haulage in MCS"
+   }
+  ],
+  "2026-11-09": [
+   {
+    "idx": 2,
+    "customer": "Chandos Civil Engineering Ltd",
+    "type": "Off Hire",
+    "postcode": "WA8 8LY",
+    "contract": "0000031785",
+    "haulier": "AES",
+    "po": "01-003439",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003439 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
+   },
+   {
+    "idx": 3,
+    "customer": "Chandos Civil Engineering Ltd",
+    "type": "Off Hire",
+    "postcode": "WA8 8LY",
+    "contract": "0000031822",
+    "haulier": "AES",
+    "po": "01-003440",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003440 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-11-11": [
+   {
+    "idx": 2,
+    "customer": "Bethell Plant Services Ltd",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032217",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003482",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003482 with Astley Hiabs Ltd, raised Mon 2 Nov"
+   }
+  ],
+  "2026-11-16": [
+   {
+    "idx": 0,
+    "customer": "Reactive Hire Ltd",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032203",
+    "haulier": "AES",
+    "po": "01-003435",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
    }
   ]
  },
