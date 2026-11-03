@@ -4326,6 +4326,15 @@ IO_CSS = (
     "</style>")
 
 
+# The job type colours and arrows. Defined here, before the In & Out This Week
+# dialog, which runs before the yard board further down (fixed 03/11/2026).
+YB_TYPE = {
+    "On Hire":   ("#0a6a30", "M7 17L17 7M9 7h8v8"),
+    "Off Hire":  ("#a61b1b", "M17 7L7 17M15 17H7V9"),
+    "Site Move": ("#1d5fae", "M4 9h14l-3-3M20 15H6l3 3"),
+}
+
+
 @st.dialog("In & Out This Week", width="large")
 def in_out_week_dialog(week_iso):
     ws = datetime.strptime(week_iso, "%Y-%m-%d").date()
@@ -4726,11 +4735,6 @@ def render_week_bar(on_u, off_u, on_total, off_total, internal_assets, external_
 # number in a red circle on the day. A thin band after Friday opens the
 # weekend. Time slots read Unknown until Ken can read ETAs from the AES
 # Planner (the slot is there ready for it).
-YB_TYPE = {
-    "On Hire":   ("#0a6a30", "M7 17L17 7M9 7h8v8"),
-    "Off Hire":  ("#a61b1b", "M17 7L7 17M15 17H7V9"),
-    "Site Move": ("#1d5fae", "M4 9h14l-3-3M20 15H6l3 3"),
-}
 # 03/11/2026: a light wash of the type's colour inside each job pill, so deliveries,
 # collections and moves tell apart at a glance
 YB_TINT = {"On Hire": "#e1f1e6", "Off Hire": "#f8e3e3", "Site Move": "#e1ebf8"}   # 15% lighter, 03/11/2026
