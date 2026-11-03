@@ -2169,6 +2169,20 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 @keyframes yb-spin{{to{{transform:rotate(360deg);}}}}
 @keyframes yb-road{{to{{stroke-dashoffset:6;}}}}
 @media (prefers-reduced-motion: reduce){{.yb-truck *{{animation:none !important;}}}}
+.yb-job.has-pod .yb-cust{{padding-right:58px;}}
+.yb-pod-st{{font-weight:700;color:#0a6a30;}}
+.yb-pod-st.is-queued{{color:#4f535b;}}
+.yb-pod-st.is-failed{{color:#a61b1b;}}
+[class*="st-key-ybpod_"]{{position:absolute !important;top:26px;right:8px;z-index:3;width:auto !important;}}
+[class*="st-key-ybpod_"] [data-testid="stPopover"]{{width:auto !important;}}
+[class*="st-key-ybpod_"] button{{min-height:0 !important;height:21px !important;padding:0 8px !important;
+        border-radius:5px !important;font-size:11px !important;font-weight:700 !important;
+        line-height:1 !important;color:#fff !important;opacity:1 !important;letter-spacing:.02em;}}
+[class*="st-key-ybpod_"] button p{{font-size:11px !important;font-weight:700 !important;color:#fff !important;}}
+[class*="st-key-ybpod_"] button svg{{display:none;}}
+[class*="st-key-ybpod_"][class*="_pod"] button{{background:#0a6a30 !important;border:1px solid #0a6a30 !important;}}
+[class*="st-key-ybpod_"][class*="_poc"] button{{background:#a61b1b !important;border:1px solid #a61b1b !important;}}
+[class*="st-key-ybpod_"] button:hover{{filter:brightness(1.12);}}
 .yb-time-other{{color:#8a4a06 !important;font-weight:700 !important;}}
 .yb-units{{color:#3c3f45;}}
 .yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
@@ -4719,7 +4733,12 @@ YB_TYPE = {
 }
 # 03/11/2026: a light wash of the type's colour inside each job pill, so deliveries,
 # collections and moves tell apart at a glance
-YB_TINT = {"On Hire": "#dcefe2", "Off Hire": "#f7dede", "Site Move": "#dce8f7"}
+YB_TINT = {"On Hire": "#e1f1e6", "Off Hire": "#f8e3e3", "Site Move": "#e1ebf8"}   # 15% lighter, 03/11/2026
+# 03/11/2026: POD (a delivery or move) or POC (a collection) under a confirmed AES
+# time. Picking a name queues a request; Ken 30.0 emails that person the proof
+# from Big Change. Ken maps the name to an address himself.
+POD_PEOPLE = ["Pete", "Mitch", "Jake", "Klaudia", "Ewa", "Nathan", "Paul", "Chris", "Chloe"]
+POD_FILE = "data/pod requests.json"
 YB_DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 YB_ORDER = {"On Hire": 0, "Site Move": 1, "Off Hire": 2}
 
@@ -4782,6 +4801,51 @@ def _yb_haulier(dk, ji, job):
         if same(r) and (r.get("postcode") or "") == (job.get("postcode") or ""):
             return r
     return None
+
+
+def _yb_pod_ok(eta):
+    """A POD can be asked for: AES confirmed the job done, and Ken matched it to Big Change."""
+    return bool(eta and eta.get("state") == "done" and (eta.get("bigchange_ids") or eta.get("refs")))
+
+
+def _yb_pod_word(job):
+    return "POC" if job.get("type") == "Off Hire" else "POD"
+
+
+def _yb_pod_latest(dk, ji, job):
+    """The newest POD request for this job, or None."""
+    try:
+        doc, _sha = load_request_file(POD_FILE)
+    except Exception:
+        return None
+    mine = [q for q in (doc or {}).get("requests") or []
+            if isinstance(q, dict) and q.get("day") == dk and q.get("idx") == ji
+            and q.get("customer") == job.get("customer")]
+    return max(mine, key=lambda q: str(q.get("asked_at") or "")) if mine else None
+
+
+def _yb_pod_ask(dk, ji, job, eta, name):
+    """Queue a POD request for Ken. Returns '' or why it could not be queued."""
+    q = {"id": _uuid.uuid4().hex[:12], "day": dk, "idx": ji, "customer": job.get("customer", ""),
+         "type": job.get("type", ""), "contract": str(job.get("contract_number") or ""),
+         "postcode": job.get("postcode", ""), "bigchange_ids": list(eta.get("bigchange_ids") or []),
+         "refs": list(eta.get("refs") or []), "to": name, "status": "queued",
+         "asked_at": datetime.now().strftime("%Y-%m-%dT%H:%M")}
+    for attempt in range(2):
+        try:
+            doc, sha = gh_get(POD_FILE)
+            doc = doc if isinstance(doc, dict) else {}
+            doc.setdefault("requests", []).append(q)
+            gh_put(POD_FILE, doc, sha, msg=f"POD request: {q['customer']} to {name}")
+            load_request_file.clear()
+            return ""
+        except requests.HTTPError as ex:
+            if attempt == 0 and getattr(ex.response, "status_code", 0) == 409:
+                continue
+            return f"GitHub said {getattr(ex.response, 'status_code', '?')}"
+        except Exception as ex:
+            return type(ex).__name__
+    return "GitHub was busy"
 
 
 YB_TRUCK = ('<svg class="yb-truck" width="20" height="15" viewBox="0 0 26 19" fill="none" stroke="currentColor" '
@@ -4853,10 +4917,19 @@ def _yb_job_html(dk, ji, job):
     border = colour
     wash = f"background:linear-gradient(135deg,{YB_TINT.get(job.get('type'), '#ffffff')} 0%,#ffffff 78%);"
     ring = ""
+    pod = " has-pod" if _yb_pod_ok(_yb_eta(dk, ji, job)) else ""
+    if pod:
+        _last = _yb_pod_latest(dk, ji, job)
+        if _last and _last.get("status") in ("queued", "sent", "failed"):
+            _w = _yb_pod_word(job)
+            _txt = {"queued": f"{_w} Sending To {_last.get('to', '')}",
+                    "sent": f"{_w} Sent To {_last.get('to', '')}",
+                    "failed": f"{_w} Not Sent"}[_last["status"]]
+            state += f"<span class='yb-pod-st is-{_last['status']}'>{e(_txt)}</span>"
     if tuple(st.session_state.get("yb_sel") or ()) == (dk, ji):
         ring = f"box-shadow:0 0 0 2px {colour},0 2px 6px rgba(16,35,26,.14);"
     return (
-        f"<div class='yb-job' style='border-color:{border};{wash}{ring}'>"
+        f"<div class='yb-job{pod}' style='border-color:{border};{wash}{ring}'>"
         f"<div class='yb-job-top' style='color:{colour};'>"
         f"{_yb_svg(arrow, colour)}<span>{e(label)}</span>"
         f"{_yb_eta_label(job, _yb_eta(dk, ji, job))[0]}</div>"
@@ -4916,6 +4989,31 @@ def _yb_day(day, w_idx):
                     st.session_state["yb_sel"] = (dk, ji)
                     st.session_state["yb_tab"] = "job"
                     st.rerun()
+                _eta = _yb_eta(dk, ji, job)
+                if _yb_pod_ok(_eta):
+                    _word = _yb_pod_word(job)
+                    _last = _yb_pod_latest(dk, ji, job)
+                    _st = (_last or {}).get("status")
+                    _lab = _word
+                    with st.container(key=f"ybpod_{dk}_{ji}_{_word.lower()}"):
+                        with st.popover(_lab, help=f"Email the {_word} from Big Change to one of the team"):
+                            if _last:
+                                _when = str(_last.get("done_at") or _last.get("asked_at") or "")[11:16]
+                                st.caption(
+                                    f"{_last.get('note') or 'Asked for'} ({_last.get('to', '')}, {_when})"
+                                    if _st in ("sent", "failed")
+                                    else f"Ken is sending it to {_last.get('to', '')}, asked at {_when}")
+                            st.markdown(f"**Email The {_word} To**")
+                            _cols = st.columns(3)
+                            for _n, _name in enumerate(POD_PEOPLE):
+                                if _cols[_n % 3].button(_name, key=f"ybpodto_{dk}_{ji}_{_name}",
+                                                        use_container_width=True):
+                                    _why = _yb_pod_ask(dk, ji, job, _eta, _name)
+                                    if _why:
+                                        st.error(f"Could not ask Ken: {_why}. Try again in a moment.")
+                                    else:
+                                        st.toast(f"Ken will email the {_word} to {_name}")
+                                        st.rerun()
         if not day_jobs:
             st.markdown("<div class='yb-empty'>Nothing Booked Yet</div>",
                         unsafe_allow_html=True)
