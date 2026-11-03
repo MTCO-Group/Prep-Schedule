@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T16:11:19+00:00",
+ "generated_at": "2026-11-03T16:15:30+00:00",
  "matched": 29,
  "other_day": 1,
  "kensite_hiab_jobs": 37,
@@ -387,9 +387,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032222",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "16:20",
+    "note": "From the AES planner (RS run 2), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203678685
     ],
@@ -399,7 +399,10 @@
     "bc_customer": "PE JONES CONTRACTORS",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 2,
+    "seq": 1
    }
   ],
   "2026-11-05": [
