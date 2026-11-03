@@ -20769,31 +20769,6 @@
     ],
     "2026-11-06": [
       {
-        "type": "On Hire",
-        "customer": "M Civils NW Ltd",
-        "postcode": "",
-        "contract_number": "0000032150",
-        "units": {
-          "24ft AV": 1,
-          "IBC": 1,
-          "20ft Store": 2
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Initial Water Fill; 1x Weekly Water Fill; 1x Pump; 2x DECAL | Date moved by MCS Auto from 30/10/2026 to 06/11/2026 on 22/10/2026 10:50",
-        "added_by": "MCS Auto",
-        "timestamp": "22/10/2026 10:50",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
         "type": "Off Hire",
         "customer": "Termrim Construction Ltd",
         "postcode": "LS29 6AR",
@@ -21524,6 +21499,33 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: St Marys Gate, Stockport, , SK1 1YA | Return date moved by MCS Auto from 02/10/2026 to 31/10/2026 on 20/10/2026 12:20 | Return date moved by MCS Auto from 31/10/2026 to 20/11/2026 on 02/11/2026 09:31",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 09:31",
+        "date_moved_by": "MCS Auto"
+      }
+    ],
+    "2026-11-13": [
+      {
+        "type": "On Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "",
+        "contract_number": "0000032150",
+        "units": {
+          "24ft AV": 1,
+          "IBC": 1,
+          "20ft Store": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Initial Water Fill; 1x Weekly Water Fill; 1x Pump; 2x DECAL | Date moved by MCS Auto from 30/10/2026 to 06/11/2026 on 22/10/2026 10:50 | Date moved by MCS Auto from 06/11/2026 to 13/11/2026 on 03/11/2026 14:30",
+        "added_by": "MCS Auto",
+        "timestamp": "03/11/2026 14:30",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1
+          }
+        },
         "date_moved_by": "MCS Auto"
       }
     ]
