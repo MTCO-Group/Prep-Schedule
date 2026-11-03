@@ -4759,6 +4759,19 @@ def _yb_eta(dk, ji, job):
     return None
 
 
+def _yb_haulier(dk, ji, job):
+    """Ken's row naming an External job's haulier from its MCS PO (Ken 29.8), or None."""
+    rows = (YB_ETAS.get("hauliers") or {}).get(dk) or []
+    same = lambda r: r.get("customer") == job.get("customer") and r.get("type") == job.get("type")
+    for r in rows:
+        if r.get("idx") == ji and same(r):
+            return r
+    for r in rows:
+        if same(r) and (r.get("postcode") or "") == (job.get("postcode") or ""):
+            return r
+    return None
+
+
 def _yb_eta_label(job, eta):
     """(html for the time slot, plain words) from Ken's ETA row."""
     if eta and eta.get("state") == "otherday" and eta.get("day"):
@@ -4790,8 +4803,13 @@ def _yb_job_html(dk, ji, job):
         label += f" · {job['site_move_type']}"
     units = ", ".join(f"{q} × {u}" for u, q in (job.get("units") or {}).items() if q)
     h = job.get("haulage", "None")
-    haul = ("Kensite HIAB" if h == "Internal Haulage"
-            else (job.get("haulage_who") or "External") if h == "External Haulage"
+    # 03/11/2026: Kensite's own haulage is AES; an external job is named from the
+    # haulier typed in, else the supplier on its MCS PO (Ken 29.8)
+    _hrow = _yb_haulier(dk, ji, job) if h == "External Haulage" and not job.get("haulage_who") else None
+    haul = ("AES" if h == "Internal Haulage"
+            else (job.get("haulage_who") or (_hrow or {}).get("haulier")
+                  or ("External, No PO" if _hrow else "External"))
+            if h == "External Haulage"
             else "")
     meta = [x for x in [job.get("postcode", ""), haul] if x]
     tags = ""
@@ -4983,9 +5001,13 @@ def _yb_panel_job():
                     f"<table class='yb-p-units'>{rows}</table>", unsafe_allow_html=True)
 
     h = job.get("haulage", "None")
-    haul = ("Kensite HIAB (Internal)" if h == "Internal Haulage"
-            else f"{job.get('haulage_who') or 'Haulier not named'} (External)"
+    _hr = _yb_haulier(dk, ji, job) if h == "External Haulage" and not job.get("haulage_who") else None
+    _hname = job.get('haulage_who') or (_hr or {}).get('haulier') or ''
+    haul = ("AES (Internal)" if h == "Internal Haulage"
+            else ("AES (Booked As External)" if _hname == "AES" else
+                  f"{_hname or 'Haulier Not Named'} (External)")
             if h == "External Haulage" else "None")
+    haul_note = (_hr or {}).get("note", "")
     liv = job.get("livery") or "Standard Livery"
     if liv != "Standard Livery" and job.get("livery_note"):
         liv = f"{liv}: {job.get('livery_note')}"
@@ -4997,9 +5019,10 @@ def _yb_panel_job():
     _eta = _yb_eta(dk, ji, job)
     _lab = _yb_eta_label(job, _eta)[1]
     _why = ((_eta or {}).get("note") or ("Ken will estimate an arrival once this job is on a run on the AES Planner."
-            if h == "Internal Haulage" else "Ken only times Kensite HIAB jobs."))
+            if h == "Internal Haulage" else "Ken only times AES jobs."))
     items = [("Arrival", e(_lab) + "<span class='n'>" + e(_why) + "</span>"),
-             ("Haulage", e(haul)), ("Livery", e(liv)),
+             ("Haulage", e(haul) + (f"<span class='n'>{e(haul_note)}</span>" if haul_note else "")),
+             ("Livery", e(liv)),
              ("Notes", "<span class='p'>" + e(job.get("notes") or "None") + "</span>")]
     if job.get("install_dismantle"):
         items.append(("Install", "Install / Dismantle"))
@@ -5090,7 +5113,7 @@ with sched_col:
                     f"<span><b class='g'>{_yb_qty(week_jobs, 'On Hire')}</b> Units Out</span>"
                     f"<span><b class='r'>{_yb_qty(week_jobs, 'Off Hire')}</b> In</span>"
                     f"<span><b class='b'>{n_moves}</b> Site Moves</span>"
-                    f"<span>Assets Moving: {internal_dels} Kensite Haulage, "
+                    f"<span>Assets Moving: {internal_dels} AES, "
                     f"{external_dels} External</span></p></div>",
                     unsafe_allow_html=True)
             with h_btn:
