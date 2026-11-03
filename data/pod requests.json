@@ -95,8 +95,10 @@
     "AES/61819"
    ],
    "to": "Nathan",
-   "status": "queued",
-   "asked_at": "2026-11-03T14:09"
+   "status": "sent",
+   "asked_at": "2026-11-03T14:09",
+   "done_at": "2026-11-03T14:11",
+   "note": "POD emailed to Nathan"
   }
  ]
 }
