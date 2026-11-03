@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T11:05:50+00:00",
+ "generated_at": "2026-11-03T11:22:33+00:00",
  "matched": 25,
  "other_day": 1,
  "kensite_hiab_jobs": 31,
@@ -191,9 +191,9 @@
     "postcode": "OL13 9PA",
     "type": "Off Hire",
     "contract": "0000031316",
-    "state": "planned",
-    "time": "10:40",
-    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "12:25",
+    "note": "On the way, 63 min from their last drop (LS3 1JZ) in traffic",
     "bigchange_ids": [
      203072232
     ],
@@ -205,10 +205,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "SL",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 2,
