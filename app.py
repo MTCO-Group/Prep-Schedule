@@ -1713,16 +1713,45 @@ if not _file_uploading and not _any_dialog_open:
     st_autorefresh(interval=10_000, limit=0, key="schedule_autorefresh")
 
 # ── GitHub config ─────────────────────────────────────────────────────────────
-GITHUB_TOKEN  = st.secrets["GITHUB_TOKEN"]
+# Nathan, 04/11/2026: the repo moved to MTCO-Group/Prep-Schedule and the app
+# now signs in as the MTCOautomations GitHub App (secrets GITHUB_APP_ID,
+# GITHUB_APP_INSTALLATION_ID, GITHUB_APP_PRIVATE_KEY). GITHUB_TOKEN is only
+# the fallback: used when the app secrets are absent, or if the app's token
+# is refused while GITHUB_TOKEN is still set.
+GITHUB_TOKEN  = st.secrets.get("GITHUB_TOKEN", "")
 GITHUB_REPO   = st.secrets["GITHUB_REPO"]
 GITHUB_BRANCH = st.secrets.get("GITHUB_BRANCH", "main")
 DATA_FILE     = "data/jobs.json"
-HEADERS = {"Authorization": f"token {GITHUB_TOKEN}",
-           "Accept": "application/vnd.github.v3+json"}
+GITHUB_APP_SECRETS = ("GITHUB_APP_ID", "GITHUB_APP_INSTALLATION_ID", "GITHUB_APP_PRIVATE_KEY")
+
+
+@st.cache_resource
+def _github_app():
+    """One MTCOautomations sign-in per server process, so its hour-long token
+    is reused across sessions and the 10 second reruns. None without the secrets."""
+    if not all(k in st.secrets for k in GITHUB_APP_SECRETS):
+        return None
+    from github_app_token import GitHubAppAuth
+    return GitHubAppAuth(st.secrets["GITHUB_APP_ID"], st.secrets["GITHUB_APP_INSTALLATION_ID"],
+                         st.secrets["GITHUB_APP_PRIVATE_KEY"], GITHUB_REPO.split("/")[-1])
+
+
+def github_headers():
+    token = GITHUB_TOKEN
+    app = _github_app()
+    if app is not None:
+        try:
+            token = app.token()
+        except Exception as e:
+            if not GITHUB_TOKEN:
+                raise
+            print(f"GitHub App token failed, using GITHUB_TOKEN instead: {e}")
+    return {"Authorization": f"token {token}",
+            "Accept": "application/vnd.github.v3+json"}
 
 def gh_get(path):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
-    r = requests.get(url, headers=HEADERS, params={"ref": GITHUB_BRANCH},
+    r = requests.get(url, headers=github_headers(), params={"ref": GITHUB_BRANCH},
                      timeout=10)
     if r.status_code == 404:
         return None, None
@@ -1737,7 +1766,7 @@ def gh_put(path, obj, sha=None, msg="Update schedule"):
                "branch": GITHUB_BRANCH}
     if sha:
         payload["sha"] = sha
-    requests.put(url, headers=HEADERS, json=payload,
+    requests.put(url, headers=github_headers(), json=payload,
                  timeout=15).raise_for_status()
 
 # load_request_file is unused since the request panels came out (09/10/2026);
