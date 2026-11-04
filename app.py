@@ -4,7 +4,7 @@ import base64
 import re
 import requests
 import pandas as pd
-from datetime import date, timedelta, datetime
+from datetime import date, timedelta, datetime, timezone
 import io
 # Streamlit runs this file top to bottom on every rerun, so an import
 # has to appear ABOVE the first line that runs and uses it, not just
@@ -14,6 +14,9 @@ import io
 # NameError: _html_esc. Keep escaping imports up here.
 import html as _html_esc
 from streamlit_autorefresh import st_autorefresh
+# 04/11/2026: MCS fleet numbers on On Hire jobs, with the Production Planner's
+# own matching rules (see unit_numbers.py; keep it in step with the planner).
+import unit_numbers as _un
 
 st.set_page_config(page_title="Kensite Prep Schedule", layout="wide", page_icon="🏗️")
 
@@ -2243,6 +2246,8 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 [class*="st-key-ybpod_"] button:hover{{filter:brightness(1.12);}}
 .yb-time-other{{color:#8a4a06 !important;font-weight:700 !important;}}
 .yb-units{{color:#3c3f45;}}
+.yb-fleets{{font-size:12px;display:flex;flex-wrap:wrap;gap:2px 6px;}}
+.yb-fleet{{font-weight:600;color:#3c3f45;white-space:nowrap;}} .yb-fleet-np{{color:#c62828 !important;font-weight:800;}}
 .yb-meta{{font-size:12px;color:#4f535b;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;}}
 .yb-tag{{font-weight:700;color:#4f535b;}}
 .yb-state{{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;font-weight:600;}}
@@ -2313,6 +2318,7 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .yb-p-units{{width:100%;border-collapse:collapse;font-size:14px;border:0;}}
 .yb-p-units td{{border:0;border-top:1px solid #eceeeb;padding:7px 0;}}
 .yb-p-units td.q{{width:36px;font-weight:700;}} .yb-p-units td.u{{font-weight:600;}} .yb-p-units td.c{{color:#4f535b;text-align:right;}}
+.yb-p-units tr.fl td{{border-top:0;padding:0 0 7px;font-size:13px;}}
 .yb-p-dl{{margin:0;display:grid;grid-template-columns:84px 1fr;gap:8px 12px;font-size:14px;}}
 .yb-p-dl dt{{color:#4f535b;font-weight:400;}}
 .yb-p-dl dd{{margin:0;font-weight:600;color:#1f2125;line-height:1.4;}}
@@ -4849,6 +4855,28 @@ def load_prep_etas():
 YB_ETAS = load_prep_etas()
 
 
+@st.cache_data(ttl=60)
+def load_unit_numbers():
+    """The MCS fleet numbers (the Discrepancy Check 4.8 writes
+    data/unit_numbers.json): one GitHub read a minute at most. None when the
+    file is missing or broken, so no labels show."""
+    try:
+        d, _sha = gh_get("data/unit_numbers.json")
+        return _un.parse_unit_feed(d)
+    except Exception:
+        return None
+
+
+# {(date, job index): [(unit, config, fleet number or None)]} for On Hire jobs.
+# A fault here only means no labels: it must never break the board.
+try:
+    _yb_now = datetime.now(timezone.utc)
+    YB_FLEET = _un.labels_by_job(jobs, load_unit_numbers(), _yb_now, _un.uk_date(_yb_now),
+                                 ASSET_UNITS, AV_UNITS)
+except Exception:
+    YB_FLEET = {}
+
+
 def _yb_eta(dk, ji, job):
     """Ken's ETA row, with the time from the latest answered ETA press while the job is live."""
     r = _yb_eta_row(dk, ji, job)
@@ -5055,6 +5083,7 @@ def _yb_job_html(dk, ji, job):
         f"{_yb_eta_label(job, _yb_eta(dk, ji, job))[0]}</div>"
         f"<div class='yb-cust'>{e(job.get('customer') or 'No Customer')}</div>"
         + (f"<div class='yb-units'>{e(units)}</div>" if units else "")
+        + _un.chip_html(YB_FLEET.get((dk, ji), []))
         + (f"<div class='yb-meta'>{e(' · '.join(meta))}{tags}</div>" if meta or tags else "")
         + f"<div class='yb-state'>{state}</div></div>")
 
@@ -5262,6 +5291,10 @@ def _yb_panel_job():
         ctext = ", ".join(f"{n} {k}" if n and n > 1 else k for k, n in c.items() if n)
         rows += (f"<tr><td class='q'>{int(qty)}×</td><td class='u'>{e(u)}</td>"
                  f"<td class='c'>{e(ctext)}</td></tr>")
+        # 04/11/2026: the MCS fleet numbers for this unit, or [Not Picked]
+        fleet_cell = _un.unit_cell_html([x for x in YB_FLEET.get((dk, ji), []) if x[0] == u])
+        if fleet_cell:
+            rows += f"<tr class='fl'><td></td><td colspan='2'>{fleet_cell}</td></tr>"
     if rows:
         st.markdown(f"<div class='yb-p-h4'>Units to Prep</div>"
                     f"<table class='yb-p-units'>{rows}</table>", unsafe_allow_html=True)
