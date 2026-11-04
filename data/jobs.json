@@ -8757,25 +8757,6 @@
       },
       {
         "customer": "A Connolly",
-        "postcode": "WN3 5XL",
-        "contract_number": "0000030158",
-        "type": "Off Hire",
-        "site_move_type": "",
-        "units": {
-          "20ft Store": 1
-        },
-        "av_configs": {},
-        "install_dismantle": false,
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "Standard Livery",
-        "livery_note": "",
-        "notes": "",
-        "added_by": "Peter",
-        "timestamp": "29/06/2026 11:37"
-      },
-      {
-        "customer": "A Connolly",
         "postcode": "OL8 4LH",
         "contract_number": "0000031223",
         "type": "Off Hire",
@@ -20785,24 +20766,6 @@
     "2026-11-06": [
       {
         "type": "Off Hire",
-        "customer": "Termrim Construction Ltd",
-        "postcode": "LS29 6AR",
-        "contract_number": "0000031911",
-        "units": {
-          "Mobile Welfare": 2
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Moor Lane, Menston, Ilkley, , LS29 6AR | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre) | Return date moved by MCS Auto from 16/10/2026 to 30/10/2026 on 20/10/2026 13:00 | Return date moved by MCS Auto from 30/10/2026 to 06/11/2026 on 27/10/2026 13:20",
-        "added_by": "MCS Auto",
-        "timestamp": "27/10/2026 13:20",
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
         "customer": "A Connolly Limited",
         "postcode": "PR2 3XL",
         "contract_number": "0000030233#1",
@@ -20975,6 +20938,26 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Grassed area facing, 49 Bannerman Ave, Prestwich, , M25 1DZ. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "04/11/2026 14:31"
+      },
+      {
+        "customer": "A Connolly",
+        "postcode": "WN3 5XL",
+        "contract_number": "0000030158",
+        "type": "Off Hire",
+        "site_move_type": "",
+        "units": {
+          "20ft Store": 1
+        },
+        "av_configs": {},
+        "install_dismantle": false,
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "Standard Livery",
+        "livery_note": "",
+        "notes": "Return date moved by MCS Auto from 02/07/2026 to 17/11/2026 on 04/11/2026 14:31",
+        "added_by": "Peter",
+        "timestamp": "04/11/2026 14:31",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-03": [
@@ -21710,6 +21693,24 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Termrim Construction Ltd",
+        "postcode": "LS29 6AR",
+        "contract_number": "0000031911",
+        "units": {
+          "Mobile Welfare": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Moor Lane, Menston, Ilkley, , LS29 6AR | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre) | Return date moved by MCS Auto from 16/10/2026 to 30/10/2026 on 20/10/2026 13:00 | Return date moved by MCS Auto from 30/10/2026 to 06/11/2026 on 27/10/2026 13:20 | Return date moved by MCS Auto from 06/11/2026 to 13/11/2026 on 04/11/2026 14:31",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-07": [
