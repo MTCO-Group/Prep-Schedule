@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T11:39:44+00:00",
+ "generated_at": "2026-11-04T12:06:44+00:00",
  "matched": 23,
  "other_day": 2,
  "kensite_hiab_jobs": 29,
@@ -281,9 +281,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032179",
-    "state": "live",
-    "time": "10:20",
-    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic (set when it went live at 10:18). AES have it as a Site Move",
+    "state": "done",
+    "time": "12:06",
+    "note": "Completed in Big Change. AES have it as a Site Move",
     "bigchange_ids": [
      202556835,
      202557331
@@ -305,9 +305,9 @@
     "postcode": "PR5 8EA",
     "type": "Off Hire",
     "contract": "0000031894",
-    "state": "live",
-    "time": "10:20",
-    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic (set when it went live at 10:18). AES have it as a Site Move",
+    "state": "done",
+    "time": "12:06",
+    "note": "Completed in Big Change. AES have it as a Site Move",
     "bigchange_ids": [
      202556835,
      202557331
