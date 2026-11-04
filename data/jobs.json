@@ -21236,32 +21236,6 @@
     ],
     "2026-11-05": [
       {
-        "type": "Off Hire",
-        "customer": "Termrim Construction Ltd",
-        "postcode": "HX6 1HL",
-        "contract_number": "0000030101",
-        "units": {
-          "32ft AV": 4,
-          "20ft Store": 2
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Rawsons Wood, Sowerby, , HX6 1HL | Also on contract: 1x Staircase; 1x Destack | Return date moved by MCS Auto from 28/10/2026 to 05/11/2026 on 28/10/2026 10:51",
-        "added_by": "MCS Auto",
-        "timestamp": "28/10/2026 10:51",
-        "av_configs": {
-          "32ft AV": {
-            "Drying Room": 1,
-            "Office": 2,
-            "Canteen": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
         "type": "On Hire",
         "customer": "Reactive Hire Ltd",
         "postcode": "",
