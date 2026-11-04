@@ -20943,6 +20943,38 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: BELONG MACCLESFIELD, KENNEDY AVE, MACCLESFIELD, SK10 3DE | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 10:01"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "WN3 5XL",
+        "contract_number": "0000029972",
+        "units": {},
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Worsley Mesnes, Baucher Road, Wigan, , WN3 5XL | Also on contract: 1x 32ft Steel Store",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M25 1DZ",
+        "contract_number": "0000032118",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Grassed area facing, 49 Bannerman Ave, Prestwich, , M25 1DZ. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
       }
     ],
     "2026-11-03": [
@@ -21200,6 +21232,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Sutton, St Helens, , WA9 3EX | Also on contract: 1x 1000G Eflluent Tank; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty -  Every Tueseday starting from; 1x Chargeable Weekly Tank Empty - Every  Thursday starting from",
         "added_by": "MCS Auto",
         "timestamp": "02/11/2026 15:41"
+      },
+      {
+        "type": "On Hire",
+        "customer": "PAS (NW) Ltd",
+        "postcode": "",
+        "contract_number": "0000032225",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre)",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
       }
     ],
     "2026-11-05": [
@@ -21361,6 +21410,40 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "",
+        "contract_number": "0000032224",
+        "units": {
+          "20ft Store": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "BD10 9NF",
+        "contract_number": "0000031856#1",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Split delivery #1 - later drop on this contract | Site: MARK CLOSE, BRADFORD, , BD10 9NF | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre)",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
       }
     ],
     "2026-11-12": [
@@ -21482,6 +21565,21 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Termrim Construction Ltd",
+        "postcode": "LS26 8EW",
+        "contract_number": "0000030799",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Sugar Hill Close & Wordsworth, Oulton, Leeds, , LS26 8EW | Also on contract: 2x ReHire Chemi Loo",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
       }
     ],
     "2026-11-18": [
@@ -21585,6 +21683,52 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Silverglide Ltd",
+        "postcode": "SK12 1AG",
+        "contract_number": "0000031992",
+        "units": {
+          "20ft AV": 2,
+          "20ft Store": 1,
+          "3+1": 1,
+          "Steps": 2,
+          "IBC": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: the bulls head, 115 London Rd N, Poynton, Stockport, , SK12 1AG | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x 10 pcs sanitary bins",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        }
+      }
+    ],
+    "2026-11-07": [
+      {
+        "type": "On Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "",
+        "contract_number": "0000032223",
+        "units": {
+          "20ft Store": 2
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 2x Move to form  Cromer Place",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 14:31"
       }
     ]
   },
