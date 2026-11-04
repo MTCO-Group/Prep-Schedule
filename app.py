@@ -1726,19 +1726,26 @@ GITHUB_APP_SECRETS = ("GITHUB_APP_ID", "GITHUB_APP_INSTALLATION_ID", "GITHUB_APP
 
 
 @st.cache_resource
-def _github_app():
+def _github_app(app_id, installation_id, private_key, repo_name):
     """One MTCOautomations sign-in per server process, so its hour-long token
-    is reused across sessions and the 10 second reruns. None without the secrets."""
+    is reused across sessions and the 10 second reruns. Cached on the secret
+    values themselves, so adding or changing them (a new key) takes effect at
+    once instead of waiting for a reboot."""
+    from github_app_token import GitHubAppAuth
+    return GitHubAppAuth(app_id, installation_id, private_key, repo_name)
+
+
+def _app_auth():
+    """The app sign-in for the current secrets, or None while they are not all set."""
     if not all(k in st.secrets for k in GITHUB_APP_SECRETS):
         return None
-    from github_app_token import GitHubAppAuth
-    return GitHubAppAuth(st.secrets["GITHUB_APP_ID"], st.secrets["GITHUB_APP_INSTALLATION_ID"],
-                         st.secrets["GITHUB_APP_PRIVATE_KEY"], GITHUB_REPO.split("/")[-1])
+    return _github_app(str(st.secrets["GITHUB_APP_ID"]), str(st.secrets["GITHUB_APP_INSTALLATION_ID"]),
+                       st.secrets["GITHUB_APP_PRIVATE_KEY"], GITHUB_REPO.split("/")[-1])
 
 
 def github_headers():
     token = GITHUB_TOKEN
-    app = _github_app()
+    app = _app_auth()
     if app is not None:
         try:
             token = app.token()
