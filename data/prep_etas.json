@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T10:06:13+00:00",
+ "generated_at": "2026-11-04T10:18:48+00:00",
  "matched": 23,
  "other_day": 1,
  "kensite_hiab_jobs": 29,
@@ -286,8 +286,8 @@
     "type": "On Hire",
     "contract": "0000032179",
     "state": "live",
-    "time": "08:40",
-    "note": "On the way, 69 min from the depot in traffic (set when it went live at 07:29). AES have it as a Site Move",
+    "time": "10:20",
+    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic. AES have it as a Site Move",
     "bigchange_ids": [
      202556835,
      202557331
@@ -310,8 +310,8 @@
     "type": "Off Hire",
     "contract": "0000031894",
     "state": "live",
-    "time": "08:40",
-    "note": "On the way, 69 min from the depot in traffic (set when it went live at 07:29). AES have it as a Site Move",
+    "time": "10:20",
+    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic (set when it went live at 10:18). AES have it as a Site Move",
     "bigchange_ids": [
      202556835,
      202557331
@@ -403,9 +403,9 @@
     "postcode": "HX6 1HL",
     "type": "Off Hire",
     "contract": "0000030101",
-    "state": "planned",
-    "time": "08:10",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "done",
+    "time": "12:00",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      201967994,
      201968075,
@@ -421,10 +421,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 2,
@@ -902,9 +899,15 @@
  },
  "live_fixed": {
   "202556835": {
-   "time": "08:40",
-   "note": "On the way, 69 min from the depot in traffic",
-   "at": "07:29",
+   "time": "10:11",
+   "note": "Updated from the wagon's position at 10:10",
+   "at": "10:10",
+   "day": "2026-11-04"
+  },
+  "202557331": {
+   "time": "10:20",
+   "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic",
+   "at": "10:18",
    "day": "2026-11-04"
   },
   "202826925": {
