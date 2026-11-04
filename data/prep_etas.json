@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T10:18:48+00:00",
+ "generated_at": "2026-11-04T10:20:54+00:00",
  "matched": 23,
  "other_day": 1,
  "kensite_hiab_jobs": 29,
@@ -287,7 +287,7 @@
     "contract": "0000032179",
     "state": "live",
     "time": "10:20",
-    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic. AES have it as a Site Move",
+    "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic (set when it went live at 10:18). AES have it as a Site Move",
     "bigchange_ids": [
      202556835,
      202557331
