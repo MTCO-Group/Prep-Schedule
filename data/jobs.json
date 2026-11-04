@@ -20258,29 +20258,6 @@
     ],
     "2026-11-04": [
       {
-        "type": "Off Hire",
-        "customer": "Greenmount Projects Ltd",
-        "postcode": "WN6 7DD",
-        "contract_number": "0000031950",
-        "units": {
-          "24ft AV": 1,
-          "2+1": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Wigan and Leigh College, Prescott Street, Wigan, , WN6 7DD | Also on contract: 1x 24ft Anti- Vandal canteen /dry room 70/30 Bottom; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 3x Destack; 1x Link; 1x De Link; 1x Destack",
-        "added_by": "MCS Auto",
-        "timestamp": "15/10/2026 10:06",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1
-          }
-        }
-      },
-      {
         "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
@@ -21270,6 +21247,30 @@
         "notes": "Auto-added from MCS. Check details before prepping.",
         "added_by": "MCS Auto",
         "timestamp": "28/10/2026 16:01"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Greenmount Projects Ltd",
+        "postcode": "WN6 7DD",
+        "contract_number": "0000031950",
+        "units": {
+          "24ft AV": 1,
+          "2+1": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Wigan and Leigh College, Prescott Street, Wigan, , WN6 7DD | Also on contract: 1x 24ft Anti- Vandal canteen /dry room 70/30 Bottom; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 3x Destack; 1x Link; 1x De Link; 1x Destack | Return date moved by MCS Auto from 04/11/2026 to 05/11/2026 on 04/11/2026 16:50",
+        "added_by": "MCS Auto",
+        "timestamp": "04/11/2026 16:50",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-16": [
