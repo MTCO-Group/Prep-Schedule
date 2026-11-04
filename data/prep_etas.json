@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T10:52:02+00:00",
+ "generated_at": "2026-11-04T11:39:44+00:00",
  "matched": 23,
- "other_day": 1,
+ "other_day": 2,
  "kensite_hiab_jobs": 29,
  "jobs": {
   "2026-11-02": [
@@ -452,23 +452,24 @@
     "postcode": "LS29 6AR",
     "type": "Off Hire",
     "contract": "0000031911",
-    "state": "planned",
-    "time": "11:15",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
+    "day": "2026-11-05",
     "bigchange_ids": [
-     200640261
+     201967994,
+     201968075,
+     201968266
     ],
     "refs": [
-     "AES/61056"
+     "AES/62195",
+     "AES/62196",
+     "AES/62197"
     ],
-    "bc_customer": "Termrim Construction Ltd",
+    "bc_customer": "Termrim",
     "why": [
-     "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 3
+    ]
    },
    {
     "idx": 2,
