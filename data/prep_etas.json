@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T14:30:34+00:00",
- "matched": 26,
+ "generated_at": "2026-11-04T14:32:43+00:00",
+ "matched": 30,
  "other_day": 2,
- "kensite_hiab_jobs": 32,
+ "kensite_hiab_jobs": 38,
  "jobs": {
   "2026-11-02": [
    {
@@ -441,32 +441,7 @@
   ],
   "2026-11-06": [
    {
-    "idx": 0,
-    "customer": "Termrim Construction Ltd",
-    "postcode": "LS29 6AR",
-    "type": "Off Hire",
-    "contract": "0000031911",
-    "state": "otherday",
-    "time": "",
-    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same customer)",
-    "day": "2026-11-05",
-    "bigchange_ids": [
-     201967994,
-     201968075,
-     201968266
-    ],
-    "refs": [
-     "AES/62195",
-     "AES/62196",
-     "AES/62197"
-    ],
-    "bc_customer": "Termrim",
-    "why": [
-     "same customer"
-    ]
-   },
-   {
-    "idx": 2,
+    "idx": 1,
     "customer": "John Reilly Civil Engineering Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -491,7 +466,7 @@
     "seq": 1
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "P E Jones Contractors ( Manchester) Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -515,7 +490,7 @@
     "seq": 2
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Regin Construction Services Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -765,6 +740,59 @@
     "driver": "CR",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 2,
+    "customer": "Silverglide Ltd",
+    "postcode": "SK12 1AG",
+    "type": "Off Hire",
+    "contract": "0000031992",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203088921,
+     203089226,
+     203089572,
+     203090051
+    ],
+    "refs": [
+     "AES/64240",
+     "AES/64241",
+     "AES/64242",
+     "AES/64243"
+    ],
+    "bc_customer": "Silverglide",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 3,
+    "customer": "Termrim Construction Ltd",
+    "postcode": "LS29 6AR",
+    "type": "Off Hire",
+    "contract": "0000031911",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Thu 12 Nov, not this day (matched on same customer)",
+    "day": "2026-11-12",
+    "bigchange_ids": [
+     201967867,
+     201967941,
+     201968416
+    ],
+    "refs": [
+     "AES/62193",
+     "AES/62194",
+     "AES/62198"
+    ],
+    "bc_customer": "Termrim",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-16": [
@@ -899,6 +927,76 @@
     "driver": "RS",
     "run": 1,
     "seq": 2
+   },
+   {
+    "idx": 2,
+    "customer": "A Connolly Limited",
+    "postcode": "WN3 5XL",
+    "type": "Off Hire",
+    "contract": "0000029972",
+    "state": "planned",
+    "time": "07:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     203770236
+    ],
+    "refs": [
+     "AES/64738"
+    ],
+    "bc_customer": "A CONNOLLY",
+    "why": [
+     "same customer"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
+   },
+   {
+    "idx": 3,
+    "customer": "A Connolly Limited",
+    "postcode": "M25 1DZ",
+    "type": "Off Hire",
+    "contract": "0000032118",
+    "state": "planned",
+    "time": "07:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     203770236
+    ],
+    "refs": [
+     "AES/64738"
+    ],
+    "bc_customer": "A CONNOLLY",
+    "why": [
+     "same postcode",
+     "same customer"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
+   },
+   {
+    "idx": 4,
+    "customer": "A Connolly",
+    "postcode": "WN3 5XL",
+    "type": "Off Hire",
+    "contract": "0000030158",
+    "state": "planned",
+    "time": "07:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     203770236
+    ],
+    "refs": [
+     "AES/64738"
+    ],
+    "bc_customer": "A CONNOLLY",
+    "why": [
+     "same customer"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-18": [
@@ -1009,6 +1107,18 @@
     "po_status": "Authorised",
     "supplier_code": "A005",
     "note": "PO 01-003482 with Astley Hiabs Ltd, raised Mon 2 Nov"
+   },
+   {
+    "idx": 3,
+    "customer": "Termrim Construction Ltd",
+    "type": "Off Hire",
+    "postcode": "LS26 8EW",
+    "contract": "0000030799",
+    "haulier": "",
+    "po": "",
+    "po_status": "",
+    "supplier_code": "",
+    "note": "No PO for this job's haulage in MCS"
    }
   ],
   "2026-11-16": [
@@ -1023,6 +1133,18 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
+   },
+   {
+    "idx": 6,
+    "customer": "A Connolly Limited",
+    "type": "Off Hire",
+    "postcode": "BD10 9NF",
+    "contract": "0000031856#1",
+    "haulier": "",
+    "po": "",
+    "po_status": "",
+    "supplier_code": "",
+    "note": "No PO for this job's haulage in MCS"
    }
   ]
  },
