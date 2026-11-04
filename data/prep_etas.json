@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T14:34:59+00:00",
- "matched": 29,
+ "generated_at": "2026-11-04T15:05:39+00:00",
+ "matched": 31,
  "other_day": 2,
  "kensite_hiab_jobs": 37,
  "jobs": {
@@ -368,9 +368,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032222",
-    "state": "planned",
-    "time": "16:20",
-    "note": "From the AES planner (RS run 2), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "16:30",
+    "note": "On the way, 83 min from the depot in traffic",
     "bigchange_ids": [
      203678685
     ],
@@ -380,10 +380,7 @@
     "bc_customer": "PE JONES CONTRACTORS",
     "why": [
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 2,
-    "seq": 1
+    ]
    }
   ],
   "2026-11-05": [
@@ -870,6 +867,48 @@
     "why": [
      "same customer"
     ]
+   },
+   {
+    "idx": 3,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032210",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
+    "bigchange_ids": [
+     203791506
+    ],
+    "refs": [
+     "AES/64741"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "same customer",
+     "AES have it as a Site Move"
+    ]
+   },
+   {
+    "idx": 5,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032224",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
+    "bigchange_ids": [
+     203791506
+    ],
+    "refs": [
+     "AES/64741"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "same customer",
+     "AES have it as a Site Move"
+    ]
    }
   ],
   "2026-11-17": [
@@ -1183,6 +1222,12 @@
    "time": "13:10",
    "note": "On the way, 1 min from their last drop (M38 9XE) in traffic",
    "at": "13:07",
+   "day": "2026-11-04"
+  },
+  "203678685": {
+   "time": "16:30",
+   "note": "On the way, 83 min from the depot in traffic",
+   "at": "15:05",
    "day": "2026-11-04"
   }
  },
