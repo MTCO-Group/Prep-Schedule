@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-03T18:25:19+00:00",
- "matched": 29,
+ "generated_at": "2026-11-04T00:00:09+00:00",
+ "matched": 26,
  "other_day": 1,
- "kensite_hiab_jobs": 37,
+ "kensite_hiab_jobs": 32,
  "jobs": {
   "2026-11-02": [
    {
@@ -915,6 +915,34 @@
      "same customer"
     ]
    }
+  ],
+  "2026-11-18": [
+   {
+    "idx": 0,
+    "customer": "A Connolly Limited",
+    "postcode": "BD6 1HU",
+    "type": "Off Hire",
+    "contract": "0000031838",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203317625,
+     203317890,
+     203318125
+    ],
+    "refs": [
+     "AES/64422",
+     "AES/64423",
+     "AES/64424"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
+   }
   ]
  },
  "hauliers": {
@@ -1013,28 +1041,9 @@
    }
   ]
  },
- "live_fixed": {
-  "202017723": {
-   "time": "14:14",
-   "note": "Updated from the wagon's position at 14:08",
-   "at": "14:08",
-   "day": "2026-11-03"
-  },
-  "203071227": {
-   "time": "15:15",
-   "note": "On the way, 86 min from the depot in traffic",
-   "at": "13:49",
-   "day": "2026-11-03"
-  },
-  "203072232": {
-   "time": "13:42",
-   "note": "Updated from the wagon's position at 13:41",
-   "at": "13:41",
-   "day": "2026-11-03"
-  }
- },
+ "live_fixed": {},
  "kept": {
-  "past_days": 1,
+  "past_days": 2,
   "done_rows": 0
  }
 }
