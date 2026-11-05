@@ -20777,21 +20777,6 @@
       },
       {
         "type": "On Hire",
-        "customer": "MWH Treatment",
-        "postcode": "",
-        "contract_number": "0000032221",
-        "units": {},
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Fitter Labour for Repair",
-        "added_by": "MCS Auto",
-        "timestamp": "03/11/2026 12:40"
-      },
-      {
-        "type": "On Hire",
         "customer": "MCI Developments Ltd",
         "postcode": "",
         "contract_number": "0000032226",
@@ -21181,6 +21166,22 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre)",
         "added_by": "MCS Auto",
         "timestamp": "04/11/2026 14:31"
+      },
+      {
+        "type": "On Hire",
+        "customer": "MWH Treatment",
+        "postcode": "",
+        "contract_number": "0000032221",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Fitter Labour for Repair | Date moved by MCS Auto from 06/11/2026 to 09/11/2026 on 05/11/2026 16:41",
+        "added_by": "MCS Auto",
+        "timestamp": "05/11/2026 16:41",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-05": [
