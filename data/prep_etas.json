@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-05T11:44:44+00:00",
- "matched": 26,
+ "generated_at": "2026-11-05T12:01:13+00:00",
+ "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
  "jobs": {
@@ -1226,6 +1226,27 @@
     "bc_customer": "A Connolly",
     "why": [
      "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 1,
+    "customer": "Perfect Associates Ltd",
+    "postcode": "LL13 0TS",
+    "type": "Off Hire",
+    "contract": "0000032105",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203877046
+    ],
+    "refs": [
+     "AES/64810"
+    ],
+    "bc_customer": "Perfect Associates LTD",
+    "why": [
      "same postcode",
      "same customer"
     ]
