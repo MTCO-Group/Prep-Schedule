@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-05T13:22:17+00:00",
+ "generated_at": "2026-11-05T13:47:01+00:00",
  "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
@@ -542,9 +542,9 @@
     "postcode": "WN6 7DD",
     "type": "Off Hire",
     "contract": "0000031950",
-    "state": "planned",
-    "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "13:50",
+    "note": "On the way, 1 min from their last drop (WN6 7DD) in traffic",
     "bigchange_ids": [
      201859045,
      201861378,
@@ -560,10 +560,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 3,
@@ -1400,6 +1397,12 @@
    "time": "13:05",
    "note": "On the way, 81 min from their last drop (BD6 2AN) in traffic",
    "at": "11:42",
+   "day": "2026-11-05"
+  },
+  "201861378": {
+   "time": "13:50",
+   "note": "On the way, 1 min from their last drop (WN6 7DD) in traffic",
+   "at": "13:47",
    "day": "2026-11-05"
   },
   "203144218": {
