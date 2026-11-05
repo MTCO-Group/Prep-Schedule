@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-05T09:28:41+00:00",
+ "generated_at": "2026-11-05T09:32:48+00:00",
  "matched": 26,
  "other_day": 2,
  "kensite_hiab_jobs": 31,
@@ -566,6 +566,27 @@
     "seq": 1
    },
    {
+    "idx": 3,
+    "customer": "Regin Construction Services Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032216",
+    "state": "done",
+    "time": "09:31",
+    "note": "Completed in Big Change",
+    "bigchange_ids": [
+     203583172
+    ],
+    "refs": [
+     "AES/64632"
+    ],
+    "bc_customer": "Regin construction",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
     "idx": 0,
     "customer": "Termrim Construction Ltd",
     "postcode": "HX6 1HL",
@@ -641,28 +662,6 @@
     "driver": "RS",
     "run": 1,
     "seq": 2
-   },
-   {
-    "idx": 3,
-    "customer": "Regin Construction Services Ltd",
-    "postcode": "",
-    "type": "On Hire",
-    "contract": "0000032216",
-    "state": "otherday",
-    "time": "",
-    "note": "AES have this booked for Thu 5 Nov, not this day (matched on same postcode, same customer)",
-    "day": "2026-11-05",
-    "bigchange_ids": [
-     203583172
-    ],
-    "refs": [
-     "AES/64632"
-    ],
-    "bc_customer": "Regin construction",
-    "why": [
-     "same postcode",
-     "same customer"
-    ]
    }
   ],
   "2026-11-09": [
@@ -833,6 +832,41 @@
     "driver": "CR",
     "run": 1,
     "seq": 2
+   },
+   {
+    "idx": 4,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032224",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Tue 10 Nov, not this day (matched on same customer)",
+    "day": "2026-11-10",
+    "bigchange_ids": [
+     203083918,
+     203084079,
+     203084476,
+     203086171,
+     203086414,
+     203195952,
+     203321348,
+     203321438
+    ],
+    "refs": [
+     "AES/64235",
+     "AES/64236",
+     "AES/64237",
+     "AES/64238",
+     "AES/64239",
+     "AES/64306",
+     "AES/64425",
+     "AES/64426"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-12": [
@@ -1030,29 +1064,6 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032210",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
-    "bigchange_ids": [
-     203791506,
-     203791832
-    ],
-    "refs": [
-     "AES/64741",
-     "AES/64742"
-    ],
-    "bc_customer": "A Connolly",
-    "why": [
-     "same customer",
-     "AES have it as a Site Move"
-    ]
-   },
-   {
-    "idx": 5,
-    "customer": "A Connolly Limited",
-    "postcode": "",
-    "type": "On Hire",
-    "contract": "0000032224",
     "state": "",
     "time": "",
     "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
@@ -1334,7 +1345,7 @@
     "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 6,
+    "idx": 5,
     "customer": "A Connolly Limited",
     "type": "Off Hire",
     "postcode": "BD10 9NF",
