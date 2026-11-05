@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-04T16:51:22+00:00",
- "matched": 31,
+ "generated_at": "2026-11-05T00:00:12+00:00",
+ "matched": 26,
  "other_day": 2,
- "kensite_hiab_jobs": 37,
+ "kensite_hiab_jobs": 31,
  "jobs": {
   "2026-11-02": [
    {
@@ -1348,52 +1348,9 @@
    }
   ]
  },
- "live_fixed": {
-  "201863876": {
-   "time": "12:50",
-   "note": "On the way, 41 min from their last drop (BB2 1UB) in traffic",
-   "at": "12:08",
-   "day": "2026-11-04"
-  },
-  "202556835": {
-   "time": "11:06",
-   "note": "Updated from the wagon's position at 10:48",
-   "at": "10:48",
-   "day": "2026-11-04"
-  },
-  "202557331": {
-   "time": "10:20",
-   "note": "On the way, 1 min from their last drop (BB2 1UB) in traffic",
-   "at": "10:18",
-   "day": "2026-11-04"
-  },
-  "202826925": {
-   "time": "09:30",
-   "note": "On the way, 178 min from the depot in traffic",
-   "at": "06:30",
-   "day": "2026-11-04"
-  },
-  "202827038": {
-   "time": "11:30",
-   "note": "On the way, 177 min from the depot in traffic",
-   "at": "08:32",
-   "day": "2026-11-04"
-  },
-  "203248061": {
-   "time": "13:10",
-   "note": "On the way, 1 min from their last drop (M38 9XE) in traffic",
-   "at": "13:07",
-   "day": "2026-11-04"
-  },
-  "203678685": {
-   "time": "16:30",
-   "note": "On the way, 83 min from the depot in traffic",
-   "at": "15:05",
-   "day": "2026-11-04"
-  }
- },
+ "live_fixed": {},
  "kept": {
-  "past_days": 2,
-  "done_rows": 8
+  "past_days": 3,
+  "done_rows": 1
  }
 }
