@@ -1,8 +1,18 @@
 r"""
 Prep Schedule unit numbers
-Version 1.0
+Version 1.1
 
-The MCS fleet number of each On Hire unit, or "[Not Picked]", on the Prep
+1.1: past days too. Nathan, 05/11/2026: "On the prep schedule i'd like the
+numbers to show on previous days too please", the last 4 weeks. The
+Discrepancy Check 4.9 adds "delivered" to each contract: every unit line
+carrying a fleet number, whatever its status, with its delivery date. A past
+On Hire job's units take the numbers delivered on that contract on that day,
+of their type, a matching configuration first. A past unit never shows
+"[Not Picked]": with no number in MCS it shows nothing. This part is the
+Prep Schedule's own (the planner only plans units still to go), so it has
+no copy in the planner to keep in step with.
+
+1.0: the MCS fleet number of each On Hire unit, or "[Not Picked]", on the Prep
 Schedule's job panel and week chips. Nathan, 04/11/2026: the numbers showed
 on the Production Planner "but not on the prep schedule".
 
@@ -27,6 +37,7 @@ except Exception:                                    # noqa: BLE001  (no tz data
 
 _DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 FEED_FRESH = timedelta(hours=2)
+PAST_DAYS = 28        # 1.1: past days shown; the Discrepancy Check's PAST_DAYS covers the same
 
 
 def _text(v):
@@ -62,6 +73,14 @@ def _feed_line(v):
             "delivery": v["delivery"]}
 
 
+def _delivered_line(v):
+    if not isinstance(v, dict) or not isinstance(v.get("type"), str) or not v["type"] \
+            or not isinstance(v.get("config"), str) or not isinstance(v.get("fleet"), str) or not v["fleet"] \
+            or not isinstance(v.get("delivery"), str):
+        return None
+    return {"type": v["type"], "config": v["config"], "fleet": v["fleet"], "delivery": v["delivery"]}
+
+
 def parse_unit_feed(raw):
     """The feed file checked, or None (planner: parseUnitFeed)."""
     if not isinstance(raw, dict) or not isinstance(raw.get("written_at"), str) or not isinstance(raw.get("contracts"), dict):
@@ -71,8 +90,10 @@ def parse_unit_feed(raw):
         if not isinstance(v, dict) or not isinstance(v.get("lines"), list):
             continue
         lines = [ln for ln in (_feed_line(x) for x in v["lines"]) if ln is not None]
-        contracts[str(key).strip()] = {"read_at": v["read_at"] if isinstance(v.get("read_at"), str) else "",
-                                       "lines": lines}
+        entry = {"read_at": v["read_at"] if isinstance(v.get("read_at"), str) else "", "lines": lines}
+        if isinstance(v.get("delivered"), list):         # 1.1, written by the Discrepancy Check 4.9
+            entry["delivered"] = [d for d in (_delivered_line(x) for x in v["delivered"]) if d is not None]
+        contracts[str(key).strip()] = entry
     out = {"written_at": raw["written_at"]}
     if isinstance(raw.get("source"), str):
         out["source"] = raw["source"]
@@ -183,14 +204,16 @@ def _configs_for(job, unit, qty, av_units):
     return out
 
 
-def job_cards(jobs, today, asset_units, av_units):
+def job_cards(jobs, today, asset_units, av_units, since=None):
     """One card per asset for every On Hire job dated today or later, in the
     planner's order (planner: expandPrepJobs). Each card carries the job's
-    (date, index) so the Prep Schedule can find its labels."""
+    (date, index) so the Prep Schedule can find its labels. 1.1: since (a
+    date before today) takes past jobs from that date too."""
+    since = since or today
     cards = []
     for dk in sorted(jobs or {}):
         day = jobs[dk]
-        if not _DATE.match(dk) or dk < today or not isinstance(day, list):
+        if not _DATE.match(dk) or dk < since or not isinstance(day, list):
             continue
         for ji, job in enumerate(day):
             if not isinstance(job, dict) or job.get("type") != "On Hire" or not isinstance(job.get("units"), dict):
@@ -204,17 +227,58 @@ def job_cards(jobs, today, asset_units, av_units):
     return cards
 
 
-def labels_by_job(jobs, feed, now, today, asset_units, av_units):
+def match_delivered(cards, feed):
+    """1.1: {card id: fleet number} for past cards, from each contract's
+    delivered list: the numbers delivered on that MCS contract, of the card's
+    type, on the card's own delivery date, a matching configuration first.
+    A card with no such number is left out: a past unit is never "not picked"."""
+    delivered = {}
+    for ref, v in (feed or {}).get("contracts", {}).items():
+        c = mcs_contract(ref)
+        if c and c not in delivered and isinstance(v.get("delivered"), list):
+            delivered[c] = v["delivered"]
+    groups = {}
+    for u in cards:
+        contract = mcs_contract(u["contract"])
+        if not contract or contract not in delivered:
+            continue
+        gid = (contract, u["unit"], u["delivery"])
+        if gid not in groups:
+            slots = [{"fleet": d["fleet"], "config": _norm(d["config"]), "used": False}
+                     for d in delivered[contract] if d["type"] == u["unit"] and d["delivery"] == u["delivery"]]
+            groups[gid] = (slots, [])
+        groups[gid][1].append(u)
+    out = {}
+    for slots, group in groups.values():
+        def take(u, fits):
+            s = next((x for x in slots if not x["used"] and fits(x)), None)
+            if s:
+                s["used"] = True
+                out[u["id"]] = s["fleet"]
+        for u in group:
+            if u["config"]:
+                take(u, lambda s, c=_norm(u["config"]): s["config"] == c)
+        for u in group:
+            if u["id"] not in out:
+                take(u, lambda s: True)
+    return out
+
+
+def labels_by_job(jobs, feed, now, today, asset_units, av_units, past_days=PAST_DAYS):
     """{(date, job index): [(unit, config, fleet number or None)]} in card
     order. A fleet number always shows; None ("[Not Picked]") only while the
-    feed is fresh; a unit Ken does not know about is left out."""
+    feed is fresh and only from today on; a unit Ken does not know about is
+    left out. 1.1: past jobs from past_days ago show what was delivered."""
     if not feed:
         return {}
-    cards = job_cards(jobs, today, asset_units, av_units)
+    since = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=past_days)).strftime("%Y-%m-%d")
+    every = job_cards(jobs, today, asset_units, av_units, since=since)
+    cards = [c for c in every if c["dk"] >= today]
     fleet = match_fleet(cards, feed)
+    fleet.update(match_delivered([c for c in every if c["dk"] < today], feed))
     fresh = feed_is_fresh(feed.get("written_at", ""), now)
     out = {}
-    for c in cards:
+    for c in every:
         if c["id"] not in fleet:
             continue
         f = fleet[c["id"]]
