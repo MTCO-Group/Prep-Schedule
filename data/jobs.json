@@ -15835,23 +15835,6 @@
         "timestamp": "14/09/2026 13:40"
       },
       {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "M45 8PP",
-        "contract_number": "0000031998",
-        "units": {
-          "20ft Store": 3
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Grass Verge off 2 Sawley Avenue, Unsworth, , M45 8PP",
-        "added_by": "MCS Auto",
-        "timestamp": "16/09/2026 10:12"
-      },
-      {
         "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
@@ -20789,6 +20772,53 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x 24ft towable 15person solar welfare",
         "added_by": "MCS Auto",
         "timestamp": "05/11/2026 10:21"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "OL9 8NH",
+        "contract_number": "0000030988",
+        "units": {
+          "Static Welfare": 1,
+          "20ft Store": 6
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Connolly Cabins at Melrose Playing Fields,, Fields New rd, Chadderton, , OL9 8NH | Also on contract: 1x Inital Water Fill; 56x Initial Fuel; 85x Fuel; 1x Chargeable Weekly welfare service | Return date moved by MCS Auto from 29/10/2026 to 16/11/2026 on 30/10/2026 09:31 | Return date moved by MCS Auto from 16/11/2026 to 06/11/2026 on 06/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 09:31",
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Silverglide Ltd",
+        "postcode": "SK12 1AG",
+        "contract_number": "0000031992",
+        "units": {
+          "20ft AV": 2,
+          "20ft Store": 1,
+          "3+1": 1,
+          "Steps": 2,
+          "IBC": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: the bulls head, 115 London Rd N, Poynton, Stockport, , SK12 1AG | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x 10 pcs sanitary bins | Return date moved by MCS Auto from 13/11/2026 to 06/11/2026 on 06/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 09:31",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-17": [
@@ -20891,6 +20921,24 @@
         "notes": "Return date moved by MCS Auto from 02/07/2026 to 17/11/2026 on 04/11/2026 14:31",
         "added_by": "Peter",
         "timestamp": "04/11/2026 14:31",
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M45 8PP",
+        "contract_number": "0000031998",
+        "units": {
+          "20ft Store": 3
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Grass Verge off 2 Sawley Avenue, Unsworth, , M45 8PP | Return date moved by MCS Auto from 18/09/2026 to 17/11/2026 on 06/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 09:31",
         "date_moved_by": "MCS Auto"
       }
     ],
@@ -21301,25 +21349,6 @@
         "timestamp": "29/10/2026 16:40"
       },
       {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "OL9 8NH",
-        "contract_number": "0000030988",
-        "units": {
-          "Static Welfare": 1,
-          "20ft Store": 6
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Connolly Cabins at Melrose Playing Fields,, Fields New rd, Chadderton, , OL9 8NH | Also on contract: 1x Inital Water Fill; 56x Initial Fuel; 85x Fuel; 1x Chargeable Weekly welfare service | Return date moved by MCS Auto from 29/10/2026 to 16/11/2026 on 30/10/2026 09:31",
-        "added_by": "MCS Auto",
-        "timestamp": "30/10/2026 09:31",
-        "date_moved_by": "MCS Auto"
-      },
-      {
         "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
@@ -21681,33 +21710,6 @@
         "timestamp": "03/11/2026 15:20",
         "av_configs": {
           "24ft AV": {
-            "Canteen": 1
-          }
-        }
-      },
-      {
-        "type": "Off Hire",
-        "customer": "Silverglide Ltd",
-        "postcode": "SK12 1AG",
-        "contract_number": "0000031992",
-        "units": {
-          "20ft AV": 2,
-          "20ft Store": 1,
-          "3+1": 1,
-          "Steps": 2,
-          "IBC": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: the bulls head, 115 London Rd N, Poynton, Stockport, , SK12 1AG | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x 10 pcs sanitary bins",
-        "added_by": "MCS Auto",
-        "timestamp": "04/11/2026 14:31",
-        "av_configs": {
-          "20ft AV": {
-            "Office": 1,
             "Canteen": 1
           }
         }
