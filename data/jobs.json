@@ -21652,6 +21652,24 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Sandersons Farm, Park Hall Road, Heskin, , PR7 5LS",
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 09:50"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Elite Access Solutions (EAS) Ltd",
+        "postcode": "M50 3SP",
+        "contract_number": "0000031929",
+        "units": {
+          "Static Welfare": 1,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: ALEXANDER BUILDING, SALFORD QUAYS, SALFORD, , M50 3SP | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill; 1x Weekly Service",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 13:00"
       }
     ],
     "2026-11-20": [
