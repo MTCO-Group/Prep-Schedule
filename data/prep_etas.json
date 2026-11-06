@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T10:20:34+00:00",
+ "generated_at": "2026-11-06T10:24:42+00:00",
  "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
@@ -1237,26 +1237,22 @@
     "postcode": "M45 8PP",
     "type": "Off Hire",
     "contract": "0000031998",
-    "state": "planned",
-    "time": "07:25",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
-     203770236,
-     203793496,
-     203794923
+     203981721,
+     203982066
     ],
     "refs": [
-     "AES/64738",
-     "AES/64743",
-     "AES/64744"
+     "AES/64882",
+     "AES/64883"
     ],
-    "bc_customer": "A CONNOLLY",
+    "bc_customer": "A Connolly",
     "why": [
+     "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    }
   ],
   "2026-11-18": [
