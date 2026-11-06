@@ -20921,6 +20921,25 @@
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 09:31",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "DLP Services (Northern) Ltd",
+        "postcode": "OL12 7LG",
+        "contract_number": "0000031145",
+        "units": {
+          "20ft AV": 1,
+          "20ft Store": 1,
+          "IBC": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: DLP Site Compound, Field Adjacent to 109 Ings Lane, Rochdale, , OL12 7LG | Also on contract: 1x Pump; 1x initial water fill; 1x Weekly Water Fill; 1x Weekly Water Fill - Every 4 weeks - 05.03",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 10:40"
       }
     ],
     "2026-11-03": [
