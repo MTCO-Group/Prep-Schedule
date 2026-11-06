@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T10:53:22+00:00",
- "matched": 29,
+ "generated_at": "2026-11-06T11:12:01+00:00",
+ "matched": 31,
  "other_day": 2,
- "kensite_hiab_jobs": 37,
+ "kensite_hiab_jobs": 39,
  "jobs": {
   "2026-11-02": [
    {
@@ -729,6 +729,28 @@
     "why": [
      "customer alike"
     ]
+   },
+   {
+    "idx": 8,
+    "customer": "A Connolly Limited",
+    "postcode": "PR2 3XL",
+    "type": "Off Hire",
+    "contract": "0000030091",
+    "state": "done",
+    "time": "08:41",
+    "note": "Completed in Big Change",
+    "bigchange_ids": [
+     202955517
+    ],
+    "refs": [
+     "AES/64017"
+    ],
+    "bc_customer": "connolly cromer place",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "customer alike"
+    ]
    }
   ],
   "2026-11-09": [
@@ -1043,7 +1065,7 @@
     "seq": 1
    },
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "Termrim Construction Ltd",
     "postcode": "LS29 6AR",
     "type": "Off Hire",
@@ -1068,7 +1090,7 @@
     ]
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Silver Glide",
     "postcode": "SK12 1AG",
     "type": "Off Hire",
@@ -1375,6 +1397,31 @@
      "same customer"
     ]
    }
+  ],
+  "2026-11-19": [
+   {
+    "idx": 1,
+    "customer": "A Connolly Limited",
+    "postcode": "PR2 3XL",
+    "type": "Off Hire",
+    "contract": "0000030654",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203697618,
+     203697719
+    ],
+    "refs": [
+     "AES/64682",
+     "AES/64683"
+    ],
+    "bc_customer": "connolly cromer place",
+    "why": [
+     "same postcode",
+     "customer alike"
+    ]
+   }
   ]
  },
  "hauliers": {
@@ -1486,7 +1533,7 @@
   ],
   "2026-11-13": [
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "A Connolly Limited",
     "type": "On Hire",
     "postcode": "",
