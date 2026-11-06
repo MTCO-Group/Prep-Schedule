@@ -13316,25 +13316,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "DLP Services (Northern) Ltd",
-        "postcode": "OL12 7LG",
-        "contract_number": "0000031145#1",
-        "units": {
-          "20ft AV": 1,
-          "20ft Store": 1,
-          "IBC": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Split delivery #1 - later drop on this contract | Site: DLP Site Compound, Field Adjacent to 109 Ings Lane, Rochdale, , OL12 7LG | Also on contract: 1x Pump; 1x initial water fill; 1x Weekly Water Fill; 1x Weekly Water Fill - Every 4 weeks - 05.03",
-        "added_by": "MCS Auto",
-        "timestamp": "17/08/2026 14:00"
-      },
-      {
-        "type": "Off Hire",
         "customer": "Winstanley Plumbing & Heating",
         "postcode": "PR4 3SH",
         "contract_number": "0000031705",
