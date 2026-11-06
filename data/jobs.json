@@ -8256,32 +8256,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "H H Smith & Sons Co Ltd",
-        "postcode": "BB2 3HH",
-        "contract_number": "0000031193",
-        "units": {
-          "24ft AV": 2,
-          "2+1": 1,
-          "10ft Store": 1,
-          "Steps": 2
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: BLACKBURN HOSPITAL, TOWER VIEW, HASLINGDEN ROAD, BLACKBURN, BB2 3HH | Also on contract: 1x Staircase; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty; 1x Double Stack/ Erect Staircase; 1x Chargeable Fortnighlty Tank Empty",
-        "added_by": "MCS Auto",
-        "timestamp": "16/07/2026 18:22",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1,
-            "Canteen": 1
-          }
-        }
-      },
-      {
-        "type": "Off Hire",
         "customer": "Premier Building Supplies Ltd",
         "postcode": "SK8 6HX",
         "contract_number": "0000031068",
@@ -21920,6 +21894,33 @@
         "timestamp": "06/11/2026 11:10",
         "av_configs": {
           "24ft AV": {
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "H H Smith & Sons Co Ltd",
+        "postcode": "BB2 3HH",
+        "contract_number": "0000031193",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1,
+          "10ft Store": 1,
+          "Steps": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: BLACKBURN HOSPITAL, TOWER VIEW, HASLINGDEN ROAD, BLACKBURN, BB2 3HH | Also on contract: 1x Staircase; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty; 1x Double Stack/ Erect Staircase; 1x Chargeable Fortnighlty Tank Empty | Return date moved by MCS Auto from 20/07/2026 to 19/11/2026 on 06/11/2026 11:40",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 11:40",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
             "Canteen": 1
           }
         },
