@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T13:02:18+00:00",
+ "generated_at": "2026-11-06T13:27:02+00:00",
  "matched": 31,
  "other_day": 2,
  "kensite_hiab_jobs": 41,
@@ -661,9 +661,9 @@
     "postcode": "OL9 8NH",
     "type": "Off Hire",
     "contract": "0000030988",
-    "state": "planned",
-    "time": "08:00",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "13:30",
+    "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic",
     "bigchange_ids": [
      202955517,
      202955750,
@@ -679,10 +679,7 @@
     "bc_customer": "connolly cromer place",
     "why": [
      "customer alike"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 6,
@@ -713,9 +710,9 @@
     "postcode": "OL9 8JN",
     "type": "Off Hire",
     "contract": "0000031696",
-    "state": "planned",
-    "time": "08:00",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "13:30",
+    "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic (set when it went live at 13:27)",
     "bigchange_ids": [
      202955517,
      202955750,
@@ -731,10 +728,7 @@
     "bc_customer": "connolly cromer place",
     "why": [
      "customer alike"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 8,
@@ -1588,6 +1582,12 @@
   ]
  },
  "live_fixed": {
+  "202955853": {
+   "time": "13:30",
+   "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic",
+   "at": "13:27",
+   "day": "2026-11-06"
+  },
   "202956230": {
    "time": "12:20",
    "note": "On the way, 86 min from their last drop (CW1 4QR) in traffic",
