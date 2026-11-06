@@ -21788,6 +21788,23 @@
         "notes": "",
         "added_by": "Peter",
         "timestamp": "06/11/2026 10:32"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Farmer Bertie's Ltd",
+        "postcode": "WA3 5NX",
+        "contract_number": "0000032087",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Manor House farm, Warrington road, Leigh end, , Wa3 5nx | Also on contract: 1x Event Toilet; 1x Event Toilet; 1x Event Toilet; 1x Event Toilet",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 11:40"
       }
     ],
     "2026-11-07": [
