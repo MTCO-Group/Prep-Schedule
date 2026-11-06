@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T10:12:14+00:00",
- "matched": 26,
+ "generated_at": "2026-11-06T10:14:19+00:00",
+ "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 34,
  "jobs": {
@@ -906,6 +906,27 @@
     ],
     "bc_customer": "greenmount projects ltd",
     "why": [
+     "same customer"
+    ]
+   },
+   {
+    "idx": 6,
+    "customer": "Persimmons Homes Lancashire",
+    "postcode": "L40 5SP",
+    "type": "Off Hire",
+    "contract": "0000030224",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     203978859
+    ],
+    "refs": [
+     "AES/64880"
+    ],
+    "bc_customer": "Persimmon Homes (North West)",
+    "why": [
+     "same postcode",
      "same customer"
     ]
    }
