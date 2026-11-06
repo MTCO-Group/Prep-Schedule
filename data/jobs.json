@@ -21640,6 +21640,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Wrexham Solar Project, Wrexham, , LL13 0TS",
         "added_by": "MCS Auto",
         "timestamp": "05/11/2026 11:01"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "D P Construction",
+        "postcode": "PR7 5LS",
+        "contract_number": "0000031681",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Sandersons Farm, Park Hall Road, Heskin, , PR7 5LS",
+        "added_by": "MCS Auto",
+        "timestamp": "06/11/2026 09:50"
       }
     ],
     "2026-11-20": [
