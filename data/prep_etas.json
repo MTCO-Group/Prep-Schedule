@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T10:43:13+00:00",
+ "generated_at": "2026-11-06T10:51:21+00:00",
  "matched": 29,
  "other_day": 2,
  "kensite_hiab_jobs": 37,
@@ -661,9 +661,9 @@
     "postcode": "OL9 8NH",
     "type": "Off Hire",
     "contract": "0000030988",
-    "state": "planned",
-    "time": "08:00",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "12:20",
+    "note": "On the way, 86 min from their last drop (CW1 4QR) in traffic",
     "bigchange_ids": [
      202955517,
      202955750,
@@ -679,10 +679,7 @@
     "bc_customer": "connolly cromer place",
     "why": [
      "customer alike"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 6,
@@ -705,6 +702,32 @@
     "why": [
      "customer alike",
      "AES have it as a Site Move"
+    ]
+   },
+   {
+    "idx": 7,
+    "customer": "A Connolly Limited",
+    "postcode": "OL9 8JN",
+    "type": "Off Hire",
+    "contract": "0000031696",
+    "state": "live",
+    "time": "12:20",
+    "note": "On the way, 86 min from their last drop (CW1 4QR) in traffic (set when it went live at 10:51)",
+    "bigchange_ids": [
+     202955517,
+     202955750,
+     202955853,
+     202956230
+    ],
+    "refs": [
+     "AES/64017",
+     "AES/64018",
+     "AES/64019",
+     "AES/64020"
+    ],
+    "bc_customer": "connolly cromer place",
+    "why": [
+     "customer alike"
     ]
    }
   ],
@@ -1096,35 +1119,6 @@
     "driver": "RB",
     "run": 1,
     "seq": 1
-   },
-   {
-    "idx": 1,
-    "customer": "A Connolly Limited",
-    "postcode": "OL9 8JN",
-    "type": "Off Hire",
-    "contract": "0000031696",
-    "state": "planned",
-    "time": "11:00",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
-    "bigchange_ids": [
-     203636782,
-     203637050,
-     203637268,
-     203637493
-    ],
-    "refs": [
-     "AES/64647",
-     "AES/64648",
-     "AES/64649",
-     "AES/64650"
-    ],
-    "bc_customer": "A Connolly Limited",
-    "why": [
-     "same customer"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
    }
   ],
   "2026-11-17": [
@@ -1512,7 +1506,7 @@
     "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "A Connolly Limited",
     "type": "Off Hire",
     "postcode": "BD10 9NF",
@@ -1526,6 +1520,12 @@
   ]
  },
  "live_fixed": {
+  "202956230": {
+   "time": "12:20",
+   "note": "On the way, 86 min from their last drop (CW1 4QR) in traffic",
+   "at": "10:51",
+   "day": "2026-11-06"
+  },
   "203142573": {
    "time": "07:45",
    "note": "On the way, 74 min from the depot in traffic",
