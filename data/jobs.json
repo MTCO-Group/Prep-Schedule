@@ -20816,6 +20816,26 @@
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 10:40",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "OL9 8JN",
+        "contract_number": "0000031696",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: HOLLINWOOD ARLFC, FEILDS NEW ROAD, CHADDERTON, OLDHAM, OL9 8JN",
+        "added_by": "MCS Auto",
+        "timestamp": "29/10/2026 16:40",
+        "moved_by": "\u2014",
+        "moved_from": "2026-11-16",
+        "edited_at": "06/11/2026 10:51"
       }
     ],
     "2026-11-17": [
@@ -21346,23 +21366,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x 32ft Male / Female Shower / Toilet Block; 1x Chargeable Weekly Tank Empty; 1x Pump; 1x Weekly Water Fill Per 1000L; 1x 63AMP Extension Leads",
         "added_by": "MCS Auto",
         "timestamp": "28/10/2026 13:31"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "OL9 8JN",
-        "contract_number": "0000031696",
-        "units": {
-          "20ft Store": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: HOLLINWOOD ARLFC, FEILDS NEW ROAD, CHADDERTON, OLDHAM, OL9 8JN",
-        "added_by": "MCS Auto",
-        "timestamp": "29/10/2026 16:40"
       },
       {
         "type": "Off Hire",
