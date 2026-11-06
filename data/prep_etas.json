@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T13:52:03+00:00",
- "matched": 31,
+ "generated_at": "2026-11-06T14:18:57+00:00",
+ "matched": 32,
  "other_day": 2,
  "kensite_hiab_jobs": 43,
  "jobs": {
@@ -1405,6 +1405,27 @@
     "driver": "RS",
     "run": 1,
     "seq": 2
+   },
+   {
+    "idx": 3,
+    "customer": "Elite Access Solutions (EAS) Ltd",
+    "postcode": "M50 3SP",
+    "type": "Off Hire",
+    "contract": "0000031929",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204026638
+    ],
+    "refs": [
+     "AES/64896"
+    ],
+    "bc_customer": "Elite Access",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
    }
   ],
   "2026-11-19": [
