@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T13:29:00+00:00",
+ "generated_at": "2026-11-06T13:31:10+00:00",
  "matched": 31,
  "other_day": 2,
- "kensite_hiab_jobs": 41,
+ "kensite_hiab_jobs": 42,
  "jobs": {
   "2026-11-02": [
    {
@@ -661,9 +661,9 @@
     "postcode": "OL9 8NH",
     "type": "Off Hire",
     "contract": "0000030988",
-    "state": "live",
-    "time": "13:30",
-    "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic (set when it went live at 13:27)",
+    "state": "done",
+    "time": "13:29",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      202955517,
      202955750,
@@ -710,9 +710,9 @@
     "postcode": "OL9 8JN",
     "type": "Off Hire",
     "contract": "0000031696",
-    "state": "live",
-    "time": "13:30",
-    "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic (set when it went live at 13:27)",
+    "state": "done",
+    "time": "13:29",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      202955517,
      202955750,
