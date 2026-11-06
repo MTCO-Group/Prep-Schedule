@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T15:29:10+00:00",
- "matched": 32,
+ "generated_at": "2026-11-06T15:41:32+00:00",
+ "matched": 33,
  "other_day": 2,
  "kensite_hiab_jobs": 43,
  "jobs": {
@@ -1449,6 +1449,30 @@
     "why": [
      "same postcode",
      "customer alike"
+    ]
+   }
+  ],
+  "2026-11-20": [
+   {
+    "idx": 1,
+    "customer": "F Parkinson Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000031643",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204040514,
+     204040652
+    ],
+    "refs": [
+     "AES/64912",
+     "AES/64914"
+    ],
+    "bc_customer": "Brookfield School",
+    "why": [
+     "same postcode"
     ]
    }
   ]
