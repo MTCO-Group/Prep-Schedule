@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-06T13:40:21Z",
+ "written_at": "2026-11-06T14:50:13Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032056": {
@@ -973,42 +973,8 @@
     }
    ]
   },
-  "0000031643": {
-   "read_at": "2026-11-06T09:30:41Z",
-   "lines": [
-    {
-     "type": "24ft AV",
-     "config": "Office",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-25"
-    },
-    {
-     "type": "24ft AV",
-     "config": "Canteen",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-25"
-    },
-    {
-     "type": "32ft AV",
-     "config": "Drying Room",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-25"
-    },
-    {
-     "type": "20ft Store",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-25"
-    }
-   ],
-   "delivered": []
-  },
   "0000032205": {
-   "read_at": "2026-11-06T13:30:21Z",
+   "read_at": "2026-11-06T14:50:15Z",
    "lines": [],
    "delivered": [
     {
@@ -1020,25 +986,32 @@
    ]
   },
   "0000032213": {
-   "read_at": "2026-11-06T13:30:32Z",
+   "read_at": "2026-11-06T14:50:26Z",
    "lines": [
     {
      "type": "Mobile Welfare",
      "config": "",
-     "fleet": null,
+     "fleet": "8745",
      "qty": 1,
      "delivery": "2026-11-06"
     }
    ],
-   "delivered": []
+   "delivered": [
+    {
+     "type": "Mobile Welfare",
+     "config": "",
+     "fleet": "8745",
+     "delivery": "2026-11-06"
+    }
+   ]
   },
   "0000032226": {
-   "read_at": "2026-11-06T13:30:45Z",
+   "read_at": "2026-11-06T14:50:38Z",
    "lines": [],
    "delivered": []
   },
   "0000032210": {
-   "read_at": "2026-11-06T13:30:30Z",
+   "read_at": "2026-11-06T14:50:24Z",
    "lines": [],
    "delivered": []
   },
@@ -1140,7 +1113,7 @@
    ]
   },
   "0000032094": {
-   "read_at": "2026-11-06T13:20:24Z",
+   "read_at": "2026-11-06T14:40:19Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1200,7 +1173,7 @@
    ]
   },
   "0000032200": {
-   "read_at": "2026-11-06T13:20:31Z",
+   "read_at": "2026-11-06T14:40:26Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1283,7 +1256,7 @@
    "delivered": []
   },
   "0000032225": {
-   "read_at": "2026-11-06T13:30:43Z",
+   "read_at": "2026-11-06T14:50:36Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1296,7 +1269,7 @@
    "delivered": []
   },
   "0000032221": {
-   "read_at": "2026-11-06T13:30:37Z",
+   "read_at": "2026-11-06T14:50:31Z",
    "lines": [],
    "delivered": []
   },
@@ -1378,7 +1351,7 @@
    "delivered": []
   },
   "0000032206": {
-   "read_at": "2026-11-06T13:30:23Z",
+   "read_at": "2026-11-06T14:50:17Z",
    "lines": [
     {
      "type": "4+2",
@@ -1405,7 +1378,7 @@
    "delivered": []
   },
   "0000032209": {
-   "read_at": "2026-11-06T13:30:28Z",
+   "read_at": "2026-11-06T14:50:22Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1418,7 +1391,7 @@
    "delivered": []
   },
   "0000032208": {
-   "read_at": "2026-11-06T13:30:26Z",
+   "read_at": "2026-11-06T14:50:20Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1466,7 +1439,7 @@
    "delivered": []
   },
   "0000032217": {
-   "read_at": "2026-11-06T13:30:36Z",
+   "read_at": "2026-11-06T14:50:29Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1521,7 +1494,7 @@
    "delivered": []
   },
   "0000032224": {
-   "read_at": "2026-11-06T13:30:41Z",
+   "read_at": "2026-11-06T14:50:34Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1554,7 +1527,7 @@
    ]
   },
   "0000032227": {
-   "read_at": "2026-11-06T13:30:47Z",
+   "read_at": "2026-11-06T14:50:40Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1566,8 +1539,42 @@
    ],
    "delivered": []
   },
+  "0000031643": {
+   "read_at": "2026-11-06T09:30:41Z",
+   "lines": [
+    {
+     "type": "24ft AV",
+     "config": "Office",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-25"
+    },
+    {
+     "type": "24ft AV",
+     "config": "Canteen",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-25"
+    },
+    {
+     "type": "32ft AV",
+     "config": "Drying Room",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-25"
+    },
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-25"
+    }
+   ],
+   "delivered": []
+  },
   "0000032150": {
-   "read_at": "2026-11-06T13:20:27Z",
+   "read_at": "2026-11-06T14:40:22Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1601,7 +1608,7 @@
    "delivered": []
   },
   "0000032229": {
-   "read_at": "2026-11-06T13:40:26Z",
+   "read_at": "2026-11-06T14:20:25Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1614,7 +1621,7 @@
    "delivered": []
   },
   "0000032223": {
-   "read_at": "2026-11-06T13:30:39Z",
+   "read_at": "2026-11-06T14:50:33Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1647,7 +1654,7 @@
    ]
   },
   "0000032075": {
-   "read_at": "2026-11-06T13:40:24Z",
+   "read_at": "2026-11-06T14:20:23Z",
    "lines": [
     {
      "type": "24ft AV",
