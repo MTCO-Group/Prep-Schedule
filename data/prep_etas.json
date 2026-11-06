@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T15:49:43+00:00",
- "matched": 33,
+ "generated_at": "2026-11-06T16:24:24+00:00",
+ "matched": 32,
  "other_day": 2,
- "kensite_hiab_jobs": 43,
+ "kensite_hiab_jobs": 42,
  "jobs": {
   "2026-11-02": [
    {
@@ -1118,34 +1118,6 @@
     "seq": 2
    }
   ],
-  "2026-11-16": [
-   {
-    "idx": 0,
-    "customer": "Reactive Hire Ltd",
-    "postcode": "",
-    "type": "On Hire",
-    "contract": "0000032203",
-    "state": "planned",
-    "time": "10:20",
-    "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
-    "taken_as_aes": true,
-    "bigchange_ids": [
-     203108623,
-     203108850
-    ],
-    "refs": [
-     "AES/64251",
-     "AES/64252"
-    ],
-    "bc_customer": "British Steel",
-    "why": [
-     "same postcode"
-    ],
-    "driver": "RB",
-    "run": 1,
-    "seq": 1
-   }
-  ],
   "2026-11-17": [
    {
     "idx": 0,
@@ -1607,19 +1579,7 @@
   ],
   "2026-11-16": [
    {
-    "idx": 0,
-    "customer": "Reactive Hire Ltd",
-    "type": "On Hire",
-    "postcode": "",
-    "contract": "0000032203",
-    "haulier": "AES",
-    "po": "01-003435",
-    "po_status": "Authorised",
-    "supplier_code": "AIN002",
-    "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
-   },
-   {
-    "idx": 2,
+    "idx": 1,
     "customer": "A Connolly Limited",
     "type": "Off Hire",
     "postcode": "BD10 9NF",
