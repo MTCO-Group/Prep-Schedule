@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-06T09:13:48+00:00",
+ "generated_at": "2026-11-06T09:32:39+00:00",
  "matched": 24,
  "other_day": 2,
- "kensite_hiab_jobs": 30,
+ "kensite_hiab_jobs": 33,
  "jobs": {
   "2026-11-02": [
    {
@@ -654,6 +654,35 @@
     "driver": "RS",
     "run": 3,
     "seq": 1
+   },
+   {
+    "idx": 4,
+    "customer": "A Connolly Limited",
+    "postcode": "OL9 8NH",
+    "type": "Off Hire",
+    "contract": "0000030988",
+    "state": "planned",
+    "time": "08:00",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     202955517,
+     202955750,
+     202955853,
+     202956230
+    ],
+    "refs": [
+     "AES/64017",
+     "AES/64018",
+     "AES/64019",
+     "AES/64020"
+    ],
+    "bc_customer": "connolly cromer place",
+    "why": [
+     "customer alike"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-09": [
@@ -922,37 +951,6 @@
    },
    {
     "idx": 2,
-    "customer": "Silverglide Ltd",
-    "postcode": "SK12 1AG",
-    "type": "Off Hire",
-    "contract": "0000031992",
-    "state": "planned",
-    "time": "09:35",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
-    "bigchange_ids": [
-     203088921,
-     203089226,
-     203089572,
-     203090051
-    ],
-    "refs": [
-     "AES/64240",
-     "AES/64241",
-     "AES/64242",
-     "AES/64243"
-    ],
-    "bc_customer": "Silverglide",
-    "why": [
-     "PO on this contract",
-     "same postcode",
-     "same customer"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
-   },
-   {
-    "idx": 3,
     "customer": "Termrim Construction Ltd",
     "postcode": "LS29 6AR",
     "type": "Off Hire",
@@ -1035,35 +1033,6 @@
    },
    {
     "idx": 2,
-    "customer": "A Connolly Limited",
-    "postcode": "OL9 8NH",
-    "type": "Off Hire",
-    "contract": "0000030988",
-    "state": "planned",
-    "time": "11:00",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
-    "bigchange_ids": [
-     203636782,
-     203637050,
-     203637268,
-     203637493
-    ],
-    "refs": [
-     "AES/64647",
-     "AES/64648",
-     "AES/64649",
-     "AES/64650"
-    ],
-    "bc_customer": "A Connolly Limited",
-    "why": [
-     "same customer"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
-   },
-   {
-    "idx": 3,
     "customer": "A Connolly Limited",
     "postcode": "",
     "type": "On Hire",
@@ -1220,6 +1189,33 @@
     "driver": "DF",
     "run": 1,
     "seq": 2
+   },
+   {
+    "idx": 5,
+    "customer": "A Connolly Limited",
+    "postcode": "M45 8PP",
+    "type": "Off Hire",
+    "contract": "0000031998",
+    "state": "planned",
+    "time": "07:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     203770236,
+     203793496,
+     203794923
+    ],
+    "refs": [
+     "AES/64738",
+     "AES/64743",
+     "AES/64744"
+    ],
+    "bc_customer": "A CONNOLLY",
+    "why": [
+     "same customer"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-18": [
@@ -1395,7 +1391,7 @@
     "note": "PO 01-003435 with Ainscough Environmental Services, raised Mon 16 Nov, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "A Connolly Limited",
     "type": "Off Hire",
     "postcode": "BD10 9NF",
