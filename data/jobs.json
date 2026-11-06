@@ -21308,24 +21308,6 @@
     ],
     "2026-11-16": [
       {
-        "type": "On Hire",
-        "customer": "Reactive Hire Ltd",
-        "postcode": "",
-        "contract_number": "0000032203",
-        "units": {
-          "Tank": 1,
-          "Generator": 1
-        },
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x 32ft Male / Female Shower / Toilet Block; 1x Chargeable Weekly Tank Empty; 1x Pump; 1x Weekly Water Fill Per 1000L; 1x 63AMP Extension Leads",
-        "added_by": "MCS Auto",
-        "timestamp": "28/10/2026 13:31"
-      },
-      {
         "type": "Off Hire",
         "customer": "A Connolly Limited",
         "postcode": "OL8 3RU",
