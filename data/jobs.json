@@ -21916,7 +21916,9 @@
           }
         },
         "date_moved_by": "MCS Auto"
-      },
+      }
+    ],
+    "2026-12-07": [
       {
         "type": "Off Hire",
         "customer": "H H Smith & Sons Co Ltd",
@@ -21942,7 +21944,10 @@
             "Canteen": 1
           }
         },
-        "date_moved_by": "MCS Auto"
+        "date_moved_by": "MCS Auto",
+        "moved_by": "\u2014",
+        "moved_from": "2026-11-19",
+        "edited_at": "06/11/2026 13:01"
       }
     ]
   },
