@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-08T15:02:30+00:00",
- "matched": 24,
+ "generated_at": "2026-11-08T15:32:30+00:00",
+ "matched": 26,
  "other_day": 2,
- "kensite_hiab_jobs": 32,
+ "kensite_hiab_jobs": 34,
  "jobs": {
   "2026-11-02": [
    {
@@ -783,6 +783,61 @@
     "seq": 1
    },
    {
+    "idx": 2,
+    "customer": "Chandos Civil Engineering Ltd",
+    "postcode": "WA8 8LY",
+    "type": "Off Hire",
+    "contract": "0000031785",
+    "state": "planned",
+    "time": "10:00",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "taken_as_aes": true,
+    "bigchange_ids": [
+     203198057,
+     203198224
+    ],
+    "refs": [
+     "AES/64315",
+     "AES/64316"
+    ],
+    "bc_customer": "Chandos",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 2
+   },
+   {
+    "idx": 3,
+    "customer": "Chandos Civil Engineering Ltd",
+    "postcode": "WA8 8LY",
+    "type": "Off Hire",
+    "contract": "0000031822",
+    "state": "planned",
+    "time": "10:00",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "taken_as_aes": true,
+    "bigchange_ids": [
+     203198057,
+     203198224
+    ],
+    "refs": [
+     "AES/64315",
+     "AES/64316"
+    ],
+    "bc_customer": "Chandos",
+    "why": [
+     "same postcode",
+     "same customer"
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 2
+   },
+   {
     "idx": 4,
     "customer": "Holmpatrick Developments",
     "postcode": "WA9 3EX",
@@ -1428,6 +1483,18 @@
     "po_status": "Authorised",
     "supplier_code": "C038",
     "note": "PO 01-003330 with D.Cain & Son Ltd, raised Mon 19 Oct"
+   },
+   {
+    "idx": 8,
+    "customer": "Almond Civils Ltd",
+    "type": "Off Hire",
+    "postcode": "BB2 3UY",
+    "contract": "0000032077",
+    "haulier": "",
+    "po": "",
+    "po_status": "",
+    "supplier_code": "",
+    "note": "No PO for this job's haulage in MCS"
    }
   ],
   "2026-11-06": [
@@ -1442,6 +1509,72 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003507 with Ainscough Environmental Services, raised Thu 5 Nov, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-11-09": [
+   {
+    "idx": 2,
+    "customer": "Chandos Civil Engineering Ltd",
+    "type": "Off Hire",
+    "postcode": "WA8 8LY",
+    "contract": "0000031785",
+    "haulier": "AES",
+    "po": "01-003439",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003439 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
+   },
+   {
+    "idx": 3,
+    "customer": "Chandos Civil Engineering Ltd",
+    "type": "Off Hire",
+    "postcode": "WA8 8LY",
+    "contract": "0000031822",
+    "haulier": "AES",
+    "po": "01-003440",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003440 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-11-11": [
+   {
+    "idx": 2,
+    "customer": "Bethell Plant Services Ltd",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032217",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003482",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003482 with Astley Hiabs Ltd, raised Mon 2 Nov"
+   },
+   {
+    "idx": 3,
+    "customer": "Termrim Construction Ltd",
+    "type": "Off Hire",
+    "postcode": "LS26 8EW",
+    "contract": "0000030799",
+    "haulier": "",
+    "po": "",
+    "po_status": "",
+    "supplier_code": "",
+    "note": "No PO for this job's haulage in MCS"
+   }
+  ],
+  "2026-11-13": [
+   {
+    "idx": 2,
+    "customer": "A Connolly Limited",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032229",
+    "haulier": "Anthony Agricultural",
+    "po": "01-003516",
+    "po_status": "Authorised",
+    "supplier_code": "ANT001",
+    "note": "PO 01-003516 with Anthony Agricultural, raised Fri 6 Nov"
    }
   ],
   "2026-11-16": [
