@@ -21076,35 +21076,6 @@
     "2026-11-09": [
       {
         "type": "On Hire",
-        "customer": "Manchester and Cheshire construction Company Ltd",
-        "postcode": "",
-        "contract_number": "0000032094",
-        "units": {
-          "24ft AV": 2,
-          "2+1": 1,
-          "Tank": 1,
-          "Steps": 2,
-          "IBC": 1,
-          "20ft Store": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10 | Date moved by MCS Auto from 12/10/2026 to 15/10/2026 on 07/10/2026 15:40 | Date moved by MCS Auto from 15/10/2026 to 20/10/2026 on 15/10/2026 13:25 | Date moved by MCS Auto from 20/10/2026 to 09/11/2026 on 23/10/2026 10:50",
-        "added_by": "MCS Auto",
-        "timestamp": "23/10/2026 10:50",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1,
-            "Canteen": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
         "contract_number": "0000032200",
@@ -21688,6 +21659,35 @@
         "moved_by": "\u2014",
         "moved_from": "2026-10-30",
         "edited_at": "20/10/2026 13:51"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Manchester and Cheshire construction Company Ltd",
+        "postcode": "",
+        "contract_number": "0000032094",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1,
+          "Tank": 1,
+          "Steps": 2,
+          "IBC": 1,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10 | Date moved by MCS Auto from 12/10/2026 to 15/10/2026 on 07/10/2026 15:40 | Date moved by MCS Auto from 15/10/2026 to 20/10/2026 on 15/10/2026 13:25 | Date moved by MCS Auto from 20/10/2026 to 09/11/2026 on 23/10/2026 10:50 | Date moved by MCS Auto from 09/11/2026 to 20/11/2026 on 09/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "09/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-13": [
