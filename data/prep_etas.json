@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-09T06:36:24+00:00",
+ "generated_at": "2026-11-09T09:32:44+00:00",
  "matched": 26,
  "other_day": 2,
  "kensite_hiab_jobs": 34,
@@ -752,7 +752,7 @@
   ],
   "2026-11-09": [
    {
-    "idx": 1,
+    "idx": 0,
     "customer": "A Connolly Limited",
     "postcode": "",
     "type": "On Hire",
@@ -780,7 +780,7 @@
     ]
    },
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "Chandos Civil Engineering Ltd",
     "postcode": "WA8 8LY",
     "type": "Off Hire",
@@ -808,7 +808,7 @@
     "seq": 2
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "Chandos Civil Engineering Ltd",
     "postcode": "WA8 8LY",
     "type": "Off Hire",
@@ -835,7 +835,7 @@
     "seq": 2
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Holmpatrick Developments",
     "postcode": "WA9 3EX",
     "type": "Off Hire",
@@ -1510,7 +1510,7 @@
   ],
   "2026-11-09": [
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "Chandos Civil Engineering Ltd",
     "type": "Off Hire",
     "postcode": "WA8 8LY",
@@ -1522,7 +1522,7 @@
     "note": "PO 01-003439 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "Chandos Civil Engineering Ltd",
     "type": "Off Hire",
     "postcode": "WA8 8LY",
@@ -1572,6 +1572,18 @@
     "po_status": "Authorised",
     "supplier_code": "ANT001",
     "note": "PO 01-003516 with Anthony Agricultural, raised Fri 6 Nov"
+   },
+   {
+    "idx": 5,
+    "customer": "Eric Charlesworth Ltd",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032231",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003532",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003532 with Astley Hiabs Ltd, raised Fri 13 Nov"
    }
   ],
   "2026-11-16": [
