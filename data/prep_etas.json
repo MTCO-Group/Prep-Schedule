@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-09T10:46:52+00:00",
+ "generated_at": "2026-11-09T10:59:37+00:00",
  "matched": 26,
  "other_day": 2,
  "kensite_hiab_jobs": 34,
@@ -758,8 +758,8 @@
     "type": "On Hire",
     "contract": "0000032200",
     "state": "live",
-    "time": "07:45",
-    "note": "On the way, 74 min from the depot in traffic (set when it went live at 06:30)",
+    "time": "10:50",
+    "note": "On the way, 1 min from their last drop (CH5 3EY) in traffic (set when it went live at 10:46)",
     "bigchange_ids": [
      203082106,
      203082559,
