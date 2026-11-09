@@ -21630,6 +21630,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: ALEXANDER BUILDING, SALFORD QUAYS, SALFORD, , M50 3SP | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill; 1x Weekly Service",
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 13:00"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Exact Property Services Ltd",
+        "postcode": "L12 9HG",
+        "contract_number": "0000031739",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: 35 Yew Tree Lane, Liverpool, , L12 9HG",
+        "added_by": "MCS Auto",
+        "timestamp": "09/11/2026 12:00"
       }
     ],
     "2026-11-20": [
