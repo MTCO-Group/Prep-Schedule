@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-09T12:01:16+00:00",
- "matched": 26,
+ "generated_at": "2026-11-09T12:26:46+00:00",
+ "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -1384,6 +1384,25 @@
      "AES/64897"
     ],
     "bc_customer": "Elite Access",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 4,
+    "customer": "Exact Property Services Ltd",
+    "postcode": "L12 9HG",
+    "type": "Off Hire",
+    "contract": "0000031739",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204160178
+    ],
+    "refs": [],
+    "bc_customer": "Exact Property Services",
     "why": [
      "same postcode",
      "same customer"
