@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-09T15:25:10+00:00",
+ "generated_at": "2026-11-09T15:54:52+00:00",
  "matched": 28,
- "other_day": 2,
+ "other_day": 3,
  "kensite_hiab_jobs": 37,
  "jobs": {
   "2026-11-02": [
@@ -834,9 +834,10 @@
     "postcode": "WA9 3EX",
     "type": "Off Hire",
     "contract": "0000030424",
-    "state": "planned",
-    "time": "10:10",
-    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Tue 10 Nov, not this day (matched on same postcode, same customer)",
+    "day": "2026-11-10",
     "bigchange_ids": [
      203581720
     ],
@@ -847,10 +848,7 @@
     "why": [
      "same postcode",
      "same customer"
-    ],
-    "driver": "SL",
-    "run": 1,
-    "seq": 2
+    ]
    }
   ],
   "2026-11-11": [
