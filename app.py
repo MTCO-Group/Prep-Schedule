@@ -2335,7 +2335,7 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
 .main .block-container,[data-testid="stMainBlockContainer"]{{padding-top:0 !important;}}
 [data-testid="stMainBlockContainer"]{{padding-left:24px !important;padding-right:24px !important;max-width:100% !important;}}
 [data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybhead"]){{margin:0 -24px 6px;width:calc(100% + 48px);max-width:none;}}
-[class*="st-key-ybhead"]{{background:{K_GREEN};padding:12px 24px;box-sizing:border-box;width:100% !important;max-width:none !important;}}
+[class*="st-key-ybhead"]{{background:#c62828;padding:12px 24px;box-sizing:border-box;width:100% !important;max-width:none !important;}}
 [data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(iframe){{position:absolute !important;height:0 !important;overflow:hidden;}}
 [data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(style){{display:none !important;}}
 [class*="st-key-ybhead"] [data-testid="stHorizontalBlock"]{{flex-wrap:wrap;row-gap:10px;}}
@@ -2357,9 +2357,9 @@ html,body,[class*="css"]{{font-family:'Figtree',Calibri,sans-serif;color:{K_GREY
         background:no-repeat center/18px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 6l-6 6 6 6'/%3E%3C/svg%3E");}}
 .st-key-yb_next button p::before{{transform:scaleX(-1);}}
 .st-key-yb_prev button:hover,.st-key-yb_next button:hover,.st-key-yb_today button:hover{{background:rgba(255,255,255,.16) !important;}}
-[class*="st-key-ybhead"] [data-testid="stPopover"] button{{background:#fff !important;color:#0a6a30 !important;border:0 !important;font-weight:700 !important;}}
+[class*="st-key-ybhead"] [data-testid="stPopover"] button{{background:#fff !important;color:#a31515 !important;border:0 !important;font-weight:700 !important;}}
 [class*="st-key-ybhead"] [data-testid="stPopover"] button p{{font-weight:700 !important;}}
-[class*="st-key-ybhead"] [data-testid="stPopover"] button svg{{fill:#0a6a30 !important;}}
+[class*="st-key-ybhead"] [data-testid="stPopover"] button svg{{fill:#a31515 !important;}}
 [class*="st-key-ybweek_"] [data-testid="stHorizontalBlock"]{{align-items:stretch !important;}}
 [class*="st-key-ybweek_"] [data-testid="stColumn"] > [data-testid="stVerticalBlock"]{{height:100%;}}
 [data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybday_"]),[data-testid="stLayoutWrapper"]:has(> [class*="st-key-ybband_"]){{flex:1 1 auto;display:flex;}}
