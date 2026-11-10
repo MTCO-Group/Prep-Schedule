@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T11:42:12+00:00",
- "matched": 28,
+ "generated_at": "2026-11-10T11:54:00+00:00",
+ "matched": 29,
  "other_day": 2,
  "kensite_hiab_jobs": 38,
  "jobs": {
@@ -1213,6 +1213,27 @@
     "driver": "SL",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 4,
+    "customer": "Chandos Civil Engineering Ltd",
+    "postcode": "CW12 2GH",
+    "type": "Off Hire",
+    "contract": "0000031874",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204255784
+    ],
+    "refs": [
+     "AES/65100"
+    ],
+    "bc_customer": "Chandos",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
    }
   ],
   "2026-11-17": [
