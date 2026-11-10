@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T13:03:38+00:00",
+ "generated_at": "2026-11-10T13:14:10+00:00",
  "matched": 31,
- "other_day": 2,
+ "other_day": 3,
  "kensite_hiab_jobs": 38,
  "jobs": {
   "2026-11-02": [
@@ -1000,9 +1000,10 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032227",
-    "state": "planned",
-    "time": "07:25",
-    "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Tue 10 Nov, not this day (matched on same customer)",
+    "day": "2026-11-10",
     "bigchange_ids": [
      203978244
     ],
@@ -1012,10 +1013,7 @@
     "bc_customer": "greenmount projects ltd",
     "why": [
      "same customer"
-    ],
-    "driver": "RB",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 6,
@@ -1024,7 +1022,7 @@
     "type": "Off Hire",
     "contract": "0000030224",
     "state": "planned",
-    "time": "09:20",
+    "time": "07:55",
     "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203978859
