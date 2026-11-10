@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T07:52:40+00:00",
+ "generated_at": "2026-11-10T09:34:12+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 32,
@@ -1110,9 +1110,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032232",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "08:35",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204160698,
      204161309,
@@ -1126,7 +1126,10 @@
     "bc_customer": "H H Smith",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "SL",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-17": [
@@ -1267,9 +1270,9 @@
     "postcode": "M45 8PP",
     "type": "Off Hire",
     "contract": "0000031998",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "10:05",
+    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203981721,
      203982066
@@ -1282,7 +1285,10 @@
     "why": [
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "SL",
+    "run": 1,
+    "seq": 2
    },
    {
     "idx": 6,
@@ -1373,7 +1379,7 @@
     "type": "Off Hire",
     "contract": "0000031681",
     "state": "planned",
-    "time": "11:40",
+    "time": "13:15",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203975009
@@ -1387,7 +1393,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 2
+    "seq": 3
    },
    {
     "idx": 3,
@@ -1422,7 +1428,7 @@
     "type": "Off Hire",
     "contract": "0000031739",
     "state": "planned",
-    "time": "13:40",
+    "time": "15:15",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204160178
@@ -1435,7 +1441,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 3
+    "seq": 4
    },
    {
     "idx": 5,
@@ -1443,9 +1449,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032234",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204197737
     ],
@@ -1455,7 +1461,10 @@
     "bc_customer": "F Parkinson Ltd",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-19": [
