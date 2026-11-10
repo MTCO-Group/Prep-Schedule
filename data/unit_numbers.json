@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-10T11:21:10Z",
+ "written_at": "2026-11-10T11:41:08Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032050": {
@@ -985,7 +985,7 @@
    ]
   },
   "0000032230": {
-   "read_at": "2026-11-10T10:51:21Z",
+   "read_at": "2026-11-10T11:31:14Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -998,7 +998,7 @@
    "delivered": []
   },
   "0000032232": {
-   "read_at": "2026-11-10T10:51:24Z",
+   "read_at": "2026-11-10T11:31:17Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -1052,7 +1052,7 @@
    "delivered": []
   },
   "0000032209": {
-   "read_at": "2026-11-10T10:51:12Z",
+   "read_at": "2026-11-10T11:31:05Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1065,21 +1065,14 @@
    "delivered": []
   },
   "0000032236": {
-   "read_at": "2026-11-10T11:01:04Z",
+   "read_at": "2026-11-10T11:41:09Z",
    "lines": [
     {
      "type": "Mobile Welfare",
      "config": "",
      "fleet": null,
      "qty": 1,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "20ft Store",
-     "config": "",
-     "fleet": null,
-     "qty": 2,
-     "delivery": "2026-11-23"
+     "delivery": "2026-11-12"
     }
    ],
    "delivered": []
@@ -1119,7 +1112,7 @@
    "delivered": []
   },
   "0000032217": {
-   "read_at": "2026-11-10T10:51:15Z",
+   "read_at": "2026-11-10T11:31:08Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1174,7 +1167,7 @@
    "delivered": []
   },
   "0000032224": {
-   "read_at": "2026-11-10T10:51:16Z",
+   "read_at": "2026-11-10T11:31:09Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1207,7 +1200,7 @@
    ]
   },
   "0000032227": {
-   "read_at": "2026-11-10T10:51:18Z",
+   "read_at": "2026-11-10T11:31:11Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1366,7 +1359,7 @@
    "delivered": []
   },
   "0000032229": {
-   "read_at": "2026-11-10T10:51:19Z",
+   "read_at": "2026-11-10T11:31:12Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1379,7 +1372,7 @@
    "delivered": []
   },
   "0000032231": {
-   "read_at": "2026-11-10T10:51:22Z",
+   "read_at": "2026-11-10T11:31:15Z",
    "lines": [
     {
      "type": "10ft Store",
