@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T12:59:21+00:00",
+ "generated_at": "2026-11-10T13:01:22+00:00",
  "matched": 31,
  "other_day": 2,
  "kensite_hiab_jobs": 38,
@@ -860,7 +860,7 @@
     "contract": "0000032200",
     "state": "live",
     "time": "13:00",
-    "note": "On the way, 1 min from their last drop (CH5 3EY) in traffic",
+    "note": "On the way, 1 min from their last drop (CH5 3EY) in traffic (set when it went live at 12:59)",
     "bigchange_ids": [
      203083918,
      203084079,
@@ -892,7 +892,7 @@
     "contract": "0000030424",
     "state": "live",
     "time": "13:45",
-    "note": "On the way, 46 min from their last drop (CH5 3EY) in traffic",
+    "note": "On the way, 46 min from their last drop (CH5 3EY) in traffic (set when it went live at 12:59)",
     "bigchange_ids": [
      203581720
     ],
