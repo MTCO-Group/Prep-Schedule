@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T14:21:33+00:00",
- "matched": 32,
- "other_day": 4,
- "kensite_hiab_jobs": 41,
+ "generated_at": "2026-11-10T14:32:02+00:00",
+ "matched": 33,
+ "other_day": 5,
+ "kensite_hiab_jobs": 42,
  "jobs": {
   "2026-11-02": [
    {
@@ -1208,6 +1208,29 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032239",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Thu 12 Nov, not this day (matched on same customer)",
+    "day": "2026-11-12",
+    "bigchange_ids": [
+     203321348,
+     203321438
+    ],
+    "refs": [
+     "AES/64425",
+     "AES/64426"
+    ],
+    "bc_customer": "A CONNOLLY",
+    "why": [
+     "same customer"
+    ]
+   },
+   {
+    "idx": 8,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032240",
     "state": "otherday",
     "time": "",
     "note": "AES have this booked for Thu 12 Nov, not this day (matched on same customer)",
