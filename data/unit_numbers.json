@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-10T11:41:08Z",
+ "written_at": "2026-11-10T11:51:14Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032050": {
@@ -1408,7 +1408,7 @@
    ]
   },
   "0000032075": {
-   "read_at": "2026-11-10T11:21:14Z",
+   "read_at": "2026-11-10T11:51:18Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1533,6 +1533,19 @@
      "config": "",
      "fleet": null,
      "qty": 1,
+     "delivery": "2026-11-10"
+    }
+   ],
+   "delivered": []
+  },
+  "0000032238": {
+   "read_at": "2026-11-10T11:41:03Z",
+   "lines": [
+    {
+     "type": "IBC",
+     "config": "",
+     "fleet": null,
+     "qty": 2,
      "delivery": "2026-11-10"
     }
    ],
