@@ -22079,6 +22079,23 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Premier Building Supplies Ltd",
+        "postcode": "WA15 8UU",
+        "contract_number": "0000031774",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: W P Murphy Ltd, White Piers, Hasty Lane, Altrincham, WA15 8UU | Also on contract: 1x Initial Water; 56x Initial Fuel; 1x One Off Fuel Delivery (Per Litre)",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 14:11"
       }
     ],
     "2026-12-07": [
@@ -22113,7 +22130,25 @@
         "edited_at": "06/11/2026 13:01"
       }
     ],
-    "2026-11-23": [],
+    "2026-11-23": [
+      {
+        "type": "Off Hire",
+        "customer": "Chandos Civil Engineering Ltd",
+        "postcode": "SK8 4RT",
+        "contract_number": "0000032131",
+        "units": {
+          "Static Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: BELLWAY HOMES, GRASMERE ROAD, GATLEY, , SK8 4RT | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 14:11"
+      }
+    ],
     "2026-11-30": [
       {
         "type": "On Hire",
