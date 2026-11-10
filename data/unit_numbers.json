@@ -1,72 +1,7 @@
 {
- "written_at": "2026-11-09T16:20:57Z",
+ "written_at": "2026-11-10T09:31:37Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
-  "0000032056": {
-   "read_at": "2026-11-09T09:31:45Z",
-   "lines": [],
-   "delivered": [
-    {
-     "type": "Solar Loo Single",
-     "config": "",
-     "fleet": "8762",
-     "delivery": "2026-10-12"
-    }
-   ]
-  },
-  "0000032035": {
-   "read_at": "2026-11-09T09:31:33Z",
-   "lines": [],
-   "delivered": [
-    {
-     "type": "20ft AV",
-     "config": "Office",
-     "fleet": "8661",
-     "delivery": "2026-10-12"
-    },
-    {
-     "type": "20ft AV",
-     "config": "Canteen",
-     "fleet": "8670",
-     "delivery": "2026-10-12"
-    }
-   ]
-  },
-  "0000032089": {
-   "read_at": "2026-11-09T09:31:58Z",
-   "lines": [],
-   "delivered": [
-    {
-     "type": "24ft AV",
-     "config": "Office",
-     "fleet": "8527",
-     "delivery": "2026-10-12"
-    },
-    {
-     "type": "24ft AV",
-     "config": "Canteen",
-     "fleet": "8539",
-     "delivery": "2026-10-12"
-    },
-    {
-     "type": "2+1",
-     "config": "",
-     "fleet": "8570",
-     "delivery": "2026-10-12"
-    },
-    {
-     "type": "20ft Store",
-     "config": "",
-     "fleet": "8632",
-     "delivery": "2026-10-12"
-    }
-   ]
-  },
-  "0000032111": {
-   "read_at": "2026-11-09T09:32:13Z",
-   "lines": [],
-   "delivered": []
-  },
   "0000032050": {
    "read_at": "2026-11-09T09:31:42Z",
    "lines": [],
@@ -904,7 +839,7 @@
    "delivered": []
   },
   "0000032100": {
-   "read_at": "2026-11-09T15:40:58Z",
+   "read_at": "2026-11-10T09:31:19Z",
    "lines": [
     {
      "type": "20ft AV",
@@ -1001,7 +936,7 @@
    ]
   },
   "0000032200": {
-   "read_at": "2026-11-09T15:51:06Z",
+   "read_at": "2026-11-09T16:31:02Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1084,7 +1019,7 @@
    "delivered": []
   },
   "0000032225": {
-   "read_at": "2026-11-09T16:01:03Z",
+   "read_at": "2026-11-09T16:41:08Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1104,7 +1039,7 @@
    ]
   },
   "0000032221": {
-   "read_at": "2026-11-09T16:01:00Z",
+   "read_at": "2026-11-09T16:41:05Z",
    "lines": [],
    "delivered": []
   },
@@ -1138,7 +1073,7 @@
    ]
   },
   "0000032230": {
-   "read_at": "2026-11-09T16:11:06Z",
+   "read_at": "2026-11-10T09:31:27Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1151,7 +1086,7 @@
    "delivered": []
   },
   "0000032232": {
-   "read_at": "2026-11-09T16:21:02Z",
+   "read_at": "2026-11-10T09:31:29Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -1178,7 +1113,7 @@
    "delivered": []
   },
   "0000032206": {
-   "read_at": "2026-11-09T15:51:08Z",
+   "read_at": "2026-11-10T09:31:21Z",
    "lines": [
     {
      "type": "4+2",
@@ -1205,7 +1140,7 @@
    "delivered": []
   },
   "0000032209": {
-   "read_at": "2026-11-09T15:51:12Z",
+   "read_at": "2026-11-10T09:31:21Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1218,25 +1153,11 @@
    "delivered": []
   },
   "0000032208": {
-   "read_at": "2026-11-09T15:51:10Z",
+   "read_at": "2026-11-10T09:31:21Z",
    "lines": [
     {
      "type": "24ft AV",
-     "config": "Office",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "24ft AV",
      "config": "Canteen",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "Stairs",
-     "config": "",
      "fleet": null,
      "qty": 1,
      "delivery": "2026-11-11"
@@ -1266,7 +1187,7 @@
    "delivered": []
   },
   "0000032217": {
-   "read_at": "2026-11-09T15:51:14Z",
+   "read_at": "2026-11-10T09:31:25Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1321,7 +1242,7 @@
    "delivered": []
   },
   "0000032224": {
-   "read_at": "2026-11-09T16:01:01Z",
+   "read_at": "2026-11-10T09:31:23Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1354,7 +1275,7 @@
    ]
   },
   "0000032227": {
-   "read_at": "2026-11-09T16:01:05Z",
+   "read_at": "2026-11-10T09:31:25Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1367,12 +1288,12 @@
    "delivered": []
   },
   "0000032234": {
-   "read_at": "2026-11-09T15:10:59Z",
+   "read_at": "2026-11-10T09:31:32Z",
    "lines": [],
    "delivered": []
   },
   "0000031643": {
-   "read_at": "2026-11-09T15:40:58Z",
+   "read_at": "2026-11-10T09:31:15Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1406,7 +1327,7 @@
    "delivered": []
   },
   "0000032094": {
-   "read_at": "2026-11-09T15:40:57Z",
+   "read_at": "2026-11-10T09:31:16Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1466,7 +1387,7 @@
    ]
   },
   "0000032150": {
-   "read_at": "2026-11-09T15:51:03Z",
+   "read_at": "2026-11-10T09:31:19Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1500,7 +1421,7 @@
    "delivered": []
   },
   "0000032229": {
-   "read_at": "2026-11-09T16:01:06Z",
+   "read_at": "2026-11-10T09:31:27Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1513,7 +1434,7 @@
    "delivered": []
   },
   "0000032231": {
-   "read_at": "2026-11-09T16:11:07Z",
+   "read_at": "2026-11-10T09:31:29Z",
    "lines": [
     {
      "type": "10ft Store",
@@ -1544,7 +1465,7 @@
    ]
   },
   "0000032075": {
-   "read_at": "2026-11-09T16:21:00Z",
+   "read_at": "2026-11-10T09:31:16Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1592,7 +1513,7 @@
    "delivered": []
   },
   "0000032228": {
-   "read_at": "2026-11-09T15:41:01Z",
+   "read_at": "2026-11-10T09:31:28Z",
    "lines": [
     {
      "type": "3+1",
@@ -1640,28 +1561,28 @@
    "delivered": []
   },
   "0000032233": {
-   "read_at": "2026-11-09T11:10:52Z",
+   "read_at": "2026-11-10T09:31:31Z",
    "lines": [
     {
      "type": "4+2",
      "config": "",
      "fleet": null,
      "qty": 1,
-     "delivery": "2026-11-23"
+     "delivery": "2026-11-30"
     },
     {
      "type": "Tank",
      "config": "",
      "fleet": null,
      "qty": 1,
-     "delivery": "2026-11-23"
+     "delivery": "2026-11-30"
     },
     {
      "type": "Steps",
      "config": "",
      "fleet": null,
      "qty": 2,
-     "delivery": "2026-11-23"
+     "delivery": "2026-11-30"
     }
    ],
    "delivered": []
