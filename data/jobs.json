@@ -21370,6 +21370,28 @@
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 11:11",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "L11 9BY",
+        "contract_number": "0000031576",
+        "units": {
+          "24ft AV": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Invergarry Road, Croxteth, , L11 9BY",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 16:41",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-11-11": [
