@@ -21115,26 +21115,6 @@
         "timestamp": "28/10/2026 11:41"
       },
       {
-        "type": "Off Hire",
-        "customer": "Holmpatrick Developments",
-        "postcode": "WA9 3EX",
-        "contract_number": "0000030424",
-        "units": {
-          "24ft AV": 2,
-          "2+1": 1,
-          "Steps": 3,
-          "20ft Store": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Sutton, St Helens, , WA9 3EX | Also on contract: 1x 1000G Eflluent Tank; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty -  Every Tueseday starting from; 1x Chargeable Weekly Tank Empty - Every  Thursday starting from",
-        "added_by": "MCS Auto",
-        "timestamp": "02/11/2026 15:41"
-      },
-      {
         "type": "On Hire",
         "customer": "PAS (NW) Ltd",
         "postcode": "",
@@ -21931,6 +21911,27 @@
             "Canteen": 1
           }
         },
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Holmpatrick Developments",
+        "postcode": "WA9 3EX",
+        "contract_number": "0000030424",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1,
+          "Steps": 3,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Sutton, St Helens, , WA9 3EX | Also on contract: 1x 1000G Eflluent Tank; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty -  Every Tueseday starting from; 1x Chargeable Weekly Tank Empty - Every  Thursday starting from | Return date moved by MCS Auto from 09/11/2026 to 10/11/2026 on 10/11/2026 11:01",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 11:01",
         "date_moved_by": "MCS Auto"
       }
     ],
