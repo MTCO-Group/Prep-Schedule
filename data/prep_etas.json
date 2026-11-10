@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-10T10:22:21+00:00",
- "matched": 25,
+ "generated_at": "2026-11-10T10:41:19+00:00",
+ "matched": 26,
  "other_day": 2,
- "kensite_hiab_jobs": 33,
+ "kensite_hiab_jobs": 34,
  "jobs": {
   "2026-11-02": [
    {
@@ -851,6 +851,40 @@
     ]
    }
   ],
+  "2026-11-10": [
+   {
+    "idx": 1,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032200",
+    "state": "live",
+    "time": "10:45",
+    "note": "On the way, 1 min from their last drop (CH5 3EY) in traffic",
+    "bigchange_ids": [
+     203083918,
+     203084079,
+     203084476,
+     203086171,
+     203086414,
+     203195952
+    ],
+    "refs": [
+     "AES/64235",
+     "AES/64236",
+     "AES/64237",
+     "AES/64238",
+     "AES/64239",
+     "AES/64306"
+    ],
+    "bc_customer": "A Connolly",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
+   }
+  ],
   "2026-11-11": [
    {
     "idx": 0,
@@ -1581,7 +1615,7 @@
   ],
   "2026-11-09": [
    {
-    "idx": 1,
+    "idx": 0,
     "customer": "Chandos Civil Engineering Ltd",
     "type": "Off Hire",
     "postcode": "WA8 8LY",
@@ -1593,7 +1627,7 @@
     "note": "PO 01-003439 with Ainscough Environmental Services, raised Wed 28 Oct, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "Chandos Civil Engineering Ltd",
     "type": "Off Hire",
     "postcode": "WA8 8LY",
@@ -1672,7 +1706,14 @@
    }
   ]
  },
- "live_fixed": {},
+ "live_fixed": {
+  "203086171": {
+   "time": "10:45",
+   "note": "On the way, 1 min from their last drop (CH5 3EY) in traffic",
+   "at": "10:41",
+   "day": "2026-11-10"
+  }
+ },
  "kept": {
   "past_days": 6,
   "done_rows": 0
