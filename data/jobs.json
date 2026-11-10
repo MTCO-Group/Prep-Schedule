@@ -22038,7 +22038,26 @@
         "edited_at": "06/11/2026 13:01"
       }
     ],
-    "2026-11-23": [],
+    "2026-11-23": [
+      {
+        "type": "On Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "",
+        "contract_number": "0000032236",
+        "units": {
+          "Mobile Welfare": 1,
+          "20ft Store": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x 24ft towable hybrid Welfare Unit - 18/11/2026; 70x Initial Fuel Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 11:01"
+      }
+    ],
     "2026-11-30": [
       {
         "type": "On Hire",
