@@ -21537,6 +21537,26 @@
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 11:51",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Think Hire  Ltd",
+        "postcode": "LS22 6RN",
+        "contract_number": "0000031800",
+        "units": {
+          "24ft AV": 1,
+          "Steps": 2,
+          "IBC": 2,
+          "20ft Store": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: collected, -, , LS22 6RN | Also on contract: 1x 12ft Anti-Vandal; 1x Initial Water Fill; 1x Water Barrel; 1x 1000G Eflluent Tank; 1x Pump; 1x Pump; 1x Weekly Water Fill; 1x Weekly Tank Empty",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 12:31"
       }
     ],
     "2026-11-18": [
