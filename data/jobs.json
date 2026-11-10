@@ -21769,6 +21769,24 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Chandos Civil Engineering Ltd",
+        "postcode": "SK8 4RT",
+        "contract_number": "0000032131",
+        "units": {
+          "Static Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: BELLWAY HOMES, GRASMERE ROAD, GATLEY, , SK8 4RT | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill | Return date moved by MCS Auto from 23/11/2026 to 20/11/2026 on 10/11/2026 15:31",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 15:31",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-13": [
@@ -22160,25 +22178,7 @@
         "edited_at": "06/11/2026 13:01"
       }
     ],
-    "2026-11-23": [
-      {
-        "type": "Off Hire",
-        "customer": "Chandos Civil Engineering Ltd",
-        "postcode": "SK8 4RT",
-        "contract_number": "0000032131",
-        "units": {
-          "Static Welfare": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: BELLWAY HOMES, GRASMERE ROAD, GATLEY, , SK8 4RT | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill",
-        "added_by": "MCS Auto",
-        "timestamp": "10/11/2026 14:11"
-      }
-    ],
+    "2026-11-23": [],
     "2026-11-30": [
       {
         "type": "On Hire",
