@@ -21996,6 +21996,32 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Disposable Sanitary Bins. Pk10",
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 14:31"
+      },
+      {
+        "type": "On Hire",
+        "customer": "MCI Developments Ltd",
+        "postcode": "",
+        "contract_number": "0000032243",
+        "units": {
+          "IBC": 3,
+          "32ft AV": 3,
+          "Stairs": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 3x Initial Water Fill; 3x Weekly Water Fill; 3x Pump; 1x MCI - Standard Site Setup - A; 1x Throughout (6 x Noticeboard 1200x900; 1x Kitchen (Double Wall Cupboard; 1x Meeting Room (2 Meeting Tables; 1x Canteen (4 x Canteen Tables; 1x Double Stack/ Erect Staircase; 1x Destack; 1x Throughout (2 x Noticeboard 1200x900",
+        "added_by": "MCS Auto",
+        "timestamp": "11/11/2026 14:30",
+        "av_configs": {
+          "32ft AV": {
+            "Office": 1,
+            "Canteen": 1,
+            "Changing Room": 1
+          }
+        }
       }
     ],
     "2026-11-07": [
