@@ -22217,7 +22217,38 @@
         "edited_at": "06/11/2026 13:01"
       }
     ],
-    "2026-11-23": [],
+    "2026-11-23": [
+      {
+        "type": "On Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "",
+        "contract_number": "0000032242",
+        "units": {
+          "24ft AV": 2,
+          "32ft AV": 1,
+          "Tank": 1,
+          "Steps": 2,
+          "Stairs": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Decal; 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Weekly Tank Empty; 1x Double Stack/ Erect Staircase; 1x Destack",
+        "added_by": "MCS Auto",
+        "timestamp": "11/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          },
+          "32ft AV": {
+            "Drying Room": 1
+          }
+        }
+      }
+    ],
     "2026-11-30": [
       {
         "type": "On Hire",
@@ -22238,6 +22269,30 @@
         "added_by": "MCS Auto",
         "timestamp": "09/11/2026 11:20",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "P H Property Holdings Ltd",
+        "postcode": "WA16 8QR",
+        "contract_number": "0000030063",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: 11 White Lodge, Lycester Road, Knutsford, , Wa16 8QR | Also on contract: 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack",
+        "added_by": "MCS Auto",
+        "timestamp": "11/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Canteen": 1,
+            "Office": 1
+          }
+        }
       }
     ]
   },
