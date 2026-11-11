@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-11T09:33:03+00:00",
+ "generated_at": "2026-11-11T09:37:19+00:00",
  "matched": 32,
  "other_day": 5,
  "kensite_hiab_jobs": 41,
@@ -913,9 +913,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032208",
-    "state": "live",
-    "time": "07:25",
-    "note": "On the way, 68 min from the depot in traffic (set when it went live at 06:15)",
+    "state": "done",
+    "time": "09:36",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      203211090,
      203211510
@@ -936,9 +936,9 @@
     "postcode": "LA23 2JD",
     "type": "Off Hire",
     "contract": "0000031882",
-    "state": "planned",
-    "time": "10:10",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "10:30",
+    "note": "On the way, 51 min from their last drop (LA1 1PW) in traffic",
     "bigchange_ids": [
      203512320,
      203512556
@@ -951,10 +951,7 @@
     "why": [
      "same postcode",
      "same customer"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 4,
@@ -1909,6 +1906,12 @@
    "time": "07:25",
    "note": "On the way, 68 min from the depot in traffic",
    "at": "06:15",
+   "day": "2026-11-11"
+  },
+  "203512320": {
+   "time": "10:30",
+   "note": "On the way, 51 min from their last drop (LA1 1PW) in traffic",
+   "at": "09:37",
    "day": "2026-11-11"
   }
  },
