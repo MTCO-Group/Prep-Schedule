@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-11T11:25:21+00:00",
+ "generated_at": "2026-11-11T13:00:49+00:00",
  "matched": 32,
  "other_day": 5,
  "kensite_hiab_jobs": 41,
@@ -936,9 +936,9 @@
     "postcode": "LA23 2JD",
     "type": "Off Hire",
     "contract": "0000031882",
-    "state": "live",
-    "time": "10:30",
-    "note": "On the way, 51 min from their last drop (LA1 1PW) in traffic (set when it went live at 09:37)",
+    "state": "done",
+    "time": "12:58",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      203512320,
      203512556
