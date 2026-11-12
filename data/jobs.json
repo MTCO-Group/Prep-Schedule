@@ -22155,6 +22155,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: W P Murphy Ltd, White Piers, Hasty Lane, Altrincham, WA15 8UU | Also on contract: 1x Initial Water; 56x Initial Fuel; 1x One Off Fuel Delivery (Per Litre)",
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 14:11"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Jones Homes (North West) Ltd",
+        "postcode": "FY6 7SY",
+        "contract_number": "0000032024",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: MOORFIELD PARK, POULTEN LE FYLDE, BLACKPOOL, , FY6 7SY | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre)",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 16:03"
       }
     ],
     "2026-12-07": [
