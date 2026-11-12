@@ -22055,32 +22055,6 @@
     "2026-11-10": [
       {
         "type": "On Hire",
-        "customer": "CBG Construction Ltd",
-        "postcode": "",
-        "contract_number": "0000032075",
-        "units": {
-          "24ft AV": 4,
-          "Stairs": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Double Stack/ Erect Staircase; 1x Destack; 1x Site set up; 12x Cushion Chair | Date moved by MCS Auto from 19/10/2026 to 02/11/2026 on 16/10/2026 09:31 | Date moved by MCS Auto from 02/11/2026 to 04/11/2026 on 02/11/2026 09:31 | Date moved by MCS Auto from 04/11/2026 to 09/11/2026 on 04/11/2026 16:40 | Date moved by MCS Auto from 09/11/2026 to 10/11/2026 on 05/11/2026 09:31",
-        "added_by": "MCS Auto",
-        "timestamp": "05/11/2026 09:31",
-        "av_configs": {
-          "24ft AV": {
-            "Office": 1,
-            "Canteen": 1,
-            "Meeting Room": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
         "contract_number": "0000032200",
@@ -22345,6 +22319,32 @@
             "Office": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "CBG Construction Ltd",
+        "postcode": "",
+        "contract_number": "0000032075",
+        "units": {
+          "24ft AV": 4,
+          "Stairs": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Double Stack/ Erect Staircase; 1x Destack; 1x Site set up; 12x Cushion Chair | Date moved by MCS Auto from 19/10/2026 to 02/11/2026 on 16/10/2026 09:31 | Date moved by MCS Auto from 02/11/2026 to 04/11/2026 on 02/11/2026 09:31 | Date moved by MCS Auto from 04/11/2026 to 09/11/2026 on 04/11/2026 16:40 | Date moved by MCS Auto from 09/11/2026 to 10/11/2026 on 05/11/2026 09:31 | Date moved by MCS Auto from 10/11/2026 to 30/11/2026 on 12/11/2026 14:54",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 14:54",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1,
+            "Meeting Room": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-24": [
