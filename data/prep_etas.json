@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-12T09:45:10+00:00",
+ "generated_at": "2026-11-12T10:36:37+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
@@ -1451,7 +1451,7 @@
     "type": "Off Hire",
     "contract": "0000031838",
     "state": "planned",
-    "time": "08:30",
+    "time": "09:15",
     "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203317625,
@@ -1471,7 +1471,7 @@
     ],
     "driver": "DF",
     "run": 1,
-    "seq": 1
+    "seq": 2
    },
    {
     "idx": 1,
@@ -1520,7 +1520,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 3
+    "seq": 4
    },
    {
     "idx": 3,
@@ -1529,7 +1529,7 @@
     "type": "Off Hire",
     "contract": "0000031929",
     "state": "planned",
-    "time": "10:40",
+    "time": "11:25",
     "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204026638,
@@ -1546,7 +1546,7 @@
     ],
     "driver": "CR",
     "run": 1,
-    "seq": 2
+    "seq": 3
    },
    {
     "idx": 4,
@@ -1568,7 +1568,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 4
+    "seq": 5
    },
    {
     "idx": 5,
@@ -1599,9 +1599,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032237",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "08:30",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204260376,
      204260570,
@@ -1615,7 +1615,10 @@
     "bc_customer": "A Connolly",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-19": [
@@ -1626,8 +1629,8 @@
     "type": "Off Hire",
     "contract": "0000030654",
     "state": "planned",
-    "time": "09:30",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "time": "08:50",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203697618,
      203697719
@@ -1641,9 +1644,9 @@
      "same postcode",
      "customer alike"
     ],
-    "driver": "CR",
+    "driver": "DF",
     "run": 1,
-    "seq": 3
+    "seq": 2
    },
    {
     "idx": 3,
@@ -1651,9 +1654,9 @@
     "postcode": "WA15 8UU",
     "type": "Off Hire",
     "contract": "0000031774",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:40",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204287773
     ],
@@ -1664,7 +1667,10 @@
     "why": [
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-20": [
