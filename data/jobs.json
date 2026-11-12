@@ -18149,31 +18149,6 @@
         "timestamp": "07/10/2026 09:31"
       },
       {
-        "type": "Off Hire",
-        "customer": "Persimmon Homes (North West)",
-        "postcode": "WN6 0PY",
-        "contract_number": "0000032043",
-        "units": {
-          "24ft AV": 1,
-          "32ft AV": 1,
-          "Steps": 2,
-          "IBC": 1
-        },
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: STANDISH - THE ACORNS, THE ACORNS, OFF PEPPER LANE, STANDISH, WIGAN, WN6 0PY | Also on contract: 1x 1000G Eflluent Tank; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Chargeable One Off Tank Empty",
-        "added_by": "MCS Auto",
-        "timestamp": "08/10/2026 09:31",
-        "av_configs": {
-          "24ft AV": {
-            "Canteen": 1
-          }
-        }
-      },
-      {
         "type": "On Hire",
         "customer": "A Connolly Limited",
         "postcode": "",
@@ -22355,6 +22330,34 @@
             "Office": 1
           }
         }
+      }
+    ],
+    "2026-11-24": [
+      {
+        "type": "Off Hire",
+        "customer": "Persimmon Homes (North West)",
+        "postcode": "WN6 0PY",
+        "contract_number": "0000032043",
+        "units": {
+          "24ft AV": 1,
+          "32ft AV": 1,
+          "Steps": 2,
+          "IBC": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: STANDISH - THE ACORNS, THE ACORNS, OFF PEPPER LANE, STANDISH, WIGAN, WN6 0PY | Also on contract: 1x 1000G Eflluent Tank; 1x Weekly Water Fill; 1x Chargeable Weekly Tank Empty; 1x Chargeable One Off Tank Empty | Return date moved by MCS Auto from 09/10/2026 to 24/11/2026 on 12/11/2026 12:24",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 12:24",
+        "av_configs": {
+          "24ft AV": {
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ]
   },
