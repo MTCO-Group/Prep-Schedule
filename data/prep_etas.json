@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-12T13:30:46+00:00",
- "matched": 24,
+ "generated_at": "2026-11-12T13:34:56+00:00",
+ "matched": 23,
  "other_day": 2,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -1102,32 +1102,6 @@
    }
   ],
   "2026-11-13": [
-   {
-    "idx": 0,
-    "customer": "M Civils NW Ltd",
-    "postcode": "",
-    "type": "On Hire",
-    "contract": "0000032150",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
-    "bigchange_ids": [
-     202254198,
-     202254467,
-     202254618
-    ],
-    "refs": [
-     "AES/63090",
-     "AES/63092",
-     "AES/63093"
-    ],
-    "bc_customer": "M Civils",
-    "why": [
-     "PO on this contract",
-     "same postcode",
-     "same customer"
-    ]
-   },
    {
     "idx": 2,
     "customer": "Silver Glide",
