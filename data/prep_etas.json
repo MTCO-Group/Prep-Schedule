@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-12T16:33:18+00:00",
+ "generated_at": "2026-11-12T16:37:24+00:00",
  "matched": 26,
  "other_day": 0,
  "kensite_hiab_jobs": 38,
@@ -1617,9 +1617,9 @@
     "postcode": "FY6 7SY",
     "type": "Off Hire",
     "contract": "0000032024",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "10:35",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204527032
     ],
@@ -1630,7 +1630,10 @@
     "why": [
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 2
    }
   ],
   "2026-11-20": [
