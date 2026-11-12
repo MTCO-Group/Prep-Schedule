@@ -22275,6 +22275,23 @@
             "Drying Room": 1
           }
         }
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "PR2 3XL",
+        "contract_number": "0000030510",
+        "units": {
+          "IBC": 2
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: SITE COMPOUND, LAND OFF CROMER PLACE, OFF BARRY AVENUE, INGOL, PR2 3XL",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 09:44"
       }
     ],
     "2026-11-30": [
