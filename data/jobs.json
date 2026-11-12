@@ -21314,6 +21314,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Lomas Way, Congleton, , CW12 2GH | Also on contract: 1x Move to from KEEPMOAT HOMES",
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 10:21"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Rosslee Construction",
+        "postcode": "",
+        "contract_number": "0000032246",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 11:44"
       }
     ],
     "2026-11-12": [
