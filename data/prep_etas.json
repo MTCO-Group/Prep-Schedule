@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-12T12:54:57+00:00",
- "matched": 25,
+ "generated_at": "2026-11-12T13:03:14+00:00",
+ "matched": 24,
  "other_day": 2,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -1258,37 +1258,6 @@
   ],
   "2026-11-17": [
    {
-    "idx": 0,
-    "customer": "Almond Civils",
-    "postcode": "BB7 9BE",
-    "type": "On Hire",
-    "contract": "0000032100",
-    "state": "planned",
-    "time": "08:15",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
-    "bigchange_ids": [
-     201771494,
-     201771736,
-     201773407,
-     201773765
-    ],
-    "refs": [
-     "AES/61803",
-     "AES/61804",
-     "AES/61805",
-     "AES/61806"
-    ],
-    "bc_customer": "Almond civils",
-    "why": [
-     "PO on this contract",
-     "same district",
-     "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 1
-   },
-   {
     "idx": 1,
     "customer": "William Pye Ltd",
     "postcode": "SK10 3DE",
@@ -1319,7 +1288,7 @@
     "type": "Off Hire",
     "contract": "0000029972",
     "state": "planned",
-    "time": "10:05",
+    "time": "07:20",
     "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203793496,
@@ -1369,7 +1338,7 @@
     "type": "Off Hire",
     "contract": "0000030158",
     "state": "planned",
-    "time": "10:05",
+    "time": "07:20",
     "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203793496,
@@ -1395,7 +1364,7 @@
     "type": "Off Hire",
     "contract": "0000031998",
     "state": "planned",
-    "time": "10:05",
+    "time": "07:25",
     "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203981721,
@@ -1421,7 +1390,7 @@
     "type": "Off Hire",
     "contract": "0000031145",
     "state": "planned",
-    "time": "09:40",
+    "time": "07:45",
     "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203981104
