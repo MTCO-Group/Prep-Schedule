@@ -21386,6 +21386,21 @@
             "Office": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "Bellway Homes North West Division",
+        "postcode": "",
+        "contract_number": "0000032247",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Move to New location on existing site",
+        "added_by": "MCS Auto",
+        "timestamp": "12/11/2026 13:04"
       }
     ],
     "2026-11-11": [
