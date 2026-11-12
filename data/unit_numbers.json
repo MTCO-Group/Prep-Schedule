@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-12T16:23:59Z",
+ "written_at": "2026-11-12T16:43:58Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032050": {
@@ -1047,7 +1047,7 @@
    "delivered": []
   },
   "0000032208": {
-   "read_at": "2026-11-11T16:41:11Z",
+   "read_at": "2026-11-12T16:44:02Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1081,62 +1081,31 @@
    "delivered": []
   },
   "0000032217": {
-   "read_at": "2026-11-11T16:41:16Z",
-   "lines": [
+   "read_at": "2026-11-12T16:44:07Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "24ft AV",
      "config": "Office",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "8178",
      "delivery": "2026-11-11"
     },
     {
      "type": "24ft AV",
-     "config": "Canteen",
-     "fleet": null,
-     "qty": 1,
+     "config": "",
+     "fleet": "8224",
      "delivery": "2026-11-11"
     },
     {
-     "type": "3+1",
+     "type": "2+1",
      "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "Tank",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "Steps",
-     "config": "",
-     "fleet": null,
-     "qty": 2,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "IBC",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-11"
-    },
-    {
-     "type": "Generator",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "8184",
      "delivery": "2026-11-11"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032224": {
-   "read_at": "2026-11-11T16:41:19Z",
+   "read_at": "2026-11-12T16:44:09Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1169,26 +1138,40 @@
    ]
   },
   "0000032227": {
-   "read_at": "2026-11-11T16:41:20Z",
+   "read_at": "2026-11-12T16:44:11Z",
    "lines": [
     {
      "type": "20ft Store",
      "config": "",
-     "fleet": null,
+     "fleet": "8305",
      "qty": 1,
      "delivery": "2026-11-11"
     }
    ],
-   "delivered": []
+   "delivered": [
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": "8305",
+     "delivery": "2026-11-11"
+    }
+   ]
   },
   "0000032238": {
-   "read_at": "2026-11-11T16:41:34Z",
+   "read_at": "2026-11-12T16:44:13Z",
    "lines": [
     {
      "type": "IBC",
      "config": "",
      "fleet": null,
-     "qty": 2,
+     "qty": 1,
+     "delivery": "2026-11-11"
+    },
+    {
+     "type": "IBC",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
      "delivery": "2026-11-11"
     }
    ],
