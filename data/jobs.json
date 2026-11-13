@@ -21980,6 +21980,42 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: 86 Barnston Road, Heswal, Wirral, CH60 1UB | Also on contract: 1x Event Toilet; 1x Relocation of chemi loo from 55 Rhodesway Wirral CH60 2UA to",
         "added_by": "MCS Auto",
         "timestamp": "13/11/2026 15:11"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Cammell Laird Shiprepairers & Ship",
+        "postcode": "L21 1JD",
+        "contract_number": "0000030127",
+        "units": {
+          "3+1": 1,
+          "Steps": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Wave Ruler Ship, Seaforth Docks, Liverpool, , L21 1JD | Also on contract: 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty; 1x Chargeable Fortnightly Tank Empty",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 15:21"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Cammell Laird Shiprepairers & Ship",
+        "postcode": "CH41 9BP",
+        "contract_number": "0000032132",
+        "units": {
+          "4+2": 1,
+          "Steps": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Campbeltown Road, Birkenhead, Wirral, CH41 9BP | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x Initial Water Fill; 1x Chargeable Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 15:21"
       }
     ],
     "2026-11-07": [
