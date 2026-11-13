@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-13T09:39:09+00:00",
+ "generated_at": "2026-11-13T09:47:40+00:00",
  "matched": 23,
  "other_day": 0,
  "kensite_hiab_jobs": 35,
@@ -1234,7 +1234,7 @@
     "type": "Off Hire",
     "contract": "0000032047",
     "state": "planned",
-    "time": "09:25",
+    "time": "08:00",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203527673
@@ -1284,22 +1284,27 @@
     "type": "Off Hire",
     "contract": "0000032118",
     "state": "planned",
-    "time": "07:25",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "time": "07:20",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
-     203770236
+     203793496,
+     203794923,
+     203981721,
+     203982066
     ],
     "refs": [
-     "AES/64738"
+     "AES/64743",
+     "AES/64744",
+     "AES/64882",
+     "AES/64883"
     ],
-    "bc_customer": "A CONNOLLY",
+    "bc_customer": "A Connolly  Baucher Lane",
     "why": [
-     "same postcode",
      "same customer"
     ],
-    "driver": "RS",
+    "driver": "DF",
     "run": 1,
-    "seq": 1
+    "seq": 2
    },
    {
     "idx": 3,
