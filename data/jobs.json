@@ -21947,6 +21947,39 @@
         "added_by": "MCS Auto",
         "timestamp": "13/11/2026 15:01",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Manchester Ship Canal Ltd",
+        "postcode": "WA7 4UY",
+        "contract_number": "0000029764",
+        "units": {
+          "2+1": 1,
+          "Steps": 2
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Percival Lane, Runcorn, , WA7 4UY | Also on contract: 1x 1000G Eflluent Tank; 1x Chargeable Weekly Tank Empty; 1x Chargeable One Off Tank Empty 27.03.26; 1x Chargeable Fortnightly Tank Empty",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 15:11"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Richard O'Brien Joinery & Building Ltd",
+        "postcode": "CH60 1UB",
+        "contract_number": "0000031957",
+        "units": {},
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: 86 Barnston Road, Heswal, Wirral, CH60 1UB | Also on contract: 1x Event Toilet; 1x Relocation of chemi loo from 55 Rhodesway Wirral CH60 2UA to",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 15:11"
       }
     ],
     "2026-11-07": [
