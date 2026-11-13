@@ -21862,6 +21862,25 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "MWH Treatment",
+        "postcode": "",
+        "contract_number": "0000032221",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Fitter Labour for Repair | Date moved by MCS Auto from 06/11/2026 to 09/11/2026 on 05/11/2026 16:41 | Date moved by MCS Auto from 09/11/2026 to 13/11/2026 on 10/11/2026 10:41",
+        "added_by": "MCS Auto",
+        "timestamp": "10/11/2026 10:41",
+        "date_moved_by": "MCS Auto",
+        "moved_by": "\u2014",
+        "moved_from": "2026-11-13",
+        "edited_at": "13/11/2026 08:56"
       }
     ],
     "2026-11-13": [
@@ -21926,22 +21945,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Manor House farm, Warrington road, Leigh end, , Wa3 5nx | Also on contract: 1x Event Toilet; 1x Event Toilet; 1x Event Toilet; 1x Event Toilet",
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 11:40"
-      },
-      {
-        "type": "On Hire",
-        "customer": "MWH Treatment",
-        "postcode": "",
-        "contract_number": "0000032221",
-        "units": {},
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Fitter Labour for Repair | Date moved by MCS Auto from 06/11/2026 to 09/11/2026 on 05/11/2026 16:41 | Date moved by MCS Auto from 09/11/2026 to 13/11/2026 on 10/11/2026 10:41",
-        "added_by": "MCS Auto",
-        "timestamp": "10/11/2026 10:41",
-        "date_moved_by": "MCS Auto"
       },
       {
         "type": "On Hire",
