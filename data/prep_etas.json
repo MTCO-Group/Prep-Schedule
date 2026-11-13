@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-13T00:00:13+00:00",
+ "generated_at": "2026-11-13T09:33:17+00:00",
  "matched": 23,
  "other_day": 0,
  "kensite_hiab_jobs": 35,
@@ -1103,14 +1103,14 @@
   ],
   "2026-11-13": [
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "Silver Glide",
     "postcode": "SK12 1AG",
     "type": "Off Hire",
     "contract": "0000031992",
-    "state": "planned",
-    "time": "07:50",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "10:30",
+    "note": "On the way, 57 min from their last drop (CH5 3EY) in traffic",
     "bigchange_ids": [
      203088921,
      203089226,
@@ -1128,20 +1128,17 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
-    "idx": 6,
+    "idx": 3,
     "customer": "A Connolly Limited",
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032239",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
+    "state": "done",
+    "time": "09:06",
+    "note": "Completed in Big Change. AES have it as a Site Move",
     "bigchange_ids": [
      204526452
     ],
@@ -1155,14 +1152,14 @@
     ]
    },
    {
-    "idx": 7,
+    "idx": 4,
     "customer": "A Connolly Limited",
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032240",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet. AES have it as a Site Move",
+    "state": "done",
+    "time": "09:06",
+    "note": "Completed in Big Change. AES have it as a Site Move",
     "bigchange_ids": [
      204526452
     ],
@@ -1231,7 +1228,7 @@
   ],
   "2026-11-17": [
    {
-    "idx": 1,
+    "idx": 0,
     "customer": "William Pye Ltd",
     "postcode": "SK10 3DE",
     "type": "Off Hire",
@@ -1255,7 +1252,7 @@
     "seq": 2
    },
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "A Connolly Limited",
     "postcode": "WN3 5XL",
     "type": "Off Hire",
@@ -1281,7 +1278,7 @@
     "seq": 2
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "A Connolly Limited",
     "postcode": "M25 1DZ",
     "type": "Off Hire",
@@ -1305,7 +1302,7 @@
     "seq": 1
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "A Connolly",
     "postcode": "WN3 5XL",
     "type": "Off Hire",
@@ -1331,7 +1328,7 @@
     "seq": 2
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "A Connolly Limited",
     "postcode": "M45 8PP",
     "type": "Off Hire",
@@ -1357,7 +1354,7 @@
     "seq": 2
    },
    {
-    "idx": 6,
+    "idx": 5,
     "customer": "DLP Services (Northern) Ltd",
     "postcode": "OL12 7LG",
     "type": "Off Hire",
@@ -1797,19 +1794,7 @@
     "note": "No PO for this job's haulage in MCS"
    }
   ],
-  "2026-11-13": [
-   {
-    "idx": 1,
-    "customer": "A Connolly Limited",
-    "type": "On Hire",
-    "postcode": "",
-    "contract": "0000032229",
-    "haulier": "Anthony Agricultural",
-    "po": "01-003516",
-    "po_status": "Authorised",
-    "supplier_code": "ANT001",
-    "note": "PO 01-003516 with Anthony Agricultural, raised Fri 6 Nov"
-   },
+  "2026-11-12": [
    {
     "idx": 4,
     "customer": "Eric Charlesworth Ltd",
@@ -1821,6 +1806,20 @@
     "po_status": "Authorised",
     "supplier_code": "A005",
     "note": "PO 01-003532 with Astley Hiabs Ltd, raised Fri 13 Nov"
+   }
+  ],
+  "2026-11-13": [
+   {
+    "idx": 0,
+    "customer": "A Connolly Limited",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032229",
+    "haulier": "Anthony Agricultural",
+    "po": "01-003516",
+    "po_status": "Authorised",
+    "supplier_code": "ANT001",
+    "note": "PO 01-003516 with Anthony Agricultural, raised Fri 6 Nov"
    }
   ],
   "2026-11-16": [
@@ -1866,7 +1865,14 @@
    }
   ]
  },
- "live_fixed": {},
+ "live_fixed": {
+  "203088921": {
+   "time": "10:30",
+   "note": "On the way, 57 min from their last drop (CH5 3EY) in traffic",
+   "at": "09:33",
+   "day": "2026-11-13"
+  }
+ },
  "kept": {
   "past_days": 9,
   "done_rows": 0
