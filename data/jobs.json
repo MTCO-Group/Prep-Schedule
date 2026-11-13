@@ -21364,6 +21364,26 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Move to New location on existing site",
         "added_by": "MCS Auto",
         "timestamp": "12/11/2026 13:04"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Eric Charlesworth Ltd",
+        "postcode": "",
+        "contract_number": "0000032231",
+        "units": {
+          "10ft Store": 2
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "09/11/2026 09:31",
+        "moved_by": "\u2014",
+        "moved_from": "2026-11-13",
+        "edited_at": "13/11/2026 08:53"
       }
     ],
     "2026-11-11": [
@@ -21906,23 +21926,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Manor House farm, Warrington road, Leigh end, , Wa3 5nx | Also on contract: 1x Event Toilet; 1x Event Toilet; 1x Event Toilet; 1x Event Toilet",
         "added_by": "MCS Auto",
         "timestamp": "06/11/2026 11:40"
-      },
-      {
-        "type": "On Hire",
-        "customer": "Eric Charlesworth Ltd",
-        "postcode": "",
-        "contract_number": "0000032231",
-        "units": {
-          "10ft Store": 2
-        },
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping.",
-        "added_by": "MCS Auto",
-        "timestamp": "09/11/2026 09:31"
       },
       {
         "type": "On Hire",
