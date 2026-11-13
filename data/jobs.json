@@ -20743,38 +20743,6 @@
     ],
     "2026-11-17": [
       {
-        "customer": "Almond Civils",
-        "postcode": "BB7 9BE",
-        "contract_number": "0000032100",
-        "type": "On Hire",
-        "site_move_type": "",
-        "units": {
-          "32ft AV": 1,
-          "20ft AV": 2,
-          "Stairs": 1,
-          "Tank": 1,
-          "Steps": 2,
-          "IBC": 1
-        },
-        "av_configs": {
-          "20ft AV": {
-            "Canteen": 1,
-            "Office": 1
-          },
-          "32ft AV": {
-            "Other": 1
-          }
-        },
-        "install_dismantle": false,
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "Standard Livery",
-        "livery_note": "",
-        "notes": "",
-        "added_by": "Peter",
-        "timestamp": "22/10/2026 10:35"
-      },
-      {
         "type": "Off Hire",
         "customer": "William Pye Ltd",
         "postcode": "SK10 3DE",
