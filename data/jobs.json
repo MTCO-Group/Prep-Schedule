@@ -20864,6 +20864,29 @@
         "notes": "Auto-added from MCS. Check details before prepping.",
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 16:51"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "H H Smith & Sons  Co Ltd",
+        "postcode": "M24 6XH",
+        "contract_number": "0000030470",
+        "units": {
+          "32ft AV": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Hopwood Hall College, Middleton, , M24 6XH | Also on contract: 1x Staircase; 1x Double Stack/ Erect Staircase",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 13:51",
+        "av_configs": {
+          "32ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-11-03": [
