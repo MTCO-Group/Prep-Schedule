@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-13T14:02:42+00:00",
+ "generated_at": "2026-11-13T15:02:26+00:00",
  "matched": 24,
  "other_day": 1,
- "kensite_hiab_jobs": 36,
+ "kensite_hiab_jobs": 37,
  "jobs": {
   "2026-11-02": [
    {
@@ -1824,7 +1824,7 @@
   ],
   "2026-11-12": [
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Eric Charlesworth Ltd",
     "type": "On Hire",
     "postcode": "",
