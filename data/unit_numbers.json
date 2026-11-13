@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-13T15:01:44Z",
+ "written_at": "2026-11-13T16:11:41Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032050": {
@@ -766,7 +766,7 @@
    "delivered": []
   },
   "0000032241": {
-   "read_at": "2026-11-13T14:51:57Z",
+   "read_at": "2026-11-13T16:11:59Z",
    "lines": [
     {
      "type": "Chemiloo",
@@ -862,7 +862,7 @@
    ]
   },
   "0000032230": {
-   "read_at": "2026-11-13T14:51:48Z",
+   "read_at": "2026-11-13T16:11:49Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -875,7 +875,7 @@
    "delivered": []
   },
   "0000032232": {
-   "read_at": "2026-11-13T14:51:49Z",
+   "read_at": "2026-11-13T16:11:51Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -902,7 +902,7 @@
    "delivered": []
   },
   "0000032246": {
-   "read_at": "2026-11-13T14:52:01Z",
+   "read_at": "2026-11-13T16:12:03Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -910,33 +910,6 @@
      "fleet": null,
      "qty": 1,
      "delivery": "2026-11-16"
-    }
-   ],
-   "delivered": []
-  },
-  "0000032206": {
-   "read_at": "2026-11-13T15:01:36Z",
-   "lines": [
-    {
-     "type": "4+2",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-13"
-    },
-    {
-     "type": "Tank",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-13"
-    },
-    {
-     "type": "Steps",
-     "config": "",
-     "fleet": null,
-     "qty": 2,
-     "delivery": "2026-11-13"
     }
    ],
    "delivered": []
@@ -1116,12 +1089,12 @@
    "delivered": []
   },
   "0000032234": {
-   "read_at": "2026-11-13T14:51:51Z",
+   "read_at": "2026-11-13T16:11:52Z",
    "lines": [],
    "delivered": []
   },
   "0000032237": {
-   "read_at": "2026-11-13T14:51:53Z",
+   "read_at": "2026-11-13T16:11:54Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1134,7 +1107,7 @@
    "delivered": []
   },
   "0000031643": {
-   "read_at": "2026-11-13T14:51:38Z",
+   "read_at": "2026-11-13T16:01:39Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1168,7 +1141,7 @@
    "delivered": []
   },
   "0000032094": {
-   "read_at": "2026-11-13T14:51:41Z",
+   "read_at": "2026-11-13T16:01:41Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1228,7 +1201,7 @@
    ]
   },
   "0000032243": {
-   "read_at": "2026-11-13T14:51:59Z",
+   "read_at": "2026-11-13T16:12:02Z",
    "lines": [
     {
      "type": "IBC",
@@ -1269,12 +1242,12 @@
    "delivered": []
   },
   "0000032221": {
-   "read_at": "2026-11-13T14:51:42Z",
+   "read_at": "2026-11-13T16:01:43Z",
    "lines": [],
    "delivered": []
   },
   "0000032229": {
-   "read_at": "2026-11-13T14:51:46Z",
+   "read_at": "2026-11-13T16:11:48Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1287,13 +1260,40 @@
    "delivered": []
   },
   "0000032239": {
-   "read_at": "2026-11-13T14:51:54Z",
+   "read_at": "2026-11-13T16:11:56Z",
    "lines": [],
    "delivered": []
   },
   "0000032240": {
-   "read_at": "2026-11-13T14:51:55Z",
+   "read_at": "2026-11-13T16:11:57Z",
    "lines": [],
+   "delivered": []
+  },
+  "0000032206": {
+   "read_at": "2026-11-13T16:11:43Z",
+   "lines": [
+    {
+     "type": "4+2",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-13"
+    },
+    {
+     "type": "Tank",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-13"
+    },
+    {
+     "type": "Steps",
+     "config": "",
+     "fleet": null,
+     "qty": 2,
+     "delivery": "2026-11-13"
+    }
+   ],
    "delivered": []
   },
   "0000032223": {
@@ -1398,7 +1398,7 @@
    "delivered": []
   },
   "0000032228": {
-   "read_at": "2026-11-13T14:51:45Z",
+   "read_at": "2026-11-13T16:11:46Z",
    "lines": [
     {
      "type": "3+1",
@@ -1446,7 +1446,7 @@
    "delivered": []
   },
   "0000032242": {
-   "read_at": "2026-11-13T09:32:01Z",
+   "read_at": "2026-11-13T15:41:41Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1494,12 +1494,12 @@
    "delivered": []
   },
   "0000032233": {
-   "read_at": "2026-11-13T09:38:25Z",
+   "read_at": "2026-11-13T15:41:48Z",
    "lines": [],
    "delivered": []
   },
   "0000032075": {
-   "read_at": "2026-11-13T09:31:47Z",
+   "read_at": "2026-11-13T15:41:40Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1547,7 +1547,7 @@
    "delivered": []
   },
   "0000032248": {
-   "read_at": "2026-11-13T09:32:03Z",
+   "read_at": "2026-11-13T15:41:42Z",
    "lines": [
     {
      "type": "20ft Store",
