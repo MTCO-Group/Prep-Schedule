@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-13T12:30:04+00:00",
- "matched": 23,
- "other_day": 0,
+ "generated_at": "2026-11-13T13:18:34+00:00",
+ "matched": 24,
+ "other_day": 1,
  "kensite_hiab_jobs": 35,
  "jobs": {
   "2026-11-02": [
@@ -1688,6 +1688,27 @@
     "bc_customer": "Greenmount Projects",
     "why": [
      "same customer"
+    ]
+   },
+   {
+    "idx": 3,
+    "customer": "M Civils NW Ltd",
+    "postcode": "L8 0WN",
+    "type": "Off Hire",
+    "contract": "0000031581",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Mon 23 Nov, not this day (matched on same postcode)",
+    "day": "2026-11-23",
+    "bigchange_ids": [
+     204610814
+    ],
+    "refs": [
+     "AES/65392"
+    ],
+    "bc_customer": "M Group",
+    "why": [
+     "same postcode"
     ]
    }
   ]
