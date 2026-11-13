@@ -21943,6 +21943,30 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Disposable Sanitary Bins. Pk10",
         "added_by": "MCS Auto",
         "timestamp": "10/11/2026 14:31"
+      },
+      {
+        "type": "On Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "",
+        "contract_number": "0000032150",
+        "units": {
+          "24ft AV": 1,
+          "20ft Store": 1,
+          "IBC": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 2x DECAL",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 09:32",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-11-07": [
@@ -22335,6 +22359,23 @@
         "added_by": "MCS Auto",
         "timestamp": "12/11/2026 15:24",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "L8 0WN",
+        "contract_number": "0000031581",
+        "units": {
+          "20ft AV": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Bishops Court, Sefton Park Raod, Liverpool,, , L8 0WN | Also on contract: 1x Move to New Site site move of the office form LA2 8FG to L8; 1x OFFICE CLEAN - MARRIED TO THE MOP",
+        "added_by": "MCS Auto",
+        "timestamp": "13/11/2026 09:32"
       }
     ]
   },
