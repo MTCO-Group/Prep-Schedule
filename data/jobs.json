@@ -9007,25 +9007,6 @@
         "timestamp": "01/07/2026 15:31"
       },
       {
-        "customer": "Total UK Rentals",
-        "postcode": "L30 0QR",
-        "contract_number": "0000029817",
-        "type": "Off Hire",
-        "site_move_type": "",
-        "units": {
-          "20ft Store": 1
-        },
-        "av_configs": {},
-        "install_dismantle": false,
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "Standard Livery",
-        "livery_note": "",
-        "notes": "",
-        "added_by": "Peter",
-        "timestamp": "06/07/2026 09:55"
-      },
-      {
         "customer": "A Connolly",
         "postcode": "OL9 8JN",
         "contract_number": "0000031696",
@@ -22375,6 +22356,28 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Bishops Court, Sefton Park Raod, Liverpool,, , L8 0WN | Also on contract: 1x Move to New Site site move of the office form LA2 8FG to L8; 1x OFFICE CLEAN - MARRIED TO THE MOP",
         "added_by": "MCS Auto",
         "timestamp": "13/11/2026 09:32"
+      }
+    ],
+    "2026-11-26": [
+      {
+        "customer": "Total UK Rentals",
+        "postcode": "L30 0QR",
+        "contract_number": "0000029817",
+        "type": "Off Hire",
+        "site_move_type": "",
+        "units": {
+          "20ft Store": 1
+        },
+        "av_configs": {},
+        "install_dismantle": false,
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "Standard Livery",
+        "livery_note": "",
+        "notes": "Return date moved by MCS Auto from 15/07/2026 to 26/11/2026 on 13/11/2026 14:01",
+        "added_by": "Peter",
+        "timestamp": "13/11/2026 14:01",
+        "date_moved_by": "MCS Auto"
       }
     ]
   },
