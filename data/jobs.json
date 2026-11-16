@@ -22589,6 +22589,23 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "Off Hire",
+        "customer": "John Wade Groundworkers Ltd",
+        "postcode": "BB7 9PW",
+        "contract_number": "0000029704",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Bradhurst House, Knowles Brow, Clitheroe, , BB7 9PW",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 14:50"
       }
     ],
     "2026-11-27": [
