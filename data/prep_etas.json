@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-16T16:10:47+00:00",
+ "generated_at": "2026-11-16T16:20:47+00:00",
  "matched": 28,
  "other_day": 1,
  "kensite_hiab_jobs": 42,
@@ -2080,6 +2080,18 @@
     "po_status": "",
     "supplier_code": "",
     "note": "No PO for this job's haulage in MCS"
+   },
+   {
+    "idx": 9,
+    "customer": "DLP Services (Northern) Ltd",
+    "type": "Off Hire",
+    "postcode": "L27 4BH",
+    "contract": "0000032079",
+    "haulier": "Reactive Hire Ltd",
+    "po": "01-003210",
+    "po_status": "Authorised",
+    "supplier_code": "REACTIVE",
+    "note": "PO 01-003210 with Reactive Hire Ltd, raised Tue 6 Oct"
    }
   ],
   "2026-11-23": [
