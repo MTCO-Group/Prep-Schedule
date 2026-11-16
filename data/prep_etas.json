@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-14T21:50:02+00:00",
- "matched": 22,
+ "generated_at": "2026-11-16T00:00:12+00:00",
+ "matched": 23,
  "other_day": 1,
- "kensite_hiab_jobs": 32,
+ "kensite_hiab_jobs": 35,
  "jobs": {
   "2026-11-02": [
    {
@@ -1759,6 +1759,33 @@
      "AES/65409"
     ],
     "bc_customer": "TOTAL UK",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
+   }
+  ],
+  "2026-11-30": [
+   {
+    "idx": 1,
+    "customer": "P H Property Holdings Ltd",
+    "postcode": "WA16 8QR",
+    "type": "Off Hire",
+    "contract": "0000030063",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204474089,
+     204474307,
+     204475910
+    ],
+    "refs": [
+     "AES/65292",
+     "AES/65293",
+     "AES/65294"
+    ],
+    "bc_customer": "P H Property Holdings Ltd",
     "why": [
      "same postcode",
      "same customer"
