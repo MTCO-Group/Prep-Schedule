@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-16T12:00:27Z",
+ "written_at": "2026-11-16T12:10:17Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032050": {
@@ -767,7 +767,7 @@
    "delivered": []
   },
   "0000032241": {
-   "read_at": "2026-11-16T11:30:32Z",
+   "read_at": "2026-11-16T12:10:24Z",
    "lines": [
     {
      "type": "Chemiloo",
@@ -780,7 +780,7 @@
    "delivered": []
   },
   "0000032251": {
-   "read_at": "2026-11-16T11:30:40Z",
+   "read_at": "2026-11-16T12:10:33Z",
    "lines": [
     {
      "type": "Chemiloo",
@@ -797,6 +797,33 @@
    "lines": [
     {
      "type": "10ft Store",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-17"
+    }
+   ],
+   "delivered": []
+  },
+  "0000032254": {
+   "read_at": "2026-11-16T12:00:16Z",
+   "lines": [
+    {
+     "type": "20ft AV",
+     "config": "Office",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-17"
+    },
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-17"
+    },
+    {
+     "type": "Stairs",
      "config": "",
      "fleet": null,
      "qty": 1,
@@ -902,7 +929,7 @@
    "delivered": []
   },
   "0000032232": {
-   "read_at": "2026-11-16T11:30:27Z",
+   "read_at": "2026-11-16T12:10:19Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -929,7 +956,7 @@
    "delivered": []
   },
   "0000032246": {
-   "read_at": "2026-11-16T11:30:39Z",
+   "read_at": "2026-11-16T12:10:32Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1101,12 +1128,12 @@
    "delivered": []
   },
   "0000032234": {
-   "read_at": "2026-11-16T11:30:28Z",
+   "read_at": "2026-11-16T12:10:21Z",
    "lines": [],
    "delivered": []
   },
   "0000032237": {
-   "read_at": "2026-11-16T11:30:30Z",
+   "read_at": "2026-11-16T12:10:23Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1213,7 +1240,7 @@
    ]
   },
   "0000032243": {
-   "read_at": "2026-11-16T11:30:37Z",
+   "read_at": "2026-11-16T12:10:30Z",
    "lines": [
     {
      "type": "IBC",
@@ -1458,7 +1485,7 @@
    "delivered": []
   },
   "0000032242": {
-   "read_at": "2026-11-16T11:30:34Z",
+   "read_at": "2026-11-16T12:10:27Z",
    "lines": [
     {
      "type": "24ft AV",
