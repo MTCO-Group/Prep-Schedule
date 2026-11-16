@@ -20921,6 +20921,24 @@
         "added_by": "MCS Auto",
         "timestamp": "16/11/2026 15:10",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Aspire Construction Projects Ltd",
+        "postcode": "",
+        "contract_number": "0000032230",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill | Date moved by MCS Auto from 16/11/2026 to 17/11/2026 on 16/11/2026 15:20",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 15:20",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-03": [
@@ -21242,23 +21260,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Split delivery #1 - later drop on this contract | Site: MARK CLOSE, BRADFORD, , BD10 9NF | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill; 1x One Off Fuel Delivery (Per Litre)",
         "added_by": "MCS Auto",
         "timestamp": "04/11/2026 14:31"
-      },
-      {
-        "type": "On Hire",
-        "customer": "Aspire Construction Projects Ltd",
-        "postcode": "",
-        "contract_number": "0000032230",
-        "units": {
-          "Mobile Welfare": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
-        "added_by": "MCS Auto",
-        "timestamp": "06/11/2026 13:30"
       },
       {
         "type": "On Hire",
