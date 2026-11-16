@@ -22590,6 +22590,30 @@
           }
         }
       }
+    ],
+    "2026-11-27": [
+      {
+        "type": "Off Hire",
+        "customer": "F Parkinson Ltd",
+        "postcode": "FY5 5EE",
+        "contract_number": "0000031740",
+        "units": {
+          "20ft AV": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: DWP Blackpool, Hassra flyde community pavillion, Thorton Cleveleys, , FY5 5EE | Also on contract: 1x Move to New Site Move to New Site move of 20ft office form L; 1x Pump",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 14:30",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1
+          }
+        }
+      }
     ]
   },
   "mcs": {
