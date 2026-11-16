@@ -20902,6 +20902,30 @@
         "notes": "Auto-added from MCS. Check details before prepping.",
         "added_by": "MCS Auto",
         "timestamp": "16/11/2026 10:50"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Medway Heaton (Bolton) Ltd",
+        "postcode": "",
+        "contract_number": "0000032254",
+        "units": {
+          "20ft AV": 1,
+          "20ft Store": 1,
+          "Stairs": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Already on site no stack charge; 1x Destack",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 12:00",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-11-03": [
@@ -21297,6 +21321,29 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "12/11/2026 11:44"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Huck Construction Ltd",
+        "postcode": "WN1 2NN",
+        "contract_number": "0000030985",
+        "units": {
+          "20ft AV": 1,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: 2513 Thetares 5 & 6, WIGAN, , WN1 2NN | Also on contract: 1x Double Stack/ Erect Staircase; 1x Destack; 1x Staircase",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 12:00",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-11-12": [
