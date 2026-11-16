@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-16T13:59:18+00:00",
+ "generated_at": "2026-11-16T14:43:37+00:00",
  "matched": 27,
  "other_day": 1,
  "kensite_hiab_jobs": 41,
@@ -1253,7 +1253,7 @@
     "type": "Off Hire",
     "contract": "0000032047",
     "state": "planned",
-    "time": "08:00",
+    "time": "11:05",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203527673
@@ -1268,7 +1268,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 2
+    "seq": 3
    },
    {
     "idx": 1,
@@ -1408,9 +1408,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032251",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "09:25",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204738050,
      204738310
@@ -1419,7 +1419,10 @@
     "bc_customer": "j fisher and sons ltd",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 2
    },
    {
     "idx": 9,
