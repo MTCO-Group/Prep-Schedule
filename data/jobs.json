@@ -23214,6 +23214,22 @@
       "question": "Can we not site move the 3 x store with are being off hired on Friday 6th to this job?",
       "status": "open",
       "answer": ""
+    },
+    "698b4582b0": {
+      "id": "698b4582b0",
+      "date": "2026-11-20",
+      "job_idx": 4,
+      "job": {
+        "customer": "MCI Developments Ltd",
+        "contract": "0000032243",
+        "job_type": "On Hire",
+        "postcode": ""
+      },
+      "raised_by": "Cliff",
+      "raised_at": "16/11/2026 08:48",
+      "question": "This the CW9 Job? We got told it was the 26th?",
+      "status": "open",
+      "answer": ""
     }
   }
 }
