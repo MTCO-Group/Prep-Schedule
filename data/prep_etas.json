@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-16T15:21:49+00:00",
- "matched": 27,
+ "generated_at": "2026-11-16T16:10:47+00:00",
+ "matched": 28,
  "other_day": 1,
  "kensite_hiab_jobs": 42,
  "jobs": {
@@ -1864,6 +1864,27 @@
      "AES/65409"
     ],
     "bc_customer": "TOTAL UK",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 2,
+    "customer": "John Wade Groundworkers Ltd",
+    "postcode": "BB7 9PW",
+    "type": "Off Hire",
+    "contract": "0000029704",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     204801699
+    ],
+    "refs": [
+     "AES/65566"
+    ],
+    "bc_customer": "John Wade Groundworks",
     "why": [
      "same postcode",
      "same customer"
