@@ -20868,6 +20868,23 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "J Fisher",
+        "postcode": "",
+        "contract_number": "0000032251",
+        "units": {
+          "Chemiloo": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 09:30"
       }
     ],
     "2026-11-03": [
@@ -22425,6 +22442,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Bishops Court, Sefton Park Raod, Liverpool,, , L8 0WN | Also on contract: 1x Move to New Site site move of the office form LA2 8FG to L8; 1x OFFICE CLEAN - MARRIED TO THE MOP",
         "added_by": "MCS Auto",
         "timestamp": "13/11/2026 09:32"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Argent Energy Limited",
+        "postcode": "CH65 4BD",
+        "contract_number": "0000032099",
+        "units": {
+          "24ft AV": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Oil Sites Road, Ellesmere Port,, Cheshire, , CH65 4BD",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 09:30"
       }
     ],
     "2026-11-26": [
