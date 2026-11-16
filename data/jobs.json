@@ -21748,6 +21748,21 @@
         "added_by": "MCS Auto",
         "timestamp": "12/11/2026 09:45",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "DLP Services (Northern) Ltd",
+        "postcode": "L27 4BH",
+        "contract_number": "0000032079",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Washington Road, Liverpool, , L27 4BH | Also on contract: 1x 16ft solar welfare",
+        "added_by": "MCS Auto",
+        "timestamp": "16/11/2026 16:20"
       }
     ],
     "2026-11-20": [
