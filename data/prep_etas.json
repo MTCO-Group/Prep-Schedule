@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T11:59:11+00:00",
+ "generated_at": "2026-11-17T12:01:15+00:00",
  "matched": 30,
  "other_day": 1,
  "kensite_hiab_jobs": 40,
@@ -1301,9 +1301,9 @@
     "postcode": "WN3 5XL",
     "type": "Off Hire",
     "contract": "0000029972",
-    "state": "planned",
-    "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "12:55",
+    "note": "On the way, 51 min from their last drop (M11 3DL) in traffic",
     "bigchange_ids": [
      203793496
     ],
@@ -1315,10 +1315,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 2,
@@ -1326,9 +1323,9 @@
     "postcode": "M25 1DZ",
     "type": "Off Hire",
     "contract": "0000032118",
-    "state": "planned",
-    "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "12:55",
+    "note": "On the way, 51 min from their last drop (M11 3DL) in traffic (set when it went live at 12:01)",
     "bigchange_ids": [
      203793496,
      203794923,
@@ -1344,10 +1341,7 @@
     "bc_customer": "A Connolly  Baucher Lane",
     "why": [
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 3,
@@ -1515,8 +1509,8 @@
     "type": "Off Hire",
     "contract": "0000031838",
     "state": "planned",
-    "time": "08:30",
-    "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
+    "time": "09:15",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203317625,
      203317890,
@@ -1533,7 +1527,7 @@
      "same postcode",
      "same customer"
     ],
-    "driver": "RB",
+    "driver": "DF",
     "run": 1,
     "seq": 2
    },
@@ -2212,6 +2206,12 @@
   ]
  },
  "live_fixed": {
+  "203793496": {
+   "time": "12:55",
+   "note": "On the way, 51 min from their last drop (M11 3DL) in traffic",
+   "at": "12:01",
+   "day": "2026-11-17"
+  },
   "203981721": {
    "time": "08:25",
    "note": "On the way, 52 min from the depot in traffic",
