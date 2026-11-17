@@ -21771,6 +21771,21 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Washington Road, Liverpool, , L27 4BH | Also on contract: 1x 16ft solar welfare",
         "added_by": "MCS Auto",
         "timestamp": "16/11/2026 16:20"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Sustainable Building Services (uk) Ltd",
+        "postcode": "M23 1EQ",
+        "contract_number": "0000031425",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Flat 18 Stonebeck Road, Baguley, Wythenshawe, M23 1EQ | Also on contract: 1x Hot wash chemi loo; 1x ReHire Chemi Loo swap out due to damage",
+        "added_by": "MCS Auto",
+        "timestamp": "17/11/2026 15:20"
       }
     ],
     "2026-11-20": [
