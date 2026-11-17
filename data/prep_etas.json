@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T13:31:11+00:00",
+ "generated_at": "2026-11-17T13:39:38+00:00",
  "matched": 31,
  "other_day": 1,
  "kensite_hiab_jobs": 41,
@@ -1710,7 +1710,7 @@
     "type": "Off Hire",
     "contract": "0000030654",
     "state": "planned",
-    "time": "08:50",
+    "time": "09:30",
     "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      203697719
@@ -1726,7 +1726,7 @@
     ],
     "driver": "CR",
     "run": 1,
-    "seq": 2
+    "seq": 3
    },
    {
     "idx": 3,
@@ -1734,9 +1734,9 @@
     "postcode": "WA15 8UU",
     "type": "Off Hire",
     "contract": "0000031774",
-    "state": "planned",
-    "time": "07:40",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
      204287773
     ],
@@ -1748,10 +1748,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 4,
@@ -1759,9 +1756,9 @@
     "postcode": "FY6 7SY",
     "type": "Off Hire",
     "contract": "0000032024",
-    "state": "planned",
-    "time": "10:35",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
      204527032
     ],
@@ -1773,10 +1770,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 2
+    ]
    }
   ],
   "2026-11-20": [
