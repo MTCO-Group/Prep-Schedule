@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T09:57:17+00:00",
+ "generated_at": "2026-11-17T10:11:59+00:00",
  "matched": 27,
  "other_day": 1,
  "kensite_hiab_jobs": 40,
@@ -1287,6 +1287,7 @@
     ],
     "bc_customer": "WILLIAM PYE",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1304,15 +1305,14 @@
     "time": "07:20",
     "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
-     203793496,
-     203794923
+     203793496
     ],
     "refs": [
-     "AES/64743",
-     "AES/64744"
+     "AES/64743"
     ],
     "bc_customer": "A Connolly  Baucher Lane",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1357,21 +1357,20 @@
     "contract": "0000030158",
     "state": "planned",
     "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
-     203793496,
      203794923
     ],
     "refs": [
-     "AES/64743",
      "AES/64744"
     ],
     "bc_customer": "A Connolly  Baucher Lane",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
-    "driver": "DF",
+    "driver": "CR",
     "run": 1,
     "seq": 2
    },
@@ -1394,6 +1393,7 @@
     ],
     "bc_customer": "A Connolly",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ]
@@ -1515,6 +1515,7 @@
     ],
     "bc_customer": "Perfect Associates LTD",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1564,6 +1565,7 @@
     ],
     "bc_customer": "Elite Access",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1586,6 +1588,7 @@
     "refs": [],
     "bc_customer": "Exact Property Services",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1637,6 +1640,7 @@
     ],
     "bc_customer": "A Connolly",
     "why": [
+     "PO on this contract",
      "same customer"
     ],
     "driver": "CR",
@@ -1652,24 +1656,23 @@
     "type": "Off Hire",
     "contract": "0000030654",
     "state": "planned",
-    "time": "08:50",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "time": "09:30",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
-     203697618,
      203697719
     ],
     "refs": [
-     "AES/64682",
      "AES/64683"
     ],
     "bc_customer": "connolly cromer place",
     "why": [
+     "PO on this contract",
      "same postcode",
      "customer alike"
     ],
-    "driver": "DF",
+    "driver": "CR",
     "run": 1,
-    "seq": 2
+    "seq": 3
    },
    {
     "idx": 3,
@@ -1688,6 +1691,7 @@
     ],
     "bc_customer": "Premier Building Supplies",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1712,6 +1716,7 @@
     ],
     "bc_customer": "Jones Homes",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ],
@@ -1744,6 +1749,7 @@
     ],
     "bc_customer": "Brookfield School",
     "why": [
+     "PO on this contract",
      "same postcode"
     ],
     "driver": "SL",
@@ -1769,6 +1775,7 @@
     ],
     "bc_customer": "Greenmount Projects",
     "why": [
+     "PO on this contract",
      "same customer"
     ]
    },
@@ -1780,18 +1787,17 @@
     "contract": "0000031581",
     "state": "otherday",
     "time": "",
-    "note": "AES have this booked for Mon 23 Nov, not this day (matched on same postcode)",
+    "note": "AES have this booked for Mon 23 Nov, not this day (matched on PO on this contract, same postcode)",
     "day": "2026-11-23",
     "bigchange_ids": [
-     204610814,
      204613286
     ],
     "refs": [
-     "AES/65392",
      "AES/65402"
     ],
     "bc_customer": "M Group",
     "why": [
+     "PO on this contract",
      "same postcode"
     ]
    },
@@ -1882,6 +1888,7 @@
     ],
     "bc_customer": "TOTAL UK",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ]
@@ -1930,6 +1937,7 @@
     ],
     "bc_customer": "P H Property Holdings Ltd",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ]
