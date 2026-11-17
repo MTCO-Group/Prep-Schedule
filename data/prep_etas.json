@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T00:00:11+00:00",
+ "generated_at": "2026-11-17T07:30:05+00:00",
  "matched": 26,
  "other_day": 1,
  "kensite_hiab_jobs": 40,
@@ -1326,9 +1326,9 @@
     "postcode": "M25 1DZ",
     "type": "Off Hire",
     "contract": "0000032118",
-    "state": "planned",
-    "time": "07:20",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "08:25",
+    "note": "On the way, 52 min from the depot in traffic",
     "bigchange_ids": [
      203793496,
      203794923,
@@ -1344,10 +1344,7 @@
     "bc_customer": "A Connolly  Baucher Lane",
     "why": [
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 3,
@@ -1381,9 +1378,9 @@
     "postcode": "M45 8PP",
     "type": "Off Hire",
     "contract": "0000031998",
-    "state": "planned",
-    "time": "07:25",
-    "note": "From the AES planner (SL run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "08:25",
+    "note": "On the way, 52 min from the depot in traffic (set when it went live at 07:30)",
     "bigchange_ids": [
      203981721,
      203982066
@@ -1396,10 +1393,7 @@
     "why": [
      "same postcode",
      "same customer"
-    ],
-    "driver": "SL",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 5,
@@ -2109,7 +2103,14 @@
    }
   ]
  },
- "live_fixed": {},
+ "live_fixed": {
+  "203981721": {
+   "time": "08:25",
+   "note": "On the way, 52 min from the depot in traffic",
+   "at": "07:30",
+   "day": "2026-11-17"
+  }
+ },
  "kept": {
   "past_days": 11,
   "done_rows": 0
