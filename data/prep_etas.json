@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T12:49:44+00:00",
+ "generated_at": "2026-11-17T13:16:54+00:00",
  "matched": 30,
  "other_day": 1,
  "kensite_hiab_jobs": 40,
@@ -1276,9 +1276,9 @@
     "postcode": "SK10 3DE",
     "type": "Off Hire",
     "contract": "0000032047",
-    "state": "planned",
-    "time": "13:50",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "14:15",
+    "note": "On the way, 59 min from their last drop (OL1 4EL) in traffic",
     "bigchange_ids": [
      203527673
     ],
@@ -1290,10 +1290,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 4
+    ]
    },
    {
     "idx": 1,
@@ -2194,6 +2191,12 @@
   ]
  },
  "live_fixed": {
+  "203527673": {
+   "time": "14:15",
+   "note": "On the way, 59 min from their last drop (OL1 4EL) in traffic",
+   "at": "13:16",
+   "day": "2026-11-17"
+  },
   "203793496": {
    "time": "12:55",
    "note": "On the way, 51 min from their last drop (M11 3DL) in traffic",
