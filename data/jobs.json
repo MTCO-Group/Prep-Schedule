@@ -22720,6 +22720,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: DWP Blackpool, Hassra flyde community pavillion, Thorton Cleveleys, , FY5 5EE | Also on contract: 1x 1000G Eflluent Tank; 1x Pump; 1x Initial Water Fill; 1x Weekly Water Fill; 1x Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10",
         "added_by": "MCS Auto",
         "timestamp": "17/11/2026 14:00"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "MCI Developments Ltd",
+        "postcode": "CW9 8RF",
+        "contract_number": "0000032143",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Niddries Lane, Moulton, , CW9 8RF | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "17/11/2026 14:20"
       }
     ]
   },
