@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T10:34:43+00:00",
+ "generated_at": "2026-11-17T10:36:47+00:00",
  "matched": 30,
  "other_day": 1,
  "kensite_hiab_jobs": 40,
@@ -1429,9 +1429,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032241",
-    "state": "planned",
-    "time": "09:35",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "11:15",
+    "note": "On the way, 39 min from their last drop (M31 4PT) in traffic",
     "bigchange_ids": [
      204732893
     ],
@@ -1440,10 +1440,7 @@
     "why": [
      "PO on the account",
      "same postcode"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 7,
@@ -1451,9 +1448,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032251",
-    "state": "live",
-    "time": "11:15",
-    "note": "On the way, 43 min from the depot in traffic (set when it went live at 10:32)",
+    "state": "done",
+    "time": "10:33",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      204738050,
      204738310
@@ -2231,6 +2228,12 @@
    "time": "09:45",
    "note": "On the way, 39 min from their last drop (M31 4QZ) in traffic",
    "at": "09:07",
+   "day": "2026-11-17"
+  },
+  "204732893": {
+   "time": "11:15",
+   "note": "On the way, 39 min from their last drop (M31 4PT) in traffic",
+   "at": "10:36",
    "day": "2026-11-17"
   },
   "204738310": {
