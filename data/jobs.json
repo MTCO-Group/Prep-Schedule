@@ -22775,6 +22775,31 @@
         "added_by": "MCS Auto",
         "timestamp": "17/11/2026 14:20"
       }
+    ],
+    "2026-12-02": [
+      {
+        "type": "Off Hire",
+        "customer": "Proservice Building Services",
+        "postcode": "WV10 7DF",
+        "contract_number": "0000031237",
+        "units": {
+          "24ft AV": 5,
+          "32ft AV": 2
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Veolia Staffordshire E R F, Enterprise Drive, Four Ashes, Wolverhampton, WV10 7DF | Also on contract: 5x Fridge; 1x Fridge",
+        "added_by": "MCS Auto",
+        "timestamp": "17/11/2026 16:30",
+        "av_configs": {
+          "24ft AV": {
+            "Canteen": 5
+          }
+        }
+      }
     ]
   },
   "mcs": {
