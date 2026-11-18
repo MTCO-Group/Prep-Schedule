@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-18T14:10:57Z",
+ "written_at": "2026-11-18T14:20:53Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -997,7 +997,7 @@
    "delivered": []
   },
   "0000031643": {
-   "read_at": "2026-11-18T13:50:51Z",
+   "read_at": "2026-11-18T14:20:55Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1407,6 +1407,33 @@
   "0000032260": {
    "read_at": "2026-11-18T14:11:18Z",
    "lines": [],
+   "delivered": []
+  },
+  "0000032265": {
+   "read_at": "2026-11-18T14:10:47Z",
+   "lines": [
+    {
+     "type": "24ft AV",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-23"
+    },
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-23"
+    },
+    {
+     "type": "Chemiloo",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-23"
+    }
+   ],
    "delivered": []
   },
   "0000032233": {
