@@ -20551,6 +20551,21 @@
             "Canteen": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "AIS Vanguard Ltd",
+        "postcode": "",
+        "contract_number": "0000032260",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Winterisation/Seasonal Package; 30x Trace Heating (per 2m Run inc. Lagging); 1x Fitter Labour for Repair; 1x Supply",
+        "added_by": "MCS Auto",
+        "timestamp": "18/11/2026 09:31"
       }
     ],
     "2026-11-06": [
@@ -21786,6 +21801,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Flat 18 Stonebeck Road, Baguley, Wythenshawe, M23 1EQ | Also on contract: 1x Hot wash chemi loo; 1x ReHire Chemi Loo swap out due to damage",
         "added_by": "MCS Auto",
         "timestamp": "17/11/2026 15:20"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Baxter Homes Ltd",
+        "postcode": "",
+        "contract_number": "0000032258",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "18/11/2026 09:31"
       }
     ],
     "2026-11-20": [
@@ -22491,6 +22523,28 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Leasium LTD",
+        "postcode": "PR2 8AA",
+        "contract_number": "0000031499",
+        "units": {
+          "24ft AV": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: FULWOOD BARRACKS, PRESTON, , PR2 8AA",
+        "added_by": "MCS Auto",
+        "timestamp": "18/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-11-24": [
@@ -22735,6 +22789,23 @@
         "added_by": "MCS Auto",
         "timestamp": "17/11/2026 13:40",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Bellway Homes North West Division",
+        "postcode": "",
+        "contract_number": "0000032259",
+        "units": {
+          "Chemiloo": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "18/11/2026 09:31"
       }
     ],
     "2026-12-01": [
