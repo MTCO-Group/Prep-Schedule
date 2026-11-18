@@ -20551,21 +20551,6 @@
             "Canteen": 1
           }
         }
-      },
-      {
-        "type": "On Hire",
-        "customer": "AIS Vanguard Ltd",
-        "postcode": "",
-        "contract_number": "0000032260",
-        "units": {},
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Winterisation/Seasonal Package; 30x Trace Heating (per 2m Run inc. Lagging); 1x Fitter Labour for Repair; 1x Supply",
-        "added_by": "MCS Auto",
-        "timestamp": "18/11/2026 09:31"
       }
     ],
     "2026-11-06": [
@@ -22468,6 +22453,22 @@
             "Meeting Room": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "AIS Vanguard Ltd",
+        "postcode": "",
+        "contract_number": "0000032260",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Winterisation/Seasonal Package; 30x Trace Heating (per 2m Run inc. Lagging); 1x Fitter Labour for Repair; 1x Supply | Date moved by MCS Auto from 25/11/2026 to 23/11/2026 on 18/11/2026 13:00",
+        "added_by": "MCS Auto",
+        "timestamp": "18/11/2026 13:00",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-30": [
