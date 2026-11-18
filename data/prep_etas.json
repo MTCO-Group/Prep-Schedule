@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-18T08:21:12+00:00",
+ "generated_at": "2026-11-18T08:23:15+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 34,
@@ -2016,18 +2016,14 @@
     "note": "In Big Change, not on a run on the AES planner yet",
     "taken_as_aes": true,
     "bigchange_ids": [
-     204839737,
-     204839849,
      204901957
     ],
     "refs": [
-     "AES/65570",
-     "AES/65571",
      "AES/65582"
     ],
-    "bc_customer": "F PARKINSON",
+    "bc_customer": "Brookfield School",
     "why": [
-     "same customer"
+     "same postcode"
     ]
    }
   ],
@@ -2070,9 +2066,13 @@
     "time": "",
     "note": "In Big Change, not on a run on the AES planner yet",
     "bigchange_ids": [
+     204839737,
+     204839849,
      204840020
     ],
     "refs": [
+     "AES/65570",
+     "AES/65571",
      "AES/65572"
     ],
     "bc_customer": "F PARKINSON",
