@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-17T15:22:28+00:00",
- "matched": 32,
+ "generated_at": "2026-11-18T00:00:39+00:00",
+ "matched": 22,
  "other_day": 1,
- "kensite_hiab_jobs": 45,
+ "kensite_hiab_jobs": 34,
  "jobs": {
   "2026-11-02": [
    {
@@ -2288,66 +2288,25 @@
     "supplier_code": "AIN002",
     "note": "PO 01-003593 with Ainscough Environmental Services, raised Tue 17 Nov, which is AES, so this is really Kensite haulage"
    }
+  ],
+  "2026-12-02": [
+   {
+    "idx": 0,
+    "customer": "Proservice Building Services",
+    "type": "Off Hire",
+    "postcode": "WV10 7DF",
+    "contract": "0000031237",
+    "haulier": "AES",
+    "po": "01-003600",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003600 with Ainscough Environmental Services, raised Tue 17 Nov, which is AES, so this is really Kensite haulage"
+   }
   ]
  },
- "live_fixed": {
-  "203527673": {
-   "time": "14:15",
-   "note": "On the way, 59 min from their last drop (OL1 4EL) in traffic",
-   "at": "13:16",
-   "day": "2026-11-17"
-  },
-  "203793496": {
-   "time": "12:55",
-   "note": "On the way, 51 min from their last drop (M11 3DL) in traffic",
-   "at": "12:01",
-   "day": "2026-11-17"
-  },
-  "203981104": {
-   "time": "13:40",
-   "note": "On the way, 49 min from their last drop (BB2 1UB) in traffic",
-   "at": "12:47",
-   "day": "2026-11-17"
-  },
-  "203981721": {
-   "time": "08:25",
-   "note": "On the way, 52 min from the depot in traffic",
-   "at": "07:30",
-   "day": "2026-11-17"
-  },
-  "203982066": {
-   "time": "09:45",
-   "note": "On the way, 39 min from their last drop (M31 4QZ) in traffic",
-   "at": "09:07",
-   "day": "2026-11-17"
-  },
-  "204029712": {
-   "time": "12:30",
-   "note": "On the way, 49 min from the depot in traffic",
-   "at": "11:38",
-   "day": "2026-11-17"
-  },
-  "204732893": {
-   "time": "11:15",
-   "note": "On the way, 39 min from their last drop (M31 4PT) in traffic",
-   "at": "10:36",
-   "day": "2026-11-17"
-  },
-  "204738310": {
-   "time": "11:15",
-   "note": "On the way, 43 min from the depot in traffic",
-   "at": "10:32",
-   "day": "2026-11-17"
-  },
-  "204756579": {
-   "time": "11:38",
-   "note": "Updated from the wagon's position at 11:37",
-   "at": "11:37",
-   "day": "2026-11-17"
-  }
- },
+ "live_fixed": {},
  "kept": {
-  "past_days": 11,
+  "past_days": 12,
   "done_rows": 0
  }
 }
