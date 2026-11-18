@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-18T10:17:48+00:00",
+ "generated_at": "2026-11-18T10:32:19+00:00",
  "matched": 28,
  "other_day": 2,
  "kensite_hiab_jobs": 38,
@@ -2397,6 +2397,20 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003596 with Ainscough Environmental Services, raised Mon 23 Nov, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-11-24": [
+   {
+    "idx": 7,
+    "customer": "Heritage Construction",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032262",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003611",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003611 with Astley Hiabs Ltd, raised Tue 24 Nov"
    }
   ],
   "2026-11-27": [
