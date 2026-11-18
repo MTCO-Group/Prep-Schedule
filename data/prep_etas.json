@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-18T14:26:51+00:00",
- "matched": 28,
+ "generated_at": "2026-11-18T14:28:53+00:00",
+ "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 41,
  "jobs": {
@@ -1661,9 +1661,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032258",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "live",
+    "time": "16:15",
+    "note": "On the way, 106 min from their last drop (BD6 1HU) in traffic",
     "bigchange_ids": [
      204961381
     ],
@@ -2073,28 +2073,6 @@
     ]
    }
   ],
-  "2026-11-30": [
-   {
-    "idx": 3,
-    "customer": "Leasium LTD",
-    "postcode": "PR2 8AA",
-    "type": "Off Hire",
-    "contract": "0000031499",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
-    "bigchange_ids": [
-     204970411
-    ],
-    "refs": [
-     "AES/65649"
-    ],
-    "bc_customer": "Preston Projects",
-    "why": [
-     "same postcode"
-    ]
-   }
-  ],
   "2026-12-01": [
    {
     "idx": 0,
@@ -2490,6 +2468,12 @@
    "time": "11:20",
    "note": "On the way, 75 min from the depot in traffic",
    "at": "10:03",
+   "day": "2026-11-18"
+  },
+  "204961381": {
+   "time": "16:15",
+   "note": "On the way, 106 min from their last drop (BD6 1HU) in traffic",
+   "at": "14:28",
    "day": "2026-11-18"
   }
  },
