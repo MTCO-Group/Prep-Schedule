@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-18T15:40:25+00:00",
+ "generated_at": "2026-11-18T15:53:53+00:00",
  "matched": 27,
  "other_day": 2,
- "kensite_hiab_jobs": 41,
+ "kensite_hiab_jobs": 42,
  "jobs": {
   "2026-11-02": [
    {
@@ -1549,9 +1549,9 @@
     "postcode": "PR7 5LS",
     "type": "Off Hire",
     "contract": "0000031681",
-    "state": "live",
-    "time": "15:35",
-    "note": "On the way, 57 min from their last drop (FY6 7BY) in traffic (set when it went live at 14:35)",
+    "state": "done",
+    "time": "15:51",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      203975009
     ],
