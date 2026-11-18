@@ -1,9 +1,9 @@
 {
- "written_at": "2026-11-18T09:31:29Z",
+ "written_at": "2026-11-18T09:40:50Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
-   "read_at": "2026-11-17T09:40:37Z",
+   "read_at": "2026-11-18T09:40:55Z",
    "lines": [],
    "delivered": [
     {
@@ -118,7 +118,7 @@
    "delivered": []
   },
   "0000032123": {
-   "read_at": "2026-11-17T09:40:47Z",
+   "read_at": "2026-11-18T09:41:06Z",
    "lines": [],
    "delivered": []
   },
@@ -164,7 +164,7 @@
    "delivered": []
   },
   "0000032036": {
-   "read_at": "2026-11-17T09:40:33Z",
+   "read_at": "2026-11-18T09:40:54Z",
    "lines": [],
    "delivered": [
     {
@@ -199,7 +199,7 @@
    "delivered": []
   },
   "0000032113": {
-   "read_at": "2026-11-17T09:40:39Z",
+   "read_at": "2026-11-18T09:40:58Z",
    "lines": [],
    "delivered": [
     {
@@ -283,7 +283,7 @@
    ]
   },
   "0000032116": {
-   "read_at": "2026-11-17T09:40:42Z",
+   "read_at": "2026-11-18T09:41:00Z",
    "lines": [],
    "delivered": [
     {
@@ -295,51 +295,8 @@
    ]
   },
   "0000032120": {
-   "read_at": "2026-11-17T09:40:45Z",
-   "lines": [
-    {
-     "type": "20ft AV",
-     "config": "Office",
-     "fleet": "7814",
-     "qty": 1,
-     "delivery": "2026-10-22"
-    },
-    {
-     "type": "20ft AV",
-     "config": "Canteen",
-     "fleet": "7802",
-     "qty": 1,
-     "delivery": "2026-10-22"
-    },
-    {
-     "type": "2+1",
-     "config": "",
-     "fleet": "8721",
-     "qty": 1,
-     "delivery": "2026-10-22"
-    },
-    {
-     "type": "Steps",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-10-22"
-    },
-    {
-     "type": "Steps",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-10-22"
-    },
-    {
-     "type": "IBC",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-10-22"
-    }
-   ],
+   "read_at": "2026-11-18T09:41:04Z",
+   "lines": [],
    "delivered": [
     {
      "type": "20ft AV",
@@ -608,6 +565,11 @@
      "delivery": "2026-10-29"
     }
    ]
+  },
+  "0000032260": {
+   "read_at": "2026-11-18T09:31:08Z",
+   "lines": [],
+   "delivered": []
   },
   "0000032205": {
    "read_at": "2026-11-17T09:42:12Z",
@@ -995,6 +957,19 @@
      "config": "",
      "fleet": null,
      "qty": 2,
+     "delivery": "2026-11-18"
+    }
+   ],
+   "delivered": []
+  },
+  "0000032258": {
+   "read_at": "2026-11-18T09:31:05Z",
+   "lines": [
+    {
+     "type": "Chemiloo",
+     "config": "",
+     "fleet": null,
+     "qty": 1,
      "delivery": "2026-11-18"
     }
    ],
@@ -1454,6 +1429,19 @@
      "fleet": null,
      "qty": 1,
      "delivery": "2026-11-24"
+    }
+   ],
+   "delivered": []
+  },
+  "0000032259": {
+   "read_at": "2026-11-18T09:31:06Z",
+   "lines": [
+    {
+     "type": "Chemiloo",
+     "config": "",
+     "fleet": null,
+     "qty": 2,
+     "delivery": "2026-11-27"
     }
    ],
    "delivered": []
