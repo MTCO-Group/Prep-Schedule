@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-18T14:00:49Z",
+ "written_at": "2026-11-18T14:10:57Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -966,12 +966,12 @@
    "delivered": []
   },
   "0000032234": {
-   "read_at": "2026-11-18T13:31:05Z",
+   "read_at": "2026-11-18T14:11:05Z",
    "lines": [],
    "delivered": []
   },
   "0000032237": {
-   "read_at": "2026-11-18T13:31:07Z",
+   "read_at": "2026-11-18T14:11:07Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -984,7 +984,7 @@
    "delivered": []
   },
   "0000032258": {
-   "read_at": "2026-11-18T13:31:17Z",
+   "read_at": "2026-11-18T14:11:16Z",
    "lines": [
     {
      "type": "Chemiloo",
@@ -1031,7 +1031,7 @@
    "delivered": []
   },
   "0000032094": {
-   "read_at": "2026-11-18T13:31:00Z",
+   "read_at": "2026-11-18T14:10:59Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1091,7 +1091,7 @@
    ]
   },
   "0000032243": {
-   "read_at": "2026-11-18T13:31:12Z",
+   "read_at": "2026-11-18T14:11:11Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -1125,7 +1125,7 @@
    "delivered": []
   },
   "0000032221": {
-   "read_at": "2026-11-18T13:31:01Z",
+   "read_at": "2026-11-18T14:11:01Z",
    "lines": [],
    "delivered": []
   },
@@ -1339,7 +1339,7 @@
    ]
   },
   "0000032228": {
-   "read_at": "2026-11-18T13:31:04Z",
+   "read_at": "2026-11-18T14:11:04Z",
    "lines": [
     {
      "type": "3+1",
@@ -1387,55 +1387,12 @@
    "delivered": []
   },
   "0000032242": {
-   "read_at": "2026-11-18T13:31:10Z",
-   "lines": [
-    {
-     "type": "24ft AV",
-     "config": "Office",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "32ft AV",
-     "config": "Drying Room",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "Tank",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "Steps",
-     "config": "",
-     "fleet": null,
-     "qty": 2,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "24ft AV",
-     "config": "Canteen",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-23"
-    },
-    {
-     "type": "Stairs",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-23"
-    }
-   ],
+   "read_at": "2026-11-18T14:11:08Z",
+   "lines": [],
    "delivered": []
   },
   "0000032257": {
-   "read_at": "2026-11-18T13:31:16Z",
+   "read_at": "2026-11-18T14:11:15Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -1448,7 +1405,7 @@
    "delivered": []
   },
   "0000032260": {
-   "read_at": "2026-11-18T13:31:19Z",
+   "read_at": "2026-11-18T14:11:18Z",
    "lines": [],
    "delivered": []
   },
@@ -1506,7 +1463,7 @@
    "delivered": []
   },
   "0000032248": {
-   "read_at": "2026-11-18T13:31:14Z",
+   "read_at": "2026-11-18T14:11:13Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1519,7 +1476,7 @@
    "delivered": []
   },
   "0000032262": {
-   "read_at": "2026-11-18T13:31:21Z",
+   "read_at": "2026-11-18T14:11:20Z",
    "lines": [
     {
      "type": "20ft AV",
