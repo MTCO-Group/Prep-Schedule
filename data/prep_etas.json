@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-18T15:53:53+00:00",
- "matched": 27,
+ "generated_at": "2026-11-18T16:25:17+00:00",
+ "matched": 28,
  "other_day": 2,
  "kensite_hiab_jobs": 42,
  "jobs": {
@@ -2121,6 +2121,26 @@
     "bc_customer": "Mci Developments Ltd",
     "why": [
      "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 2,
+    "customer": "Brookhouse Contracting Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032265",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205043346
+    ],
+    "refs": [
+     "AES/65665"
+    ],
+    "bc_customer": "BROOKHOUSE CONTRACTING",
+    "why": [
      "same customer"
     ]
    }
