@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T11:31:08+00:00",
+ "generated_at": "2026-11-19T11:33:11+00:00",
  "matched": 24,
  "other_day": 2,
  "kensite_hiab_jobs": 32,
@@ -1681,9 +1681,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032228",
-    "state": "planned",
-    "time": "09:05",
-    "note": "From the AES planner (CR run 2), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "12:10",
+    "note": "On the way, 33 min from their last drop (PR2 3XL) in traffic",
     "bigchange_ids": [
      204039673,
      204039882,
@@ -1701,10 +1701,7 @@
     "bc_customer": "Heritage Trade",
     "why": [
      "same postcode"
-    ],
-    "driver": "CR",
-    "run": 2,
-    "seq": 1
+    ]
    },
    {
     "idx": 1,
@@ -2568,6 +2565,12 @@
    "time": "10:20",
    "note": "On the way, 35 min from their last drop (BL6 6JL) in traffic",
    "at": "09:45",
+   "day": "2026-11-19"
+  },
+  "204039882": {
+   "time": "12:10",
+   "note": "On the way, 33 min from their last drop (PR2 3XL) in traffic",
+   "at": "11:33",
    "day": "2026-11-19"
   },
   "204040177": {
