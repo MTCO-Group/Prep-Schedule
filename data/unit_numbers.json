@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-19T16:11:04Z",
+ "written_at": "2026-11-19T16:50:51Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -877,38 +877,50 @@
    "delivered": []
   },
   "0000032234": {
-   "read_at": "2026-11-18T16:42:43Z",
+   "read_at": "2026-11-19T16:50:55Z",
    "lines": [],
    "delivered": []
   },
   "0000032237": {
-   "read_at": "2026-11-18T16:42:45Z",
+   "read_at": "2026-11-19T16:50:57Z",
    "lines": [
     {
      "type": "20ft Store",
      "config": "",
-     "fleet": null,
-     "qty": 2,
+     "fleet": "7301",
+     "qty": 1,
      "delivery": "2026-11-18"
-    }
-   ],
-   "delivered": []
-  },
-  "0000032258": {
-   "read_at": "2026-11-18T16:42:55Z",
-   "lines": [
+    },
     {
-     "type": "Chemiloo",
+     "type": "20ft Store",
      "config": "",
-     "fleet": null,
+     "fleet": "8014",
      "qty": 1,
      "delivery": "2026-11-18"
     }
    ],
+   "delivered": [
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": "7301",
+     "delivery": "2026-11-18"
+    },
+    {
+     "type": "20ft Store",
+     "config": "",
+     "fleet": "8014",
+     "delivery": "2026-11-18"
+    }
+   ]
+  },
+  "0000032258": {
+   "read_at": "2026-11-19T16:51:05Z",
+   "lines": [],
    "delivered": []
   },
   "0000031643": {
-   "read_at": "2026-11-19T15:41:06Z",
+   "read_at": "2026-11-19T16:21:05Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -961,7 +973,7 @@
    ]
   },
   "0000032094": {
-   "read_at": "2026-11-19T16:00:53Z",
+   "read_at": "2026-11-19T16:41:01Z",
    "lines": [
     {
      "type": "24ft AV",
@@ -1021,7 +1033,7 @@
    ]
   },
   "0000032243": {
-   "read_at": "2026-11-19T16:11:09Z",
+   "read_at": "2026-11-19T16:51:00Z",
    "lines": [
     {
      "type": "32ft AV",
@@ -1055,12 +1067,12 @@
    "delivered": []
   },
   "0000032221": {
-   "read_at": "2026-11-19T16:00:54Z",
+   "read_at": "2026-11-19T16:41:03Z",
    "lines": [],
    "delivered": []
   },
   "0000032269": {
-   "read_at": "2026-11-19T16:11:22Z",
+   "read_at": "2026-11-19T16:51:13Z",
    "lines": [
     {
      "type": "Solar Loo Single",
@@ -1267,7 +1279,7 @@
    ]
   },
   "0000032228": {
-   "read_at": "2026-11-19T16:11:07Z",
+   "read_at": "2026-11-19T16:50:53Z",
    "lines": [
     {
      "type": "3+1",
@@ -1361,12 +1373,12 @@
    "delivered": []
   },
   "0000032260": {
-   "read_at": "2026-11-19T16:11:15Z",
+   "read_at": "2026-11-19T16:51:07Z",
    "lines": [],
    "delivered": []
   },
   "0000032266": {
-   "read_at": "2026-11-19T16:11:19Z",
+   "read_at": "2026-11-19T16:51:10Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -1379,7 +1391,7 @@
    "delivered": []
   },
   "0000032245": {
-   "read_at": "2026-11-19T16:11:11Z",
+   "read_at": "2026-11-19T16:51:02Z",
    "lines": [],
    "delivered": []
   },
@@ -1432,7 +1444,7 @@
    "delivered": []
   },
   "0000032248": {
-   "read_at": "2026-11-19T16:11:12Z",
+   "read_at": "2026-11-19T16:51:03Z",
    "lines": [
     {
      "type": "20ft Store",
@@ -1445,7 +1457,7 @@
    "delivered": []
   },
   "0000032262": {
-   "read_at": "2026-11-19T16:11:17Z",
+   "read_at": "2026-11-19T16:51:08Z",
    "lines": [
     {
      "type": "20ft AV",
@@ -1472,7 +1484,7 @@
    "delivered": []
   },
   "0000032272": {
-   "read_at": "2026-11-19T16:11:23Z",
+   "read_at": "2026-11-19T16:51:15Z",
    "lines": [
     {
      "type": "10ft Store",
@@ -1485,7 +1497,7 @@
    "delivered": []
   },
   "0000032268": {
-   "read_at": "2026-11-19T16:11:20Z",
+   "read_at": "2026-11-19T16:51:12Z",
    "lines": [
     {
      "type": "32ft AV",
