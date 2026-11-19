@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T10:06:00+00:00",
- "matched": 23,
+ "generated_at": "2026-11-19T10:12:12+00:00",
+ "matched": 24,
  "other_day": 2,
- "kensite_hiab_jobs": 33,
+ "kensite_hiab_jobs": 34,
  "jobs": {
   "2026-11-02": [
    {
@@ -2210,6 +2210,31 @@
      "same postcode",
      "customer alike"
     ]
+   },
+   {
+    "idx": 4,
+    "customer": "Termrim Construction Ltd",
+    "postcode": "LS29 6AR",
+    "type": "Off Hire",
+    "contract": "0000031911",
+    "state": "planned",
+    "time": "08:50",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     200640261
+    ],
+    "refs": [
+     "AES/61056"
+    ],
+    "bc_customer": "Termrim Construction Ltd",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-12-02": [
@@ -2403,7 +2428,7 @@
     "note": "No PO for this job's haulage in MCS"
    },
    {
-    "idx": 9,
+    "idx": 8,
     "customer": "DLP Services (Northern) Ltd",
     "type": "Off Hire",
     "postcode": "L27 4BH",
@@ -2415,7 +2440,7 @@
     "note": "PO 01-003210 with Reactive Hire Ltd, raised Tue 6 Oct"
    },
    {
-    "idx": 10,
+    "idx": 9,
     "customer": "Sustainable Building Services (uk) Ltd",
     "type": "Off Hire",
     "postcode": "M23 1EQ",
