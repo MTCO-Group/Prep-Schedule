@@ -21803,23 +21803,6 @@
         "notes": "Auto-added from MCS. Check details before prepping.",
         "added_by": "MCS Auto",
         "timestamp": "18/11/2026 09:31"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "Sustainable Building Services (uk) Ltd",
-        "postcode": "M23 1EQ",
-        "contract_number": "0000030946",
-        "units": {
-          "20ft Store": 5
-        },
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Flat 18 Stonebeck Road, Baguley, Wythenshawe, , M23 1EQ | Also on contract: 2x Hot Wash Chemi Loo 110V; 1x ReHire Chemi Loo",
-        "added_by": "MCS Auto",
-        "timestamp": "18/11/2026 11:10"
       }
     ],
     "2026-11-20": [
@@ -22984,6 +22967,24 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Date moved by MCS Auto from 23/11/2026 to 01/12/2026 on 18/11/2026 14:20",
         "added_by": "MCS Auto",
         "timestamp": "18/11/2026 14:20",
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Sustainable Building Services (uk) Ltd",
+        "postcode": "M23 1EQ",
+        "contract_number": "0000030946",
+        "units": {
+          "20ft Store": 5
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Flat 18 Stonebeck Road, Baguley, Wythenshawe, , M23 1EQ | Also on contract: 2x Hot Wash Chemi Loo 110V; 1x ReHire Chemi Loo | Return date moved by MCS Auto from 18/11/2026 to 01/12/2026 on 19/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "19/11/2026 09:31",
         "date_moved_by": "MCS Auto"
       }
     ],
