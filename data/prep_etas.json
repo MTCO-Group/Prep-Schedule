@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T05:45:51+00:00",
+ "generated_at": "2026-11-19T06:00:52+00:00",
  "matched": 20,
  "other_day": 2,
  "kensite_hiab_jobs": 32,
@@ -1683,7 +1683,7 @@
     "contract": "0000032228",
     "state": "live",
     "time": "06:10",
-    "note": "On the way, 21 min from the depot in traffic",
+    "note": "On the way, 21 min from the depot in traffic (set when it went live at 05:45)",
     "bigchange_ids": [
      204039673,
      204039882,
