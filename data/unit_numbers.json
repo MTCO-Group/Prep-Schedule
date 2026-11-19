@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-19T16:50:51Z",
+ "written_at": "2026-11-19T17:00:51Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -505,46 +505,49 @@
    "delivered": []
   },
   "0000032241": {
-   "read_at": "2026-11-18T16:52:48Z",
-   "lines": [
+   "read_at": "2026-11-19T17:00:57Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "Chemiloo",
      "config": "",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "2735",
      "delivery": "2026-11-17"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032251": {
-   "read_at": "2026-11-18T16:52:52Z",
-   "lines": [
+   "read_at": "2026-11-19T17:01:00Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "Chemiloo",
      "config": "",
-     "fleet": null,
-     "qty": 2,
+     "fleet": "1992",
+     "delivery": "2026-11-17"
+    },
+    {
+     "type": "Chemiloo",
+     "config": "",
+     "fleet": "1122",
      "delivery": "2026-11-17"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032253": {
-   "read_at": "2026-11-18T16:52:54Z",
-   "lines": [
+   "read_at": "2026-11-19T17:01:02Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "10ft Store",
      "config": "",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "7256",
      "delivery": "2026-11-17"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032254": {
-   "read_at": "2026-11-18T16:52:56Z",
+   "read_at": "2026-11-19T17:01:04Z",
    "lines": [
     {
      "type": "20ft AV",
@@ -571,27 +574,20 @@
    "delivered": []
   },
   "0000032246": {
-   "read_at": "2026-11-18T16:52:50Z",
+   "read_at": "2026-11-19T17:00:59Z",
    "lines": [
     {
      "type": "Mobile Welfare",
      "config": "",
-     "fleet": "8742",
+     "fleet": null,
      "qty": 1,
      "delivery": "2026-11-17"
     }
    ],
-   "delivered": [
-    {
-     "type": "Mobile Welfare",
-     "config": "",
-     "fleet": "8742",
-     "delivery": "2026-11-17"
-    }
-   ]
+   "delivered": []
   },
   "0000032230": {
-   "read_at": "2026-11-18T16:52:45Z",
+   "read_at": "2026-11-19T17:00:55Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -687,7 +683,7 @@
    ]
   },
   "0000032232": {
-   "read_at": "2026-11-18T16:52:47Z",
+   "read_at": "2026-11-19T17:00:56Z",
    "lines": [],
    "delivered": []
   },
@@ -920,7 +916,7 @@
    "delivered": []
   },
   "0000031643": {
-   "read_at": "2026-11-19T16:21:05Z",
+   "read_at": "2026-11-19T17:00:53Z",
    "lines": [
     {
      "type": "24ft AV",
