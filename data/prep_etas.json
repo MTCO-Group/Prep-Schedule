@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T11:28:58+00:00",
+ "generated_at": "2026-11-19T11:31:08+00:00",
  "matched": 24,
  "other_day": 2,
- "kensite_hiab_jobs": 33,
+ "kensite_hiab_jobs": 32,
  "jobs": {
   "2026-11-02": [
    {
@@ -1813,7 +1813,7 @@
   ],
   "2026-11-23": [
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Rowland Homes Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -2468,19 +2468,7 @@
   ],
   "2026-11-23": [
    {
-    "idx": 0,
-    "customer": "M Civils NW Ltd",
-    "type": "On Hire",
-    "postcode": "",
-    "contract": "0000032242",
-    "haulier": "Astley Hiabs Ltd",
-    "po": "01-003554",
-    "po_status": "Authorised",
-    "supplier_code": "A005",
-    "note": "PO 01-003554 with Astley Hiabs Ltd, raised Mon 23 Nov"
-   },
-   {
-    "idx": 2,
+    "idx": 1,
     "customer": "AIS Vanguard Ltd",
     "type": "On Hire",
     "postcode": "",
@@ -2492,7 +2480,7 @@
     "note": "PO 01-003596 with Ainscough Environmental Services, raised Mon 23 Nov, which is AES, so this is really Kensite haulage"
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "Rowland Homes Ltd",
     "type": "On Hire",
     "postcode": "",
