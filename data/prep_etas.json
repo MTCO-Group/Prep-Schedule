@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T09:53:31+00:00",
- "matched": 22,
- "other_day": 2,
+ "generated_at": "2026-11-19T09:55:35+00:00",
+ "matched": 23,
+ "other_day": 3,
  "kensite_hiab_jobs": 33,
  "jobs": {
   "2026-11-02": [
@@ -2087,6 +2087,29 @@
     ],
     "refs": [],
     "bc_customer": "Bellway Homes North West Division",
+    "why": [
+     "same customer"
+    ]
+   },
+   {
+    "idx": 3,
+    "customer": "A Connolly Limited",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032261",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Thu 26 Nov, not this day (matched on same customer)",
+    "day": "2026-11-26",
+    "bigchange_ids": [
+     205106932,
+     205107224
+    ],
+    "refs": [
+     "AES/65756",
+     "AES/65757"
+    ],
+    "bc_customer": "A Connolly Ltd",
     "why": [
      "same customer"
     ]
