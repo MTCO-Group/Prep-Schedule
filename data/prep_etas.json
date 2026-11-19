@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T09:32:37+00:00",
+ "generated_at": "2026-11-19T09:41:02+00:00",
  "matched": 22,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
@@ -2404,6 +2404,20 @@
     "po_status": "Authorised",
     "supplier_code": "WILLGSEA",
     "note": "PO 01-003426 with William G Search Ltd, raised Wed 28 Oct"
+   }
+  ],
+  "2026-11-20": [
+   {
+    "idx": 7,
+    "customer": "Facilities and Project Solutions Limited",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032269",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003627",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003627 with Astley Hiabs Ltd, raised Thu 19 Nov"
    }
   ],
   "2026-11-23": [
