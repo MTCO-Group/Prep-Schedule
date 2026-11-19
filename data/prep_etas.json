@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T15:34:56+00:00",
- "matched": 27,
+ "generated_at": "2026-11-19T16:12:35+00:00",
+ "matched": 28,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
  "jobs": {
@@ -1804,7 +1804,7 @@
   ],
   "2026-11-23": [
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "Rowland Homes Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -1827,7 +1827,7 @@
     "seq": 1
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "Helix Roofing Contractors LTD",
     "postcode": "M41 6QB",
     "type": "Off Hire",
@@ -1845,6 +1845,32 @@
     "why": [
      "same postcode"
     ]
+   },
+   {
+    "idx": 5,
+    "customer": "A Connolly Limited",
+    "postcode": "PR2 3XL",
+    "type": "Off Hire",
+    "contract": "0000030091",
+    "state": "planned",
+    "time": "08:00",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "bigchange_ids": [
+     204478078,
+     204478232
+    ],
+    "refs": [
+     "AES/65295",
+     "AES/65296"
+    ],
+    "bc_customer": "connolly cromer place",
+    "why": [
+     "same postcode",
+     "customer alike"
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-24": [
@@ -2528,19 +2554,7 @@
   ],
   "2026-11-23": [
    {
-    "idx": 1,
-    "customer": "AIS Vanguard Ltd",
-    "type": "On Hire",
-    "postcode": "",
-    "contract": "0000032257",
-    "haulier": "AES",
-    "po": "01-003596",
-    "po_status": "Authorised",
-    "supplier_code": "AIN002",
-    "note": "PO 01-003596 with Ainscough Environmental Services, raised Mon 23 Nov, which is AES, so this is really Kensite haulage"
-   },
-   {
-    "idx": 4,
+    "idx": 3,
     "customer": "Rowland Homes Ltd",
     "type": "On Hire",
     "postcode": "",
