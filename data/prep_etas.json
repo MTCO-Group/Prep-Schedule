@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T09:24:09+00:00",
- "matched": 21,
+ "generated_at": "2026-11-19T09:32:37+00:00",
+ "matched": 22,
  "other_day": 2,
- "kensite_hiab_jobs": 32,
+ "kensite_hiab_jobs": 33,
  "jobs": {
   "2026-11-02": [
    {
@@ -2165,6 +2165,30 @@
     "why": [
      "same customer"
     ]
+   },
+   {
+    "idx": 3,
+    "customer": "Sustainable Building Services (uk) Ltd",
+    "postcode": "M23 1EQ",
+    "type": "Off Hire",
+    "contract": "0000030946",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "taken_as_aes": true,
+    "bigchange_ids": [
+     204991716,
+     204991803
+    ],
+    "refs": [
+     "AES/65657",
+     "AES/65658"
+    ],
+    "bc_customer": "SBS Site Office",
+    "why": [
+     "same postcode",
+     "customer alike"
+    ]
    }
   ],
   "2026-12-02": [
@@ -2380,18 +2404,6 @@
     "po_status": "Authorised",
     "supplier_code": "WILLGSEA",
     "note": "PO 01-003426 with William G Search Ltd, raised Wed 28 Oct"
-   },
-   {
-    "idx": 12,
-    "customer": "Sustainable Building Services (uk) Ltd",
-    "type": "Off Hire",
-    "postcode": "M23 1EQ",
-    "contract": "0000030946",
-    "haulier": "AES",
-    "po": "01-003615",
-    "po_status": "Authorised",
-    "supplier_code": "AIN002",
-    "note": "PO 01-003615 with Ainscough Environmental Services, raised Wed 18 Nov, which is AES, so this is really Kensite haulage"
    }
   ],
   "2026-11-23": [
@@ -2434,6 +2446,20 @@
     "note": "PO 01-003611 with Astley Hiabs Ltd, raised Tue 24 Nov"
    }
   ],
+  "2026-11-26": [
+   {
+    "idx": 3,
+    "customer": "Jennor",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032268",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003626",
+    "po_status": "Authorised",
+    "supplier_code": "A005",
+    "note": "PO 01-003626 with Astley Hiabs Ltd, raised Thu 26 Nov"
+   }
+  ],
   "2026-11-27": [
    {
     "idx": 1,
@@ -2446,6 +2472,20 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003593 with Ainscough Environmental Services, raised Tue 17 Nov, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-12-01": [
+   {
+    "idx": 3,
+    "customer": "Sustainable Building Services (uk) Ltd",
+    "type": "Off Hire",
+    "postcode": "M23 1EQ",
+    "contract": "0000030946",
+    "haulier": "AES",
+    "po": "01-003615",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003615 with Ainscough Environmental Services, raised Wed 18 Nov, which is AES, so this is really Kensite haulage"
    }
   ],
   "2026-12-02": [
