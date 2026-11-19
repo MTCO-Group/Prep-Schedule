@@ -22822,6 +22822,28 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Bradhurst House, Knowles Brow, Clitheroe, , BB7 9PW",
         "added_by": "MCS Auto",
         "timestamp": "16/11/2026 14:50"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Jennor",
+        "postcode": "",
+        "contract_number": "0000032268",
+        "units": {
+          "32ft AV": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "19/11/2026 09:31",
+        "av_configs": {
+          "32ft AV": {
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-11-27": [
