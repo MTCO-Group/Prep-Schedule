@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T09:41:02+00:00",
+ "generated_at": "2026-11-19T09:45:18+00:00",
  "matched": 22,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
@@ -1712,9 +1712,9 @@
     "postcode": "PR2 3XL",
     "type": "Off Hire",
     "contract": "0000030654",
-    "state": "planned",
-    "time": "09:45",
-    "note": "From the AES planner (RS run 2), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "10:20",
+    "note": "On the way, 35 min from their last drop (BL6 6JL) in traffic",
     "bigchange_ids": [
      203697719
     ],
@@ -1726,10 +1726,7 @@
      "PO on this contract",
      "same postcode",
      "customer alike"
-    ],
-    "driver": "RS",
-    "run": 2,
-    "seq": 1
+    ]
    },
    {
     "idx": 3,
@@ -2518,6 +2515,12 @@
   ]
  },
  "live_fixed": {
+  "203697719": {
+   "time": "10:20",
+   "note": "On the way, 35 min from their last drop (BL6 6JL) in traffic",
+   "at": "09:45",
+   "day": "2026-11-19"
+  },
   "204040177": {
    "time": "06:40",
    "note": "On the way, 22 min from the depot in traffic",
