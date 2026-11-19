@@ -20711,23 +20711,6 @@
         "moved_by": "\u2014",
         "moved_from": "2026-11-16",
         "edited_at": "06/11/2026 10:51"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "PR2 3XL",
-        "contract_number": "0000030091",
-        "units": {
-          "20ft Store": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Cromer Place, Ingol, Preston, , PR2 3XL",
-        "added_by": "MCS Auto",
-        "timestamp": "06/11/2026 11:10"
       }
     ],
     "2026-11-17": [
@@ -22347,6 +22330,29 @@
         "moved_by": "\u2014",
         "moved_from": "2026-11-19",
         "edited_at": "06/11/2026 13:01"
+      },
+      {
+        "type": "On Hire",
+        "customer": "AIS Vanguard Ltd",
+        "postcode": "",
+        "contract_number": "0000032257",
+        "units": {
+          "32ft AV": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 8x Upholstered Chair; 1x Link; 1x Linking Charge; 1x De-Linking Charge; 1x 32AMP Lead | Date moved by MCS Auto from 23/11/2026 to 07/12/2026 on 19/11/2026 16:11",
+        "added_by": "MCS Auto",
+        "timestamp": "19/11/2026 16:11",
+        "av_configs": {
+          "32ft AV": {
+            "Meeting Room": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-23": [
@@ -22366,28 +22372,6 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: SITE COMPOUND, LAND OFF CROMER PLACE, OFF BARRY AVENUE, INGOL, PR2 3XL",
         "added_by": "MCS Auto",
         "timestamp": "12/11/2026 09:44"
-      },
-      {
-        "type": "On Hire",
-        "customer": "AIS Vanguard Ltd",
-        "postcode": "",
-        "contract_number": "0000032257",
-        "units": {
-          "32ft AV": 1
-        },
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 8x Upholstered Chair; 1x Link; 1x Linking Charge; 1x De-Linking Charge; 1x 32AMP Lead",
-        "added_by": "MCS Auto",
-        "timestamp": "17/11/2026 14:30",
-        "av_configs": {
-          "32ft AV": {
-            "Meeting Room": 1
-          }
-        }
       },
       {
         "type": "On Hire",
@@ -22453,6 +22437,24 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: WOODEND ROAD SOUTH, FLIXTON, MANCHESTER, , M41 6QB | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill | Return date moved by MCS Auto from 03/11/2026 to 23/11/2026 on 19/11/2026 13:20",
         "added_by": "MCS Auto",
         "timestamp": "19/11/2026 13:20",
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "PR2 3XL",
+        "contract_number": "0000030091",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Cromer Place, Ingol, Preston, , PR2 3XL | Return date moved by MCS Auto from 06/11/2026 to 23/11/2026 on 19/11/2026 16:11",
+        "added_by": "MCS Auto",
+        "timestamp": "19/11/2026 16:11",
         "date_moved_by": "MCS Auto"
       }
     ],
