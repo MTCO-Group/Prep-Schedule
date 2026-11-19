@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T15:22:15+00:00",
- "matched": 26,
+ "generated_at": "2026-11-19T15:28:46+00:00",
+ "matched": 27,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
  "jobs": {
@@ -2301,6 +2301,26 @@
     "bc_customer": "HSS Hire",
     "why": [
      "same postcode"
+    ]
+   },
+   {
+    "idx": 1,
+    "customer": "F Parkinson Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032271",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205175766
+    ],
+    "refs": [
+     "AES/65797"
+    ],
+    "bc_customer": "F Parkinson",
+    "why": [
+     "same customer"
     ]
    }
   ]
