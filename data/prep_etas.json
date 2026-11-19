@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T14:56:59+00:00",
- "matched": 25,
+ "generated_at": "2026-11-19T15:22:15+00:00",
+ "matched": 26,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
  "jobs": {
@@ -1975,6 +1975,26 @@
     "bc_customer": "Bellway Homes Ltd North West",
     "why": [
      "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 9,
+    "customer": "John Reilly Civil Engineering Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032272",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205174920
+    ],
+    "refs": [
+     "AES/65796"
+    ],
+    "bc_customer": "john reilly",
+    "why": [
      "same customer"
     ]
    }
