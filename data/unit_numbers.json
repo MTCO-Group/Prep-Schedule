@@ -1,9 +1,9 @@
 {
- "written_at": "2026-11-19T09:31:30Z",
+ "written_at": "2026-11-19T09:40:59Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
-   "read_at": "2026-11-18T09:40:55Z",
+   "read_at": "2026-11-19T09:41:05Z",
    "lines": [],
    "delivered": [
     {
@@ -164,7 +164,7 @@
    "delivered": []
   },
   "0000032036": {
-   "read_at": "2026-11-18T09:40:54Z",
+   "read_at": "2026-11-19T09:41:03Z",
    "lines": [],
    "delivered": [
     {
@@ -1422,6 +1422,19 @@
      "fleet": null,
      "qty": 1,
      "delivery": "2026-11-24"
+    }
+   ],
+   "delivered": []
+  },
+  "0000032268": {
+   "read_at": "2026-11-19T09:31:10Z",
+   "lines": [
+    {
+     "type": "32ft AV",
+     "config": "Canteen",
+     "fleet": null,
+     "qty": 1,
+     "delivery": "2026-11-26"
     }
    ],
    "delivered": []
