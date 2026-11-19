@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-19T09:40:59Z",
+ "written_at": "2026-11-19T09:50:49Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -118,7 +118,7 @@
    "delivered": []
   },
   "0000032123": {
-   "read_at": "2026-11-18T09:41:06Z",
+   "read_at": "2026-11-19T09:50:55Z",
    "lines": [],
    "delivered": []
   },
@@ -199,7 +199,7 @@
    "delivered": []
   },
   "0000032120": {
-   "read_at": "2026-11-18T09:41:04Z",
+   "read_at": "2026-11-19T09:50:52Z",
    "lines": [],
    "delivered": [
     {
@@ -1038,6 +1038,19 @@
   "0000032221": {
    "read_at": "2026-11-19T09:30:59Z",
    "lines": [],
+   "delivered": []
+  },
+  "0000032269": {
+   "read_at": "2026-11-19T09:40:53Z",
+   "lines": [
+    {
+     "type": "Solar Loo Single",
+     "config": "",
+     "fleet": null,
+     "qty": 2,
+     "delivery": "2026-11-20"
+    }
+   ],
    "delivered": []
   },
   "0000032229": {
