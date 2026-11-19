@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-19T09:45:18+00:00",
+ "generated_at": "2026-11-19T09:47:19+00:00",
  "matched": 22,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
@@ -1714,7 +1714,7 @@
     "contract": "0000030654",
     "state": "live",
     "time": "10:20",
-    "note": "On the way, 35 min from their last drop (BL6 6JL) in traffic",
+    "note": "On the way, 35 min from their last drop (BL6 6JL) in traffic (set when it went live at 09:45)",
     "bigchange_ids": [
      203697719
     ],
