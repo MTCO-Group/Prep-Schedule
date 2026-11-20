@@ -19695,30 +19695,6 @@
         "type": "Off Hire",
         "customer": "A Connolly Limited",
         "postcode": "M31 4LW",
-        "contract_number": "0000029874",
-        "units": {
-          "20ft Store": 3,
-          "20ft AV": 1,
-          "2+1": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW | Also on contract: 1x Replacement lock for cabin number 8118",
-        "added_by": "MCS Auto",
-        "timestamp": "19/10/2026 16:11",
-        "av_configs": {
-          "20ft AV": {
-            "Canteen": 1
-          }
-        }
-      },
-      {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "M31 4LW",
         "contract_number": "0000029910",
         "units": {
           "20ft Store": 3
@@ -22487,6 +22463,31 @@
             "Office": 1,
             "Canteen": 1,
             "Meeting Room": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M31 4LW",
+        "contract_number": "0000029874",
+        "units": {
+          "20ft Store": 3,
+          "20ft AV": 1,
+          "2+1": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW | Also on contract: 1x Replacement lock for cabin number 8118 | Return date moved by MCS Auto from 23/10/2026 to 30/11/2026 on 20/11/2026 14:11",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 14:11",
+        "av_configs": {
+          "20ft AV": {
+            "Canteen": 1
           }
         },
         "date_moved_by": "MCS Auto"
