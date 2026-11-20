@@ -22905,6 +22905,29 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW",
         "added_by": "MCS Auto",
         "timestamp": "20/11/2026 11:21"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Essity Uk Ltd",
+        "postcode": "",
+        "contract_number": "0000032275",
+        "units": {
+          "3+1": 1,
+          "24ft AV": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping.",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 11:31",
+        "av_configs": {
+          "24ft AV": {
+            "Canteen": 1
+          }
+        }
       }
     ],
     "2026-12-01": [
