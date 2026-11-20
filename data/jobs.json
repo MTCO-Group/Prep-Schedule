@@ -17211,24 +17211,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "M31 4LW",
-        "contract_number": "0000030080",
-        "units": {
-          "20ft Store": 4
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW | Return date moved by MCS Auto from 29/09/2026 to 02/10/2026 on 01/10/2026 12:08",
-        "added_by": "MCS Auto",
-        "timestamp": "01/10/2026 12:08",
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
         "customer": "Wright Build Ltd",
         "postcode": "WN2 4NU",
         "contract_number": "0000031549",
@@ -22888,6 +22870,24 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill; 1x Weekly Service; 3x Move  of 20ft stores (8457",
         "added_by": "MCS Auto",
         "timestamp": "20/11/2026 10:31"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M31 4LW",
+        "contract_number": "0000030080",
+        "units": {
+          "20ft Store": 4
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW | Return date moved by MCS Auto from 29/09/2026 to 02/10/2026 on 01/10/2026 12:08 | Return date moved by MCS Auto from 02/10/2026 to 27/11/2026 on 20/11/2026 10:51",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 10:51",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-12-01": [
