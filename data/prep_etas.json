@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-20T12:34:52+00:00",
+ "generated_at": "2026-11-20T12:43:29+00:00",
  "matched": 24,
  "other_day": 2,
  "kensite_hiab_jobs": 32,
@@ -1777,9 +1777,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000031643",
-    "state": "live",
-    "time": "12:05",
-    "note": "On the way, 86 min from their last drop (CW9 8RF) in traffic (set when it went live at 10:38)",
+    "state": "done",
+    "time": "12:42",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      204040417,
      204040514,
