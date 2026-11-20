@@ -22888,6 +22888,23 @@
         "added_by": "MCS Auto",
         "timestamp": "20/11/2026 10:51",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M31 4LW",
+        "contract_number": "0000030001",
+        "units": {
+          "20ft Store": 3
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 11:21"
       }
     ],
     "2026-12-01": [
