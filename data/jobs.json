@@ -22871,6 +22871,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Initial Water Fill; 1x Weekly Water Fill; 1x Pump; 1x Weekly Tank Empty; 1x Disposable Sanitary Bins. Pk10; 1x 20KVA 12X8ft Container c/w Fuel Tank - Unlimited; 1x Dist. Board c/w 3x 32amp 230v Outlets",
         "added_by": "MCS Auto",
         "timestamp": "18/11/2026 09:40"
+      },
+      {
+        "type": "On Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "",
+        "contract_number": "0000032274",
+        "units": {
+          "Static Welfare": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 80x Initial Fuel Fill; 1x Initial Water Fill; 1x Weekly Service; 3x Move  of 20ft stores (8457",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 10:31"
       }
     ],
     "2026-12-01": [
