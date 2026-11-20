@@ -1,5 +1,5 @@
 {
- "written_at": "2026-11-20T16:51:15Z",
+ "written_at": "2026-11-20T17:01:07Z",
  "source": "Prep Schedule MCS Discrepancy Check 4.9",
  "contracts": {
   "0000032109": {
@@ -182,7 +182,7 @@
    ]
   },
   "0000032131": {
-   "read_at": "2026-11-20T16:51:12Z",
+   "read_at": "2026-11-20T17:01:07Z",
    "lines": [],
    "delivered": [
     {
@@ -435,7 +435,7 @@
    "delivered": []
   },
   "0000032241": {
-   "read_at": "2026-11-19T17:00:57Z",
+   "read_at": "2026-11-20T17:01:11Z",
    "lines": [],
    "delivered": [
     {
@@ -447,7 +447,7 @@
    ]
   },
   "0000032251": {
-   "read_at": "2026-11-19T17:01:00Z",
+   "read_at": "2026-11-20T17:01:16Z",
    "lines": [],
    "delivered": [
     {
@@ -465,7 +465,7 @@
    ]
   },
   "0000032253": {
-   "read_at": "2026-11-19T17:01:02Z",
+   "read_at": "2026-11-20T17:01:18Z",
    "lines": [],
    "delivered": [
     {
@@ -477,47 +477,37 @@
    ]
   },
   "0000032254": {
-   "read_at": "2026-11-19T17:01:04Z",
-   "lines": [
+   "read_at": "2026-11-20T17:01:20Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "20ft AV",
-     "config": "Office",
-     "fleet": null,
-     "qty": 1,
+     "config": "",
+     "fleet": "8130",
      "delivery": "2026-11-17"
     },
     {
      "type": "20ft Store",
      "config": "",
-     "fleet": null,
-     "qty": 1,
-     "delivery": "2026-11-17"
-    },
-    {
-     "type": "Stairs",
-     "config": "",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "7684",
      "delivery": "2026-11-17"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032246": {
-   "read_at": "2026-11-19T17:00:59Z",
-   "lines": [
+   "read_at": "2026-11-20T17:01:14Z",
+   "lines": [],
+   "delivered": [
     {
      "type": "Mobile Welfare",
      "config": "",
-     "fleet": null,
-     "qty": 1,
+     "fleet": "8742",
      "delivery": "2026-11-17"
     }
-   ],
-   "delivered": []
+   ]
   },
   "0000032230": {
-   "read_at": "2026-11-19T17:00:55Z",
+   "read_at": "2026-11-20T17:01:09Z",
    "lines": [
     {
      "type": "Mobile Welfare",
@@ -613,7 +603,7 @@
    ]
   },
   "0000032232": {
-   "read_at": "2026-11-19T17:00:56Z",
+   "read_at": "2026-11-20T17:01:10Z",
    "lines": [],
    "delivered": []
   },
