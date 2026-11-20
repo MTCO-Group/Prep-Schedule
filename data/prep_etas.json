@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-20T10:53:12+00:00",
+ "generated_at": "2026-11-20T11:31:09+00:00",
  "matched": 24,
  "other_day": 2,
  "kensite_hiab_jobs": 32,
@@ -2615,6 +2615,18 @@
     "po_status": "Created",
     "supplier_code": "A005",
     "note": "PO 01-003643 with Astley Hiabs Ltd, raised Fri 20 Nov"
+   },
+   {
+    "idx": 7,
+    "customer": "Essity Uk Ltd",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032275",
+    "haulier": "Astley Hiabs Ltd",
+    "po": "01-003646",
+    "po_status": "Created",
+    "supplier_code": "A005",
+    "note": "PO 01-003646 with Astley Hiabs Ltd, raised Fri 27 Nov"
    }
   ],
   "2026-12-01": [
