@@ -22240,33 +22240,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "PR2 3XL",
-        "contract_number": "0000030233",
-        "units": {
-          "20ft Store": 3,
-          "3+1": 1,
-          "IBC": 2,
-          "Steps": 2,
-          "24ft AV": 1
-        },
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Cromer Place, Preston, , PR2 3XL | Also on contract: 1x Chargeable Weekly Tank Empty; 1x One Off Water Fill; 1x 1800G Eflluent Tank; 1x Pump; 2x Filing Cabinet; 2x Upholstered Chair | Return date moved by MCS Auto from 13/11/2026 to 19/11/2026 on 06/11/2026 11:10",
-        "added_by": "MCS Auto",
-        "timestamp": "06/11/2026 11:10",
-        "av_configs": {
-          "24ft AV": {
-            "Canteen": 1
-          }
-        },
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
         "customer": "Premier Building Supplies Ltd",
         "postcode": "WA15 8UU",
         "contract_number": "0000031774",
@@ -22455,6 +22428,33 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Cromer Place, Ingol, Preston, , PR2 3XL | Return date moved by MCS Auto from 06/11/2026 to 23/11/2026 on 19/11/2026 16:11",
         "added_by": "MCS Auto",
         "timestamp": "19/11/2026 16:11",
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "PR2 3XL",
+        "contract_number": "0000030233",
+        "units": {
+          "20ft Store": 3,
+          "3+1": 1,
+          "IBC": 2,
+          "Steps": 2,
+          "24ft AV": 1
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Cromer Place, Preston, , PR2 3XL | Also on contract: 1x Chargeable Weekly Tank Empty; 1x One Off Water Fill; 1x 1800G Eflluent Tank; 1x Pump; 2x Filing Cabinet; 2x Upholstered Chair | Return date moved by MCS Auto from 13/11/2026 to 19/11/2026 on 06/11/2026 11:10 | Return date moved by MCS Auto from 19/11/2026 to 23/11/2026 on 20/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "20/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Canteen": 1
+          }
+        },
         "date_moved_by": "MCS Auto"
       }
     ],
