@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T08:11:45+00:00",
+ "generated_at": "2026-11-23T08:46:10+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 31,
@@ -1880,9 +1880,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032248",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:10",
+    "note": "From the AES planner (RB run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204505146
     ],
@@ -1894,7 +1894,10 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "RB",
+    "run": 1,
+    "seq": 1
    },
    {
     "idx": 3,
@@ -1924,9 +1927,9 @@
     "postcode": "CH65 4BD",
     "type": "Off Hire",
     "contract": "0000032099",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "08:40",
+    "note": "From the AES planner (CR run 2), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204764050
     ],
@@ -1938,7 +1941,10 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "CR",
+    "run": 2,
+    "seq": 1
    },
    {
     "idx": 5,
@@ -1968,9 +1974,9 @@
     "postcode": "WA4 6HN",
     "type": "Off Hire",
     "contract": "0000031947",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:00",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204849135
     ],
@@ -1981,7 +1987,10 @@
     "why": [
      "PO on this contract",
      "same postcode"
-    ]
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 1
    },
    {
     "idx": 8,
@@ -1989,9 +1998,9 @@
     "postcode": "CW12 4QQ",
     "type": "Off Hire",
     "contract": "0000032056",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "10:25",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204493650
     ],
@@ -2002,7 +2011,10 @@
     "why": [
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "DF",
+    "run": 1,
+    "seq": 3
    },
    {
     "idx": 9,
@@ -2010,9 +2022,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032272",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "08:15",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205174920
     ],
@@ -2023,7 +2035,10 @@
     "why": [
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "DF",
+    "run": 1,
+    "seq": 1
    }
   ],
   "2026-11-25": [
