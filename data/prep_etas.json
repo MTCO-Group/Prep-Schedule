@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T14:07:29+00:00",
+ "generated_at": "2026-11-23T14:11:01+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 33,
@@ -1869,7 +1869,7 @@
   ],
   "2026-11-24": [
    {
-    "idx": 1,
+    "idx": 0,
     "customer": "Greenmount Projects Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -1894,7 +1894,7 @@
     "seq": 1
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "M Civils NW Ltd",
     "postcode": "L8 0WN",
     "type": "Off Hire",
@@ -1916,7 +1916,7 @@
     ]
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Argent Energy Limited",
     "postcode": "CH65 4BD",
     "type": "Off Hire",
@@ -1941,7 +1941,7 @@
     "seq": 1
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "Peak Platforms Ltd",
     "postcode": "M43 6AF",
     "type": "Off Hire",
@@ -1966,7 +1966,7 @@
     "seq": 2
    },
    {
-    "idx": 6,
+    "idx": 5,
     "customer": "Silverglide Ltd",
     "postcode": "WA4 6HN",
     "type": "Off Hire",
@@ -1990,7 +1990,7 @@
     "seq": 1
    },
    {
-    "idx": 8,
+    "idx": 7,
     "customer": "Bellway Homes North West Division",
     "postcode": "CW12 4QQ",
     "type": "Off Hire",
@@ -2014,7 +2014,7 @@
     "seq": 3
    },
    {
-    "idx": 9,
+    "idx": 8,
     "customer": "John Reilly Civil Engineering Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -2654,7 +2654,7 @@
   ],
   "2026-11-24": [
    {
-    "idx": 7,
+    "idx": 6,
     "customer": "Heritage Construction",
     "type": "On Hire",
     "postcode": "",
