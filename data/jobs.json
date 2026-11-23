@@ -16465,24 +16465,6 @@
         "timestamp": "17/09/2026 16:26"
       },
       {
-        "type": "Off Hire",
-        "customer": "Bellway Homes Ltd Manchester",
-        "postcode": "SK10 3LH",
-        "contract_number": "0000031863",
-        "units": {
-          "Solar Loo Single": 1,
-          "Solar Loo Double": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Weaver Green, Chelford Road, Henbury, Macclesfield, SK10 3LH | Also on contract: 53x Initial Fuel Fill; 1x Initial Water Fill",
-        "added_by": "MCS Auto",
-        "timestamp": "18/09/2026 10:01"
-      },
-      {
         "type": "On Hire",
         "customer": "Redwaters (Astley) Ltd",
         "postcode": "",
@@ -22239,6 +22221,25 @@
             "Meeting Room": 1
           }
         },
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Bellway Homes Ltd Manchester",
+        "postcode": "SK10 3LH",
+        "contract_number": "0000031863",
+        "units": {
+          "Solar Loo Single": 1,
+          "Solar Loo Double": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Weaver Green, Chelford Road, Henbury, Macclesfield, SK10 3LH | Also on contract: 53x Initial Fuel Fill; 1x Initial Water Fill | Return date moved by MCS Auto from 21/09/2026 to 07/12/2026 on 23/11/2026 14:30",
+        "added_by": "MCS Auto",
+        "timestamp": "23/11/2026 14:30",
         "date_moved_by": "MCS Auto"
       }
     ],
