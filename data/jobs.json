@@ -20517,6 +20517,21 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Kenny Waste Managment",
+        "postcode": "",
+        "contract_number": "0000032276",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 10x Upholstered Chair",
+        "added_by": "MCS Auto",
+        "timestamp": "23/11/2026 16:20"
       }
     ],
     "2026-11-06": [
