@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T16:42:02+00:00",
- "matched": 25,
+ "generated_at": "2026-11-23T16:46:12+00:00",
+ "matched": 26,
  "other_day": 3,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -2426,6 +2426,27 @@
     "bc_customer": "H H Smith&Sons",
     "why": [
      "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 2,
+    "customer": "Bellway Homes Ltd Manchester",
+    "postcode": "SK10 3LH",
+    "type": "Off Hire",
+    "contract": "0000031863",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205446510
+    ],
+    "refs": [
+     "AES/66037"
+    ],
+    "bc_customer": "Bellway Homes",
+    "why": [
      "same postcode",
      "same customer"
     ]
