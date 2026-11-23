@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T16:21:36+00:00",
- "matched": 26,
+ "generated_at": "2026-11-23T16:35:52+00:00",
+ "matched": 24,
  "other_day": 2,
  "kensite_hiab_jobs": 35,
  "jobs": {
@@ -1993,7 +1993,7 @@
     "type": "Off Hire",
     "contract": "0000032056",
     "state": "planned",
-    "time": "10:25",
+    "time": "12:55",
     "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204493650
@@ -2091,28 +2091,6 @@
      "AES/65409"
     ],
     "bc_customer": "TOTAL UK",
-    "why": [
-     "PO on this contract",
-     "same postcode",
-     "same customer"
-    ]
-   },
-   {
-    "idx": 2,
-    "customer": "John Wade Groundworkers Ltd",
-    "postcode": "BB7 9PW",
-    "type": "Off Hire",
-    "contract": "0000029704",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
-    "bigchange_ids": [
-     204801699
-    ],
-    "refs": [
-     "AES/65566"
-    ],
-    "bc_customer": "John Wade Groundworks",
     "why": [
      "PO on this contract",
      "same postcode",
@@ -2297,34 +2275,6 @@
      "same customer"
     ],
     "driver": "CR",
-    "run": 1,
-    "seq": 1
-   },
-   {
-    "idx": 3,
-    "customer": "Sustainable Building Services (uk) Ltd",
-    "postcode": "M23 1EQ",
-    "type": "Off Hire",
-    "contract": "0000030946",
-    "state": "planned",
-    "time": "07:35",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
-    "taken_as_aes": true,
-    "bigchange_ids": [
-     204991716,
-     204991803
-    ],
-    "refs": [
-     "AES/65657",
-     "AES/65658"
-    ],
-    "bc_customer": "SBS Site Office",
-    "why": [
-     "PO on this contract",
-     "same postcode",
-     "customer alike"
-    ],
-    "driver": "DF",
     "run": 1,
     "seq": 1
    },
