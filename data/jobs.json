@@ -19677,23 +19677,6 @@
         "type": "Off Hire",
         "customer": "A Connolly Limited",
         "postcode": "M31 4LW",
-        "contract_number": "0000029910",
-        "units": {
-          "20ft Store": 3
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW",
-        "added_by": "MCS Auto",
-        "timestamp": "19/10/2026 16:11"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "A Connolly Limited",
-        "postcode": "M31 4LW",
         "contract_number": "0000029899",
         "units": {
           "20ft Store": 6
@@ -23011,6 +22994,24 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Old Hall Village - Sales area, Southwood Road, Bromborough, , CH62 3QX",
         "added_by": "MCS Auto",
         "timestamp": "23/11/2026 15:00"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "M31 4LW",
+        "contract_number": "0000029910",
+        "units": {
+          "20ft Store": 3
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Gilmoor House Annex, Partington, Manchester, , M31 4LW | Return date moved by MCS Auto from 23/10/2026 to 01/12/2026 on 23/11/2026 16:40",
+        "added_by": "MCS Auto",
+        "timestamp": "23/11/2026 16:40",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-12-02": [
