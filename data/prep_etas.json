@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T11:25:46+00:00",
- "matched": 25,
- "other_day": 2,
- "kensite_hiab_jobs": 32,
+ "generated_at": "2026-11-23T12:10:54+00:00",
+ "matched": 26,
+ "other_day": 3,
+ "kensite_hiab_jobs": 33,
  "jobs": {
   "2026-11-02": [
    {
@@ -2039,6 +2039,31 @@
     "driver": "DF",
     "run": 1,
     "seq": 1
+   },
+   {
+    "idx": 10,
+    "customer": "Perfect Associates Ltd",
+    "postcode": "LL13 0TS",
+    "type": "Off Hire",
+    "contract": "0000032105",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Mon 23 Nov, not this day (matched on PO on this contract, same postcode, same customer)",
+    "day": "2026-11-23",
+    "bigchange_ids": [
+     203877046,
+     203877345
+    ],
+    "refs": [
+     "AES/64810",
+     "AES/64811"
+    ],
+    "bc_customer": "Perfect Associates LTD",
+    "why": [
+     "PO on this contract",
+     "same postcode",
+     "same customer"
+    ]
    }
   ],
   "2026-11-25": [
@@ -2582,7 +2607,7 @@
   ],
   "2026-11-18": [
    {
-    "idx": 7,
+    "idx": 6,
     "customer": "Almond Civils Ltd",
     "type": "Off Hire",
     "postcode": "BB2 3UY",
@@ -2594,7 +2619,7 @@
     "note": "No PO for this job's haulage in MCS"
    },
    {
-    "idx": 8,
+    "idx": 7,
     "customer": "DLP Services (Northern) Ltd",
     "type": "Off Hire",
     "postcode": "L27 4BH",
@@ -2606,7 +2631,7 @@
     "note": "PO 01-003210 with Reactive Hire Ltd, raised Tue 6 Oct"
    },
    {
-    "idx": 9,
+    "idx": 8,
     "customer": "Sustainable Building Services (uk) Ltd",
     "type": "Off Hire",
     "postcode": "M23 1EQ",
