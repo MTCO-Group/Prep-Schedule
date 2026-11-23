@@ -22979,6 +22979,23 @@
         "added_by": "MCS Auto",
         "timestamp": "19/11/2026 10:10",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Persimmon Homes (North West)",
+        "postcode": "CH62 3QX",
+        "contract_number": "0000031013",
+        "units": {
+          "Solar Loo Single": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Old Hall Village - Sales area, Southwood Road, Bromborough, , CH62 3QX",
+        "added_by": "MCS Auto",
+        "timestamp": "23/11/2026 15:00"
       }
     ],
     "2026-12-02": [
