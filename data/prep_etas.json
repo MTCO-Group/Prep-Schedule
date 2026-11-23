@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T12:10:54+00:00",
+ "generated_at": "2026-11-23T12:17:07+00:00",
  "matched": 26,
  "other_day": 3,
  "kensite_hiab_jobs": 33,
@@ -2258,9 +2258,9 @@
     "postcode": "FY5 5EE",
     "type": "Off Hire",
     "contract": "0000031644",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "09:20",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      204839737,
      204839849,
@@ -2276,7 +2276,10 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 2
    },
    {
     "idx": 1,
@@ -2307,9 +2310,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032265",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:10",
+    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205043063,
      205043346
@@ -2323,7 +2326,10 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ]
+    ],
+    "driver": "CR",
+    "run": 1,
+    "seq": 1
    },
    {
     "idx": 3,
@@ -2331,9 +2337,9 @@
     "postcode": "M23 1EQ",
     "type": "Off Hire",
     "contract": "0000030946",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "07:35",
+    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
     "taken_as_aes": true,
     "bigchange_ids": [
      204991716,
@@ -2348,7 +2354,10 @@
      "PO on this contract",
      "same postcode",
      "customer alike"
-    ]
+    ],
+    "driver": "DF",
+    "run": 1,
+    "seq": 1
    },
    {
     "idx": 4,
