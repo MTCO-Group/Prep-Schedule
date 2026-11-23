@@ -22614,24 +22614,6 @@
         "notes": "Auto-added from MCS. Check details before prepping.",
         "added_by": "MCS Auto",
         "timestamp": "19/11/2026 13:40"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "Perfect Associates Ltd",
-        "postcode": "LL13 0TS",
-        "contract_number": "0000032105",
-        "units": {
-          "20ft Store": 2
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Wrexham Solar Project, Wrexham, , LL13 0TS | Return date moved by MCS Auto from 18/11/2026 to 24/11/2026 on 23/11/2026 12:10",
-        "added_by": "MCS Auto",
-        "timestamp": "23/11/2026 12:10",
-        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-26": [
@@ -23066,6 +23048,26 @@
             "Canteen": 1
           }
         },
+        "date_moved_by": "MCS Auto"
+      }
+    ],
+    "2026-12-03": [
+      {
+        "type": "Off Hire",
+        "customer": "Perfect Associates Ltd",
+        "postcode": "LL13 0TS",
+        "contract_number": "0000032105",
+        "units": {
+          "20ft Store": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Wrexham Solar Project, Wrexham, , LL13 0TS | Return date moved by MCS Auto from 18/11/2026 to 24/11/2026 on 23/11/2026 12:10 | Return date moved by MCS Auto from 24/11/2026 to 03/12/2026 on 23/11/2026 12:50",
+        "added_by": "MCS Auto",
+        "timestamp": "23/11/2026 12:50",
         "date_moved_by": "MCS Auto"
       }
     ]
