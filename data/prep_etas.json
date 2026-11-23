@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T06:52:37+00:00",
+ "generated_at": "2026-11-23T08:11:45+00:00",
  "matched": 25,
  "other_day": 2,
  "kensite_hiab_jobs": 31,
@@ -1817,6 +1817,8 @@
     ],
     "bc_customer": "Rowland homes",
     "why": [
+     "PO on the account",
+     "same postcode",
      "same customer"
     ],
     "driver": "RS",
@@ -1840,6 +1842,7 @@
     ],
     "bc_customer": "St Monicas",
     "why": [
+     "PO on this contract",
      "same postcode"
     ],
     "driver": "RS",
@@ -2018,6 +2021,7 @@
     ],
     "bc_customer": "john reilly",
     "why": [
+     "same postcode",
      "same customer"
     ]
    }
@@ -2126,6 +2130,7 @@
     ],
     "bc_customer": "Brookfield School",
     "why": [
+     "PO on this contract",
      "same postcode"
     ]
    },
@@ -2145,6 +2150,8 @@
     "refs": [],
     "bc_customer": "Bellway Homes North West Division",
     "why": [
+     "PO on this contract",
+     "same postcode",
      "same customer"
     ]
    },
@@ -2173,6 +2180,8 @@
     ],
     "bc_customer": "A Connolly Ltd",
     "why": [
+     "PO on this contract",
+     "same postcode",
      "same customer"
     ]
    }
@@ -2197,6 +2206,7 @@
     ],
     "bc_customer": "Calson Solutions",
     "why": [
+     "PO on this contract",
      "same postcode"
     ]
    }
@@ -2236,18 +2246,17 @@
     "contract": "0000032143",
     "state": "otherday",
     "time": "",
-    "note": "AES have this booked for Wed 2 Dec, not this day (matched on same postcode, same customer)",
+    "note": "AES have this booked for Wed 2 Dec, not this day (matched on PO on this contract, same postcode, same customer)",
     "day": "2026-12-02",
     "bigchange_ids": [
-     204953497,
-     204953608
+     204953497
     ],
     "refs": [
-     "AES/65632",
-     "AES/65633"
+     "AES/65632"
     ],
     "bc_customer": "Mci Developments Ltd",
     "why": [
+     "PO on this contract",
      "same postcode",
      "same customer"
     ]
@@ -2271,6 +2280,8 @@
     ],
     "bc_customer": "BROOKHOUSE CONTRACTING",
     "why": [
+     "PO on this contract",
+     "same postcode",
      "same customer"
     ]
    },
@@ -2294,6 +2305,7 @@
     ],
     "bc_customer": "SBS Site Office",
     "why": [
+     "PO on this contract",
      "same postcode",
      "customer alike"
     ]
@@ -2347,6 +2359,7 @@
     ],
     "bc_customer": "HSS Hire",
     "why": [
+     "PO on this contract",
      "same postcode"
     ]
    },
@@ -2367,6 +2380,7 @@
     ],
     "bc_customer": "F Parkinson",
     "why": [
+     "same postcode",
      "same customer"
     ]
    }
