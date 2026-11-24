@@ -22261,22 +22261,6 @@
       },
       {
         "type": "On Hire",
-        "customer": "AIS Vanguard Ltd",
-        "postcode": "",
-        "contract_number": "0000032260",
-        "units": {},
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Winterisation/Seasonal Package; 30x Trace Heating (per 2m Run inc. Lagging); 1x Fitter Labour for Repair; 1x Supply | Date moved by MCS Auto from 25/11/2026 to 23/11/2026 on 18/11/2026 13:00",
-        "added_by": "MCS Auto",
-        "timestamp": "18/11/2026 13:00",
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "On Hire",
         "customer": "Rowland Homes Ltd",
         "postcode": "",
         "contract_number": "0000032266",
@@ -22635,6 +22619,22 @@
             "Office": 1
           }
         }
+      },
+      {
+        "type": "On Hire",
+        "customer": "AIS Vanguard Ltd",
+        "postcode": "",
+        "contract_number": "0000032260",
+        "units": {},
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Winterisation/Seasonal Package; 30x Trace Heating (per 2m Run inc. Lagging); 1x Fitter Labour for Repair; 1x Supply | Date moved by MCS Auto from 25/11/2026 to 23/11/2026 on 18/11/2026 13:00 | Date moved by MCS Auto from 23/11/2026 to 24/11/2026 on 24/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "24/11/2026 09:31",
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-26": [
