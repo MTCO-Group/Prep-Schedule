@@ -22239,6 +22239,23 @@
         "added_by": "MCS Auto",
         "timestamp": "23/11/2026 14:30",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "E E Thompson & Son Ltd",
+        "postcode": "PR7 3HN",
+        "contract_number": "0000031880",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Mayfield School, Gloucester Rd, Chorley, , PR7 3HN",
+        "added_by": "MCS Auto",
+        "timestamp": "24/11/2026 12:51"
       }
     ],
     "2026-11-23": [
