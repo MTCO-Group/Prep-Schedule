@@ -23228,6 +23228,31 @@
         "timestamp": "23/11/2026 12:50",
         "date_moved_by": "MCS Auto"
       }
+    ],
+    "2026-12-09": [
+      {
+        "type": "Off Hire",
+        "customer": "Peak Platforms Ltd",
+        "postcode": "CV23 9LP",
+        "contract_number": "0000030871",
+        "units": {
+          "32ft AV": 2
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: BB Contracts, Symmetry Park, Rugby, , CV23 9LP | Also on contract: 1x Staircase; 4x TWIST LOCKS; 1x Double Stack/ Erect Staircase; 1x Destack",
+        "added_by": "MCS Auto",
+        "timestamp": "24/11/2026 15:21",
+        "av_configs": {
+          "32ft AV": {
+            "Canteen": 1,
+            "Office": 1
+          }
+        }
+      }
     ]
   },
   "mcs": {
