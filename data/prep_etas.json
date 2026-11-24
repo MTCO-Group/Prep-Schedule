@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-24T13:41:10+00:00",
+ "generated_at": "2026-11-24T14:01:40+00:00",
  "matched": 26,
  "other_day": 3,
  "kensite_hiab_jobs": 37,
@@ -2740,11 +2740,9 @@
     "po_status": "Authorised",
     "supplier_code": "A005",
     "note": "PO 01-003611 with Astley Hiabs Ltd, raised Tue 24 Nov"
-   }
-  ],
-  "2026-11-25": [
+   },
    {
-    "idx": 2,
+    "idx": 11,
     "customer": "Kenny Waste Managment",
     "type": "On Hire",
     "postcode": "",
