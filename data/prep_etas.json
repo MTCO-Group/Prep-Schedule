@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-24T12:41:22+00:00",
+ "generated_at": "2026-11-24T12:51:34+00:00",
  "matched": 25,
  "other_day": 3,
- "kensite_hiab_jobs": 35,
+ "kensite_hiab_jobs": 36,
  "jobs": {
   "2026-11-02": [
    {
@@ -2864,6 +2864,18 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003596 with Ainscough Environmental Services, raised Mon 23 Nov, which is AES, so this is really Kensite haulage"
+   },
+   {
+    "idx": 3,
+    "customer": "E E Thompson & Son Ltd",
+    "type": "Off Hire",
+    "postcode": "PR7 3HN",
+    "contract": "0000031880",
+    "haulier": "AES",
+    "po": "01-003672",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003672 with Ainscough Environmental Services, raised Tue 24 Nov, which is AES, so this is really Kensite haulage"
    }
   ]
  },
