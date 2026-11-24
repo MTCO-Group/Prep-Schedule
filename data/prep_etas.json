@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-24T12:53:44+00:00",
- "matched": 25,
+ "generated_at": "2026-11-24T13:18:30+00:00",
+ "matched": 26,
  "other_day": 3,
  "kensite_hiab_jobs": 36,
  "jobs": {
@@ -2160,6 +2160,26 @@
     "why": [
      "PO on this contract",
      "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 9,
+    "customer": "Rowland Homes Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032278",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205517163
+    ],
+    "refs": [
+     "AES/66056"
+    ],
+    "bc_customer": "Rowland Homes",
+    "why": [
      "same customer"
     ]
    }
