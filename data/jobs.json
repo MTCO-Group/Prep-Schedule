@@ -22747,6 +22747,23 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "On Hire",
+        "customer": "Rowland Homes Ltd",
+        "postcode": "",
+        "contract_number": "0000032277",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "24/11/2026 11:01"
       }
     ],
     "2026-11-27": [
