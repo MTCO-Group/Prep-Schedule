@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-24T09:32:20+00:00",
+ "generated_at": "2026-11-24T10:09:06+00:00",
  "matched": 25,
  "other_day": 3,
  "kensite_hiab_jobs": 34,
@@ -1989,9 +1989,9 @@
     "postcode": "CW12 4QQ",
     "type": "Off Hire",
     "contract": "0000032056",
-    "state": "planned",
-    "time": "10:25",
-    "note": "From the AES planner (DF run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "10:40",
+    "note": "On the way, 31 min from their last drop (CW1 4QR) in traffic",
     "bigchange_ids": [
      204493650
     ],
@@ -2002,10 +2002,7 @@
     "why": [
      "same postcode",
      "same customer"
-    ],
-    "driver": "DF",
-    "run": 1,
-    "seq": 3
+    ]
    },
    {
     "idx": 8,
@@ -2013,9 +2010,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032272",
-    "state": "live",
-    "time": "09:10",
-    "note": "On the way, 22 min from their last drop (CW2 5NL) in traffic (set when it went live at 08:47)",
+    "state": "done",
+    "time": "10:07",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      205174920
     ],
@@ -2838,6 +2835,12 @@
   ]
  },
  "live_fixed": {
+  "204493650": {
+   "time": "10:40",
+   "note": "On the way, 31 min from their last drop (CW1 4QR) in traffic",
+   "at": "10:09",
+   "day": "2026-11-24"
+  },
   "204849135": {
    "time": "06:45",
    "note": "On the way, 44 min from the depot in traffic",
