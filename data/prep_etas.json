@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-23T16:50:20+00:00",
- "matched": 27,
+ "generated_at": "2026-11-24T00:00:17+00:00",
+ "matched": 24,
  "other_day": 3,
- "kensite_hiab_jobs": 36,
+ "kensite_hiab_jobs": 33,
  "jobs": {
   "2026-11-02": [
    {
@@ -2812,28 +2812,9 @@
    }
   ]
  },
- "live_fixed": {
-  "204478078": {
-   "time": "07:45",
-   "note": "On the way, 55 min from the depot in traffic",
-   "at": "06:50",
-   "day": "2026-11-23"
-  },
-  "204478232": {
-   "time": "11:25",
-   "note": "On the way, 1 min from their last drop (PR2 3XL) in traffic",
-   "at": "11:23",
-   "day": "2026-11-23"
-  },
-  "205099269": {
-   "time": "11:20",
-   "note": "On the way, 16 min from the depot in traffic",
-   "at": "11:03",
-   "day": "2026-11-23"
-  }
- },
+ "live_fixed": {},
  "kept": {
-  "past_days": 15,
+  "past_days": 16,
   "done_rows": 0
  }
 }
