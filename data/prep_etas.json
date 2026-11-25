@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-25T09:29:28+00:00",
- "matched": 22,
+ "generated_at": "2026-11-25T09:37:45+00:00",
+ "matched": 23,
  "other_day": 2,
  "kensite_hiab_jobs": 30,
  "jobs": {
@@ -2082,6 +2082,26 @@
     "driver": "SUB",
     "run": 1,
     "seq": 3
+   },
+   {
+    "idx": 4,
+    "customer": "H H Smith & Sons  Co Ltd",
+    "postcode": "M24 6XH",
+    "type": "Off Hire",
+    "contract": "0000030470",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205598367
+    ],
+    "refs": [
+     "AES/66138"
+    ],
+    "bc_customer": "H H Smith",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-27": [
