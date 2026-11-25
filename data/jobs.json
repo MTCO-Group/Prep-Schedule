@@ -23006,6 +23006,21 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "24/11/2026 12:21"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Rowland Homes Ltd",
+        "postcode": "PR4 0FY",
+        "contract_number": "0000031801",
+        "units": {},
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Tom Benson Way, Ingol, Preston, , PR4 0FY | Also on contract: 1x Event Toilet",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 10:10"
       }
     ],
     "2026-12-01": [
