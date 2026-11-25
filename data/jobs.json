@@ -23253,6 +23253,39 @@
           }
         }
       }
+    ],
+    "2026-12-16": [
+      {
+        "type": "On Hire",
+        "customer": "Proservice Building Services Marketplace Plc",
+        "postcode": "",
+        "contract_number": "0000032052",
+        "units": {
+          "32ft AV": 3,
+          "20ft AV": 2,
+          "4+2": 1,
+          "Steps": 2,
+          "Tank": 1,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 2x 2000l water tank; 2x Initial Water Fill; 2x Pump; 1x Grey  Water Barrel; 4x install plumbing",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 09:30",
+        "av_configs": {
+          "32ft AV": {
+            "Office": 2,
+            "Canteen": 1
+          },
+          "20ft AV": {
+            "Drying Room": 1
+          }
+        }
+      }
     ]
   },
   "mcs": {
