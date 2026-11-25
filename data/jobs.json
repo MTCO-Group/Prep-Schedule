@@ -23222,6 +23222,23 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Greenmount Projects Ltd",
+        "postcode": "CH64 7TE",
+        "contract_number": "0000031991",
+        "units": {
+          "20ft AV": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Leahurst Campus, Chester High Road,, Neston, Liverpool, CH64 7TE",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 12:30"
       }
     ],
     "2026-12-03": [
