@@ -20483,6 +20483,21 @@
           }
         },
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Leasium LTD",
+        "postcode": "PR2 8AA",
+        "contract_number": "0000031510",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: FULWOOD BARRACKS, PRESTON, , PR2 8AA | Also on contract: 1x 10KVA 12x8ft Container Gen - 50 HRS; 2x 32amp 230v 20mtr Plug; 75x Fuel Shortage On Return (Per Litre)",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 12:40"
       }
     ],
     "2026-11-06": [
