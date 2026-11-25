@@ -23166,6 +23166,23 @@
         "added_by": "MCS Auto",
         "timestamp": "23/11/2026 16:40",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Elite Access Solutions (EAS) Ltd",
+        "postcode": "BL5 1EE",
+        "contract_number": "0000031807",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: ALDI - RDC, Bridgewater Av, BOLTON, , BL5 1EE",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 14:20"
       }
     ],
     "2026-12-02": [
@@ -23394,6 +23411,25 @@
             "Office": 1
           }
         }
+      }
+    ],
+    "2026-12-14": [
+      {
+        "type": "On Hire",
+        "customer": "A Connolly Limited",
+        "postcode": "",
+        "contract_number": "0000032281",
+        "units": {
+          "20ft Store": 4
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x 24FT Hybrid Towable Welfare; 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 14:20"
       }
     ]
   },
