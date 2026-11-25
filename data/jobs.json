@@ -23271,6 +23271,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Briscoe Lane Academy, Briscoe Lane, Manchester, , M40 2TB",
         "added_by": "MCS Auto",
         "timestamp": "25/11/2026 13:40"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Parklands Services (NW)Ltd",
+        "postcode": "HAIGH WOODLAND PARK (FORMERLY HAIGH HALL & HAIGH COUNTRY PAR, SCHOOL LANE, WIGAN, GREATER",
+        "contract_number": "0000031907",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Haigh Woodland Park (formerly Haigh Hall & Haigh Country Par, School Lane, Wigan, Greater | Also on contract: 0x Chargeable One Off Service Chemi Toilet - 06.10; 0x Chargeable One Off Service Chemi Toilet -13.10; 0x Chargeable One Off Service Chemi Toilet - 20.10; 0x Chargeable One Off Service Chemi Toilet - 27.10; 1x Chargeable One Off Service Chemi Toilet - 03.11",
+        "added_by": "MCS Auto",
+        "timestamp": "25/11/2026 14:00"
       }
     ],
     "2026-12-03": [
