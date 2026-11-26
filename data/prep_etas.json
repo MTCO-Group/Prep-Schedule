@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T08:20:38+00:00",
- "matched": 26,
+ "generated_at": "2026-11-26T09:32:41+00:00",
+ "matched": 29,
  "other_day": 3,
- "kensite_hiab_jobs": 36,
+ "kensite_hiab_jobs": 40,
  "jobs": {
   "2026-11-02": [
    {
@@ -2225,6 +2225,46 @@
      "same postcode",
      "same customer"
     ]
+   },
+   {
+    "idx": 11,
+    "customer": "D&M Construction",
+    "postcode": "WN2 4BU",
+    "type": "Off Hire",
+    "contract": "0000032147",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205718957
+    ],
+    "refs": [],
+    "bc_customer": "D and M",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
+   },
+   {
+    "idx": 12,
+    "customer": "Rosslee Construction",
+    "postcode": "BL7 0HE",
+    "type": "Off Hire",
+    "contract": "0000031368",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205720996
+    ],
+    "refs": [
+     "AES/66231"
+    ],
+    "bc_customer": "Rosslee Construction",
+    "why": [
+     "same postcode",
+     "same customer"
+    ]
    }
   ],
   "2026-11-30": [
@@ -2674,6 +2714,28 @@
     ]
    }
   ],
+  "2026-12-08": [
+   {
+    "idx": 0,
+    "customer": "M Civils NW Ltd",
+    "postcode": "L11 9DX",
+    "type": "Off Hire",
+    "contract": "0000031597",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205716621
+    ],
+    "refs": [
+     "AES/66230"
+    ],
+    "bc_customer": "M Group",
+    "why": [
+     "same postcode"
+    ]
+   }
+  ],
   "2026-12-09": [
    {
     "idx": 0,
@@ -3079,6 +3141,18 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003687 with Ainscough Environmental Services, raised Wed 25 Nov, which is AES, so this is really Kensite haulage"
+   },
+   {
+    "idx": 8,
+    "customer": "Chandos Civil Engineering Ltd",
+    "type": "Off Hire",
+    "postcode": "WA13 9PR",
+    "contract": "0000030118",
+    "haulier": "AES",
+    "po": "01-003698",
+    "po_status": "Created",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003698 with Ainscough Environmental Services, raised Thu 26 Nov, which is AES, so this is really Kensite haulage"
    }
   ],
   "2026-12-02": [
