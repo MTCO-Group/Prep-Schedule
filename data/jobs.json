@@ -21576,22 +21576,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "Almond Civils Ltd",
-        "postcode": "BB2 3UY",
-        "contract_number": "0000032077",
-        "units": {},
-        "haulage": "External Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: -Fishmoore Drive, Blackburn, (Near the chemist - No4, -, , BB2 3UY | Also on contract: 1x 16FT Towable Reactive Welfare | Return date moved by MCS Auto from 02/11/2026 to 18/11/2026 on 11/11/2026 15:50",
-        "added_by": "MCS Auto",
-        "timestamp": "11/11/2026 15:50",
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
         "customer": "DLP Services (Northern) Ltd",
         "postcode": "L27 4BH",
         "contract_number": "0000032079",
@@ -23456,6 +23440,22 @@
             "Canteen": 1
           }
         },
+        "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Almond Civils Ltd",
+        "postcode": "BB2 3UY",
+        "contract_number": "0000032077",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: -Fishmoore Drive, Blackburn, (Near the chemist - No4, -, , BB2 3UY | Also on contract: 1x 16FT Towable Reactive Welfare | Return date moved by MCS Auto from 02/11/2026 to 18/11/2026 on 11/11/2026 15:50 | Return date moved by MCS Auto from 18/11/2026 to 03/12/2026 on 26/11/2026 13:50",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 13:50",
         "date_moved_by": "MCS Auto"
       }
     ],
