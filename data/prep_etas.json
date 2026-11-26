@@ -1,8 +1,8 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T12:20:50+00:00",
- "matched": 29,
+ "generated_at": "2026-11-26T12:35:06+00:00",
+ "matched": 30,
  "other_day": 3,
  "kensite_hiab_jobs": 42,
  "jobs": {
@@ -2271,6 +2271,24 @@
     "driver": "RS",
     "run": 1,
     "seq": 4
+   },
+   {
+    "idx": 13,
+    "customer": "Wright Build Ltd",
+    "postcode": "",
+    "type": "On Hire",
+    "contract": "0000032287",
+    "state": "",
+    "time": "",
+    "note": "In Big Change, not on a run on the AES planner yet",
+    "bigchange_ids": [
+     205748369
+    ],
+    "refs": [],
+    "bc_customer": "Wright Build Ltd",
+    "why": [
+     "same customer"
+    ]
    }
   ],
   "2026-11-30": [
