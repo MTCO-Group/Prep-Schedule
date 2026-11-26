@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T11:31:43+00:00",
+ "generated_at": "2026-11-26T11:33:46+00:00",
  "matched": 29,
  "other_day": 3,
  "kensite_hiab_jobs": 42,
@@ -3156,7 +3156,7 @@
     "contract": "0000030118",
     "haulier": "AES",
     "po": "01-003698",
-    "po_status": "Created",
+    "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003698 with Ainscough Environmental Services, raised Thu 26 Nov, which is AES, so this is really Kensite haulage"
    }
