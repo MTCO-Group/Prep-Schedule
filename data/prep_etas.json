@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T16:06:04+00:00",
+ "generated_at": "2026-11-26T16:14:16+00:00",
  "matched": 32,
  "other_day": 3,
  "kensite_hiab_jobs": 44,
@@ -2233,7 +2233,7 @@
     "type": "Off Hire",
     "contract": "0000032147",
     "state": "planned",
-    "time": "16:30",
+    "time": "17:30",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205718957
@@ -2246,7 +2246,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 5
+    "seq": 6
    },
    {
     "idx": 12,
@@ -2255,7 +2255,7 @@
     "type": "Off Hire",
     "contract": "0000031368",
     "state": "planned",
-    "time": "15:00",
+    "time": "16:00",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205720996
@@ -2270,7 +2270,7 @@
     ],
     "driver": "RS",
     "run": 1,
-    "seq": 4
+    "seq": 5
    },
    {
     "idx": 13,
@@ -2278,9 +2278,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032287",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "14:30",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205748369
     ],
@@ -2288,7 +2288,10 @@
     "bc_customer": "Wright Build Ltd",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 4
    }
   ],
   "2026-11-30": [
