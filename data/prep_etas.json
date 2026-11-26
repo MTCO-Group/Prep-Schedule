@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T13:42:21+00:00",
+ "generated_at": "2026-11-26T13:52:40+00:00",
  "matched": 31,
  "other_day": 3,
- "kensite_hiab_jobs": 43,
+ "kensite_hiab_jobs": 44,
  "jobs": {
   "2026-11-02": [
    {
@@ -3224,6 +3224,20 @@
     "po_status": "Authorised",
     "supplier_code": "AIN002",
     "note": "PO 01-003600 with Ainscough Environmental Services, raised Tue 17 Nov, which is AES, so this is really Kensite haulage"
+   }
+  ],
+  "2026-12-03": [
+   {
+    "idx": 2,
+    "customer": "Almond Civils Ltd",
+    "type": "Off Hire",
+    "postcode": "BB2 3UY",
+    "contract": "0000032077",
+    "haulier": "AES",
+    "po": "01-003708",
+    "po_status": "Authorised",
+    "supplier_code": "AIN002",
+    "note": "PO 01-003708 with Ainscough Environmental Services, raised Thu 3 Dec, which is AES, so this is really Kensite haulage"
    }
   ],
   "2026-12-07": [
