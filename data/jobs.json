@@ -23395,6 +23395,23 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Haigh Woodland Park (formerly Haigh Hall & Haigh Country Par, School Lane, Wigan, Greater | Also on contract: 0x Chargeable One Off Service Chemi Toilet - 06.10; 0x Chargeable One Off Service Chemi Toilet -13.10; 0x Chargeable One Off Service Chemi Toilet - 20.10; 0x Chargeable One Off Service Chemi Toilet - 27.10; 1x Chargeable One Off Service Chemi Toilet - 03.11",
         "added_by": "MCS Auto",
         "timestamp": "25/11/2026 14:00"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Taylor Riding Construction",
+        "postcode": "WA3 7PQ",
+        "contract_number": "0000031940",
+        "units": {
+          "10ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: WARRINGTON PADEL COURTS, BROC ROAD, BIRCHWOOD, , WA3 7PQ",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 16:30"
       }
     ],
     "2026-12-03": [
