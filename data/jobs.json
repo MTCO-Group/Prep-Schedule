@@ -19403,25 +19403,6 @@
       },
       {
         "type": "Off Hire",
-        "customer": "M Civils NW Ltd",
-        "postcode": "L11 9DX",
-        "contract_number": "0000031597",
-        "units": {
-          "20ft Store": 1,
-          "IBC": 1
-        },
-        "haulage": "Internal Haulage",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: -, Liverpool, , L11 9DX | Also on contract: 1x Weekly Water Fill; 1x Water Barrel | Return date moved by MCS Auto from 13/10/2026 to 30/10/2026 on 30/10/2026 15:41",
-        "added_by": "MCS Auto",
-        "timestamp": "30/10/2026 15:41",
-        "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
         "customer": "M Group NW Ltd",
         "postcode": "L11 9DX",
         "contract_number": "0000031112",
@@ -23580,6 +23561,27 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Split delivery #1 - later drop on this contract | Site: Marine Road East, Morecambe, Lancs, , LA4 6AY | Also on contract: 1x Hot wash 110v",
         "added_by": "MCS Auto",
         "timestamp": "26/11/2026 09:31"
+      }
+    ],
+    "2026-12-08": [
+      {
+        "type": "Off Hire",
+        "customer": "M Civils NW Ltd",
+        "postcode": "L11 9DX",
+        "contract_number": "0000031597",
+        "units": {
+          "20ft Store": 1,
+          "IBC": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: -, Liverpool, , L11 9DX | Also on contract: 1x Weekly Water Fill; 1x Water Barrel | Return date moved by MCS Auto from 13/10/2026 to 30/10/2026 on 30/10/2026 15:41 | Return date moved by MCS Auto from 30/10/2026 to 08/12/2026 on 26/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31",
+        "date_moved_by": "MCS Auto"
       }
     ]
   },
