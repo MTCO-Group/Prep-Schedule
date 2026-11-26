@@ -23070,6 +23070,40 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: Tom Benson Way, Ingol, Preston, , PR4 0FY | Also on contract: 1x Event Toilet",
         "added_by": "MCS Auto",
         "timestamp": "25/11/2026 10:10"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "D&M Construction",
+        "postcode": "WN2 4BU",
+        "contract_number": "0000032147",
+        "units": {
+          "Chemiloo": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: 244 CASTLE HILL ROAD, HINDLEY, WIGAN, , WN2 4BU",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Rosslee Construction",
+        "postcode": "BL7 0HE",
+        "contract_number": "0000031368",
+        "units": {
+          "Mobile Welfare": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Cow Shed - Turton - New Build, Chapletown, Bolton, , BL7 0HE | Also on contract: 56x Initial Fuel Fill; 1x Initial Water Fill",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31"
       }
     ],
     "2026-12-01": [
@@ -23217,6 +23251,28 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Site: ALDI - RDC, Bridgewater Av, BOLTON, , BL5 1EE",
         "added_by": "MCS Auto",
         "timestamp": "25/11/2026 14:20"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Chandos Civil Engineering Ltd",
+        "postcode": "WA13 9PR",
+        "contract_number": "0000030118",
+        "units": {
+          "20ft AV": 1
+        },
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Rushgreen Road, Lymm, , WA13 9PR | Also on contract: 1x Filing Cabinet; 2x Upholstered Chair",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31",
+        "av_configs": {
+          "20ft AV": {
+            "Office": 1
+          }
+        }
       }
     ],
     "2026-12-02": [
@@ -23464,6 +23520,66 @@
         "notes": "Auto-added from MCS. Check details before prepping. | Also on contract: 1x 24FT Hybrid Towable Welfare; 56x Initial Fuel Fill; 1x Initial Water Fill",
         "added_by": "MCS Auto",
         "timestamp": "25/11/2026 14:20"
+      }
+    ],
+    "2026-12-17": [
+      {
+        "type": "Off Hire",
+        "customer": "Manchester and Cheshire",
+        "postcode": "SK12 1NW",
+        "contract_number": "0000031163",
+        "units": {
+          "24ft AV": 2,
+          "2+1": 1,
+          "Steps": 2,
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Vernon Primary School, -, , SK12 1NW | Also on contract: 1x NoticeBoard; 3x Meeting Room Table; 10x Cushion Chair - Black; 2x Filing Cabinet; 1x Staircase; 1x Double Stack/ Erect Staircase; 1x 1000G Eflluent Tank",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31",
+        "av_configs": {
+          "24ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        }
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Manchester and Cheshire",
+        "postcode": "SK12 1NW",
+        "contract_number": "0000031271",
+        "units": {
+          "20ft Store": 1
+        },
+        "haulage": "Internal Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Vernon Primary School, Clumber Road, Poynton, Cheshire East, SK12 1NW",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Pinington Ltd",
+        "postcode": "LA4 6AY",
+        "contract_number": "0000031878#1",
+        "units": {},
+        "haulage": "External Haulage",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Split delivery #1 - later drop on this contract | Site: Marine Road East, Morecambe, Lancs, , LA4 6AY | Also on contract: 1x Hot wash 110v",
+        "added_by": "MCS Auto",
+        "timestamp": "26/11/2026 09:31"
       }
     ]
   },
