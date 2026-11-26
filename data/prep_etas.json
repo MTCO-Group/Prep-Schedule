@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-26T13:32:04+00:00",
+ "generated_at": "2026-11-26T13:42:21+00:00",
  "matched": 31,
  "other_day": 3,
  "kensite_hiab_jobs": 43,
@@ -3160,6 +3160,18 @@
     "po_status": "",
     "supplier_code": "",
     "note": "No PO for this job's haulage in MCS"
+   },
+   {
+    "idx": 15,
+    "customer": "Leasium LTD",
+    "type": "On Hire",
+    "postcode": "",
+    "contract": "0000032288",
+    "haulier": "Nortons Hiab Services",
+    "po": "01-003707",
+    "po_status": "Authorised",
+    "supplier_code": "NORT001",
+    "note": "PO 01-003707 with Nortons Hiab Services, raised Fri 27 Nov"
    }
   ],
   "2026-12-01": [
