@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T08:45:25+00:00",
+ "generated_at": "2026-11-27T09:01:44+00:00",
  "matched": 30,
  "other_day": 3,
  "kensite_hiab_jobs": 42,
@@ -2106,9 +2106,9 @@
     "postcode": "FY6 7HE",
     "type": "Off Hire",
     "contract": "0000031642",
-    "state": "planned",
-    "time": "12:30",
-    "note": "From the AES planner (CR run 1), worked from the run start, job lengths and drive times",
+    "state": "live",
+    "time": "10:05",
+    "note": "On the way, 63 min from the depot in traffic",
     "taken_as_aes": true,
     "bigchange_ids": [
      204901957
@@ -2120,10 +2120,7 @@
     "why": [
      "PO on this contract",
      "same postcode"
-    ],
-    "driver": "CR",
-    "run": 1,
-    "seq": 2
+    ]
    },
    {
     "idx": 2,
@@ -3290,10 +3287,22 @@
   ]
  },
  "live_fixed": {
+  "204901957": {
+   "time": "10:05",
+   "note": "On the way, 63 min from the depot in traffic",
+   "at": "09:02",
+   "day": "2026-11-27"
+  },
   "205106932": {
    "time": "09:45",
    "note": "On the way, 94 min from the depot in traffic",
    "at": "08:10",
+   "day": "2026-11-27"
+  },
+  "205107732": {
+   "time": "10:35",
+   "note": "On the way, 90 min from the depot in traffic",
+   "at": "09:02",
    "day": "2026-11-27"
   },
   "205108374": {
