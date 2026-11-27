@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T09:32:23+00:00",
+ "generated_at": "2026-11-27T09:42:37+00:00",
  "matched": 31,
  "other_day": 3,
- "kensite_hiab_jobs": 42,
+ "kensite_hiab_jobs": 41,
  "jobs": {
   "2026-11-02": [
    {
@@ -2287,7 +2287,7 @@
   ],
   "2026-11-30": [
    {
-    "idx": 2,
+    "idx": 1,
     "customer": "A Connolly Limited",
     "postcode": "M31 4LW",
     "type": "Off Hire",
@@ -2310,7 +2310,7 @@
     ]
    },
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "John Wade Groundworkers Ltd",
     "postcode": "",
     "type": "On Hire",
@@ -2330,7 +2330,7 @@
     ]
    },
    {
-    "idx": 4,
+    "idx": 3,
     "customer": "Winstanley Plumbing & Heating",
     "postcode": "WN8 8NP",
     "type": "Off Hire",
