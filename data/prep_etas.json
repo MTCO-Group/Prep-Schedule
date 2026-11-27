@@ -1,9 +1,9 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T11:21:09+00:00",
+ "generated_at": "2026-11-27T11:23:16+00:00",
  "matched": 32,
- "other_day": 3,
+ "other_day": 4,
  "kensite_hiab_jobs": 42,
  "jobs": {
   "2026-11-02": [
@@ -2309,9 +2309,9 @@
     "postcode": "",
     "type": "On Hire",
     "contract": "0000032280",
-    "state": "",
-    "time": "",
-    "note": "In Big Change, not on a run on the AES planner yet",
+    "state": "planned",
+    "time": "10:35",
+    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
     "bigchange_ids": [
      205527689
     ],
@@ -2321,7 +2321,10 @@
     "bc_customer": "John wade Groundworkers  biffa waste",
     "why": [
      "same customer"
-    ]
+    ],
+    "driver": "RS",
+    "run": 1,
+    "seq": 1
    },
    {
     "idx": 3,
@@ -2432,8 +2435,8 @@
     "type": "Off Hire",
     "contract": "0000030946",
     "state": "planned",
-    "time": "10:50",
-    "note": "From the AES planner (SUB run 1), worked from the run start, job lengths and drive times",
+    "time": "10:40",
+    "note": "From the AES planner (RS run 2), worked from the run start, job lengths and drive times",
     "taken_as_aes": true,
     "bigchange_ids": [
      204991716,
@@ -2449,9 +2452,9 @@
      "same postcode",
      "customer alike"
     ],
-    "driver": "SUB",
-    "run": 1,
-    "seq": 2
+    "driver": "RS",
+    "run": 2,
+    "seq": 1
    },
    {
     "idx": 4,
@@ -2459,9 +2462,10 @@
     "postcode": "LS29 6AR",
     "type": "Off Hire",
     "contract": "0000031911",
-    "state": "planned",
-    "time": "08:50",
-    "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times",
+    "state": "otherday",
+    "time": "",
+    "note": "AES have this booked for Mon 30 Nov, not this day (matched on PO on this contract, same postcode, same customer)",
+    "day": "2026-11-30",
     "bigchange_ids": [
      200640261
     ],
@@ -2473,10 +2477,7 @@
      "PO on this contract",
      "same postcode",
      "same customer"
-    ],
-    "driver": "RS",
-    "run": 1,
-    "seq": 1
+    ]
    },
    {
     "idx": 5,
@@ -2532,7 +2533,7 @@
     "type": "Off Hire",
     "contract": "0000030118",
     "state": "planned",
-    "time": "11:10",
+    "time": "07:50",
     "note": "From the AES planner (RS run 1), worked from the run start, job lengths and drive times. AES have it as a Site Move",
     "taken_as_aes": true,
     "bigchange_ids": [
