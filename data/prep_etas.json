@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T09:26:15+00:00",
+ "generated_at": "2026-11-27T09:32:23+00:00",
  "matched": 31,
  "other_day": 3,
  "kensite_hiab_jobs": 42,
@@ -3104,7 +3104,7 @@
   ],
   "2026-11-26": [
    {
-    "idx": 3,
+    "idx": 2,
     "customer": "Jennor",
     "type": "On Hire",
     "postcode": "",
@@ -3116,7 +3116,7 @@
     "note": "PO 01-003626 with Astley Hiabs Ltd, raised Thu 26 Nov"
    },
    {
-    "idx": 5,
+    "idx": 4,
     "customer": "Rowland Homes Ltd",
     "type": "On Hire",
     "postcode": "",
@@ -3128,7 +3128,7 @@
     "note": "PO 01-003664 with Anthony Agricultural, raised Thu 26 Nov"
    },
    {
-    "idx": 6,
+    "idx": 5,
     "customer": "Elite Access Solutions (EAS) Ltd",
     "type": "On Hire",
     "postcode": "",
@@ -3140,7 +3140,7 @@
     "note": "PO 01-003670 with Anthony Agricultural, raised Thu 26 Nov"
    },
    {
-    "idx": 7,
+    "idx": 6,
     "customer": "Elite Access Solutions (EAS) Ltd",
     "type": "On Hire",
     "postcode": "",
