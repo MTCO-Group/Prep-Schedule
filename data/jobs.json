@@ -22386,6 +22386,34 @@
         "added_by": "MCS Auto",
         "timestamp": "24/11/2026 15:11",
         "date_moved_by": "MCS Auto"
+      },
+      {
+        "type": "Off Hire",
+        "customer": "Bethell Plant Services Ltd",
+        "postcode": "BL1 2HG",
+        "contract_number": "0000031465",
+        "units": {
+          "32ft AV": 2,
+          "20ft Store": 1,
+          "2+1": 1,
+          "Steps": 2,
+          "IBC": 2
+        },
+        "haulage": "None",
+        "haulage_who": "",
+        "livery": "",
+        "livery_note": "",
+        "install_dismantle": false,
+        "notes": "Auto-added from MCS. Check details before prepping. | Site: Plant Rehire Overhead Contract, Topp Way, Bolton, , BL1 2HG | Also on contract: 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Pump; 1x Pump | Return date moved by MCS Auto from 26/11/2026 to 30/11/2026 on 27/11/2026 09:31",
+        "added_by": "MCS Auto",
+        "timestamp": "27/11/2026 09:31",
+        "av_configs": {
+          "32ft AV": {
+            "Office": 1,
+            "Canteen": 1
+          }
+        },
+        "date_moved_by": "MCS Auto"
       }
     ],
     "2026-11-24": [
@@ -22629,33 +22657,6 @@
         "added_by": "Peter",
         "timestamp": "13/11/2026 14:01",
         "date_moved_by": "MCS Auto"
-      },
-      {
-        "type": "Off Hire",
-        "customer": "Bethell Plant Services Ltd",
-        "postcode": "BL1 2HG",
-        "contract_number": "0000031465",
-        "units": {
-          "32ft AV": 2,
-          "20ft Store": 1,
-          "2+1": 1,
-          "Steps": 2,
-          "IBC": 2
-        },
-        "haulage": "None",
-        "haulage_who": "",
-        "livery": "",
-        "livery_note": "",
-        "install_dismantle": false,
-        "notes": "Auto-added from MCS. Check details before prepping. | Site: Plant Rehire Overhead Contract, Topp Way, Bolton, , BL1 2HG | Also on contract: 1x Staircase; 1x Double Stack/ Erect Staircase; 1x Destack; 1x 1000G Eflluent Tank; 1x Pump; 1x Pump",
-        "added_by": "MCS Auto",
-        "timestamp": "16/11/2026 12:20",
-        "av_configs": {
-          "32ft AV": {
-            "Office": 1,
-            "Canteen": 1
-          }
-        }
       },
       {
         "type": "Off Hire",
