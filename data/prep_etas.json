@@ -1,7 +1,7 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T10:52:10+00:00",
+ "generated_at": "2026-11-27T10:56:16+00:00",
  "matched": 32,
  "other_day": 3,
  "kensite_hiab_jobs": 42,
@@ -2226,9 +2226,9 @@
     "postcode": "WN2 4BU",
     "type": "Off Hire",
     "contract": "0000032147",
-    "state": "live",
-    "time": "11:15",
-    "note": "On the way, 24 min from their last drop (WN7 2UB) in traffic (set when it went live at 10:50)",
+    "state": "done",
+    "time": "10:54",
+    "note": "Completed in Big Change",
     "bigchange_ids": [
      205718957
     ],
