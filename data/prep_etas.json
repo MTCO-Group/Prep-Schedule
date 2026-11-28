@@ -1,10 +1,10 @@
 {
  "version": 2,
  "source": "Ken, from Big Change, the AES planner and MCS",
- "generated_at": "2026-11-27T16:34:09+00:00",
- "matched": 37,
- "other_day": 5,
- "kensite_hiab_jobs": 48,
+ "generated_at": "2026-11-28T00:00:31+00:00",
+ "matched": 28,
+ "other_day": 4,
+ "kensite_hiab_jobs": 36,
  "jobs": {
   "2026-11-02": [
    {
@@ -3449,70 +3449,9 @@
    }
   ]
  },
- "live_fixed": {
-  "204901957": {
-   "time": "10:05",
-   "note": "On the way, 63 min from the depot in traffic",
-   "at": "09:02",
-   "day": "2026-11-27"
-  },
-  "205106932": {
-   "time": "09:45",
-   "note": "On the way, 94 min from the depot in traffic",
-   "at": "08:10",
-   "day": "2026-11-27"
-  },
-  "205107224": {
-   "time": "10:05",
-   "note": "On the way, 1 min from their last drop (LS17 5LA) in traffic",
-   "at": "10:00",
-   "day": "2026-11-27"
-  },
-  "205107732": {
-   "time": "10:35",
-   "note": "On the way, 90 min from the depot in traffic",
-   "at": "09:02",
-   "day": "2026-11-27"
-  },
-  "205108374": {
-   "time": "10:10",
-   "note": "On the way, 93 min from the depot in traffic",
-   "at": "08:37",
-   "day": "2026-11-27"
-  },
-  "205110362": {
-   "time": "12:55",
-   "note": "On the way, 101 min from the depot in traffic",
-   "at": "11:12",
-   "day": "2026-11-27"
-  },
-  "205517163": {
-   "time": "14:35",
-   "note": "On the way, 47 min from their last drop (WN2 4BU) in traffic",
-   "at": "13:48",
-   "day": "2026-11-27"
-  },
-  "205718957": {
-   "time": "11:15",
-   "note": "On the way, 24 min from their last drop (WN7 2UB) in traffic",
-   "at": "10:50",
-   "day": "2026-11-27"
-  },
-  "205720996": {
-   "time": "15:50",
-   "note": "On the way, 53 min from their last drop (PR4 0FY) in traffic",
-   "at": "14:58",
-   "day": "2026-11-27"
-  },
-  "205748369": {
-   "time": "11:25",
-   "note": "On the way, 63 min from their last drop (CH5 2RF) in traffic",
-   "at": "10:19",
-   "day": "2026-11-27"
-  }
- },
+ "live_fixed": {},
  "kept": {
-  "past_days": 19,
+  "past_days": 20,
   "done_rows": 0
  }
 }
